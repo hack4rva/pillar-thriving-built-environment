@@ -1,0 +1,115 @@
+{
+  "run_id": "trun_3cad0ebea15c480eac94057c5cbe0960",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Transportation Surfaces - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/transportation-surfaces-2"
+    },
+    {
+      "title": "City of Norfolk Data | Open Data Portal - City of Norfolk, VA ...",
+      "url": "https://data.norfolk.gov/"
+    },
+    {
+      "title": "City Releases Pavement Condition Scores through Interactive Mapping Application | Richmond",
+      "url": "https://www.rva.gov/press-releases-and-announcements/news/city-releases-pavement-condition-scores-through-interactive"
+    },
+    {
+      "title": "Parcels - Overview",
+      "url": "https://www.arcgis.com/home/item.html?id=fbfce2aab2a44c05bc0abc2d6ea7e54a"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?tags=transportation"
+    },
+    {
+      "title": "Folder: /",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services"
+    },
+    {
+      "title": "Layer: Transportation Surfaces (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/arcgis/rest/services/Transportation_Surface/FeatureServer/0"
+    },
+    {
+      "title": "Considerations and limitations | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/users-groups-and-items/considerations-and-limitations/"
+    },
+    {
+      "title": "Bicycle Infrastructure, Completed | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/bicycle-infrastructure-completed/about"
+    },
+    {
+      "title": "FAQ: What Are the Limits of the maxRecordCount and maxRecordCountFactor Properties at REST",
+      "url": "https://support.esri.com/en-us/knowledge-base/faq-what-are-the-limits-of-the-maxrecordcount-and-maxre-000030432"
+    },
+    {
+      "title": "City of Charlotte Open Data Portal",
+      "url": "https://data.charlottenc.gov/"
+    },
+    {
+      "title": "Query table features | Documentation - Esri Developer - ArcGIS",
+      "url": "https://developers.arcgis.com/documentation/portal-and-data-services/data-services/feature-services/query-table-features/"
+    },
+    {
+      "title": "Layer: Roads (Polygon) (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/Roads/FeatureServer/0"
+    },
+    {
+      "title": "Layer: Centerlines (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/CarriagewayCenterlines/FeatureServer/0"
+    },
+    {
+      "title": "Layer: area_Sidewalk (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/Sidewalks_View/FeatureServer/0"
+    },
+    {
+      "title": "Layer: Bicycle Facilities (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/Bicycle_Facilities/FeatureServer/0"
+    },
+    {
+      "title": "Layer: Sheet1 (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/FY21_Transportation_Projects/FeatureServer/0"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/Utility_Work_Locations_and_Street_Closures_view/FeatureServer/0"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/Snow_Routes_P2/FeatureServer/0"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/street_sweeping_locations/FeatureServer/0"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/GRTC_Accessibility_Stops/FeatureServer/0"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/High_Injury_Network_2018/FeatureServer/0"
+    },
+    {
+      "title": "Capital Projects Dashboard - City of Charlotte",
+      "url": "https://www.charlottenc.gov/Growth-and-Development/Projects/Capital-Projects-Dashboard"
+    },
+    {
+      "title": "Street Centerline - City of Norfolk - Dataset - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/street-centerline-city-of-norfolk"
+    },
+    {
+      "title": "Apps, Maps, and Open Data | Raleighnc.gov",
+      "url": "https://raleighnc.gov/apps-maps-and-open-data"
+    },
+    {
+      "title": "Bike and Pedestrian Trip Counts - City of Norfolk, VA Open Data",
+      "url": "https://data.norfolk.gov/Recreation/Bike-and-Pedestrian-Trip-Counts/x3iy-p3xt"
+    }
+  ]
+}

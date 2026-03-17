@@ -1,0 +1,191 @@
+{
+  "run_id": "trun_3cad0ebea15c480e898dbcf3855c9b05",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Snow Removal Dashboard | Boston.gov",
+      "url": "https://www.boston.gov/departments/analytics-team/snow-removal-dashboard"
+    },
+    {
+      "title": "Snow Removal Route Maps \u2022 MuckRock",
+      "url": "https://www.muckrock.com/foi/boston-3/snow-removal-route-maps-125444/"
+    },
+    {
+      "title": "Managing Winter and Snow | Boston.gov",
+      "url": "https://www.boston.gov/managing-winter-and-snow"
+    },
+    {
+      "title": "Mayor Walsh launches Boston snow stats | Boston.gov",
+      "url": "https://www.boston.gov/news/mayor-walsh-launches-boston-snow-stats"
+    },
+    {
+      "title": "New equipment added to Boston Public Works' fleet for ...",
+      "url": "https://www.boston.gov/news/new-equipment-added-boston-public-works-fleet-snow-removal-efforts"
+    },
+    {
+      "title": "\n    City of Chicago :: Supporting Info Rollup\n",
+      "url": "https://www.chicago.gov/city/en/depts/streets/provdrs/street/supp_info.html"
+    },
+    {
+      "title": "\n    City of Chicago :: Chicago Shovels\n",
+      "url": "https://www.chicago.gov/city/en/depts/streets/supp_info/chicagoshovels.html"
+    },
+    {
+      "title": "Supporting Info",
+      "url": "https://www.chicago.gov/city/en/depts/streets/supp_info.html"
+    },
+    {
+      "title": "Ice and snow removal from streets - CHI 311",
+      "url": "https://311.chicago.gov/s/article/Ice-and-snow-removal-from-streets?language=en_US"
+    },
+    {
+      "title": "Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/"
+    },
+    {
+      "title": "Residents - DSNY",
+      "url": "https://www.nyc.gov/site/dsny/collection/residents.page"
+    },
+    {
+      "title": "DSNY - Collection Schedule",
+      "url": "https://www.nyc.gov/assets/dsny/forms/collection-schedule"
+    },
+    {
+      "title": "\n\t\n\t\t\n\t\t\n\n\n\n\n\n\n\n\n  \nTrash, Recycling, and Compost Collection Schedule\u00a0\u00b7 NYC311\n",
+      "url": "https://portal.311.nyc.gov/article/?kanumber=KA-01801"
+    },
+    {
+      "title": "New York City Department of Sanitation",
+      "url": "http://nyc.gov/sanitation"
+    },
+    {
+      "title": "\n\t\n\t\t\n\t\t\n\n\n\n\n\n\n\n\n  \nResidential Trash Rules\u00a0\u00b7 NYC311\n",
+      "url": "http://on.nyc.gov/ResidentialTrashRules"
+    },
+    {
+      "title": "Trash - DSNY",
+      "url": "https://www.nyc.gov/site/dsny/collection/residents/trash.page"
+    },
+    {
+      "title": "Missed Trash, Recycling, or Compost Collection \u00b7 NYC311",
+      "url": "https://on.nyc.gov/MissedTrash"
+    },
+    {
+      "title": "Recycling - DSNY",
+      "url": "https://www.nyc.gov/site/dsny/collection/residents/recycling.page"
+    },
+    {
+      "title": "Surfacing the Submerged State: Operational Transparency ...",
+      "url": "https://www.hbs.edu/ris/Publication%20Files/14-034_16ccb2b4-1a24-47b5-8bcf-dca2720bb96f.pdf"
+    },
+    {
+      "title": "How to Actually Demo Your Data Product | by Megan Rashid | Bootcamp | Medium",
+      "url": "https://medium.com/design-bootcamp/let-me-screenshare-real-quick-9e4d77012e3"
+    },
+    {
+      "title": "How to Use Demo Data for Product Demonstration? | SmartCue",
+      "url": "https://www.getsmartcue.com/blog/demo-data"
+    },
+    {
+      "title": "A Guide to Dummy Data: Examples, Generators & Best Practices | Supademo Blog",
+      "url": "https://supademo.com/blog/dummy-data"
+    },
+    {
+      "title": "Building with Mock Data: Smart Front-End Strategy or Future Headache? | by Atirat Wajanasoontorn | Lotus\u2019s Tech | Medium",
+      "url": "https://medium.com/lotuss-it/building-with-mock-data-smart-front-end-strategy-or-future-headache-548cafe95c7b"
+    },
+    {
+      "title": "Ports & Adapters architecture on example | by Wojciech Krzywiec | Medium",
+      "url": "https://wkrzywiec.medium.com/ports-adapters-architecture-on-example-19cab9e93be7"
+    },
+    {
+      "title": "Hexagonal architecture pattern - AWS Prescriptive Guidance",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/hexagonal-architecture.html"
+    },
+    {
+      "title": "Anti-corruption Layer pattern - Azure Architecture Center | Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer"
+    },
+    {
+      "title": "Ports and adapters / hexagonal architecture - clarification of terms and implementation - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/23081105/ports-and-adapters-hexagonal-architecture-clarification-of-terms-and-impleme"
+    },
+    {
+      "title": "Hexagonal Architecture - System Design - GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/system-design/hexagonal-architecture-system-design/"
+    },
+    {
+      "title": "Snow Removal | Richmond",
+      "url": "https://www.rva.gov/public-works/snow-removal"
+    },
+    {
+      "title": "Richmond residents waiting: When will the plows come to your street?",
+      "url": "https://www.12onyourside.com/2026/01/26/richmond-residents-waiting-when-will-plows-come-your-street/"
+    },
+    {
+      "title": "Richmond asks for patience with snow-clearing on neighborhood roads | WRIC ABC 8News",
+      "url": "https://www.wric.com/weather/severe-weather/richmond-asks-for-patience-with-snow-clearing-on-neighborhood-roads/"
+    },
+    {
+      "title": "After-Action Report",
+      "url": "https://rva.gov/sites/default/files/2026-03/2026.03.09-CAO-WinterWeatherAfterActionReport.pdf"
+    },
+    {
+      "title": "\u2744\ufe0fWant to see where the City snow plows have been/will ...",
+      "url": "https://www.facebook.com/tiffany4cr/posts/%EF%B8%8Fwant-to-see-where-the-city-snow-plows-have-beenwill-be-our-snowplows-are-now-wo/1275794001410031/"
+    },
+    {
+      "title": "With Boston 'Snow Stats' Tool, Track Snow Removal In Your Neighborhood In Real Time | WBUR News",
+      "url": "https://www.wbur.org/news/2015/02/02/boston-snow-stats"
+    },
+    {
+      "title": "New Urban Mechanics | Boston.gov",
+      "url": "https://www.boston.gov/departments/new-urban-mechanics"
+    },
+    {
+      "title": "Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/datasets"
+    },
+    {
+      "title": "\n\t\n\t\t\n\t\t\n\n\n\n\n\n\n\n\n  \nAlternate Side Parking and Street Cleaning\u00a0\u00b7 NYC311\n",
+      "url": "https://portal.311.nyc.gov/article/?kanumber=KA-01011"
+    },
+    {
+      "title": "NYC DOT - Motorists & Parking - Alternate Side Parking Suspensions",
+      "url": "https://www.nyc.gov/html/dot/html/motorist/alternate-side-parking.shtml"
+    },
+    {
+      "title": "SweepNYC",
+      "url": "https://sweepnyc.nyc.gov/"
+    },
+    {
+      "title": "NYC Alternate Side Parking - Map, Street Cleaning Schedule & ASP Suspensions | SpotAngels - March 2026",
+      "url": "https://www.spotangels.com/alternate-side-parking-nyc-map"
+    },
+    {
+      "title": "Phase banner \u2013 GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/components/phase-banner/"
+    },
+    {
+      "title": "How the beta phase works - Service Manual - GOV.UK",
+      "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works"
+    },
+    {
+      "title": "Why and how we\u2019re explaining \u2018beta\u2019 to users \u2013 Design in government",
+      "url": "https://designnotes.blog.gov.uk/2014/01/20/why-and-how-were-explaining-beta-to-users/"
+    },
+    {
+      "title": "Phase banner \u00b7 alphagov/govuk-design-system \u00b7 Discussion #4973 \u00b7 GitHub",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/4973"
+    },
+    {
+      "title": "Banner | U.S. Web Design System (USWDS)",
+      "url": "https://designsystem.digital.gov/components/banner/"
+    },
+    {
+      "title": "Syracuse among cities to upgrade snowplows with video, AI and GPS - Boston 25 News",
+      "url": "https://www.boston25news.com/news/technology/high-tech-snowplows/4XUZ2WZGRQYHHB3DQUU5SA7NLA/"
+    }
+  ]
+}

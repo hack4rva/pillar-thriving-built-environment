@@ -1,0 +1,187 @@
+{
+  "run_id": "trun_3cad0ebea15c480ea714fb56848cc554",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "AI Insights: Synthetic Data (HTML) - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-synthetic-data-html"
+    },
+    {
+      "title": "Formalizing an Ethical Data Culture \u2014 Code for America",
+      "url": "https://codeforamerica.org/news/formalizing-an-ethical-data-culture/"
+    },
+    {
+      "title": "What are the ethical considerations of presenting synthetic ...",
+      "url": "https://www.mjvinnovation.com/blog/what-are-the-ethical-considerations-of-presenting-synthetic-feedback-as-genuine/"
+    },
+    {
+      "title": "Minimal documentation for synthetic data collections",
+      "url": "https://ukdataservice.ac.uk/app/uploads/MinimalDocumentationStandardForSyntheticDataCollections.pdf"
+    },
+    {
+      "title": "Ethical considerations relating to the creation and use of synthetic data - GOV.UK",
+      "url": "https://www.gov.uk/data-ethics-guidance/ethical-considerations-relating-to-the-creation-and-use-of-synthetic-data"
+    },
+    {
+      "title": "\ud83d\udd25 Contract Drift & Schema Mismatch Detection \u2014 The Most Underrated API Failure in Modern Systems | by Gunashekar R | Medium",
+      "url": "https://medium.com/@gunashekarr11/contract-drift-schema-mismatch-detection-the-most-underrated-api-failure-in-modern-systems-c278a2914205"
+    },
+    {
+      "title": "Consumer-driven contract testing and mock testing meaning - Bluesoft",
+      "url": "https://bluesoft.com/blog/consumer-driven-contract-testing-and-mock-testing-meaning"
+    },
+    {
+      "title": "Your API Tests Are Lying to You, The Schema Drift Problem Nobody Talks About - DEV Community",
+      "url": "https://dev.to/qa-leaders/your-api-tests-are-lying-to-you-the-schema-drift-problem-nobody-talks-about-4h86"
+    },
+    {
+      "title": "3 Questions: The pros and cons of synthetic data in AI | MIT News | Massachusetts Institute of Technology",
+      "url": "https://news.mit.edu/2025/3-questions-pros-cons-synthetic-data-ai-kalyan-veeramachaneni-0903"
+    },
+    {
+      "title": "Synthetic Data vs Real Data \u2013 How to Choose? | SKY ENGINE AI",
+      "url": "https://www.skyengine.ai/blog/synthetic-data-vs-real-data-how-to-choose"
+    },
+    {
+      "title": "Vehicle Positions - General Transit Feed Specification",
+      "url": "https://gtfs.org/documentation/realtime/feed-entities/vehicle-positions/"
+    },
+    {
+      "title": "ISO/TS 19091:2019(en), Intelligent transport systems",
+      "url": "https://www.iso.org/obp/ui/en/#!iso:std:73781:en"
+    },
+    {
+      "title": "NMEA-0183 Sentences for GPS Receivers",
+      "url": "https://w3.cs.jmu.edu/bernstdh/web/common/help/nmea-sentences.php"
+    },
+    {
+      "title": "Vehicle-to-Infrastructure (V2I) Message Lexicon",
+      "url": "https://rosap.ntl.bts.gov/view/dot/32033/dot_32033_DS1.pdf"
+    },
+    {
+      "title": "NMEA-0183 messages: Common message elements",
+      "url": "https://receiverhelp.trimble.com/alloy-gnss/en-us/NMEA-0183messages_CommonMessageElements.html"
+    },
+    {
+      "title": "Development of a Verified Message Parser for V2V ...",
+      "url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/13264-verificationv2vreport_030718_v4a_tag.pdf"
+    },
+    {
+      "title": "Getting Your Data Ready for AI \u2014 Code for America",
+      "url": "https://codeforamerica.org/news/getting-your-data-ready-for-ai/"
+    },
+    {
+      "title": "Data Ethics - CivicHacks 2026 - Research at Boston University",
+      "url": "https://library.bu.edu/c.php?g=1513421&p=11320141"
+    },
+    {
+      "title": "GitHub - codeforamerica/brigade-information: Data about Code for America brigades and other civic tech organizations for the CfA API \u00b7 GitHub",
+      "url": "https://github.com/codeforamerica/brigade-information"
+    },
+    {
+      "title": "Civic Tech Hackathon 2025: Where technology can create an equitable future through the hands of students. - Devpost",
+      "url": "https://civic-hacks.devpost.com/"
+    },
+    {
+      "title": "Hack Devpost - The hackathon: Help hackathons get better for everyone - Devpost",
+      "url": "https://hackdevpost.devpost.com/rules"
+    },
+    {
+      "title": "Challenge.gov_Federal Agency Toolkit_12Oct2021.docx",
+      "url": "https://www.challenge.gov/assets/document-library/ChallengeGov_Federal_Agency_Toolkit_13Oct2021.pdf"
+    },
+    {
+      "title": "Data Hackfest: With the ever-growing landscape of data points, we invite you to use it to build your favorite hacks using it! - Devpost",
+      "url": "https://data-hackfest-25841.devpost.com/rules"
+    },
+    {
+      "title": "GenAI Hackathon by Impetus & AWS: Innovate with GenAI: Hack, Build, Win. Join the world\u2019s most innovative and challenging GenAI hackathon\u2014powered by Impetus and  AWS - Devpost",
+      "url": "https://impetusawsgenaihackathon.devpost.com/rules"
+    },
+    {
+      "title": "How to Win a Hackathon: The Ultimate Survival Guide for 2025 | Ainna | Ainna FAQ",
+      "url": "https://ainna.ai/resources/faq/winning-hackathon-guide"
+    },
+    {
+      "title": "About MDS | Open Mobility Foundation",
+      "url": "https://www.openmobilityfoundation.org/about-mds/"
+    },
+    {
+      "title": "Understanding the Data in MDS \u00b7 openmobilityfoundation/mobility-data-specification Wiki \u00b7 GitHub",
+      "url": "https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Understanding-the-Data-in-MDS"
+    },
+    {
+      "title": "Use Cases: How & Why Cities Use MDS",
+      "url": "https://www.openmobilityfoundation.org/use-cases-how-why-cities-use-mds/"
+    },
+    {
+      "title": "GitHub - openmobilityfoundation/mds-compliance-mobile: MDS Compliance Testing Mobile App \u00b7 GitHub",
+      "url": "https://github.com/openmobilityfoundation/mds-compliance-mobile"
+    },
+    {
+      "title": "MDS Version Guidance | Open Mobility Foundation",
+      "url": "https://www.openmobilityfoundation.org/about-mds/mds-version-guidance/"
+    },
+    {
+      "title": "GitHub - 18F/api-standards: API Standards for 18F \u00b7 GitHub",
+      "url": "https://github.com/18F/api-standards"
+    },
+    {
+      "title": "API technical and data standards - GOV.UK",
+      "url": "https://www.gov.uk/guidance/gds-api-technical-and-data-standards"
+    },
+    {
+      "title": "GDS API technical and data standards v1 - 2018 - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/api-technical-and-data-standards-v1-2018/gds-api-technical-and-data-standards-v1-2018"
+    },
+    {
+      "title": "Considering our approach to API iteration \u2013 Technology in government",
+      "url": "https://technology.blog.gov.uk/2016/07/26/considering-our-approach-to-api-iteration/"
+    },
+    {
+      "title": "Developing cross-government API data and technical standards",
+      "url": "https://technology.blog.gov.uk/2018/02/13/developing-cross-government-api-data-and-technical-standards/"
+    },
+    {
+      "title": "Proto Best Practices | Protocol Buffers Documentation",
+      "url": "https://protobuf.dev/best-practices/dos-donts/"
+    },
+    {
+      "title": "Unknown Fields in Protobuf",
+      "url": "https://kmcd.dev/posts/protobuf-unknown-fields/"
+    },
+    {
+      "title": "Protocol Buffers Best Practices for Backward and Forward Compatibility - Earthly Blog",
+      "url": "https://earthly.dev/blog/backward-and-forward-compatibility/"
+    },
+    {
+      "title": "Language Guide (proto 3)",
+      "url": "https://protobuf.dev/programming-guides/proto3/"
+    },
+    {
+      "title": "Proto Serialization Is Not Canonical | Protocol Buffers Documentation",
+      "url": "https://protobuf.dev/programming-guides/serialization-not-canonical/"
+    },
+    {
+      "title": "Service Discovery",
+      "url": "https://wiki.open311.org/Service_Discovery/"
+    },
+    {
+      "title": "311 Test | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/Social-Services/311-Test/wpsr-z8qp"
+    },
+    {
+      "title": "SeeClickFix Open311 - SeeClickFix",
+      "url": "https://seeclickfix.com/open311/v2/docs"
+    },
+    {
+      "title": "GeoReport v2 Servers",
+      "url": "https://wiki.open311.org/GeoReport_v2/Servers/"
+    },
+    {
+      "title": "311 test 1 | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/Social-Services/311-test-1/7jx9-8ruk"
+    }
+  ]
+}

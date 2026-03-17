@@ -1,0 +1,171 @@
+{
+  "run_id": "trun_3cad0ebea15c480ea01ad43ecb9d742f",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Snow Removal Dashboard | Boston.gov",
+      "url": "https://www.boston.gov/departments/analytics-team/snow-removal-dashboard"
+    },
+    {
+      "title": "Mayor Walsh launches Boston snow stats | Boston.gov",
+      "url": "https://www.boston.gov/news/mayor-walsh-launches-boston-snow-stats"
+    },
+    {
+      "title": "With Boston 'Snow Stats' Tool, Track Snow Removal In Your Neighborhood In Real Time | WBUR News",
+      "url": "https://www.wbur.org/news/2015/02/02/boston-snow-stats"
+    },
+    {
+      "title": "Snow Removal Route Maps \u2022 MuckRock",
+      "url": "https://www.muckrock.com/foi/boston-3/snow-removal-route-maps-125444/"
+    },
+    {
+      "title": "Snow Removal Policy Toolkit - Boston",
+      "url": "http://www.mapc.org/wp-content/uploads/2017/11/Snow-Removal-ToolkitFINAL1.10.12.pdf"
+    },
+    {
+      "title": "Chicago Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/"
+    },
+    {
+      "title": "\n    City of Chicago :: Supporting Info Rollup\n",
+      "url": "https://www.chicago.gov/city/en/depts/streets/provdrs/street/supp_info.html"
+    },
+    {
+      "title": "Chicago launches 'Plow Tracker' - WBEZ Chicago",
+      "url": "https://www.wbez.org/science/2012/01/03/chicago-launches-plow-tracker-website-to-monitor-citys-snow-plows"
+    },
+    {
+      "title": "https://data.cityofchicago.org/api/views/4nng-j9hd/rows.xml ...",
+      "url": "https://data.cityofchicago.org/api/views/4nng-j9hd/rows.xml?accessType=DOWNLOAD"
+    },
+    {
+      "title": "2011 Mayoral Transition Report",
+      "url": "https://www.chicago.gov/dam/city/narr/Transition%20Reports/TransitionReport.pdf"
+    },
+    {
+      "title": "Plow Tracker - City and County of Denver",
+      "url": "https://www.denvergov.org/Online-Services-Hub/Plow-Tracker"
+    },
+    {
+      "title": "Snow Plow Routes - Transportation | seattle.gov",
+      "url": "https://www.seattle.gov/transportation/projects-and-programs/safety-first/winter-weather-response/snow-plow-routes"
+    },
+    {
+      "title": "PlowNYC",
+      "url": "https://plownyc.cityofnewyork.us/"
+    },
+    {
+      "title": "PlowNYC tracker showed streets plowed, but Staten Island ...",
+      "url": "https://www.silive.com/news/2026/02/plownyc-tracker-showed-streets-plowed-but-staten-island-residents-said-otherwise.html"
+    },
+    {
+      "title": "How accurate is the Denver snow plow tracker? | 9news.com",
+      "url": "https://www.9news.com/article/news/local/next/how-accurate-is-denver-snow-plow-tracker/73-45c68d92-958d-4f66-92e1-e710fa63fe29"
+    },
+    {
+      "title": "Leaf Collection | Richmond",
+      "url": "https://www.rva.gov/public-works/leaf-collection"
+    },
+    {
+      "title": "Street Cleaning | Richmond",
+      "url": "https://www.rva.gov/public-works/street-cleaning"
+    },
+    {
+      "title": "BUILDING A BETTER RICHMOND.",
+      "url": "https://rva.gov/sites/default/files/2025-07/Richmond%20DPW-%20brochure.pdf"
+    },
+    {
+      "title": "2024-2025 Leaf Collection Program",
+      "url": "https://www.rva.gov/sites/default/files/2024-10/DPW%20Leaf%20Collection%20Buckslip.pdf"
+    },
+    {
+      "title": "Right-of-Way Management | Richmond",
+      "url": "https://www.rva.gov/public-works/right-way-management"
+    },
+    {
+      "title": "leaf collection program",
+      "url": "https://rva.gov/sites/default/files/2022-09/leaf%20collection%20sch.PDF"
+    },
+    {
+      "title": "Public Works Fleet Tracking & Management Software | Geotab",
+      "url": "https://www.geotab.com/public-works/"
+    },
+    {
+      "title": "Public Works Features Customer User Guide",
+      "url": "https://support.geotab.com/en-GB/mygeotab/doc/pub-wrk-features"
+    },
+    {
+      "title": "Public Works Features Customer User Guide",
+      "url": "https://support.geotab.com/mygeotab/doc/pub-wrk-features"
+    },
+    {
+      "title": "Route Completion configuration with a Shapefile",
+      "url": "https://support.geotab.com/en-GB/mygeotab/mygeotab-add-ins/doc/route-completion"
+    },
+    {
+      "title": "MyGeotab API Adapter \u2014 Solution and Implementation Guide",
+      "url": "https://support.geotab.com/en-GB/software-integration/doc/api-adapter"
+    },
+    {
+      "title": "Introducing New Tools to Streamline Snow Operations",
+      "url": "https://www.samsara.com/blog/new-tools-for-public-works-fleets"
+    },
+    {
+      "title": "Samsara Introduces Tool for Public Works Fleets to Streamline Snow Operations - Telematics - Government Fleet",
+      "url": "https://www.government-fleet.com/10162691/samsara-introduces-tool-for-public-works-fleets-to-streamline-snow-operations"
+    },
+    {
+      "title": "Materials Spreaders \u2013 Samsara Help Center",
+      "url": "https://kb.samsara.com/hc/en-us/articles/360059978871-Materials-Spreaders"
+    },
+    {
+      "title": "Samsara | Developers",
+      "url": "https://www.samsara.com/support/developers"
+    },
+    {
+      "title": "REST API Overview - Samsara",
+      "url": "https://developers.samsara.com/docs/rest-api-overview"
+    },
+    {
+      "title": "About RVA 311 | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311"
+    },
+    {
+      "title": "GIS/Mapping | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/gismapping"
+    },
+    {
+      "title": "Richmond Voter District Maps NEW 2024 7.29.2022 | Richmond",
+      "url": "https://www.rva.gov/media/29866"
+    },
+    {
+      "title": "Richmond Voter District Maps | Richmond",
+      "url": "https://www.rva.gov/richmond-city-council/richmond-voter-district-maps-0"
+    },
+    {
+      "title": "Data Request | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/data-request"
+    },
+    {
+      "title": "Council Districts | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/dataset/Council-Districts/eggb-rb5j"
+    },
+    {
+      "title": "RVA 311 Helpful Links | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links"
+    },
+    {
+      "title": "Centerlines | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/centerlines/explore"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Virginia Road Centerlines (RCL) - VGIN",
+      "url": "https://vgin.vdem.virginia.gov/datasets/cd9bed71346d4476a0a08d3685cb36ae"
+    }
+  ]
+}

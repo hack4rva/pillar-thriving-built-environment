@@ -1,0 +1,211 @@
+{
+  "run_id": "trun_3cad0ebea15c480e96a3e11e5e30a696",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Richmond, VA - ArcGIS Online",
+      "url": "https://cor.maps.arcgis.com/"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "http://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Capital Improvement Program Dashboard",
+      "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "Statewide Paving Status Map (Public View) 2025 - Dataset - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/statewide-paving-status-map-public-view-2025"
+    },
+    {
+      "title": "Fiscal Year 2025 Paving Plan",
+      "url": "https://rva.gov/sites/default/files/2024-07/FY25%20Paving%20for%20Web.pdf"
+    },
+    {
+      "title": "Richmond's big map of paving progress",
+      "url": "https://rva.gov/city-stuff-press-releases-and-announcements/news/richmonds-big-map-paving-progress-0"
+    },
+    {
+      "title": "Virginia Department of Transportation",
+      "url": "https://www.virginiaroads.org/search?collection=dataset"
+    },
+    {
+      "title": "Trash Collection | Richmond",
+      "url": "https://www.rva.gov/public-works/trash-collection"
+    },
+    {
+      "title": "Bulk and Brush | Richmond",
+      "url": "https://www.rva.gov/public-works/bulk-and-brush"
+    },
+    {
+      "title": "City of Richmond - CVWMA",
+      "url": "https://cvwma.com/cvwma-locations/richmond/"
+    },
+    {
+      "title": "Refuse Holiday Schedule Update | Richmond",
+      "url": "https://rva.gov/public-works/refuse-holiday-schedule-update"
+    },
+    {
+      "title": "CVWMA Curbside Recycling Calendar",
+      "url": "https://cvwma.com/news/calendar/"
+    },
+    {
+      "title": "Addresses | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/674d645c444f4191998f0ebb96e56047_0/about"
+    },
+    {
+      "title": "Addresses | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/addresses-1"
+    },
+    {
+      "title": "Addressing",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?categories=addressing"
+    },
+    {
+      "title": "City of Richmond, VA",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?bbox=-77.60303897960382%2C%2037.44489495185296%2C%20-77.38216171051953%2C%2037.60464686679737"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?bbox=-77.63599999999079%2C%2037.39599999999556%2C%20-77.28499999999086%2C%2037.64699999999551&collection=dataset"
+    },
+    {
+      "title": "Vision Zero | Richmond",
+      "url": "https://www.rva.gov/public-works/vision-zero"
+    },
+    {
+      "title": "Vision Zero Dashboard (2017 to November 2025)",
+      "url": "https://cor.maps.arcgis.com/apps/dashboards/e6097a6342f148ce912ba98e04551e70?utm_source=CheersRVA&utm_medium=email&utm_campaign=school-walk-ins-the-us-open-cup-and-dutch-cities"
+    },
+    {
+      "title": "COR Crash Dashboard",
+      "url": "https://www.arcgis.com/apps/dashboards/e6097a6342f148ce912ba98e04551e70"
+    },
+    {
+      "title": "Richmond Launches Public Speed Data Dashboard",
+      "url": "https://rva.gov/press-releases-and-announcements-public-works/news/richmond-launches-public-speed-data-dashboard"
+    },
+    {
+      "title": "Crash Data Richmond Region",
+      "url": "https://www.arcgis.com/apps/dashboards/e8a2d263cb9e42e4bba068ee9b2f173c"
+    },
+    {
+      "title": "Statewide Crash Data | Virginia Department of Motor Vehicles",
+      "url": "https://www.dmv.virginia.gov/safety/crash-data"
+    },
+    {
+      "title": "Crash Data and Details - Virginia Department of Motor Vehicles -  Data Dictionary - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/crash-data-virginia-department-of-motor-vehicles/resource/23e9cf4e-d0b3-489a-8422-aa19238314bb"
+    },
+    {
+      "title": "CrashData Basic - Dataset - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/5e6130b5-3539-42f3-98d7-35e8c43674d8"
+    },
+    {
+      "title": "CrashData Basic",
+      "url": "https://www.virginiaroads.org/datasets/VDOT::crashdata-basic-1"
+    },
+    {
+      "title": "CrashData Basic - CSV - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/crashdata-basic1/resource/0402ca09-cda0-4ab6-821d-6be7ef3eb760"
+    },
+    {
+      "title": "CrashData Basic - Dataset - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/crashdata-basic1"
+    },
+    {
+      "title": "TIP - Transportation Improvement Program",
+      "url": "https://planrva.org/transportation/tip/"
+    },
+    {
+      "title": "Transportation Improvement Program FFY 2027 \u2013 FFY 2030",
+      "url": "https://planrva.org/wp-content/uploads/20260310_TIPFullDocument_Final.pdf"
+    },
+    {
+      "title": "RRTPO",
+      "url": "https://planrva.org/tag/rrtpo/"
+    },
+    {
+      "title": "Richmond Regional Transportation Planning Organization ...",
+      "url": "https://planrva.org/wp-content/uploads/Agenda-Packet-3-5-26.pdf"
+    },
+    {
+      "title": "Plan RVA",
+      "url": "https://planrva.org/"
+    },
+    {
+      "title": "About Us | Richmond",
+      "url": "https://www.rva.gov/public-works/about-us"
+    },
+    {
+      "title": "Public Works | Richmond",
+      "url": "https://www.rva.gov/public-works"
+    },
+    {
+      "title": "Directory",
+      "url": "https://www.rva.gov/sites/default/files/2022-08/P%20%26%20I%20Directory%20-%20August%202022_0.pdf"
+    },
+    {
+      "title": "operations_home | Richmond",
+      "url": "https://www.rva.gov/public-works/operationshome"
+    },
+    {
+      "title": "Name",
+      "url": "https://rva.gov/sites/default/files/2025-03/PDR%20Website%20Staff%20Contact%20Directory%20-%20March%202025.pdf"
+    },
+    {
+      "title": "Street Cleaning | Richmond",
+      "url": "https://www.rva.gov/public-works/street-cleaning"
+    },
+    {
+      "title": "Street Sweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/d/2dh8-bzzs"
+    },
+    {
+      "title": "City Announces Temporary Pause in Street Sweeping Services for 2025 | Richmond",
+      "url": "https://rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025"
+    },
+    {
+      "title": "Your City. Your Services. | Richmond",
+      "url": "https://www.rva.gov/your-city-your-services"
+    },
+    {
+      "title": "Street Sweeping Route 7: Far West End",
+      "url": "https://www.rva.gov/sites/default/files/2019-03/StreetCleaningMapRoute7.pdf"
+    },
+    {
+      "title": "Richmond Ready Alerts | Richmond",
+      "url": "https://rva.gov/richmondreadyalerts"
+    },
+    {
+      "title": "Richmond launches new alert system",
+      "url": "https://www.richmonder.org/richmond-launches-new-cell-phone-alert-system/"
+    },
+    {
+      "title": "How to adjust your city of Richmond emergency alert settings",
+      "url": "https://www.axios.com/local/richmond/2025/02/19/how-to-adjust-your-city-of-richmond-emergency-alert-settings"
+    },
+    {
+      "title": "Richmond Ready Alerts | Richmond",
+      "url": "https://www.rva.gov/emergency-management/richmond-ready-alerts"
+    },
+    {
+      "title": "Richmond Ready: How to opt-in to Richmond's emergency alert system",
+      "url": "https://www.wtvr.com/news/local-news/richmond-ready-alert-system-may-28-2025"
+    }
+  ]
+}

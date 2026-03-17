@@ -1,0 +1,151 @@
+{
+  "run_id": "trun_3cad0ebea15c480e899e76a50d007332",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Bicycle Infrastructure, Completed | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/bicycle-infrastructure-completed/about"
+    },
+    {
+      "title": "Richmond | BikePedRVA",
+      "url": "https://experience.arcgis.com/experience/709ca2e0693c4b9ebe6c37dfa705e390/page/Richmond"
+    },
+    {
+      "title": "Active Transportation | Plan RVA",
+      "url": "https://planrva.org/transportation/activetransportation/"
+    },
+    {
+      "title": "Sort by: Relevance",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?layout=grid&tags=transportation"
+    },
+    {
+      "title": "List of Capital Improvement Projects | Richmond",
+      "url": "https://www.rva.gov/capital-improvement-projects/list-capital-improvement-projects"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "http://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "Your City. Your Services. | Richmond",
+      "url": "https://www.rva.gov/your-city-your-services"
+    },
+    {
+      "title": "CIP | Richmond",
+      "url": "https://rva.gov/budget-and-strategic-planning/cip"
+    },
+    {
+      "title": "Plain Language Guide Series - Digital.gov",
+      "url": "https://digital.gov/guides/plain-language"
+    },
+    {
+      "title": "Plain Language Advances Technical Communication - Center for Plain Language",
+      "url": "https://centerforplainlanguage.org/plain-language-advances-technical-communication/"
+    },
+    {
+      "title": "The Power of Plain Language: Why Clear Communication Matters in Government and Beyond\u00a0 - FWI",
+      "url": "https://www.fedwriters.com/fedfeatures/the-power-of-plain-language-why-clear-communication-matters-in-government-and-beyond/"
+    },
+    {
+      "title": "Plain Language Is for Everyone, Even Experts - NN/G",
+      "url": "https://www.nngroup.com/articles/plain-language-experts/"
+    },
+    {
+      "title": "Exploring the Effect of Plain Terminology on Processing and Comprehension of Administrative Texts in Spanish: A Self\u2010Paced Reading Experiment - Fern\u00e1ndez\u2010Silva - 2025 - International Journal of Applied Linguistics - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijal.12650"
+    },
+    {
+      "title": "Parking Enterprise | Richmond",
+      "url": "https://www.rva.gov/node/17296"
+    },
+    {
+      "title": "Neighborhood inequality in government fines: The case of parking tickets in 16 U.S. cities - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264275124004438"
+    },
+    {
+      "title": "To live and park in L.A.: the street cleaning challenge",
+      "url": "https://xtown.la/2024/07/08/street-cleaning-is-the-most-common-parking-ticket-in-los-angeles/"
+    },
+    {
+      "title": "Performance Audit of the Management of Street Cleaning ...",
+      "url": "https://sfbos.org/sites/default/files/SF_BLA_Street_Cleaning_Final_Audit_Report_10.29.2025.pdf"
+    },
+    {
+      "title": "Parking Citation Registration Form - Parking Citation Review Application",
+      "url": "https://apps.richmondgov.com/applications/ParkingCitationReview"
+    },
+    {
+      "title": "Right-of-Way Management | Richmond",
+      "url": "https://www.rva.gov/public-works/right-way-management"
+    },
+    {
+      "title": "Most common RVA 311 requests: What Richmonders needed help with in 2025 | WRIC ABC 8News",
+      "url": "https://www.wric.com/news/local-news/richmond/311-requests-richmond-2025/"
+    },
+    {
+      "title": "About RVA 311 | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311"
+    },
+    {
+      "title": "Use of Dashboards for Winter Operations",
+      "url": "https://rosap.ntl.bts.gov/view/dot/79786/dot_79786_DS1.pdf"
+    },
+    {
+      "title": "Snow Plow GPS Tracking for Winter Fleet Efficiency",
+      "url": "https://titangps.com/blog/top-6-benefits-of-snow-plow-gps-fleet-tracking/"
+    },
+    {
+      "title": "High-tech snowplows and AI help cities clean up from big storms | WRIC ABC 8News",
+      "url": "https://www.wric.com/news/u-s-world/ap-high-tech-snowplows-and-ai-help-cities-clean-up-from-big-storms/"
+    },
+    {
+      "title": "Winter Operations Decision Support Tools for the Iowa DOT ...",
+      "url": "https://www.intrans.iastate.edu/wp-content/uploads/2020/06/winter_ops_decision_support_tools_w_cvr.pdf"
+    },
+    {
+      "title": "PILOT TEST OF AUTOMATIC VEHICLE LOCATION ON ...",
+      "url": "https://westerntransportationinstitute.org/wp-content/uploads/2016/08/4W0390_Tech_Memo.pdf"
+    },
+    {
+      "title": "Richmond Connects Final Needs and Candidate Projects - Overview",
+      "url": "https://www.arcgis.com/home/item.html?id=034b76c63e9a44208d4fa10db45eb9a3"
+    },
+    {
+      "title": "Plans of Development | Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/plans-of-development-3"
+    },
+    {
+      "title": "Layer: Unified Bicycle Infrastructure (ID:0)",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/arcgis/rest/services/UnifiedBicycleInfrastructure_Completed/FeatureServer/0"
+    },
+    {
+      "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard",
+      "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b"
+    },
+    {
+      "title": "Smart Street Sweeping: Keeping City Streets Safe and Clean",
+      "url": "https://routeware.com/blog/smart-streets-how-modern-street-sweeping-keeps-cities-clean-safe-and-sustainable/"
+    },
+    {
+      "title": "City asks residents to clear streets for sweepers | News | livingstonenterprise.com",
+      "url": "https://www.livingstonenterprise.com/news/city-asks-residents-to-clear-streets-for-sweepers/article_fa807c34-2293-11ef-860b-13f64c51354e.html"
+    },
+    {
+      "title": "Sweeping Success: Enhancing Street Cleaning Operations With Maps And Efficient Scheduling - Gruntify",
+      "url": "https://www.gruntify.com/sweeping-success-enhancing-street-cleaning-operations-with-maps-and-efficient-scheduling/"
+    },
+    {
+      "title": "Street Sweeping Research & Practices Synthesis",
+      "url": "https://www.wastormwatercenter.org/wp-content/uploads/D2.1-Statewide-Survey-Questions-Results.pdf"
+    }
+  ]
+}

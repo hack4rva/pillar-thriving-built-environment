@@ -1,0 +1,123 @@
+{
+  "run_id": "trun_3cad0ebea15c480ebed78372014903a7",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Roads | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::roads-3/about"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "http://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "Fleet Management | Richmond",
+      "url": "https://www.rva.gov/public-works/fleet-management"
+    },
+    {
+      "title": "RFP 2023-12 Fleet and Asset Management Information System",
+      "url": "https://govtribe.com/opportunity/state-local-contract-opportunity/rfp-2023-12-fleet-and-asset-management-information-system-76651"
+    },
+    {
+      "title": "Fleet Management Services",
+      "url": "https://dgs.virginia.gov/fleet"
+    },
+    {
+      "title": "RFP 160339 -- Systems Integration for the Over Height...",
+      "url": "https://www.highergov.com/sl/contract-opportunity/va-rfp-160339-systems-integration-for-th-63775619/"
+    },
+    {
+      "title": "Virginia Department of Transportation - Virginia.gov",
+      "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/business-opportunities/alternative-project-delivery/tech-proposals/122818-English-Letter-of-Submittal.pdf"
+    },
+    {
+      "title": "Snow Removal | Richmond",
+      "url": "https://www.rva.gov/public-works/snow-removal"
+    },
+    {
+      "title": "GIS/Mapping | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/gismapping"
+    },
+    {
+      "title": "Public Service Line Inventory Map",
+      "url": "https://experience.arcgis.com/experience/ed34aff95e0b4bea8ba11466f1b4796b"
+    },
+    {
+      "title": "VDOT Plows",
+      "url": "https://plows.vdot.virginia.gov/"
+    },
+    {
+      "title": "City of Richmond, VA",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?collection=Dataset&tags=basemap"
+    },
+    {
+      "title": "Transportation Surfaces - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/transportation-surfaces-2"
+    },
+    {
+      "title": "Sort by: Relevance",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?layout=grid&tags=transportation"
+    },
+    {
+      "title": "Richmond Connects Final Needs and Candidate Projects - Overview",
+      "url": "https://www.arcgis.com/home/item.html?id=034b76c63e9a44208d4fa10db45eb9a3"
+    },
+    {
+      "title": "Richmond, VA - ArcGIS Online",
+      "url": "https://cor.maps.arcgis.com/"
+    },
+    {
+      "title": "ConnectRVA 2045",
+      "url": "https://storymaps.arcgis.com/stories/f8795b3e68d545ba81b8d35a67f377dc"
+    },
+    {
+      "title": "Richmond Connects: Map Collection Overview",
+      "url": "https://storymaps.arcgis.com/stories/f97d698bdb1e4be79d0bce1717c3bc27"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/arcgis/rest/services/Roads/FeatureServer/0?f=pjson"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/034b76c63e9a44208d4fa10db45eb9a3?f=pjson"
+    },
+    {
+      "title": "Fetched web page",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/5f228c99dd884a1ab809af1d80d5ee29?f=pjson"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?categories=_layers%20library"
+    },
+    {
+      "title": "RVA_Water_Supply_Points - Overview",
+      "url": "https://www.arcgis.com/home/item.html?id=2b9bc4a1423940348f487eaebd1fb396"
+    },
+    {
+      "title": "Snow Removal Priority Routes - Overview",
+      "url": "https://psfsogdc.maps.arcgis.com/home/item.html?id=bbce2e617805456f9b05689d2443515e"
+    },
+    {
+      "title": "Snow_and_Ice_Routes (FeatureServer)",
+      "url": "https://services5.arcgis.com/x7DNZL1YqNQVNykA/arcgis/rest/services/Snow_and_Ice_Routes/FeatureServer"
+    },
+    {
+      "title": "Capital Improvement Program Dashboard",
+      "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745"
+    },
+    {
+      "title": "Capital Projects (FeatureServer)",
+      "url": "https://services2.arcgis.com/Q6Lq3evZUGfPrN7o/arcgis/rest/services/Capital%20Projects/FeatureServer"
+    },
+    {
+      "title": "Layer: Capital Improvement Projects (ID:0)",
+      "url": "https://services5.arcgis.com/i75zh9vlhYUpqwjr/arcgis/rest/services/Capital_Improvement_Projects_Pie/FeatureServer/0"
+    }
+  ]
+}

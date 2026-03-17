@@ -1,0 +1,131 @@
+{
+  "run_id": "trun_3cad0ebea15c480eb6b36a7c7f8d1f1f",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/"
+    },
+    {
+      "title": "\n      \n        Blog -\n      \n      Chi Hack Night - Chicago's weekly event to build, share, and learn about civic tech.\n    ",
+      "url": "https://chihacknight.org/blog/"
+    },
+    {
+      "title": "Open311",
+      "url": "https://www.open311.org/"
+    },
+    {
+      "title": "AI vibe-coders try to resurrect SF's civic hacking scene",
+      "url": "https://sfstandard.com/2025/08/17/sf-diy-governance-ai-civic-hackers/"
+    },
+    {
+      "title": "Highlights from the Open311 Ecosystem | Open311",
+      "url": "https://www.open311.org/2015/06/highlights-from-the-open311-ecosystem/"
+    },
+    {
+      "title": "\n      \n      Chi Hack Night - Chicago's weekly event to build, share, and learn about civic tech.\n    ",
+      "url": "https://chihacknight.org/"
+    },
+    {
+      "title": "\u2744\ufe0f From Hackathon to Progress Buckets: Vibe Coding a New Syracuse Snowplow Map | by Sam Edelstein | Medium",
+      "url": "https://samedelstein.medium.com/%EF%B8%8F-from-hackathon-to-progress-buckets-vibe-coding-a-new-syracuse-snowplow-map-95e80887c366"
+    },
+    {
+      "title": "\n\u2013 Biomimicry, Renewable Energy and Evolutionary Computation",
+      "url": "http://blog.brendanbabb.com/"
+    },
+    {
+      "title": "Plowing through data: Civic hackathon takes on snow removal in Syracuse - syracuse.com",
+      "url": "https://www.syracuse.com/news/2018/03/hackathon_for_snow_infrastructure.html"
+    },
+    {
+      "title": "Plowing through the Data: The Winners! \u2014 Innovate Syracuse",
+      "url": "http://www.innovatesyracuse.com/blog/plowingthroughthedatawinners"
+    },
+    {
+      "title": "Hackathon winners create road map to track snowplows in Syracuse | WRVO Public Media",
+      "url": "https://www.wrvo.org/regional-coverage/2018-03-09/hackathon-winners-create-road-map-to-track-snowplows-in-syracuse"
+    },
+    {
+      "title": "Adopt-A-Hydrant | Boston.gov",
+      "url": "https://www.boston.gov/departments/new-urban-mechanics/adopt-hydrant"
+    },
+    {
+      "title": "About us",
+      "url": "https://adoptadrain.sfwater.org/about"
+    },
+    {
+      "title": "Adopt a Drain SF",
+      "url": "https://www.sfpuc.gov/learning/how-you-can-help/adopt-drain-sf"
+    },
+    {
+      "title": "Adopt-a-Drain San Francisco",
+      "url": "https://adoptadrain.sfwater.org/"
+    },
+    {
+      "title": "GitHub - ChicagoPark/Pothole: Pothole Detection Project \u00b7 GitHub",
+      "url": "https://github.com/ChicagoPark/Pothole"
+    },
+    {
+      "title": "\n      \n        Talks - Derek Eder\n      \n    ",
+      "url": "https://derekeder.com/talks/"
+    },
+    {
+      "title": "City of Chicago - Potholes Patched",
+      "url": "https://catalog-beta.data.gov/dataset/potholes-patched"
+    },
+    {
+      "title": "How I Used Pothole Data To Navigate My First SEP Hackathon",
+      "url": "https://sep.com/blog/how-i-used-indianapolis-pothole-data-to-navigate-my-first-sep-hackathon/"
+    },
+    {
+      "title": "\n      Open City - Civic apps built with open data\n    ",
+      "url": "http://opencityapps.org/"
+    },
+    {
+      "title": "About Us | DataMade",
+      "url": "https://datamade.us/about-us/"
+    },
+    {
+      "title": "Our Work | DataMade",
+      "url": "https://datamade.us/our-work/"
+    },
+    {
+      "title": "A new era for DataMade and Forest | DataMade",
+      "url": "https://datamade.us/blog/a-new-era/"
+    },
+    {
+      "title": "New plow tracker-style website hits the web in time for today\u2019s snow storm \u2013 Grid Chicago",
+      "url": "http://gridchicago.com/2012/new-plow-tracker-style-website-hits-the-web-in-time-for-todays-snow-storm/"
+    },
+    {
+      "title": "Updated ClearStreets, alternative to Plow Tracker, brings new features and mobile-friendly design \u2013 Grid Chicago",
+      "url": "http://gridchicago.com/2012/updated-clearstreets-alternative-to-plow-tracker-brings-new-features-and-mobile-friendly-design/"
+    },
+    {
+      "title": "ClearStreets: Another Great Project Benefitting from Space on the Smart Chicago EC2 Account \u2013 Smart Chicago",
+      "url": "http://www.smartchicagocollaborative.org/clearstreets-another-great-project-benefitting-from-space-on-the-smart-chicago-ec2-account/"
+    },
+    {
+      "title": "ClearStreets - Chicago Plow Tracker",
+      "url": "http://clearstreets.org/"
+    },
+    {
+      "title": "Day 2: 311 chatbot wins AI for good hackathon",
+      "url": "https://missionlocal.org/2023/11/winner-ai-for-good-hackathon-311-chatbot/"
+    },
+    {
+      "title": "A free SF street cleaning schedule site with the ability to set ...",
+      "url": "https://www.reddit.com/r/sanfrancisco/comments/1g0nflb/a_free_sf_street_cleaning_schedule_site_with_the/"
+    },
+    {
+      "title": "GitHub - hackforla/la-street-data: Datasets about LA streets \u00b7 GitHub",
+      "url": "https://github.com/hackforla/la-street-data"
+    },
+    {
+      "title": "Sf Street Cleaning - KP's Thoughts",
+      "url": "https://blog.kaushalpartani.com/Coding/Sf-Street-Cleaning"
+    }
+  ]
+}

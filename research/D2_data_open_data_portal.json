@@ -1,0 +1,147 @@
+{
+  "run_id": "trun_3cad0ebea15c480eaf4d7ab4f01b8acb",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "List of Capital Improvement Projects | Richmond",
+      "url": "https://www.rva.gov/capital-improvement-projects/list-capital-improvement-projects"
+    },
+    {
+      "title": "CIP | Richmond",
+      "url": "https://rva.gov/budget-and-strategic-planning/cip"
+    },
+    {
+      "title": "City Contracts | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Well-Managed-Government/City-Contracts/xqn7-jvv2"
+    },
+    {
+      "title": "Richmond Capital Projects | Tyler Data & Insights",
+      "url": "https://transparencyapps.demo.socrata.com/dataset/Richmond-Capital-Projects/adke-8wvb"
+    },
+    {
+      "title": "New Datasets | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Well-Managed-Government/New-Datasets/uvs3-g9ps"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "http://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "311-service-requests - Dataset - Catalog",
+      "url": "https://catalog.data.gov/dataset/?tags=311-service-requests"
+    },
+    {
+      "title": "RVA 311 Helpful Links | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links"
+    },
+    {
+      "title": "https://data.richmondgov.com/resource/xqn7-jvv2.csv",
+      "url": "https://data.richmondgov.com/resource/xqn7-jvv2.csv"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "City Releases Pavement Condition Scores through Interactive Mapping Application | Richmond",
+      "url": "https://www.rva.gov/press-releases-and-announcements/news/city-releases-pavement-condition-scores-through-interactive"
+    },
+    {
+      "title": "Richmond Impact Map | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd"
+    },
+    {
+      "title": "311 Service Requests - Dataset - Catalog",
+      "url": "https://catalog.data.gov/dataset/?tags=service-requests&_res_format_limit=0"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "About RVA 311 | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311"
+    },
+    {
+      "title": "Geographic Information Systems | Richmond",
+      "url": "https://www.rva.gov/information-technology/geographic-information-systems"
+    },
+    {
+      "title": "Street Cleaning | Richmond",
+      "url": "https://www.rva.gov/public-works/street-cleaning"
+    },
+    {
+      "title": "Street Sweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/d/2dh8-bzzs"
+    },
+    {
+      "title": "Street Sweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/w/2dh8-bzzs/uup7-qydm?cur=0tQepDeyewo"
+    },
+    {
+      "title": "StreetSweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Sustainability-and-Natural-Environment/StreetSweeping/km2h-uk82"
+    },
+    {
+      "title": "Permits and Inspections | Richmond",
+      "url": "https://www.rva.gov/planning-development-review/permits-and-inspections"
+    },
+    {
+      "title": "Online Permit Portal | Richmond",
+      "url": "https://www.rva.gov/planning-development-review/online-permit-portal"
+    },
+    {
+      "title": "Crash Data Richmond Region",
+      "url": "https://www.arcgis.com/apps/dashboards/e8a2d263cb9e42e4bba068ee9b2f173c"
+    },
+    {
+      "title": "CrashData Details - Dataset - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/crashdata-details2"
+    },
+    {
+      "title": "CrashData Basic - CSV - Virginia Open Data Portal",
+      "url": "https://data.virginia.gov/dataset/crashdata-basic2/resource/e45fed43-8a58-49fa-9978-ac59918e5fa1"
+    },
+    {
+      "title": "Statewide Crash Data | Virginia Department of Motor Vehicles",
+      "url": "https://www.dmv.virginia.gov/safety/crash-data"
+    },
+    {
+      "title": "Vision Zero | Richmond",
+      "url": "https://www.rva.gov/public-works/vision-zero"
+    },
+    {
+      "title": "Vision Zero Richmond, Virginia. Safer Roads for All Modes ...",
+      "url": "https://dataverse-staging.rdmc.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/33GGEI"
+    },
+    {
+      "title": "Vision Zero Dashboard (2017 to November 2025)",
+      "url": "https://cor.maps.arcgis.com/apps/dashboards/e6097a6342f148ce912ba98e04551e70?utm_source=CheersRVA&utm_medium=email&utm_campaign=school-walk-ins-the-us-open-cup-and-dutch-cities"
+    },
+    {
+      "title": " | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/d/j44b-5mi4/visualization"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://www.rva.gov/information-technology/open-data-portal"
+    },
+    {
+      "title": "Roads | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::roads-3/about"
+    },
+    {
+      "title": "CSV",
+      "url": "https://data.transportation.gov/api/views/nhvr-exvq/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "title": "https://data.cityofnewyork.us/api/views/63us-eqtq/rows.xml ...",
+      "url": "https://data.cityofnewyork.us/api/views/63us-eqtq/rows.xml?accessType=DOWNLOAD"
+    },
+    {
+      "title": "Current Map with Socrata Open Data | Hands-On Data Visualization",
+      "url": "https://handsondataviz.org/map-socrata.html"
+    }
+  ]
+}

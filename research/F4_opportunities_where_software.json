@@ -1,0 +1,207 @@
+{
+  "run_id": "trun_3cad0ebea15c480eb543cb3ee25b157b",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Characteristics of open infrastructure dashboard",
+      "url": "https://investinopen.org/data-room/characteristics-of-open-infrastructure-dashboard/"
+    },
+    {
+      "title": "Capital Projects Explorer - Seattle.gov",
+      "url": "https://capitalprojects.seattle.gov/"
+    },
+    {
+      "title": "Full article: Knowing and governing cities through urban indicators, city benchmarking and real-time dashboards",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/21681376.2014.983149"
+    },
+    {
+      "title": "Capital Projects Dashboard Case Study - SymGEO",
+      "url": "https://www.symgeo.com/2022/08/19/capital-projects-dashboard-case-study/"
+    },
+    {
+      "title": "Practicing data inclusion: Co-creation of an urban data dashboard - Yael Nidam, Reann Gibson, Rebecca Houston-Read, Marcia Picard, Vedette Gavin, 2025 ",
+      "url": "https://journals.sagepub.com/doi/10.1177/23998083241245759"
+    },
+    {
+      "title": "The Use of Transit ITS Data for Planning and Management, ...",
+      "url": "https://uttri.utoronto.ca/wp-content/uploads/sites/19/2021/03/PT-ITS-Discussion-Paper-15-2-ITS-Data-20150728-FINAL-REVISED-ITSA-optimized.pdf"
+    },
+    {
+      "title": "Caltrans TDDC | Report on Transit Technology Ecosystem",
+      "url": "https://www.calitp.org/assets/Cal-ITP-Priority-Transit-Technologies-Recommendations.pdf"
+    },
+    {
+      "title": "Oswego County Upgrades CAD/AVL Platform with ETA Transit Systems | ETA Transit",
+      "url": "https://etatransit.com/press/oswego-county-upgrades-cad-avl-platform-with-eta-transit-systems"
+    },
+    {
+      "title": "TCRP Report 113 \u2013 Using Archived AVL-APC Data to Improve ...",
+      "url": "https://trb.org/publications/tcrp/tcrp_rpt_113.pdf"
+    },
+    {
+      "title": "REAL-TIME BUS ARRIVAL INFORMATION SYSTEMS",
+      "url": "https://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_syn_48c3.pdf"
+    },
+    {
+      "title": "Using Realtime GTFS to generate easy-to-use transit accessibility measures under travel time uncertainty - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X25000729"
+    },
+    {
+      "title": "GTFS-Realtime Support",
+      "url": "https://bustime.mta.info/wiki/Developers/GTFSRt"
+    },
+    {
+      "title": "GTFS-RT Transit Delay - Mobility Innovation Center",
+      "url": "https://mic.comotion.uw.edu/wp-content/uploads/2022/03/Aemmer-Ranjbari-MacKenzie-GTFS-RT-Transit-Delay.pdf"
+    },
+    {
+      "title": "quality control - lessons learned from the",
+      "url": "https://ppms.trec.pdx.edu/media/project_files/GTFS-realtime_lessons_learned-v11.pdf"
+    },
+    {
+      "title": "Where Is My Bus? Impact of mobile real-time information ...",
+      "url": "https://nacto.org/wp-content/uploads/10-Watkins-Where-is-my-Bus_2010.pdf"
+    },
+    {
+      "title": "Where Is My Bus? Impact of mobile real-time information on the perceived and actual wait time of transit riders - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0965856411001030"
+    },
+    {
+      "title": "Assessing the Impacts of Real-Time Transit Information",
+      "url": "https://onlinepubs.trb.org/onlinepubs/trnews/trnews303rpo.pdf"
+    },
+    {
+      "title": "Real-time Transit Information: Uses and Impacts",
+      "url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/5.14_1100_Real-Time_411.pdf"
+    },
+    {
+      "title": "OneBusAway: Results from Providing Real-Time Arrival ...",
+      "url": "https://homes.cs.washington.edu/~borning/papers/ferris-chi2010-onebusaway.pdf"
+    },
+    {
+      "title": "Evaluating the Impact of Real-time Transit Information on ...",
+      "url": "https://nctspm.gatech.edu/sites/default/files/u63/NCTSPMReport_RealTimeRidership.pdf"
+    },
+    {
+      "title": "OneBusAway: A Ten Year Retrospective of an Open ...",
+      "url": "https://enotrans.org/wp-content/uploads/2023/01/OneBusAway_CASPT_ExtendedAbstract.pdf"
+    },
+    {
+      "title": "Quantifying the Impact of Real-Time Information on Transit ...",
+      "url": "https://candacebrakewood.com/wp-content/uploads/2013/09/brakewood_watkins_caspt_manuscript_final.pdf"
+    },
+    {
+      "title": "an experiment evaluating the impacts of real-time transit",
+      "url": "https://nacto.org/wp-content/uploads/5-Brakewood-et-al_Evaluating-the-Impacts-of-Real-Time-Transit-Information-in-Tampa-and-Atlanta_2014.pdf"
+    },
+    {
+      "title": "Legible London A wayfinding study",
+      "url": "https://media.segd.org/s3fs-public/2018-egd-cc-wb-research-london.pdf"
+    },
+    {
+      "title": "A Wayfinding Study: Legible London | PDF",
+      "url": "https://www.scribd.com/document/68325364/Legible-London-Report"
+    },
+    {
+      "title": "WalkNYC Wayfinding | NYC Street Design Manual",
+      "url": "https://www.nycstreetdesign.info/furniture/walknyc-wayfinding"
+    },
+    {
+      "title": "Legible London scheme evaluation in new areas report",
+      "url": "https://tfl.gov.uk/cdn/static/cms/documents/legible-london-scheme-evaluation-new-areas-report.pdf"
+    },
+    {
+      "title": "UC DAAP Metro New Bus Stop Signage | University of Cincinnati",
+      "url": "https://www.uc.edu/news/articles/2026/02/uc-daap-metro-new-bus-stop-signage.html"
+    },
+    {
+      "title": "Features of the Legible London scheme",
+      "url": "https://researchportal.lsbu.ac.uk/files/6314155/c9bebe5f_Chapter_203_20Clark_20Pinch_20and_20Reimer.docx"
+    },
+    {
+      "title": "Legible London",
+      "url": "https://totalcontent.co.uk/resources/downloads/Jim_yellowbook.pdf"
+    },
+    {
+      "title": "Legible London scheme evaluation in new areas report",
+      "url": "https://content.tfl.gov.uk/legible-london-scheme-evaluation-new-areas-report.pdf"
+    },
+    {
+      "title": "WalkNYC Pedestrian Wayfinding - SEGD - Designers of Experiences",
+      "url": "https://segd.org/projects/walknyc-pedestrian-wayfinding/"
+    },
+    {
+      "title": "New Lextran Bus Stop Signs",
+      "url": "https://lextran.com/new-lextran-bus-stop-signs/"
+    },
+    {
+      "title": "capital-projects-dashboard",
+      "url": "https://www.nyc.gov/site/operations/other-resources/capital-projects-dashboard.page"
+    },
+    {
+      "title": "Capital Projects (FY2023) - Dataset - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/capital-projects-fy2023"
+    },
+    {
+      "title": "Capital Projects",
+      "url": "https://apps.boston.gov/capital-projects/"
+    },
+    {
+      "title": "\n    City of Chicago :: Mayor Emanuel Announces New Data Transparency Tool that Puts City Road Construction and Special Event Information at the Public\u2019s Fingertips\n",
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2019/april/DataToolConstruction.html"
+    },
+    {
+      "title": "Capital Projects Dashboard - Citywide Budget and Schedule",
+      "url": "https://data.cityofnewyork.us/City-Government/Capital-Projects-Dashboard-Citywide-Budget-and-Sch/fb86-vt7u"
+    },
+    {
+      "title": "Capital Project App Projects | City of Seattle Open Data portal",
+      "url": "https://data.seattle.gov/Built-Environment/Capital-Project-App-Projects/hbyh-ca2y"
+    },
+    {
+      "title": "Chicago Department of Transportation Announces ...",
+      "url": "https://www.chicago.gov/city/en/depts/cdot/provdrs/future_projects_andconcepts/news/2020/march/chicago-department-of-transportation-announces-chistreetwork-web.html"
+    },
+    {
+      "title": "Turnaround: Fixing New York City's Buses - TransitCenter",
+      "url": "https://transitcenter.org/publication/turnaround-fixing-new-york-citys-buses/"
+    },
+    {
+      "title": "Turnaround: Fixing New York City's Buses - Transit Center",
+      "url": "https://transitcenter.org/wp-content/uploads/2016/07/Turnaround_Fixing-NYCs-Buses-20July2016.pdf"
+    },
+    {
+      "title": "Data management and applications in a world-leading bus fleet - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0968090X11001707"
+    },
+    {
+      "title": "Transit Street Design Guide - NACTO",
+      "url": "https://nacto.org/publication/transit-street-design-guide/"
+    },
+    {
+      "title": "NYC Bus Turnaround \u2014 Center for New York City Affairs",
+      "url": "http://www.centernyc.org/bus-turnaround"
+    },
+    {
+      "title": "Plain Language Guide Series - Digital.gov",
+      "url": "https://digital.gov/guides/plain-language"
+    },
+    {
+      "title": "Data visualisation: testing dashboards for design and accessibility \u2013 Government Analysis Function",
+      "url": "https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-testing-dashboards-for-design-and-accessibility/"
+    },
+    {
+      "title": "Content design: planning, writing and managing content",
+      "url": "https://www.gov.uk/guidance/content-design"
+    },
+    {
+      "title": "A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design | Proceedings of the XI Latin American Conference on Human Computer Interaction",
+      "url": "https://dl.acm.org/doi/10.1145/3630970.3630990"
+    },
+    {
+      "title": "Plain Language Policy Dashboard : New Disabled South",
+      "url": "https://plain-language-policy-dashboard.org/"
+    }
+  ]
+}

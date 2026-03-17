@@ -1,0 +1,183 @@
+{
+  "run_id": "trun_3cad0ebea15c480e993ba8356fe535d8",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Plans of Development | Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/plans-of-development-3"
+    },
+    {
+      "title": "Richmond, VA - ArcGIS Online",
+      "url": "https://cor.maps.arcgis.com/"
+    },
+    {
+      "title": "Bicycle Infrastructure, Completed | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/bicycle-infrastructure-completed/about"
+    },
+    {
+      "title": "Richmond GeoHub Search API",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/api/search/definition"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "New Datasets | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Well-Managed-Government/New-Datasets/uvs3-g9ps"
+    },
+    {
+      "title": "Richmond Impact Map | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd"
+    },
+    {
+      "title": "Untitled",
+      "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.rdf?accessType=DOWNLOAD"
+    },
+    {
+      "title": "Capital Projects | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/City-Government/Capital-Projects/n7gv-k5yt"
+    },
+    {
+      "title": "Capital Projects Database - Department of City Planning",
+      "url": "https://www.nyc.gov/content/planning/pages/resources/datasets/capital-projects-database"
+    },
+    {
+      "title": "Data Feeds, Dashboards & Open Data - NYC DOT",
+      "url": "https://www.nyc.gov/html/dot/html/about/datafeeds.shtml"
+    },
+    {
+      "title": "Welcome to the world DCP's Capital Projects Database",
+      "url": "https://medium.com/nyc-planning-digital/welcome-to-the-world-dcps-capital-projects-database-693a8b9782ac"
+    },
+    {
+      "title": "City of Richmond, VA",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?collection=Dataset&tags=basemap"
+    },
+    {
+      "title": "Transportation Surfaces - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/transportation-surfaces-2"
+    },
+    {
+      "title": "BUILDING A BETTER RICHMOND.",
+      "url": "https://rva.gov/sites/default/files/2025-07/Richmond%20DPW-%20brochure.pdf"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Sort by: Relevance",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?layout=grid&tags=transportation"
+    },
+    {
+      "title": "Richmond Connects: Map Collection Overview",
+      "url": "https://storymaps.arcgis.com/stories/f97d698bdb1e4be79d0bce1717c3bc27"
+    },
+    {
+      "title": "Transportation_Program_Projects (FeatureServer)",
+      "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Transportation_Program_Projects/FeatureServer"
+    },
+    {
+      "title": "TRANSPORTATION_bicycle_faci...",
+      "url": "https://services.arcgis.com/0L95CJ0VTaxqcmED/arcgis/rest/services/TRANSPORTATION_bicycle_facilities/FeatureServer"
+    },
+    {
+      "title": "Transportation_Plans_and_Projects (FeatureServer)",
+      "url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Transportation_Plans_and_Projects/FeatureServer"
+    },
+    {
+      "title": "GIS/Mapping | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/gismapping"
+    },
+    {
+      "title": "PBOT Data | Portland.gov",
+      "url": "https://www.portland.gov/transportation/data"
+    },
+    {
+      "title": "Capital Project Delivery | Portland.gov",
+      "url": "https://www.portland.gov/transportation/engineering/capital-project-delivery"
+    },
+    {
+      "title": "Capital Improvement Projects CIP Polys",
+      "url": "https://gis-pdx.opendata.arcgis.com/datasets/capital-improvement-projects-cip-polys"
+    },
+    {
+      "title": "PortlandMaps: Metadata",
+      "url": "https://www.portlandmaps.com/metadata/index.cfm?action=DisplayLayer&LayerID=52945"
+    },
+    {
+      "title": "portland open data handbook - Efiles",
+      "url": "https://efiles.portlandoregon.gov/Record/16487673/File/Document/"
+    },
+    {
+      "title": "Bicycle Infrastructure, Completed",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::bicycle-infrastructure-completed/explore"
+    },
+    {
+      "title": "Richmond Connects: Weighted Needs Maps",
+      "url": "https://storymaps.arcgis.com/stories/560a512b9bc946fc97ec00229147a3c6"
+    },
+    {
+      "title": "BikePedRVA Proposed Projects  ",
+      "url": "https://storymaps.arcgis.com/stories/49834e6fb5c54329aef2cd276024a98c"
+    },
+    {
+      "title": "Richmond\u2019s big map of paving progress | Richmond",
+      "url": "https://rva.gov/city-stuff-press-releases-and-announcements/news/richmonds-big-map-paving-progress-0"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "Sidewalk Analysis",
+      "url": "https://storymaps.arcgis.com/stories/d6aa226c65db407cbaf4cb91848834ea"
+    },
+    {
+      "title": "Street and Highway Capital Reconstruction Projects - Block | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/Transportation/Street-and-Highway-Capital-Reconstruction-Projects/jvk9-k4re"
+    },
+    {
+      "title": "Street and Highway Capital Reconstruction Projects - Intersection | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/Transportation/Street-and-Highway-Capital-Reconstruction-Projects/97nd-ff3i"
+    },
+    {
+      "title": "Street and Highway Capital Reconstruction Projects - Intersection - Catalog",
+      "url": "https://catalog.data.gov/dataset/street-and-highway-capital-reconstruction-projects-intersection"
+    },
+    {
+      "title": "Dataset - Catalog - Data.gov",
+      "url": "https://catalog.data.gov/dataset/?q=street&sort=none&ext_location=&ext_bbox=&ext_prev_extent=-139.218749999997992c8+.754794702435618%25+2C-61.87499999999999%25+2C61.77312286453146&organization=city-of-new-york&tags=construction"
+    },
+    {
+      "title": "Street and Highway Capital Reconstruction Projects - Block - Catalog",
+      "url": "https://catalog.data.gov/dataset/street-and-highway-capital-reconstruction-projects-block"
+    },
+    {
+      "title": "Capital Plan - Dataset - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/capital-budget"
+    },
+    {
+      "title": "Capital Projects (FY2023) - Dataset - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/capital-projects-fy2023"
+    },
+    {
+      "title": "Capital Plan - FY26-30 Capital Plan - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/capital-budget/resource/c62d666e-27ea-4c03-9cb1-d3a81a1fb641"
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/?_res_format_limit=0&groups=geospatial&license_id=odc-pddl&res_format=SHP&res_format=ZIP&page=3"
+    },
+    {
+      "title": "Dataset - Analyze Boston",
+      "url": "https://data.boston.gov/dataset/?_groups_limit=0&_organization_limit=0&organization=boston-maps&res_format=CSV&res_format=ZIP&sort=views_recent+desc&page=2"
+    }
+  ]
+}

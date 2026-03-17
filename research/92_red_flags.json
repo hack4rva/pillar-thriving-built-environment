@@ -1,0 +1,191 @@
+{
+  "run_id": "trun_3cad0ebea15c480e806af3e0379a75ed",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Forget the file: Update your dataset using an existing feature service instead!",
+      "url": "https://www.esri.com/arcgis-blog/products/data-management/data-management/forget-the-file-update-your-dataset-using-an-existing-feature-service-instead"
+    },
+    {
+      "title": "Configure labels\u2014ArcGIS Online Help | Documentation",
+      "url": "https://doc.arcgis.com/en/arcgis-online/create-maps/configure-labels-mv.htm"
+    },
+    {
+      "title": "\n\tSolved: Help with showing the date when data was last upda... - Esri Community\n",
+      "url": "https://community.esri.com/t5/arcgis-dashboards-questions/help-with-showing-the-date-when-data-was-last/td-p/1277294"
+    },
+    {
+      "title": "GIS in Construction: Best Guide to Geographic Information Systems | StruxHubStruxHub",
+      "url": "https://struxhub.com/blog/best-guide-to-geographic-information-systems-gis-in-construction-how-location-based-data-improves-construction-project-management/"
+    },
+    {
+      "title": "About tracking an editor's changes to data\u2014ArcMap",
+      "url": "https://desktop.arcgis.com/en/arcmap/latest/manage-data/editing-fundamentals/about-tracking-an-editor-s-changes-to-data.htm"
+    },
+    {
+      "title": "Location APIs mock samples for your project",
+      "url": "https://mockoon.com/mock-samples/category/location/"
+    },
+    {
+      "title": "Protecting Privacy with Synthetic Location Data - MOSTLY AI",
+      "url": "https://mostly.ai/blog/protecting-privacy-with-synthetic-location-data"
+    },
+    {
+      "title": "Generating Synthetic Functional Data for Privacy-Preserving GPS Trajectories",
+      "url": "https://arxiv.org/html/2410.12514v1"
+    },
+    {
+      "title": "gps-telemetry - Dataset - Catalog - Data.gov",
+      "url": "https://catalog.data.gov/dataset/?tags=gps-telemetry"
+    },
+    {
+      "title": "Contextual Anonymization for GPS Data in the SDV",
+      "url": "https://datacebo.com/blog/contextual-anonymization-gps-data/"
+    },
+    {
+      "title": "How roads are classified | Virginia Department of Transportation",
+      "url": "https://vdot.virginia.gov/projects/roads-classified/"
+    },
+    {
+      "title": "Responsibility Master Route",
+      "url": "https://www.virginiaroads.org/datasets/VDOT::responsibility-master-route/about"
+    },
+    {
+      "title": "Potholes and Street Maintenance | Richmond",
+      "url": "https://www.rva.gov/public-works/potholes-and-street-maintenance"
+    },
+    {
+      "title": "Understanding VDOT\u2019s Functional Classification Update: What it Means for You | Plan RVA",
+      "url": "https://planrva.org/vdotfunctionalclassification/"
+    },
+    {
+      "title": "Maps | Virginia Department of Transportation",
+      "url": "https://vdot.virginia.gov/travel-traffic/maps/"
+    },
+    {
+      "title": "Virginia Department of Transportation",
+      "url": "https://www.virginiaroads.org/search?categories=maintenance&collection=appAndMap&layout=grid"
+    },
+    {
+      "title": "Bipartisan House bill asks agencies to label AI-generated content | FedScoop",
+      "url": "https://fedscoop.com/bipartisan-house-bill-disclosure-ai-content-label-requirement/"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
+    },
+    {
+      "title": "AI content labelling - House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10467/"
+    },
+    {
+      "title": "Guidance to civil servants on use of generative AI - GOV.UK",
+      "url": "https://www.gov.uk/government/publications/guidance-to-civil-servants-on-use-of-generative-ai/guidance-to-civil-servants-on-use-of-generative-ai"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "GIS/Mapping | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/gismapping"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Terms of Use - Disclaimer",
+      "url": "https://hub.arcgis.com/documents/67235daaac5c42718a87c7faea6001da"
+    },
+    {
+      "title": "Water Resources Guidance Manual",
+      "url": "https://rva.gov/sites/default/files/2025-07/Richmond%20Water%20Resources%20Guidance%20Manual_Final_6.25.2025.pdf"
+    },
+    {
+      "title": "GPS Tracking | Demo",
+      "url": "https://www.samsara.com/pages/demos/gps-tracking"
+    },
+    {
+      "title": "Browse Documents",
+      "url": "https://support.geotab.com/browse"
+    },
+    {
+      "title": "Telematics, GPS Tracking & Fleet Management Platform | Navixy",
+      "url": "https://www.navixy.com/blog/making-the-first-impression-count-perfecting-your-telematics-product-demo/"
+    },
+    {
+      "title": "Fleet Management and Dash Cam Product Demos",
+      "url": "https://www.samsara.com/resources/demos/fleet-solutions"
+    },
+    {
+      "title": "Telemetry Data and Training Simulation - Simlog",
+      "url": "https://www.simlog.com/telemetry-data-and-training-simulation/"
+    },
+    {
+      "title": "Code for America",
+      "url": "https://codeforamerica.org/"
+    },
+    {
+      "title": "Civic Tech Hackathon 2025: Where technology can create an equitable future through the hands of students. - Devpost",
+      "url": "https://civic-hacks.devpost.com/"
+    },
+    {
+      "title": "Building the Future of Civic Service: Seattle AI Hackathon Recap",
+      "url": "https://innovation-hub.seattle.gov/2025/11/26/seattle-customer-service-ai-hackathon-recap/"
+    },
+    {
+      "title": "Media kit \u2014 Code for America",
+      "url": "https://codeforamerica.org/media-kit/"
+    },
+    {
+      "title": "Code for America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Code_for_America"
+    },
+    {
+      "title": "PUBLIC WORKS CONSTRUCTION CONTRACT THIS ...",
+      "url": "https://www.shastacounty.gov/media/64706"
+    },
+    {
+      "title": "Appropriate Use and Disclaimer - City of Happy ValleyCity of Happy Valley",
+      "url": "https://www.happyvalleyor.gov/appropriate-use-and-disclaimer/"
+    },
+    {
+      "title": "FHWA Guide for Construction Contract Time Determination Procedures - Contract Administration - Construction - \nFederal Highway Administration",
+      "url": "https://www.fhwa.dot.gov/construction/contracts/t508015.cfm"
+    },
+    {
+      "title": "Construction Contract Notice Letters: Samples & Information",
+      "url": "https://www.long-intl.com/articles/notice-letters/"
+    },
+    {
+      "title": "Which big San Antonio construction projects are on track for 2026?",
+      "url": "https://sanantonioreport.org/san-antonio-real-estate-development-projects-to-watch-2026"
+    },
+    {
+      "title": "View and use items\u2014ArcGIS Online Help | Documentation",
+      "url": "https://doc.arcgis.com/en/arcgis-online/get-started/item-details.htm"
+    },
+    {
+      "title": "Configure item details and settings\u2014ArcGIS Online Help | Documentation",
+      "url": "https://doc.arcgis.com/en/arcgis-online/manage-data/configure-item-details.htm"
+    },
+    {
+      "title": "Manage content items\u2014ArcGIS Hub - Esri Documentation",
+      "url": "https://doc.arcgis.com/en/hub/content/prepare-your-content.htm"
+    },
+    {
+      "title": "\n\tAn option to allow a more accurate \"Date Updated\" ... - Esri Community\n",
+      "url": "https://community.esri.com/t5/arcgis-hub-ideas/an-option-to-allow-a-more-accurate-quot-date/idi-p/1115031"
+    },
+    {
+      "title": "BUG-000146932 for ArcGIS Hub - Technical Support",
+      "url": "https://support.esri.com/en-us/bug/the-data-last-updated-date-in-arcgis-hub-does-not-updat-bug-000146932"
+    }
+  ]
+}

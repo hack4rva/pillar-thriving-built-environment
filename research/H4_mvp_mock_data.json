@@ -1,0 +1,143 @@
+{
+  "run_id": "trun_3cad0ebea15c480e858e77cc3412702a",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Street Sweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/d/2dh8-bzzs"
+    },
+    {
+      "title": "StreetSweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Sustainability-and-Natural-Environment/StreetSweeping/km2h-uk82"
+    },
+    {
+      "title": "Snow Removal | Richmond",
+      "url": "https://www.rva.gov/public-works/snow-removal"
+    },
+    {
+      "title": "Street Sweeping | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/w/2dh8-bzzs/uup7-qydm?cur=0tQepDeyewo"
+    },
+    {
+      "title": "Street Cleaning | Richmond",
+      "url": "https://www.rva.gov/public-works/street-cleaning"
+    },
+    {
+      "title": "https://data.richmondgov.com/api/views/xqn7-jvv2/r...",
+      "url": "https://data.richmondgov.com/api/views/xqn7-jvv2/rows.csv?accessType=DOWNLOAD&bom=true&format=true"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Filtering Visualizations - Socrata Support - Data & Insights",
+      "url": "https://support.socrata.com/hc/en-us/articles/360019529194-Filtering-Visualizations"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://rva.gov/index.php/information-technology/open-data-portal"
+    },
+    {
+      "title": "Data Request | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/data-request"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Snow Removal Priority Routes - Overview",
+      "url": "https://psfsogdc.maps.arcgis.com/home/item.html?id=bbce2e617805456f9b05689d2443515e"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?layout=grid&tags=streets"
+    },
+    {
+      "title": "Citizen Service and Response | Richmond",
+      "url": "https://rva.gov/citizen-service-and-response"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://www.rva.gov/information-technology/open-data-portal"
+    },
+    {
+      "title": "RVA 311 Helpful Links | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links"
+    },
+    {
+      "title": "Most common RVA 311 requests - Richmond",
+      "url": "https://www.reddit.com/r/rva/comments/1rabojf/most_common_rva_311_requests_what_richmonders/"
+    },
+    {
+      "title": "About RVA 311 | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311"
+    },
+    {
+      "title": "Most common RVA 311 requests: What Richmonders needed help with in 2025 | WRIC ABC 8News",
+      "url": "https://www.wric.com/news/local-news/richmond/311-requests-richmond-2025/"
+    },
+    {
+      "title": "311-service-requests - Dataset - Catalog",
+      "url": "https://catalog.data.gov/dataset/?tags=311-service-requests"
+    },
+    {
+      "title": "Council Districts | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::council-districts-3/explore?location=37.532339%2C-77.484166%2C12.50"
+    },
+    {
+      "title": "Streets (FeatureServer)",
+      "url": "https://services2.arcgis.com/6vRbgYSxztFGZwla/ArcGIS/rest/services/Streets/FeatureServer"
+    },
+    {
+      "title": "Council_District (FeatureServer)",
+      "url": "https://services6.arcgis.com/il6vO1TutlF580Ku/arcgis/rest/services/Council_District/FeatureServer"
+    },
+    {
+      "title": "Plans of Development | Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/plans-of-development-3"
+    },
+    {
+      "title": "Transportation_v1 (FeatureServer)",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Transportation_v1/FeatureServer"
+    },
+    {
+      "title": "RVA_Water_Supply_Points - Overview",
+      "url": "https://www.arcgis.com/home/item.html?id=2b9bc4a1423940348f487eaebd1fb396"
+    },
+    {
+      "title": "Richmond, VA - ArcGIS Online",
+      "url": "https://cor.maps.arcgis.com/"
+    },
+    {
+      "title": "Layer: Road Centerlines (ID: 0)",
+      "url": "https://gis3.richmondnc.com/arcgis/rest/services/Parcel_Viewer_2023_4/MapServer/0"
+    },
+    {
+      "title": "Centerlines | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/centerlines/explore"
+    },
+    {
+      "title": "Addresses | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/674d645c444f4191998f0ebb96e56047_0/about"
+    },
+    {
+      "title": "Zoning Districts | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/zoning-districts-1/about"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Trash Collection | Richmond",
+      "url": "https://www.rva.gov/public-works/trash-collection"
+    },
+    {
+      "title": "Interactive Mapping Tools | Richmond",
+      "url": "https://www.rva.gov/planning-development-review/interactive-mapping-tools"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "run_id": "trun_3cad0ebea15c480ea57d5a9b533a5e5f",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Interactive Mapping Tools | Richmond",
+      "url": "https://www.rva.gov/planning-development-review/interactive-mapping-tools"
+    },
+    {
+      "title": "Assessing data governance models for smart cities: Benchmarking data governance models on the basis of European urban requirements - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2210670725004032"
+    },
+    {
+      "title": "Mapping Pedestrian Infrastructure | MapRVA",
+      "url": "https://maprva.org/projects/sidewalks/"
+    },
+    {
+      "title": "Barriers to e-government integration",
+      "url": "https://www.researchgate.net/publication/220306248_Barriers_to_e-government_integration"
+    },
+    {
+      "title": "GIS Tools and Apps\u2014Integration with Asset Management",
+      "url": "https://mdl.mndot.gov/_flysystem/fedora/2023-02/2020ric15.pdf"
+    },
+    {
+      "title": "City of Austin Capital Projects - AustinTexas.gov",
+      "url": "https://capitalprojects.austintexas.gov/"
+    },
+    {
+      "title": "City of Socrata Capital Projects List | Tyler Data & Insights",
+      "url": "https://transparencyapps.demo.socrata.com/dataset/City-of-Socrata-Capital-Projects-List/ez9z-avip"
+    },
+    {
+      "title": "Building Permits | City of Chicago | Data Portal",
+      "url": "https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu"
+    },
+    {
+      "title": "Capital Projects | NYC Open Data",
+      "url": "https://data.cityofnewyork.us/City-Government/Capital-Projects/n7gv-k5yt"
+    },
+    {
+      "title": "\n    City of Chicago :: Building Permits\n",
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/dataset/building_permits.html"
+    },
+    {
+      "title": "City of Austin Launches Capital Projects Explorer and ...",
+      "url": "https://www.govciooutlook.com/news/city-of-austin-launches-capital-projects-explorer-and-perspectives-nid-152.html"
+    },
+    {
+      "title": "Archived BOE Capital Improvement Projects Polygons - GeoHub",
+      "url": "https://geohub.lacity.org/datasets/71d56c95af4e4a0a95e36b53d256df35_15/about"
+    },
+    {
+      "title": "Capital Projects Explorer - Seattle.gov",
+      "url": "https://capitalprojects.seattle.gov/"
+    },
+    {
+      "title": "StreetSmartPHL | phila.gov - City of Philadelphia",
+      "url": "https://streetsmartphl.phila.gov/"
+    },
+    {
+      "title": "Government Open Data Portals: a look at CKAN and Socrata - Insights | Public Sector Network",
+      "url": "https://publicsectornetwork.com/insight/government-open-data-portals-a-look-at-ckan-and-socrata"
+    },
+    {
+      "title": "Introduction to Community Data Aggregation\u2014ArcGIS Solutions",
+      "url": "https://doc.arcgis.com/en/arcgis-solutions/11.3/reference/introduction-to-community-data-aggregation.htm"
+    },
+    {
+      "title": "City of Los Angeles Geohub",
+      "url": "https://geohub.lacity.org/"
+    },
+    {
+      "title": "SPU Capital Improvement Projects - Seattle GeoData",
+      "url": "https://data-seattlecitygis.opendata.arcgis.com/maps/5f298f8fcc984fcfa5e3f7f5dd729a67"
+    },
+    {
+      "title": "StreetSmartPHL - Dataset - Catalog - Data.gov",
+      "url": "https://catalog.data.gov/dataset/streetsmartphl"
+    },
+    {
+      "title": "City of Los Angeles Geohub",
+      "url": "https://geohub.lacity.org/search?bbox=-118.667989499%2C33.7045940713%2C-118.142804109%2C34.3546248901&collection=Dataset"
+    },
+    {
+      "title": "SPU Capital Improvement Projects - Overview",
+      "url": "https://seattlecitygis.maps.arcgis.com/home/item.html?id=5f298f8fcc984fcfa5e3f7f5dd729a67"
+    },
+    {
+      "title": "GIS/Mapping | Richmond",
+      "url": "https://www.rva.gov/assessor-real-estate/gismapping"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Geographic Information Systems | Richmond",
+      "url": "https://www.rva.gov/information-technology/geographic-information-systems"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://www.rva.gov/information-technology/open-data-portal"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Richmond\u2019s big map of paving progress | Richmond",
+      "url": "https://rva.gov/city-stuff-press-releases-and-announcements/news/richmonds-big-map-paving-progress-0"
+    },
+    {
+      "title": "Leaf Collection | Richmond",
+      "url": "https://www.rva.gov/public-works/leaf-collection"
+    },
+    {
+      "title": "Sidewalk Maintenance | Richmond",
+      "url": "https://www.rva.gov/public-works/sidewalk-maintenance"
+    },
+    {
+      "title": "Public Works | Richmond",
+      "url": "https://www.rva.gov/public-works"
+    },
+    {
+      "title": "Street Cleaning | Richmond",
+      "url": "https://www.rva.gov/public-works/street-cleaning"
+    },
+    {
+      "title": "City's Annual Leaf Collection Program offers residents 4 ...",
+      "url": "https://www.rva.gov/press-releases-and-announcements-public-works/news/citys-annual-leaf-collection-program-offers"
+    },
+    {
+      "title": "Alley Maintenance | Richmond",
+      "url": "https://www.rva.gov/public-works/alley-maintenance"
+    },
+    {
+      "title": "Data Integration for Local Governments - FME by Safe Software",
+      "url": "https://fme.safe.com/fme-in-action/industries/local-government-solutions/"
+    },
+    {
+      "title": "\n\tSolved: Map performance and org query maximum request rate... - Esri Community\n",
+      "url": "https://community.esri.com/t5/arcgis-online-questions/map-performance-and-org-query-maximum-request-rate/td-p/1266328"
+    },
+    {
+      "title": "Leveraging GIS to Eliminate Data Silos in Governmental ...",
+      "url": "https://proceedings.esri.com/library/userconf/proc18/papers/136_21.pdf"
+    },
+    {
+      "title": "Rehabilitation of municipal infrastructure using risk-based performance - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0926580522002084"
+    },
+    {
+      "title": "Using FME to Automate Data Integration in a City | PPTX",
+      "url": "https://www.slideshare.net/slideshow/fme-around-the-world-using-fme-to-improve-data-sharing-and-accessibility/232067342"
+    },
+    {
+      "title": "Limit usage of secure services\u2014ArcGIS Online Help | Documentation",
+      "url": "https://doc.arcgis.com/en/arcgis-online/manage-data/limit-usage-of-secure-services.htm"
+    },
+    {
+      "title": "Best Practices for City Infrastructure 2025",
+      "url": "https://www.oxmaint.com/blog/post/municipal-maintenance-guide-best-practices-for-city-infrastructure-2025"
+    },
+    {
+      "title": "FME Use Case - Smart City Integration: City of Omaha - YouTube",
+      "url": "https://www.youtube.com/watch?v=94ewiFb3AK4"
+    },
+    {
+      "title": "Working with external data | ArcGIS Resource Center",
+      "url": "https://resources.arcgis.com/en/communities/geodata/017t0000000n000000.htm"
+    },
+    {
+      "title": "Data Silos: The Definitive Guide to Breaking Them Down in ...",
+      "url": "https://improvado.io/blog/data-silos"
+    },
+    {
+      "title": "Data Silos: Key Causes and Consequences",
+      "url": "https://www.gable.ai/blog/data-silos"
+    },
+    {
+      "title": "Why State and Local Governments Can\u2019t Ignore Data Governance - Hartman Executive Advisors",
+      "url": "https://hartmanadvisors.com/why-state-and-local-governments-cant-ignore-data-governance/"
+    },
+    {
+      "title": "How Cities Can Overcome Data Silos and Improve Efficiency - Open Cities Lab",
+      "url": "https://www.opencitieslab.org/how-cities-can-overcome-data-silos-and-improve-efficiency/"
+    },
+    {
+      "title": "Overcoming Barriers to Data Sharing in the United States",
+      "url": "https://www2.datainnovation.org/2023-data-sharing-barriers.pdf"
+    },
+    {
+      "title": "How Public Utilities Can Turn Information Silos into Information Grids",
+      "url": "https://papers.govtech.com/How-Public-Utilities-Can-Turn-Information-Silos-into-Information-Grids-21248.html"
+    },
+    {
+      "title": "Breaking Down Silos \u2013 Why U.S. Nonprofits Need Centralized Grant Management Tools",
+      "url": "https://flexigrant.com/blog/breaking-down-silos-why-u.s.-nonprofits-need-centralized-grant-management-tools"
+    },
+    {
+      "title": "Turning Your Siloed Data into Strategic Assets - Papers",
+      "url": "https://papers.govtech.com/Turning-Your-Siloed-Data-into-Strategic-Assets-141797.html"
+    },
+    {
+      "title": "State of Grants Management and Technology Report 2025",
+      "url": "https://papers.govtech.com/State-of-Grants-Management-and-Technology-Report-2025-143767.html"
+    },
+    {
+      "title": "Tackling funding silos",
+      "url": "https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/government-trends/2023/funding-government-projects-breaking-silos.html"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "run_id": "trun_3cad0ebea15c480e90265c6386c0ddfb",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Project Submission Checklist Built Environment",
+      "url": "https://www.nyc.gov/assets/designcommission/downloads/pdf/checklists/PDC_Checklist_%20Built_Environment.pdf"
+    },
+    {
+      "title": "RISK-BASED MANAGEMENT OF GUARDRAILS",
+      "url": "https://rosap.ntl.bts.gov/view/dot/19534/dot_19534_DS1.pdf"
+    },
+    {
+      "title": "CivicLabs Roundtable Explores Practical Guardrails for Ethical AI in Government | OrangeSlices AI",
+      "url": "https://orangeslices.ai/civiclabs-roundtable-explores-practical-guardrails-for-ethical-ai-in-government/"
+    },
+    {
+      "title": "Managing Digital Risk: A Primer",
+      "url": "https://www.adb.org/sites/default/files/publication/935746/managing-digital-risks-primer.pdf"
+    },
+    {
+      "title": "Municipal Building Code Inspection Checkli [FREE] | POPProbe",
+      "url": "https://www.popprobe.com/checklist-library/government/code-enforcement/b27-gov-municipal-building-code-checklist"
+    },
+    {
+      "title": "M-24-10 MEMORANDUM FOR THE HEADS OF ...",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf"
+    },
+    {
+      "title": "Compliance Plan for OMB Memorandum M-24-10",
+      "url": "https://www.justice.gov/media/1373026/dl"
+    },
+    {
+      "title": "Artificial Intelligence Compliance Plan | Federal Trade Commission",
+      "url": "https://www.ftc.gov/ai"
+    },
+    {
+      "title": "FTC AI Policy Deadline March 11: Compliance Guide",
+      "url": "https://www.digitalapplied.com/blog/ftc-ai-policy-deadline-march-11-compliance-readiness"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+      "url": "https://www.w3.org/TR/WCAG21/"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "Understanding Guideline 2.1: Keyboard Accessible | WAI | W3C",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible.html"
+    },
+    {
+      "title": "Understanding Success Criterion 1.1.1: Non-text Content | WAI | W3C",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html"
+    },
+    {
+      "title": "Understanding Success Criterion 2.1.1: Keyboard | WAI | W3C",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html"
+    },
+    {
+      "title": "  Open Data Policy Guidelines : Sunlight Foundation",
+      "url": "https://sunlightfoundation.com/opendataguidelines/"
+    },
+    {
+      "title": "  Examples : Sunlight Foundation",
+      "url": "https://sunlightfoundation.com/opendataguidelines/examples/"
+    },
+    {
+      "title": "  Open Data Policies and Implementation: Frequently Asked Questions : Sunlight Foundation",
+      "url": "https://sunlightfoundation.com/policy/opendatafaq/"
+    },
+    {
+      "title": "13. Require publishing metadata - Open Data Policy Hub",
+      "url": "https://opendatapolicyhub.sunlightfoundation.com/guidelines/13-metadata/"
+    },
+    {
+      "title": "22. Mandate ongoing data publication and updates",
+      "url": "https://opendatapolicyhub.sunlightfoundation.com/guidelines/22-real-time-updates/"
+    },
+    {
+      "title": "Sample Open Data Policy",
+      "url": "https://opendatapolicyhub.sunlightfoundation.com/generator/sample/"
+    },
+    {
+      "title": "2013 Open Data Policy Guidelines",
+      "url": "https://sunlightfoundation.com/opendataguidelines/2-0/"
+    },
+    {
+      "title": "  Don\u2019t attribute open data \u2014 cite it! : Sunlight Foundation",
+      "url": "https://sunlightfoundation.com/2014/03/26/dont-attribute-open-data-cite-it/"
+    },
+    {
+      "title": "Alert | U.S. Web Design System (USWDS)",
+      "url": "https://designsystem.digital.gov/components/alert/"
+    },
+    {
+      "title": "Site alert | U.S. Web Design System (USWDS)",
+      "url": "https://designsystem.digital.gov/components/site-alert/"
+    },
+    {
+      "title": "Banner | U.S. Web Design System (USWDS)",
+      "url": "https://designsystem.digital.gov/components/banner/"
+    },
+    {
+      "title": "U.S. Web Design System - Alerts",
+      "url": "https://v1.designsystem.digital.gov/components/alerts/"
+    },
+    {
+      "title": "Components | U.S. Web Design System (USWDS) - Digital.gov",
+      "url": "https://designsystem.digital.gov/components/overview/"
+    },
+    {
+      "title": "Phase banner \u2013 GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/components/phase-banner/"
+    },
+    {
+      "title": "We\u2019ve updated the alpha and beta phase banners \u2013 Design in government",
+      "url": "https://designnotes.blog.gov.uk/2016/12/07/weve-updated-the-alpha-and-beta-phase-banners/"
+    },
+    {
+      "title": "Phase banner \u00b7 alphagov/govuk-design-system \u00b7 Discussion #4973 \u00b7 GitHub",
+      "url": "https://github.com/alphagov/govuk-design-system/discussions/4973"
+    },
+    {
+      "title": "Phase banner - The National Archives Design System",
+      "url": "https://design-system.nationalarchives.gov.uk/components/phase-banner/"
+    },
+    {
+      "title": "Making your service look like GOV.UK",
+      "url": "https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk"
+    },
+    {
+      "title": "How roads qualify for improvements | Virginia Department of Transportation",
+      "url": "https://vdot.virginia.gov/projects/roads-qualify/"
+    },
+    {
+      "title": "VDOT Functional Classification Comprehensive Guide",
+      "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/about/divisions/transportation-and-mobility-planning-division/VDOT-Functional-Classification-Comprehensive-Guide-2025_06262025_Final_acc09102025.pdf"
+    },
+    {
+      "title": "Maps | Virginia Department of Transportation",
+      "url": "https://vdot.virginia.gov/travel-traffic/maps/"
+    },
+    {
+      "title": "Report a Road Problem - Virginia Department of Transportation",
+      "url": "https://my.vdot.virginia.gov/"
+    },
+    {
+      "title": "Highways | Virginia Department of Transportation",
+      "url": "https://vdot.virginia.gov/about/our-system/highways/"
+    },
+    {
+      "title": "PROJECT MANAGEMENT HANDBOOK",
+      "url": "https://www.dot.ga.gov/PartnerSmart/Business/Documents/ProjectMgmt/PMHandbook.pdf"
+    },
+    {
+      "title": "FHWA Guide for Construction Contract Time Determination Procedures - Contract Administration - Construction - \nFederal Highway Administration",
+      "url": "https://www.fhwa.dot.gov/construction/contracts/t508015.cfm"
+    },
+    {
+      "title": "Scheduling Manual for Design Projects, Engineering",
+      "url": "https://nj.gov/transportation/eng/documents/scheduling/schedmanual.shtm"
+    },
+    {
+      "title": "Construction Scheduling Manual 2013",
+      "url": "https://dot.nj.gov/transportation/eng/documents/BDC/pdf/CSM20130430.pdf"
+    }
+  ]
+}

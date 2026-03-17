@@ -1,0 +1,131 @@
+{
+  "run_id": "trun_3cad0ebea15c480ea1fcb139ee67d97e",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/"
+    },
+    {
+      "title": "Council Districts | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::council-districts-3/explore?location=37.532339%2C-77.484166%2C12.50"
+    },
+    {
+      "title": "All Layers and Tables (Water_Grid)",
+      "url": "https://services9.arcgis.com/c6xDUmLQ0YI0W8J3/arcgis/rest/services/Water_Grid/FeatureServer/layers"
+    },
+    {
+      "title": "Sort by: Relevance",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?layout=grid&tags=transportation"
+    },
+    {
+      "title": "Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search"
+    },
+    {
+      "title": "Open Data Portal | City of Richmond, Virginia | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://www.rva.gov/information-technology/open-data-portal"
+    },
+    {
+      "title": "Open Data Portal | Richmond",
+      "url": "https://rva.gov/index.php/information-technology/open-data-portal"
+    },
+    {
+      "title": "About RVA 311 | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311"
+    },
+    {
+      "title": "New Datasets | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/Well-Managed-Government/New-Datasets/uvs3-g9ps"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "http://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "List of Capital Improvement Projects | Richmond",
+      "url": "https://www.rva.gov/capital-improvement-projects/list-capital-improvement-projects"
+    },
+    {
+      "title": "CIP | Richmond",
+      "url": "https://rva.gov/budget-and-strategic-planning/cip"
+    },
+    {
+      "title": "Capital Improvement Program Dashboard",
+      "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745"
+    },
+    {
+      "title": "Richmond Capital Projects | Tyler Data & Insights",
+      "url": "https://transparencyapps.demo.socrata.com/dataset/Richmond-Capital-Projects/adke-8wvb"
+    },
+    {
+      "title": "Transportation Surfaces | Richmond GeoHub",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/transportation-surfaces-2"
+    },
+    {
+      "title": "Roads | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/cor::roads-3/about"
+    },
+    {
+      "title": "Construction Projects & Road Improvements | Richmond",
+      "url": "https://www.rva.gov/public-works/construction-projects-road-improvements"
+    },
+    {
+      "title": "Paving | Richmond",
+      "url": "https://www.rva.gov/public-works/paving"
+    },
+    {
+      "title": "RVA 311 Helpful Links | Richmond",
+      "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links"
+    },
+    {
+      "title": "Homepage Featured Datasets | Open Data Portal | City of Richmond, Virginia",
+      "url": "https://data.richmondgov.com/dataset/Homepage-Featured-Datasets/vqbj-3das"
+    },
+    {
+      "title": "Dataset - Richmond GeoHub - ArcGIS",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/search?categories=_layers%20library"
+    },
+    {
+      "title": "Zoning Districts | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/datasets/zoning-districts-1/about"
+    },
+    {
+      "title": "Contours | Richmond GeoHub - ArcGIS Online",
+      "url": "https://richmond-geo-hub-cor.hub.arcgis.com/maps/a36c786276014560937b80eb00aeb499"
+    },
+    {
+      "title": "Search",
+      "url": "https://www.arcgis.com/home/search.html?q=tags:%22collection%20days%22"
+    },
+    {
+      "title": "Query: Leaf_Collection_Areas_Arc (ID: 0)",
+      "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Leaf_Collection_Areas_Arc/FeatureServer/0/query?outFields=*&where=1%3D1"
+    },
+    {
+      "title": "Trash Collection | Richmond",
+      "url": "https://www.rva.gov/public-works/trash-collection"
+    },
+    {
+      "title": "Snow Removal | Richmond",
+      "url": "https://www.rva.gov/public-works/snow-removal"
+    },
+    {
+      "title": "Trash and Recycle Collection Days Map",
+      "url": "https://www.arcgis.com/apps/instant/interactivelegend/index.html?appid=cb849eba4c314df6912e2f4fb7e37c94"
+    },
+    {
+      "title": "Richmond, VA - ArcGIS Online",
+      "url": "https://cor.maps.arcgis.com/"
+    },
+    {
+      "title": "Trash Collection Schedule",
+      "url": "https://www.arcgis.com/apps/instant/basic/index.html?appid=2a02c94e64024bd691808803fea29d64"
+    }
+  ]
+}

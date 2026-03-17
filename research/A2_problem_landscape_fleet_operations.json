@@ -1,0 +1,159 @@
+{
+  "run_id": "trun_3cad0ebea15c480ea013f3cd08222417",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "template-nh-street-sweeping-sop.docx",
+      "url": "https://www.epa.gov/system/files/documents/2025-11/template-nh-street-sweeping-sop.docx"
+    },
+    {
+      "title": "Tracking street sweeping activities | Minnesota Stormwater Manual",
+      "url": "https://stormwater.pca.state.mn.us/tracking_street_sweeping_activities"
+    },
+    {
+      "title": "Implementing Solutions for Emergency Routing",
+      "url": "https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf"
+    },
+    {
+      "title": "Snow Plow Routes : r/gis",
+      "url": "https://www.reddit.com/r/gis/comments/1ah5xpn/snow_plow_routes/"
+    },
+    {
+      "title": "standard operating procedure department of public works",
+      "url": "https://cms8.revize.com/revize/rivertonut/departments/public-works/stormwater/documents/Street%20Sweeping%20SOP.pdf"
+    },
+    {
+      "title": "Chapter 7. Case Studies for Weather Response or Treatment",
+      "url": "https://ops.fhwa.dot.gov/publications/fhwahop16093/ch7.htm"
+    },
+    {
+      "title": "The Benefits of Automatic Vehicle Location (AVL) for Public Works",
+      "url": "https://callmc.com/automatic-vehicle-location-avl-public-works/"
+    },
+    {
+      "title": "Evaluation of Performance of Automatic Vehicle Location and TowPlow for Winter Maintenance Operations in Wisconsin - Kelvin R. Santiago-Chaparro, Madhav Chitturi, Todd Szymkowski, David A. Noyce, 2012 ",
+      "url": "https://journals.sagepub.com/doi/10.3141/2272-16"
+    },
+    {
+      "title": "Workshop on Automated Vehicle Location (AVL) ...",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/research-innovation-system-information/documents/f0016924-ca17-3004-1-finalreport.pdf"
+    },
+    {
+      "title": "Adaptive Route Optimization for Operations: Concept of ...",
+      "url": "https://ops.fhwa.dot.gov/publications/fhwahop24055/fhwahop24055.pdf"
+    },
+    {
+      "title": "FINAL REPORT LESSONS LEARNED FROM A PILOT ...",
+      "url": "https://rosap.ntl.bts.gov/view/dot/19546/dot_19546_DS1.pdf"
+    },
+    {
+      "title": "FINAL REPORT LESSONS LEARNED FROM A PILOT ...",
+      "url": "https://vtrc.virginia.gov/media/vtrc/vtrc-pdf/vtrc-pdf/02-r11.pdf"
+    },
+    {
+      "title": "2023 Winter Storm After-Action Report",
+      "url": "https://main.sbcounty.gov/wp-content/uploads/sites/80/Uploads/Content/SanBernardinoCounty-2023-Winter-Storm-After-Action-Report.pdf"
+    },
+    {
+      "title": "Optimizing Winter Maintenance Operations with Stacked ...",
+      "url": "https://quetica.com/wp-content/uploads/2022/03/IP0265-Xie-E-Full-v1.1.pdf"
+    },
+    {
+      "title": "Blizzard of 2022 After-Action Review",
+      "url": "https://www.dhses.ny.gov/system/files/documents/2023/08/nys-aar-on-buffalo-blizzard-response.pdf"
+    },
+    {
+      "title": "Cost-Benefit of Various Winter Maintenance Strategies - Clear Roads",
+      "url": "https://www.clearroads.org/project/13-03/"
+    },
+    {
+      "title": "Expanded Use of AVL/GPS Technology",
+      "url": "https://rosap.ntl.bts.gov/view/dot/67416/dot_67416_DS1.pdf"
+    },
+    {
+      "title": "Weather-Savvy Roads Benefits and Costs",
+      "url": "https://ops.fhwa.dot.gov/publications/fhwahop18032/index.htm"
+    },
+    {
+      "title": "Utilization of AVL/GPS Technology: Case Studies | MnDOT Digital Library",
+      "url": "https://mdl.mndot.gov/items/CR1601"
+    },
+    {
+      "title": "Vehicle-Based Technologies for Winter Maintenance",
+      "url": "https://transportation.org/winter-weather-management/wp-content/uploads/sites/50/2023/03/NCHRP-20-7200_Vehicle-Based_Winter_Technologies_2006-1.pdf"
+    },
+    {
+      "title": "Free Snow Removal Log Template to Edit Online",
+      "url": "https://www.template.net/edit-online/322203/snow-removal-log"
+    },
+    {
+      "title": "AC 150/5200-30D, Airport Winter Safety and Operations, ...",
+      "url": "https://www.faa.gov/documentlibrary/media/advisory_circular/150-5200-30d.pdf"
+    },
+    {
+      "title": "Standard Operating Procedures for Winter Road ...",
+      "url": "https://dot.alaska.gov/stwdmno/documents/MnO_CR_Winter_Maintenance_Manual.pdf"
+    },
+    {
+      "title": "Snow Plowing and Salting Routing",
+      "url": "https://community.esri.com/t5/logistics-questions/snow-plowing-and-salting-routing/td-p/743105"
+    },
+    {
+      "title": "SNOW OPERATION PLAN (SOP) ...",
+      "url": "https://coventryri.gov/sites/coventryri.gov/files/attachments/SNOW%20OPERATION%20PLAN%202017.pdf"
+    },
+    {
+      "title": "PlowNYC",
+      "url": "https://plownyc.cityofnewyork.us/"
+    },
+    {
+      "title": "Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/"
+    },
+    {
+      "title": "How to check if your street has been plowed during NYC ...",
+      "url": "https://pix11.com/news/local-news/how-to-check-if-your-streets-been-plowed-during-nyc-snowstorm/"
+    },
+    {
+      "title": "PlowNYC Mapping Application",
+      "url": "http://maps.nyc.gov/doitt/webmap-conf/docs/PlowNYC_UserGuide2.pdf"
+    },
+    {
+      "title": "Route Status | Plow Tracker",
+      "url": "https://plow-tracker-chicago.hub.arcgis.com/maps/chicago::route-status/about"
+    },
+    {
+      "title": "PILOT TEST OF AUTOMATIC VEHICLE LOCATION ON ...",
+      "url": "https://westerntransportationinstitute.org/wp-content/uploads/2016/08/4W0390_Tech_Memo.pdf"
+    },
+    {
+      "title": "Three Case Studies for Highlighting the Benefits of GPS and Route Optimization \u2013 American Public Works Association",
+      "url": "https://www.apwa.org/resource/three-case-studies-for-highlighting-the-benefits-of-gps-and-route-optimization/"
+    },
+    {
+      "title": "Utilization of AVL/GPS Technology: Case Studies",
+      "url": "https://rosap.ntl.bts.gov/view/dot/66923/dot_66923_DS1.pdf"
+    },
+    {
+      "title": "How to track VDOT snow plows",
+      "url": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026"
+    },
+    {
+      "title": "Snow Removal | Richmond",
+      "url": "https://www.rva.gov/public-works/snow-removal"
+    },
+    {
+      "title": "2025-2026 Plow4Va Snow Removal Ashland",
+      "url": "https://www.highergov.com/sl/contract-opportunity/va-2025-2026-plow4va-snow-removal-ashland-54244355/"
+    },
+    {
+      "title": "Fleet Management | Richmond",
+      "url": "https://www.rva.gov/public-works/fleet-management"
+    },
+    {
+      "title": "Why Richmond says it's taking longer to clear snow and ice off city streets",
+      "url": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "run_id": "trun_3cad0ebea15c480e862ed0416c8cf8a7",
+  "processor": "pro",
+  "status": "completed",
+  "citations": [
+    {
+      "title": "Hub Search API",
+      "url": "https://hub.arcgis.com/api/search/definition/"
+    },
+    {
+      "title": "search: Search | ArcGIS REST APIs - Esri Developer",
+      "url": "https://developers.arcgis.com/rest/users-groups-and-items/search/"
+    },
+    {
+      "title": "Search reference | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/users-groups-and-items/search-reference/"
+    },
+    {
+      "title": "Hub v3 Search API doc port (February 5th, 2019) - Gist - GitHub",
+      "url": "https://gist.github.com/jgravois/1b7ec5080e992a59f65cf7a2190e4365"
+    },
+    {
+      "title": "Searching for Content | Guide | @esri/hub.js",
+      "url": "https://esri.github.io/hub.js/guides/functional/hub-search/"
+    },
+    {
+      "title": "Considerations and limitations | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/users-groups-and-items/considerations-and-limitations/"
+    },
+    {
+      "title": "California Department of Education Geo Hub Search API",
+      "url": "https://data-cdegis.opendata.arcgis.com/api/search/definition/"
+    },
+    {
+      "title": "About | GeoHub - Geospatial Hub",
+      "url": "https://data.geospatialhub.org/pages/about"
+    },
+    {
+      "title": "ArcGIS Hub",
+      "url": "https://hub.arcgis.com/"
+    },
+    {
+      "title": "City of Los Angeles Geohub",
+      "url": "https://geohub.lacity.org/"
+    },
+    {
+      "title": "Limits | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/enterprise-administration/portal/limits-system/"
+    },
+    {
+      "title": "Dataset - ArcGIS Hub",
+      "url": "https://hub.arcgis.com/search"
+    },
+    {
+      "title": "API Reference | Geo - CA.gov",
+      "url": "https://geo.oshpd.ca.gov/api"
+    },
+    {
+      "title": "GeoHub - Geospatial Hub",
+      "url": "https://data.geospatialhub.org/"
+    },
+    {
+      "title": "Limits | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/enterprise-administration/enterprise/limits-system/"
+    },
+    {
+      "title": "Capital Projects (FeatureServer)",
+      "url": "https://services2.arcgis.com/Q6Lq3evZUGfPrN7o/arcgis/rest/services/Capital%20Projects/FeatureServer"
+    },
+    {
+      "title": "Capital_Projects_FY23 (FeatureServer)",
+      "url": "https://services.arcgis.com/sFnw0xNflSi8J0uh/arcgis/rest/services/Capital_Projects_FY23/FeatureServer"
+    },
+    {
+      "title": "Capital Improvement Projects",
+      "url": "https://gisdata-piercecowa.opendata.arcgis.com/datasets/piercecowa::capital-improvement-projects/about"
+    },
+    {
+      "title": "Capital Project Coordination - ArcGIS Solutions",
+      "url": "https://www.arcgis.com/apps/solutions/capital-project-coordination"
+    },
+    {
+      "title": "US census geocoding API",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html"
+    },
+    {
+      "title": "Census Geocoder Documentation",
+      "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/census-geocoder.html"
+    },
+    {
+      "title": "Stateside Parsed Address Processing - Census Geocoder",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/address?form"
+    },
+    {
+      "title": "Census Bureau Public Geocoder",
+      "url": "https://www2.census.gov/geo/pdfs/maps-data/data/FAQ_for_Census_Bureau_Public_Geocoder.pdf"
+    },
+    {
+      "title": "Nominatim Usage Policy (aka Geocoding Policy)",
+      "url": "https://operations.osmfoundation.org/policies/nominatim/"
+    },
+    {
+      "title": "Nominatim - OpenStreetMap Wiki",
+      "url": "https://wiki.openstreetmap.org/wiki/Nominatim"
+    },
+    {
+      "title": "Search - Nominatim 5.2.0 Manual",
+      "url": "https://nominatim.org/release-docs/latest/api/Search/"
+    },
+    {
+      "title": "Overview - Nominatim 5.2.0 Manual",
+      "url": "https://nominatim.org/release-docs/latest/api/Overview/"
+    },
+    {
+      "title": "Reverse Geocoding - Nominatim 5.2.0 Manual",
+      "url": "https://nominatim.org/release-docs/latest/api/Reverse/"
+    },
+    {
+      "title": "Query (Feature Service/Layer) | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service-layer/"
+    },
+    {
+      "title": "Query Top Features (Feature Service/Layer) | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-top-features-feature-servicelayer/"
+    },
+    {
+      "title": "geopandas - Query Feature Service on ESRI ArcGIS REST API with Python Requests - Geographic Information Systems Stack Exchange",
+      "url": "https://gis.stackexchange.com/questions/427434/query-feature-service-on-esri-arcgis-rest-api-with-python-requests"
+    },
+    {
+      "title": "Query (Map Service/Layer) | ArcGIS REST APIs",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-map-service-layer/"
+    },
+    {
+      "title": "Query | References | ArcGIS Maps SDK for JavaScript",
+      "url": "https://developers.arcgis.com/javascript/latest/references/core/rest/support/Query/"
+    },
+    {
+      "title": "Query 3D (Feature Service/Layer) | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/fs-query-3d/"
+    },
+    {
+      "title": "Query (Feature Service) | ArcGIS REST APIs | Esri Developer",
+      "url": "https://developers.arcgis.com/rest/services-reference/enterprise/query-feature-service/"
+    },
+    {
+      "title": "Query features | Documentation - Esri Developer",
+      "url": "https://developers.arcgis.com/documentation/portal-and-data-services/data-services/feature-services/query-features/"
+    },
+    {
+      "title": "Using GeoJSON with Leaflet - Leaflet - a JavaScript library for interactive maps",
+      "url": "https://leafletjs.com/examples/geojson/"
+    },
+    {
+      "title": "Documentation - Leaflet - a JavaScript library for interactive maps",
+      "url": "https://leafletjs.com/reference.html"
+    },
+    {
+      "title": "javascript - Leaflet Popup with additional information from GeoJSON - Stack Overflow",
+      "url": "https://stackoverflow.com/questions/14506989/leaflet-popup-with-additional-information-from-geojson"
+    },
+    {
+      "title": "GeoJSON Tutorial",
+      "url": "https://www.dash-leaflet.com/docs/geojson_tutorial"
+    },
+    {
+      "title": "Add GeoJSON Location Data to a Map Using Markers and ...",
+      "url": "https://egghead.io/lessons/react-add-geojson-location-data-to-a-map-using-markers-and-popups-in-react-leaflet"
+    }
+  ]
+}
