@@ -19,5 +19,6 @@ Purpose: Help teams present effectively and score against the rubric.
 ## Process
 1) Identify the tightest end‑to‑end path to value; remove distractions.
 2) Script a realistic flow with hardcoded data/mocks as needed.
-3) Align talking points to rubric; pre‑answer likely judge questions about GPS data and live connectivity.
+3) Align talking points to rubric; pre‑answer likely judge questions.
 4) Produce a checklist and timing plan.
+

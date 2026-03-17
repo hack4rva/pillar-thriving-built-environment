@@ -19,10 +19,8 @@ class PerplexityClient:
     def __init__(self, api_key: str | None = None, base_url: str | None = None, timeout: int = 60):
         self.api_key = api_key or os.getenv("PERPLEXITY_API_KEY")
         if not self.api_key:
-            raise RuntimeError(
-                "PERPLEXITY_API_KEY not set. Add it to .env or environment.\n"
-                "Set PERPLEXITY_API_KEY before running the Perplexity runner."
-            )
+            raise RuntimeError("PERPLEXITY_API_KEY not set. Add it to .env or environment.
+Set PERPLEXITY_API_KEY before running the Perplexity runner.")
 
         # Default to the Sonar REST endpoint, matching user-provided boilerplate
         self.base_url = base_url or os.getenv("PERPLEXITY_BASE_URL", "https://api.perplexity.ai/v1/sonar")

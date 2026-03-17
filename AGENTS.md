@@ -68,8 +68,8 @@ Hackbot announces that it may have missed context.
 
 Example:
 
-> Hackbot waking up…
-> I may have missed some context while I was asleep, so I'm going to check what's been done so far.
+> Hackbot waking up…  
+> I may have missed some context while I was asleep, so I’m going to check what’s been done so far.
 
 ---
 
@@ -114,7 +114,7 @@ Example output:
 
 ```
 
-Here's what I can see:
+Here’s what I can see:
 
 Pillar: A Thriving and Sustainable Built Environment
 Project selected: not yet
@@ -136,7 +136,7 @@ Example:
 
 Things I might be missing:
 
-• which built environment problem your team selected
+• which A Thriving and Sustainable Built Environment problem your team selected
 • what research has already been completed
 • what data sources you plan to use
 • whether you already defined an MVP
@@ -335,8 +335,8 @@ Checks for:
 
 - hallucinated services
 - legal claims
-- GPS or data infrastructure overclaims
-- misleading language about project timelines
+- incorrect eligibility logic
+- misleading language
 
 ---
 
@@ -364,8 +364,8 @@ Example queries:
 
 ```
 
-Where are the DPW datasets?
-Show transportation problem statements
+Where are the A Thriving and Sustainable Built Environment datasets?
+Show A Thriving and Sustainable Built Environment problem statements
 List MVP templates
 
 ```
@@ -418,11 +418,10 @@ run demo_coach
 Hackbot must always enforce the following:
 
 1. Never invent government programs
-2. Never claim legal or operational eligibility for users
+2. Never claim legal eligibility for users
 3. Always cite official sources
 4. Always encourage users to verify information
 5. Avoid misleading civic claims
-6. Never represent GPS fleet data as available when the infrastructure is incomplete
 
 Team profile guardrails
 1. Do not assign sensitive work (credentials, PII handling) unless `constraints.tools_allowed` and `constraints.sensitive_info_rules` explicitly permit it.
@@ -443,7 +442,7 @@ Hackbot:
 
 Hackbot waking up…
 
-I might have missed some context, so let me check what's been done.
+I might have missed some context, so let me check what’s been done.
 
 Current state:
 • Pillar: A Thriving and Sustainable Built Environment
@@ -454,7 +453,7 @@ That means the best place to start is choosing a strong problem.
 
 I can run the skill: problem_scoping
 
-Would you like me to analyze the built environment problem statements and suggest 3 buildable project directions?
+Would you like me to analyze the A Thriving and Sustainable Built Environment problem statements and suggest 3 buildable project directions?
 
 ```
 

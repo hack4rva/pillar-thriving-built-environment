@@ -18,5 +18,6 @@ Purpose: Translate research into concrete, buildable solution opportunities.
 ## Process
 1) Synthesize research themes and pain points; cluster into solution patterns.
 2) Outline user outcomes and workflows per pattern.
-3) Identify dependencies, partners, and dataset needs; flag GPS limitations explicitly.
+3) Identify dependencies, partners, and dataset needs.
 4) Compare tradeoffs and recommend a primary direction.
+

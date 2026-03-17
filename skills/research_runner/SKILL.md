@@ -22,4 +22,5 @@ Purpose: Execute research prompts and collect findings with sources.
 2) Run prompts via the runner; capture responses and source links.
 3) Extract key evidence; note contradictions, gaps, and red flags.
 4) Produce a concise summary; point to saved artifacts if writing was approved.
-5) Flag any GPS infrastructure claims or overclaims and escalate to `risk_review` if needed.
+5) Flag any eligibility/legal claims and escalate to `risk_review` if needed.
+

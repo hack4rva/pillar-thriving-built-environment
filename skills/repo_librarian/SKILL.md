@@ -3,7 +3,7 @@
 Purpose: Help users navigate repository knowledge quickly.
 
 ## When To Use
-- The user asks "where is X?" or needs specific files.
+- The user asks “where is X?” or needs specific files.
 
 ## Inputs
 - Natural language query from the user.
@@ -16,3 +16,4 @@ Purpose: Help users navigate repository knowledge quickly.
 1) Search repo for filenames/paths and key phrases.
 2) Return the smallest set of relevant artifacts first.
 3) Offer to open/run a related skill if appropriate.
+

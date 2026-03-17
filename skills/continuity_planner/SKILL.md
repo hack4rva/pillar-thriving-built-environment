@@ -14,6 +14,7 @@ Purpose: Identify post-hackathon continuation opportunities and next steps.
 - 30–60–90 day next steps and milestones.
 
 ## Process
-1) Identify credible use cases and decision‑makers to engage (Al Wiggins, Daniel Klein, nonprofit partners).
+1) Identify credible use cases and decision‑makers to engage.
 2) Map needed artifacts and technical hardening tasks.
 3) Propose a lightweight roadmap with risks and dependencies.
+

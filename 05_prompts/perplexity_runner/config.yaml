@@ -15,7 +15,6 @@ search_domain_filter: []
   # - virginia.gov
   # - planrva.org
   # - rvaopendata.org
-  # - richmond-geo-hub-cor.hub.arcgis.com
 
 web_search_options:
   search_context_size: high
