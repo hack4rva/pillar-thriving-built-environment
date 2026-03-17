@@ -1,0 +1,16 @@
+User Research B3 — DPW Communications Staff
+
+Build a detailed user persona for DPW communications staff members who answer resident questions about public works projects and service schedules. Research:
+
+- What types of resident inquiries do DPW communications staff most commonly receive (project status, parking, service schedules, complaints)?
+- What tools and resources do communications staff currently use to answer these inquiries?
+- What information do they frequently lack or have to chase down from operations colleagues?
+- How much time is spent per day or week on repetitive project-status or service-schedule inquiries?
+- What would a communications staff member need from a self-service resident tool vs. an internal lookup tool?
+- How do communications staff currently update the public during storm events or major service disruptions?
+
+Output:
+- Persona sketch with workflow, common queries, and tool requirements
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Design implications for communications-oriented tools

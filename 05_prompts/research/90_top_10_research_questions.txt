@@ -1,0 +1,23 @@
+Top 10 Research Questions — A Thriving and Sustainable Built Environment
+
+For each question, provide verifiable findings with source titles, clearly labeled inferences, and unknowns.
+
+1. Which specific layers on Richmond GeoHub contain transportation or infrastructure project data that is publicly accessible via the ArcGIS REST API?
+
+2. What DPW datasets exist on the Richmond Open Data Portal (data.richmondgov.com) that could support an infrastructure project lookup tool?
+
+3. How do cities with successful infrastructure project transparency tools (NYC DOT, Portland PBOT, Boston) structure their public-facing project data? What fields are essential?
+
+4. What are the most common reasons residents in mid-sized cities cannot find information about active construction projects near their homes?
+
+5. What does a "GPS fleet management system being installed" typically mean operationally for a city DPW department? What data will it produce when complete?
+
+6. How do Boston's Winter Ready and Chicago's Plow Tracker differ in their data requirements? Which approach is achievable without real-time GPS?
+
+7. What is the current state of public works communication on rva.gov? How many clicks does it take a Richmond resident to find information about a specific transportation project?
+
+8. What open source or low-cost tools exist for building an address-based project lookup tool using ArcGIS REST API data?
+
+9. How do cities handle the translation of technical engineering project descriptions into plain language for public-facing communication?
+
+10. What are the most common failure modes of civic infrastructure transparency tools — why do they go stale, get ignored, or fail to reach the residents who need them most?

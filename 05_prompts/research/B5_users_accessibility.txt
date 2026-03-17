@@ -1,0 +1,18 @@
+User Research B5 — Accessibility-Dependent Residents
+
+Research the specific needs of Richmond residents who rely on accessible streets and sidewalks: residents with disabilities, elderly residents, and transit-dependent residents. These users are most severely affected by infrastructure disruptions and have the least ability to adapt.
+
+Investigate:
+- How do construction projects affect accessible routes (sidewalk closures, curb cut removal, detour routes)?
+- How do street cleaning and snow removal priorities affect mobility-impaired residents (delayed clearing of accessible routes)?
+- What information do accessibility-dependent residents need that general residents do not?
+- What are the digital access barriers for this population (low tech literacy, screen reader compatibility, limited smartphone access)?
+- Are there any existing Richmond programs or contacts for accessibility in public works?
+
+Apply to the hackathon context: what accessibility considerations should teams building an infrastructure visibility tool or fleet status tool incorporate from the start?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Specific design requirements for accessibility-inclusive tools
+- Richmond-specific context where available

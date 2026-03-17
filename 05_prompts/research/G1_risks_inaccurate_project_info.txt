@@ -1,0 +1,21 @@
+Risk G1 — Inaccurate Project Information and Timeline Claims
+
+Research the risk of displaying inaccurate project timelines or status in a public-facing tool, and how to mitigate it responsibly.
+
+Investigate:
+- How often do infrastructure project timelines change after public announcement?
+- What are the most common causes of timeline changes (weather, contractor issues, design changes, permitting delays)?
+- What harm can result from a resident acting on an incorrect project end date (parking plans, business decisions, travel routing)?
+- How do cities with established project tracker tools handle timeline changes in their public-facing data?
+- What is the legal or liability exposure for a non-official tool that displays incorrect project information?
+
+Recommend:
+- What disclaimers should be displayed on any tool showing project timelines?
+- How should stale data be handled (how long before a "last updated" date triggers a staleness warning)?
+- What is the right language for "estimated completion" vs. "scheduled completion" vs. "completion date" in a public-facing display?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Specific disclaimer language recommended
+- Data staleness handling recommendation

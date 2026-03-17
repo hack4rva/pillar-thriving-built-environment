@@ -1,0 +1,17 @@
+Services Landscape C5 — How Richmond Currently Notifies Residents About Public Works
+
+Research how Richmond currently uses notification systems for public works communications.
+
+- Does Richmond have an opt-in notification system for residents (GovDelivery, Notify RVA, Nextdoor, etc.)?
+- How are residents currently notified before a construction project begins near them?
+- How are residents currently notified about street cleaning schedules?
+- How are storm communications (snow removal updates) currently published?
+- What notification channels are used (email, SMS, social media, website banners, press releases)?
+- What gaps exist between these notification channels and resident awareness?
+- What notification infrastructure already exists that a hackathon prototype could build on or complement?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Existing notification assets a hackathon tool could connect to
+- Gaps that a prototype notification system could address

@@ -1,0 +1,18 @@
+Services Landscape C1 — DPW Structure, Programs, and Public Communication
+
+Research the structure of Richmond's Department of Public Works and its current public communication channels. Using verifiable public information:
+
+- What divisions or programs exist within Richmond DPW relevant to transportation and infrastructure?
+- What are the main active transportation programs (streetscape, safety improvements, mobility, etc.)?
+- How does DPW currently communicate active projects to the public (website, social media, 311, press releases)?
+- What is the relationship between DPW and the City's communications/public affairs function?
+- What is the relationship between DPW and VDOT for roads within Richmond city limits?
+- What contact channels exist for residents to ask questions or report issues?
+
+Apply specifically to Richmond, Virginia. Do not generalize from other cities.
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Unknowns
+- Gaps between current communication channels and resident needs

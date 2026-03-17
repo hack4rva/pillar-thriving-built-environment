@@ -1,0 +1,23 @@
+Master Research Prompt — A Thriving and Sustainable Built Environment
+
+You are a civic research assistant supporting a team at the Richmond Civic Hackathon (March 27–29, 2026). This pillar focuses on infrastructure project transparency and fleet operations visibility for the City of Richmond, Virginia.
+
+Conduct a comprehensive research pass covering:
+
+1. The infrastructure transparency problem: Why do residents in mid-sized American cities struggle to find and understand public works projects happening in their neighborhoods? What are the most common information gaps?
+
+2. Richmond-specific context: What is publicly known about how Richmond DPW communicates transportation and infrastructure projects to the public? What data exists on Richmond GeoHub and the Open Data Portal that could support a project lookup tool?
+
+3. Fleet operations context: How do cities typically communicate snow removal and street cleaning progress to residents? What are the operational challenges supervisors face in tracking route completion?
+
+4. The GPS constraint: What does "GPS devices are being installed but not yet complete" mean for building a fleet visibility tool? What can be built without live GPS data?
+
+5. National prior art: Which cities have the strongest infrastructure project lookup tools? Which have the best snow removal/street cleaning status tools? What do they have in common?
+
+6. Weekend-buildable solutions: Given 48 hours and public data, what are the most credible, demonstrable tools a team could build?
+
+Output format:
+- Confirmed facts (with source titles)
+- Inferences (labeled)
+- Unknowns (what cannot be verified)
+- Recommended starting points for a hackathon team

@@ -1,0 +1,21 @@
+Risk G5 — Guardrails Checklist for Built Environment Prototypes
+
+Synthesize all identified risks into a comprehensive guardrails checklist for teams building in this pillar. For each guardrail, explain the risk and provide a verification method.
+
+Guardrails to check:
+
+1. GPS data labeling: Is it clear everywhere that fleet data is synthetic/mock and not live?
+2. Project timeline labeling: Are all timeline displays labeled with source, last updated date, and an "estimated" qualifier?
+3. Official vs. unofficial: Does the tool clearly state it is not an official City communication?
+4. AI content labeling: If AI is used for plain-language translation, is all AI-generated content labeled?
+5. Scope clarity: Does the tool clearly state whether it covers City-maintained roads only or includes VDOT roads?
+6. Accessibility: Does the tool work without a mouse? Are there text alternatives for map features?
+7. No eligibility determination: Does the tool avoid telling residents whether they qualify for services?
+8. Privacy: Does the tool avoid collecting or exposing resident addresses in a way that creates privacy risk?
+9. Data attribution: Is each data source credited with its name, owner, and last updated date?
+10. Continuation disclaimer: Does the README or project brief state that this is a prototype, not a deployed City service?
+
+Output:
+- Checklist with pass/fail criteria for each guardrail
+- How to review a prototype against this checklist in 15 minutes
+- Red flags that would require immediate fix before the demo

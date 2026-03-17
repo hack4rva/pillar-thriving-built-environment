@@ -1,0 +1,19 @@
+Missing Information Gaps — A Thriving and Sustainable Built Environment
+
+Identify and characterize each of the following information gaps. For each gap, describe what is known, what is unknown, what the gap blocks, and how a team might work around it.
+
+1. GeoHub layer names and public availability: Which specific ArcGIS layers on Richmond GeoHub contain DPW transportation project data with public REST API access? What fields do they contain? This gap blocks Shape A and B MVP builds.
+
+2. GPS data schema: What data schema will the DPW GPS fleet management system produce when fully installed? What fields (vehicle_id, route_id, completion_pct, etc.) will be available? This gap blocks Fleet Operations MVP schema accuracy.
+
+3. Snow removal and street cleaning zone boundaries: Does DPW divide the city into service zones for snow removal and street cleaning? If so, what are the zone boundaries? Are they based on council districts, street classification, or custom geography? This gap blocks Shape D (Schedule Tracker) build.
+
+4. Historical street cleaning schedules by zone: What are the historical or planned schedules for street cleaning by zone or district? Are they published anywhere? This gap blocks the schedule display component of any fleet MVP.
+
+5. DPW program page URLs: What are the current URLs for DPW program pages describing active transportation projects? This gap reduces the ability to link official sources in project cards.
+
+6. Plain-language translation standard: Does DPW have any existing plain-language communication standards or guidelines for describing projects to the public? If so, what vocabulary replacements are standard?
+
+7. Volume of resident inquiries: How many calls, emails, or 311 requests does DPW receive per month related to project status or construction questions? This gap makes it difficult to estimate impact of a self-service tool.
+
+8. Departmental champion commitment: Have Al Wiggins or Daniel Klein expressed any specific interest in reviewing or continuing a hackathon prototype? What would it take to get a post-hackathon meeting?

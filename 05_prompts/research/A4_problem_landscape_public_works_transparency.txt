@@ -1,0 +1,17 @@
+Problem Landscape A4 — National Context for Public Works Transparency Failures
+
+Provide national context for why public works information transparency fails in American cities. Research:
+
+- What are the most documented reasons residents cannot find information about local infrastructure projects?
+- How common is the problem of project data fragmentation across ArcGIS, program pages, and grant documentation?
+- What research or reporting exists on the civic costs of poor infrastructure communication (resident frustration, 311 volume, trust erosion)?
+- What has been written about the gap between how cities produce project data (for procurement and engineering) and how residents need to consume it (plain language, address-based)?
+- Are there any national standards or best practices for public infrastructure communication?
+
+Apply findings to the Richmond context where relevant.
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Unknowns
+- Key citations a team could use to justify their project to judges

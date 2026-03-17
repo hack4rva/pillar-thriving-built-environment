@@ -1,0 +1,18 @@
+Problem Landscape A5 — Infrastructure Data Fragmentation
+
+Research the specific problem of infrastructure project data being fragmented across ArcGIS, grant documentation, program pages, and internal tracking systems. This fragmentation is the core technical cause of the visibility problem in this pillar.
+
+Investigate:
+- Why do cities end up with project data in multiple systems (ArcGIS, procurement portals, grant reporting, departmental databases)?
+- What are the typical barriers to aggregating these data sources (format differences, update cadence, access controls, ownership)?
+- How have other cities attempted to solve the aggregation problem without requiring new City systems?
+- What is the simplest architectural approach to aggregating disparate public project data for a resident-facing lookup tool?
+- What are the maintenance risks of a tool that depends on multiple data sources?
+
+Apply to Richmond specifically: what is known about how Richmond's DPW data is currently distributed across GeoHub, Open Data Portal, and DPW program pages?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Unknowns
+- Architecture recommendation for a low-maintenance aggregation approach

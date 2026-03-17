@@ -1,0 +1,12 @@
+Problem Landscape A3 — Compare the Two Problem Statements
+
+Compare the Transportation Project Visibility problem (25/32 Strong) and the Fleet Operations Visibility problem (22/32 Needs work, D3=2) across the following dimensions:
+
+1. Data readiness: What public data supports each problem? How significant is the GPS gap for Fleet Operations?
+2. User clarity: Which problem has a clearer, more specific user? Which user story is more compelling to a judge?
+3. Weekend buildability: Which problem is more achievable in 48 hours given current data availability?
+4. Impact potential: Which solution would affect more Richmond residents? Which would reduce more DPW staff burden?
+5. Continuation pathway risk: Both statements lack a continuation pathway. Which problem is more likely to have a post-hackathon champion given the named contacts?
+6. Demo quality: Which problem produces a more compelling live demo for hackathon judges?
+
+Provide a clear recommendation and reasoning for which problem statement a team should choose if they can only tackle one.

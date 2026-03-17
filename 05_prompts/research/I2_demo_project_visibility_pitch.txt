@@ -1,0 +1,33 @@
+Demo Guidance I2 — Demo Script for Transportation Project Visibility Tool
+
+Research and design the ideal demo narrative for a tool that helps Richmond residents find and understand DPW infrastructure projects near them. The transportation project visibility problem statement scores 25/32 — it is the stronger of the two built environment problems, and a team that executes a clean demo of this tool has a realistic path to placing well. The demo narrative is as important as the tool itself: judges need to feel the problem before they can appreciate the solution.
+
+Investigate what user scenario is most relatable and compelling for this demo:
+- The "community meeting" scenario: a resident is at a neighborhood association meeting and someone asks about the construction at the end of their street. Nobody knows. The tool resolves this in 10 seconds. This scenario is emotionally real for Richmond audiences familiar with community meetings in neighborhoods like Church Hill, Northside, or Manchester where infrastructure investment is uneven.
+- The "commute disruption" scenario: a resident is trying to figure out why a road they use is closed and when it will reopen. They try DPW's website, find a project list with no map and no plain language, and give up. The tool shows the project, its status, and an estimated completion in plain language.
+- The "property owner" scenario: a resident gets a notice about a water main replacement near their house and wants to understand the timeline, disruption, and contact. The tool pulls up the project by address and displays all relevant fields in readable form.
+- Which scenario is most universally relatable to a diverse judging panel, and which has the strongest "aha moment" when the tool resolves it?
+
+Investigate what plain-language translation examples from real Richmond DPW projects would be most effective in the demo:
+- What active or recently completed projects in Richmond GeoHub (rva-geohub.opendata.arcgis.com) have technical descriptions that could be rewritten in plain language as a demo example?
+- What categories of projects appear most frequently in Richmond GeoHub that a resident would care about: water main replacement, road resurfacing, traffic signal upgrades, sidewalk repair, bridge work?
+- What does a good plain-language project card look like: project name in plain terms, what work is happening, which streets are affected, estimated completion, who to call with questions?
+- Should the demo show AI-generated plain language (with a "AI-generated summary" label) or pre-written summaries for 5–10 real projects?
+
+Investigate how teams should handle showing real versus mock project data:
+- What is the risk of using fully mock project data versus real GeoHub data in the demo: credibility gap, data accuracy concerns, license questions?
+- What is the strongest approach: cache real GeoHub data for 5–10 projects in neighborhoods likely to be recognized by Richmond judges, and use that as the demo dataset?
+- If GeoHub is live during the demo, what is the backup if the API returns an error or empty results?
+- How should teams label cached data: "sourced from Richmond GeoHub, last updated [date]" is enough to establish legitimacy?
+
+Investigate how teams should address the "but why doesn't DPW just update their website?" objection:
+- This is the most common judge objection for tools that improve on existing City information — the team needs a prepared, non-defensive answer
+- The honest answer is: this tool does not require DPW to change anything — it reads the same data DPW already publishes and makes it findable and readable for residents
+- The stronger framing: this is a reading layer, not a data layer — DPW's data is already there, it just requires technical knowledge to access
+- What evidence from the problem statement or research can support why DPW's existing web presence is insufficient as-is?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Complete 90-second demo script with stage directions: what the presenter says, what the screen shows, what interaction happens, and how to handle the "why doesn't DPW fix their website" question if it comes from a judge

@@ -1,0 +1,20 @@
+Prior Art E3 — How 311 Systems Handle Public Works Requests
+
+Research how 311 systems in mid-size American cities handle public works service requests related to construction, road conditions, and service schedules.
+
+Investigate:
+- What categories of public works requests are most common in 311 systems (potholes, construction complaints, service schedule questions, road closures)?
+- How do cities use 311 data to improve public works communication and transparency?
+- Are there examples of cities that have connected 311 data to infrastructure project maps?
+- How does Richmond's 311 system (if it exists) handle public works requests?
+- What can a hackathon team learn from 311 data patterns without accessing raw 311 call data?
+
+Apply to Richmond:
+- Does Richmond publish 311 request data on the Open Data Portal?
+- Can 311 category data reveal which blocks or neighborhoods have the highest demand for project information?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Potential use of 311 data in an infrastructure visibility tool
+- Limitations and privacy considerations

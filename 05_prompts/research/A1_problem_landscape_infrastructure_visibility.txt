@@ -1,0 +1,15 @@
+Problem Landscape A1 — Infrastructure Visibility Reality
+
+Investigate the real-world shape of Richmond's infrastructure project visibility problem. Using only verifiable public information and clearly labeled inferences, explain where the difficulty actually occurs for a Richmond resident trying to find information about construction or public works projects near their home.
+
+Focus areas:
+- What paths exist for a resident to find project information today (City website, GeoHub, 311, etc.)?
+- How many steps does it take? What barriers appear at each step?
+- What role does technical language play in the accessibility problem?
+- Are there Richmond-specific examples of this problem (known projects with poor public communication)?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Assessment of primary friction points for Richmond residents

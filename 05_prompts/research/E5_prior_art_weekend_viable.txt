@@ -1,0 +1,20 @@
+Prior Art E5 — What Has Been Built Successfully in 48-Hour Civic Hackathons
+
+Research examples of civic tech projects in the infrastructure transparency or public works visibility space that were successfully built in a 48-hour hackathon or equivalent sprint.
+
+Investigate:
+- What types of civic infrastructure tools have been successfully prototyped in hackathon settings?
+- What architectural choices made these projects demo-able in 48 hours?
+- What scope decisions allowed teams to avoid over-building?
+- Are there hackathon projects that later got adopted by cities or continued by civic tech organizations?
+- What data sources are reliably available within a 48-hour build window (public APIs that work without authentication)?
+
+Apply to this pillar:
+- Which of the five MVP shapes (A through E) in this repo is most analogous to successful hackathon projects?
+- What is the minimum viable version of the address lookup tool that could be completed in 48 hours?
+- What is the minimum viable version of the fleet status tracker that could be completed in 48 hours?
+
+Output:
+- Examples (with source titles where available)
+- Inferences (clearly labeled)
+- Specific architectural and scope recommendations for a 48-hour build in this pillar

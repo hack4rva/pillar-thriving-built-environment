@@ -1,0 +1,17 @@
+Problem Landscape A2 — Fleet Operations Manual Reporting Problem
+
+Investigate the manual reporting problem in snow removal and street cleaning operations for a mid-size city DPW department. Using verifiable public information and clearly labeled inferences:
+
+- How do cities currently track route completion during storm events without GPS?
+- What are the operational costs of manual check-in (radio calls, phone calls, whiteboard tracking)?
+- How does the lack of route completion visibility affect supervisor decision-making during a snowstorm?
+- How does the disconnect between operations and communications affect resident-facing public updates?
+- What is the minimum data needed to provide useful public status updates (zone-level vs. street-level vs. vehicle-level)?
+
+Apply findings to Richmond's situation where GPS installation is in progress but not complete.
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Unknowns
+- Minimum viable data specification for a useful fleet status tool

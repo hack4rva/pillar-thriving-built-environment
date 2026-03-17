@@ -1,0 +1,39 @@
+Demo Guidance I5 — Framing Language for Built Environment Demos
+
+Research what framing language, opening sentences, positioning statements, and impact claims work best for presenting built environment civic tech tools to hackathon judges. Framing is distinct from the demo itself — it is the interpretive layer that tells judges what to pay attention to, what to believe about the tool's relevance, and how to evaluate what they are seeing. Weak framing causes even technically strong demos to be undervalued. Strong framing can make a limited prototype feel like a meaningful step forward.
+
+Investigate what the strongest opening sentence looks like for each problem statement:
+- For transportation project visibility: the opening sentence should name the specific user, the specific moment of confusion, and the specific type of information that is currently inaccessible. "A Richmond resident searching for information about the construction on their block today faces a 7-step process across three City websites and still may not find an answer in plain language." This is more compelling than "Richmond residents have trouble finding infrastructure project information."
+- For fleet operations visibility: the opening sentence should name the emotional stakes of the information gap. "After a Richmond snowstorm, there is currently no way for a resident to know whether their street has been plowed — they can only call 311 or wait." This is more compelling than "DPW fleet operations lack public visibility."
+- What is the principle for strong civic tech opening sentences: name the specific user, the specific moment, the specific harm, and the specific gap — no abstraction?
+
+Investigate how teams should position their tool relative to existing City systems:
+- The strongest positioning for DPW-adjacent tools: "this does not replace Richmond's ArcGIS or DPW project pages — it makes them findable and readable for residents who are not GIS professionals"
+- This framing avoids the trap of implying the City's systems are broken (which can alienate DPW-adjacent judges) while still making the case for the tool's value
+- For fleet operations: "this is designed to work alongside DPW's internal dispatch systems, not replace them — it is a public communication layer that supervisors can update and residents can read"
+- What other positioning language has worked for civic transparency tools that sit on top of existing government data: "translation layer," "discovery layer," "communication bridge," "reading interface"?
+- What positioning language should teams avoid: "replaces," "disrupts," "automates," "fixes" — all of these imply the government system is broken and the tool is the cure, which creates defensiveness in government-adjacent judges
+
+Investigate what framing avoids the overclaim trap:
+- The overclaim trap for transportation project visibility: "this will reduce 311 calls by X%" — this cannot be verified from a weekend prototype and will invite skepticism from judges who know City data
+- The overclaim trap for fleet operations: "this will improve DPW operational efficiency" — this conflates a resident communication tool with an operations management tool
+- What impact statements are realistic and defensible: "a resident can find project information in under 30 seconds instead of the 7-step process that currently exists" is verifiable through a live demo; "this eliminates resident confusion about infrastructure projects" is not
+- How should teams handle the question "what's the actual impact?" without overclaiming: "we can't quantify post-deployment impact from a 48-hour prototype, but the problem is real, the data is available, and this demo shows the user experience is achievable"
+
+Investigate what concrete impact statements are realistic and how they should be framed:
+- For transportation project visibility: "replaces a process that required GIS knowledge and 7 navigation steps with a single address search" — this is specific, demonstrable, and not overstated
+- For fleet operations: "gives residents and supervisors a shared status view that currently does not exist" — this is additive rather than replacement, and makes no claims about GPS data that is not available
+- What framing handles the "what happens after the hackathon?" question: naming the data sources the tool reads from (public, no maintenance required), explaining what the GPS upgrade path looks like, and naming what a City or nonprofit would need to do to deploy it
+- What is the difference between a maintenance burden framing ("someone would need to keep this running") and a resilience framing ("this reads public City data that DPW already maintains — the tool itself requires no content work")?
+
+Investigate how teams should address the sustainability question:
+- The sustainability question ("who maintains this after the hackathon?") is asked for nearly every civic tech prototype and teams that have no answer lose credibility
+- The strongest answer for a data-reading tool: "this reads public GeoHub data — as long as DPW updates their ArcGIS layers, the tool updates automatically. There is no content maintenance burden."
+- For a tool with manual status updates (fleet operations): "the maintenance model is a 2-minute status update from a DPW supervisor after each service event — the same information they currently track internally, now with a public output"
+- What ownership models have worked for similar civic tech tools: City adoption after a pilot, nonprofit hosting, university partnership, or open-source handoff to a Code for America brigade?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Framing language cheat sheet: opening sentence templates, positioning statement templates, impact claim templates, and sustainability answer templates for each of the two built environment problem statements — formatted so a team can fill in specifics during Sunday morning rehearsal

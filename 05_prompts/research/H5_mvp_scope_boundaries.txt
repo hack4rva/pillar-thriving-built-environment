@@ -1,0 +1,45 @@
+MVP Feasibility H5 — Scope Boundaries for Built Environment MVPs in 48 Hours
+
+Research and define the hard scope limits for both built environment problem statements in a 48-hour hackathon context. Scope creep is the primary failure mode for civic tech weekend projects: teams that start building transportation project visibility tools frequently find themselves attempting real-time alert systems, DPW staff portals, multi-department project aggregators, or neighborhood equity analyses. Defining what is explicitly out of scope — and why — is as important as defining what to build.
+
+Investigate what features are clearly out of scope for transportation project visibility:
+- Live vehicle tracking or real-time construction crew location — requires GPS integration not available
+- Integration with DPW internal project management systems (Cityworks, Hansen, or equivalent) — requires official partner access
+- Automated project status updates pulled from permit systems — requires City system integration
+- Multi-department project aggregation (DPW + RRHA + VDOT) — requires cross-agency data agreements
+- Sustainability compliance checking or environmental impact overlays — requires specialized datasets not in GeoHub
+- Notification or alert systems that require user accounts, email/SMS infrastructure — requires backend auth and external service accounts
+- Embedding directly into Richmond's official website — requires City web team approval and cannot happen in 48 hours
+
+Investigate what features are clearly out of scope for fleet operations visibility:
+- Live GPS vehicle tracking — explicitly not available
+- Integration with DPW dispatch or routing software — requires internal system access
+- Automated tow zone enforcement notifications — legal and liability implications, out of scope
+- Turn-by-turn route optimization for drivers — not the problem being solved; also requires real-time data
+- Performance dashboards with driver-level metrics — privacy and labor relations concerns
+- Cross-department fleet coordination (Parks, Public Utilities, DPW) — multiple system integrations required
+- Automatic detection of missed service events — requires GPS confirmation data that does not exist
+
+Investigate what constitutes the minimum viable demo for transportation project visibility:
+- What is the smallest interaction that a judge would find useful: address input returns nearby projects with plain-language status cards?
+- Does the demo need to show a map, or is a list view with distance sufficient for a first-cut demo?
+- What is the minimum number of real projects (pulled from GeoHub or cached) needed to make the demo feel legitimate rather than made-up?
+- What is the fallback if GeoHub returns no results for the demo address: pre-cached project set, or a different demo address known to have results?
+
+Investigate what constitutes the minimum viable demo for fleet operations:
+- What is the smallest interaction: a map of Richmond showing colored zones with status labels (Scheduled / In Progress / Completed)?
+- Does the supervisor interaction (manually marking a route complete) need to be live in the demo, or can it be pre-staged?
+- What is the minimum number of mock zones and vehicles needed to make the status board feel real?
+- What does "demo-ready" mean when all data is synthetic: the UI is functional, the data is clearly labeled as mock, and the team can explain exactly what would activate it?
+
+Investigate what distinguishes a strong scope lock from an over-scoped project:
+- What are the warning signs that a team has over-scoped: building an admin panel on Saturday morning, adding notification features on Sunday, trying to pull live data from multiple APIs?
+- What scope commitments should a team make publicly at the kickoff and enforce through Sunday?
+- How should a team handle a judge question about a missing feature: "we scoped that out deliberately because it requires X, and here's how we'd add it in a real deployment"?
+- What is the judge's reaction to a narrowly scoped but fully working demo versus a broadly scoped but broken demo?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Two explicit scope contracts — one for transportation project visibility, one for fleet operations — listing exactly what is in scope, what is out of scope, and what is "post-hackathon phase 2"

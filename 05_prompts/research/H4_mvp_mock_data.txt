@@ -1,0 +1,32 @@
+MVP Feasibility H4 — Working With Mock and Historical Data for Built Environment Problems
+
+Research what approaches exist for building credible, demo-ready MVPs when the primary data source is not yet operational. Both built environment problem statements have data access challenges: the transportation project visibility tool depends on Richmond GeoHub REST APIs that may return inconsistent or sparse results, and the fleet operations tool depends on GPS telemetry that is explicitly not fully deployed. A well-designed prototype handles this not by hiding the gap but by making the architecture transparent and the data substitution clean.
+
+Investigate what historical or public records data might exist in Richmond for each problem area:
+- Does Richmond's Open Data Portal (data.richmondgov.com) contain any historical street cleaning schedules, snow removal deployment records, or DPW service event logs?
+- Do Richmond City Council budget presentations, DPW annual reports, or FOIA-accessible maintenance logs contain route or zone completion data that could serve as schedule baselines?
+- Do 311 service request records (available on Richmond's Open Data Portal) contain enough infrastructure complaint data — "missed street cleaning," "snow not removed" — to infer service frequency and zone patterns?
+- What ArcGIS layers on Richmond GeoHub already contain street segment data, council district boundaries, or DPW service zone polygons that could anchor a schedule display?
+
+Investigate how synthetic data should be designed to match expected GPS output:
+- What fields are standard in municipal fleet telematics outputs (see vendors: Samsara, Verizon Connect, Geotab)?
+- What is the standard JSON or GeoJSON schema for a vehicle location event: timestamp, vehicle ID, lat/lon, speed, heading, route ID?
+- How should synthetic data be seeded in a way that makes it visually convincing on a map — realistic Richmond street coordinates, plausible speeds, route progressions that follow actual street segments?
+- What tools exist for generating synthetic GPS track data along a known route polygon (e.g., GPX generators, OSRM route simulation)?
+
+Investigate the "build it now, wire it up later" pattern as a design principle:
+- What is the cleanest architectural pattern for swapping a mock data source for a live API: a thin data adapter layer, a feature flag, a config-driven endpoint?
+- How should teams document this adapter pattern during the hackathon so that a future developer (or DPW tech staff) can understand exactly what would need to change?
+- What civic tech projects have successfully demonstrated this pattern to government audiences and been taken seriously: examples where the prototype was clearly labeled mock but was adopted or extended?
+- How should teams present the mock data strategy to judges without undermining confidence in the tool's eventual real-world applicability?
+
+Investigate what other public data sources could substitute for GPS data in a fleet operations demo:
+- Could publicly visible Twitter/social media complaints about missed street cleanings or snow removal during specific Richmond winters provide a narrative layer?
+- Could weather event data (Richmond snowfall dates, accumulation records) be used to construct realistic "snow event simulation" scenarios for the demo?
+- What Richmond neighborhood or ZIP code data exists that would make a zone-based service status map feel local and grounded rather than generic?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Step-by-step guide for a 3-person team to construct a credible mock data set for the fleet operations demo in under 3 hours, using only publicly available Richmond geographic and schedule data

@@ -1,0 +1,33 @@
+Top 10 Hypotheses to Test — A Thriving and Sustainable Built Environment
+
+For each hypothesis, provide evidence that supports or contradicts it, clearly labeled by confidence.
+
+1. Hypothesis: Richmond GeoHub contains at least one publicly accessible ArcGIS layer with active transportation project locations and status.
+Test: Browse richmond-geo-hub-cor.hub.arcgis.com and attempt a REST API query on candidate layers.
+
+2. Hypothesis: Residents who experience construction near their home have no reliable self-service path to find project information without calling DPW or 311.
+Test: Attempt to find information about a specific Richmond construction project using only public websites.
+
+3. Hypothesis: A plain-language translation of DPW project descriptions would significantly improve resident comprehension without sacrificing technical accuracy.
+Test: Show paired technical/plain-language descriptions to non-technical adults and measure comprehension difference.
+
+4. Hypothesis: A schedule-based street cleaning status display (without GPS) would still reduce resident confusion and ticket disputes compared to no public display.
+Test: Survey residents about whether knowing their zone's scheduled cleaning day reduces parking uncertainty.
+
+5. Hypothesis: The primary resident pain point is not finding project information — it is understanding what the project means for their daily life (duration, parking, access).
+Test: User interviews or review of 311 complaint categories related to construction.
+
+6. Hypothesis: DPW supervisors currently spend 20–30 minutes per storm event on manual route check-in calls that could be eliminated by even a simple digital status tracker.
+Test: Interview DPW operations staff or review comparable city operations studies.
+
+7. Hypothesis: Zone-based GPS data (route completion, not vehicle location) is the minimum viable data type for a public-facing fleet status tool.
+Test: Evaluate whether residents care about "when will my street be plowed" vs "where is the plow right now."
+
+8. Hypothesis: The Richmond Open Data Portal contains 311 service request data that could identify high-demand corridors for construction information.
+Test: Query data.richmondgov.com for service request datasets related to construction or road issues.
+
+9. Hypothesis: The "no continuation pathway" quick-kill flag for both statements can be addressed by identifying one named DPW contact willing to review the prototype post-hackathon.
+Test: Identify whether Al Wiggins or Daniel Klein have expressed interest in post-hackathon engagement.
+
+10. Hypothesis: A static map with pre-cached GeoHub data performs better in a hackathon demo than a live API call, due to reliability during the demo environment.
+Test: Compare response time and reliability of live API calls vs. cached GeoJSON in a browser prototype.

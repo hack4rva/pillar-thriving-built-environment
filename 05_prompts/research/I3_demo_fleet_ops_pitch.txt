@@ -1,0 +1,34 @@
+Demo Guidance I3 — Demo Script for Fleet Operations Visibility Tool
+
+Research and design the ideal demo narrative for a street service status tool when GPS data is incomplete or unavailable. The fleet operations problem statement scores 22/32 — it is the weaker of the two built environment problems precisely because of the GPS data constraint, but it has the strongest emotional hook: everyone who has lived through a Richmond winter has experienced the anxiety of not knowing when their street will be plowed or whether they need to move their car. That emotional reality is the demo's most powerful asset.
+
+Investigate what user scenario is most emotionally resonant for this demo:
+- The "snow day" scenario: it just snowed 4 inches overnight. A resident needs to know if their street will be plowed before 8am school drop-off. They have no way to find out. The tool shows their zone's status: "Your zone is scheduled for 6am–10am. Last manual update: Driver 3 completed 60% of zone at 7:42am." This scenario is visceral and immediately legible to any Richmond resident or judge.
+- The "parking enforcement" scenario: a resident wants to know if they need to move their car for street cleaning today and when it will be safe to park again. The tool shows zone cleaning day and a status board for whether the sweep has happened yet today.
+- The "supervisor management" scenario: a DPW supervisor is trying to know which routes are done without calling each driver. They mark a route complete in the tool and it updates the public-facing status board in real time. This scenario is most compelling if a judge has DPW or city operations background.
+- Which scenario should lead the demo, and which should be shown second if time allows?
+
+Investigate how teams should communicate that the demo uses mock data while maintaining credibility:
+- The key principle: disclose early, disclose confidently, and immediately pivot to what the tool proves even with mock data
+- Recommended demo language: "Richmond's GPS fleet rollout is still underway, so this demo uses scheduled and manually updated data — the same inputs that would feed the tool today. When GPS is live, this status card would update automatically without any changes to the tool."
+- What is the tone difference between disclosing mock data as an apology versus disclosing it as a design choice?
+- How should the demo visually signal mock data: a small "DEMO DATA" badge, a different color scheme for the status indicator, or explicit labeling on each status card?
+
+Investigate what existing city tools teams can reference to establish credibility:
+- Boston's "SnowBrains" and "Snow Removal Tracker" (Boston.gov): shows zone-by-zone plow progress updated from GPS; teams can reference this as the GPS-enabled version of what they are building
+- Chicago's "Plow Tracker" (chicagoplow.chicago.gov): real-time map of plow locations; one of the most recognized civic fleet tools in the US
+- NYC's Sanitation "Schedule Lookup": address-based trash and recycling schedule with service status; relevant for the street cleaning use case
+- What aspects of each tool are most analogous to Richmond's problem, and what aspects are out of scope for a 48-hour build?
+- How should teams reference these tools: "we are building the Richmond version of Boston's snow tracker, starting with the manual-update layer that works before GPS is deployed"?
+
+Investigate how teams should frame the "build it now, wire up GPS later" message:
+- This framing must be proactive, not defensive — the GPS gap is a feature of the build strategy, not a shortcoming of the demo
+- The strongest framing: "this tool works today with schedule data and manual updates. When Richmond's GPS rollout completes, it upgrades automatically to real-time tracking. The architecture was designed for that transition."
+- What evidence from the problem statement justifies building before GPS is complete: the problem of resident confusion exists now, supervisors need status visibility now, and the GPS timeline is unknown?
+- How should teams answer the judge question "what would it take to connect the real GPS data?" — having a technical answer ("we built a data adapter layer — it's a config change, not a rebuild") increases credibility significantly?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Complete 90-second demo script for the fleet operations tool: what the presenter says, what the screen shows, when and how mock data is disclosed, and the exact sentence to use when a judge asks about GPS integration
