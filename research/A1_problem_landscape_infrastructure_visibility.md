@@ -1,3 +1,25 @@
+---
+title: “\”Near Me\” Isn’t Near Enough — Why Richmond’s Project Info Still Hides in Plain Sight”
+pillar: thriving-built-environment
+section: A
+problem_statement: transportation-project-visibility
+tags:
+  - fragmentation
+  - capital project dashboard
+  - jargon
+  - address search
+  - resident
+  - portal
+summary: “Analyzes the fragmented landscape of Richmond’s infrastructure project information across six separate portals, with jargon, mismatched update cadences, and inconsistent address search preventing residents from getting answers about their block.”
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - 00_pillar_summary_context
+  - A4_problem_landscape_public_works_transparency
+  - A5_problem_landscape_infrastructure_data_fragmentation
+---
+
 # “Near Me” Isn’t Near Enough — Why Richmond’s Project Info Still Hides in Plain Sight
 
 ## Executive Summary

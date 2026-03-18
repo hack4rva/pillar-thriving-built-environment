@@ -52,19 +52,31 @@ Do these first 15–30 minutes to get moving:
 
 ## Repo Map
 
-- Research hub: `research_notes.md`
+| Directory | Contents |
+|-----------|----------|
+| `research/` | 51 deep research reports (core corpus) |
+| `00_core/` | Pillar overview and MAP alignment |
+| `01_problem_space/` | Scored problem statements |
+| `02_data/` | Data source inventory and index |
+| `03_artifacts/` | Synthesized artifacts (journeys, benchmark scan, prototype recommendations) |
+| `04_build_guides/` | MVP shapes, architectures, demo advice |
+| `05_prompts/` | Research prompts and runners |
+| `99_templates/` | Team and project templates |
+| `skills/` | Hackbot skill definitions |
+
 - Evidence tracker: `evidence_log.md`
 - Data index: `02_data/00_index.md`
 - Source inventory (CSV): `02_data/source_inventory.csv`
-- Artifacts: `03_artifacts/`
-  - Journeys: `03_artifacts/user_journeys.md`
-  - DPW data landscape: `03_artifacts/dpw_data_landscape.md`
-  - Benchmark scan: `03_artifacts/benchmark_scan.md`
-  - Prototype recommendations: `03_artifacts/prototype_recommendations.md`
-  - Continuation plan: `03_artifacts/continuation_plan.md`
-- Build guides: `04_build_guides/`
-- Prompts + runners: `05_prompts/`
-- Templates: `99_templates/`
+
+## Navigation Files
+
+| File | Purpose |
+|------|---------|
+| `CORPUS_GUIDE.md` | Canonical orientation for humans and AI agents navigating the research corpus |
+| `manifest.json` | Machine-readable index of all significant repository files |
+| `research/index.json` | Machine-readable index of all 51 research reports with key_terms |
+| `research/INDEX.md` | Human-readable table of contents for the research directory |
+| `MAINTENANCE.md` | How to add, update, and synchronize reports and metadata |
 
 ---
 
@@ -255,8 +267,18 @@ Demo:
 You can use Hackbot to reconstruct context, run research, and shape an MVP.
 
 - Boot prompt: `HACKBOT_BOOT_PROMPT.md`
-- Skills: `skills/**/SKILL.md` (repo_memory, problem_scoping, research_runner, dataset_mapper, opportunity_mapper, mvp_designer, risk_review, demo_coach, repo_librarian, continuity_planner)
+- Team skills: `skills/**/SKILL.md` (repo_memory, problem_scoping, research_runner, dataset_mapper, opportunity_mapper, mvp_designer, risk_review, demo_coach, repo_librarian, continuity_planner)
+- Research corpus skills: (research_corpus_navigation, cross_report_synthesis, evidence_grounded_answering, report_update_protocol)
 - Team profile (recommended): `99_templates/team_profile_template.md`
+
+Hackbot resources:
+
+| Resource | File |
+|----------|------|
+| Boot prompt | `HACKBOT_BOOT_PROMPT.md` |
+| Agent specification | `AGENTS.md` |
+| Corpus guide | `CORPUS_GUIDE.md` |
+| Full file manifest | `manifest.json` |
 
 Notes:
 - Hackbot never invents government programs or GPS data availability. It cites official sources and encourages verification.

@@ -1,0 +1,561 @@
+{
+  "corpus": {
+    "pillar": "thriving-built-environment",
+    "title": "A Thriving and Sustainable Built Environment — Richmond Civic Hackathon",
+    "description": "Research corpus on Richmond's built environment problem space: infrastructure project transparency, fleet operations visibility, and resident awareness of public works construction and services.",
+    "research_index": "research/index.json",
+    "corpus_guide": "CORPUS_GUIDE.md",
+    "agents_spec": "AGENTS.md",
+    "maintenance_guide": "MAINTENANCE.md",
+    "generated": "2026-03-18"
+  },
+  "files": [
+
+    {
+      "id": "root/README",
+      "path": "README.md",
+      "type": "nav_file",
+      "title": "A Thriving and Sustainable Built Environment — Main Entry Point",
+      "pillar": "thriving-built-environment",
+      "summary": "Primary entry point for hackathon teams. Covers the three core questions, decision phases (0–9), guardrails, repo map, and Hackbot introduction. Read first for orientation.",
+      "tags": ["entry-point", "decision-phases", "guardrails", "orientation", "hackathon"],
+      "recommended_audience": ["all teams", "first-time visitors", "AI agents starting a session"],
+      "read_after": [],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "root/QUICKSTART",
+      "path": "QUICKSTART.md",
+      "type": "nav_file",
+      "title": "Quick Start — Minimal Path for Built Environment Teams",
+      "pillar": "thriving-built-environment",
+      "summary": "Minimal path from landing to MVP scope for built environment teams. Prioritized for teams with 30 minutes or less before they need to make decisions.",
+      "tags": ["quickstart", "minimal-path", "mvp", "orientation"],
+      "recommended_audience": ["teams with limited time", "teams that need a clear starting point"],
+      "read_after": ["README.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "root/AGENTS",
+      "path": "AGENTS.md",
+      "type": "agent_spec",
+      "title": "Hackbot Agent Specification",
+      "pillar": "thriving-built-environment",
+      "summary": "Full specification for Hackbot: personality, boot sequence, skill system, research corpus navigation instructions, guardrails, and decision logic. AI agents should read this before acting.",
+      "tags": ["hackbot", "agent-spec", "skills", "boot-sequence", "research-corpus-navigation"],
+      "recommended_audience": ["AI agents", "developers building on Hackbot"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "root/CLAUDE",
+      "path": "CLAUDE.md",
+      "type": "agent_config",
+      "title": "Claude Agent Configuration",
+      "pillar": "thriving-built-environment",
+      "summary": "Behavioral configuration for Claude when acting as Hackbot. Defines role, operating rules, preferred interaction patterns, and output formats for this pillar.",
+      "tags": ["claude", "agent-config", "behavior", "role"],
+      "recommended_audience": ["AI agents", "developers configuring Claude"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "root/CORPUS_GUIDE",
+      "path": "CORPUS_GUIDE.md",
+      "type": "nav_file",
+      "title": "Research Corpus Guide",
+      "pillar": "thriving-built-environment",
+      "summary": "Self-describing guide for humans and AI agents on how to navigate and use the research corpus. Covers canonical source of truth hierarchy, section structure, navigation decision tree, and agent behavior requirements.",
+      "tags": ["corpus-guide", "navigation", "agent-behavior", "retrieval", "architecture"],
+      "recommended_audience": ["AI agents", "researchers", "hackathon participants unfamiliar with the corpus"],
+      "read_after": ["README.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "root/MAINTENANCE",
+      "path": "MAINTENANCE.md",
+      "type": "maintenance_guide",
+      "title": "Maintenance Guide",
+      "pillar": "thriving-built-environment",
+      "summary": "Instructions for adding, updating, and synchronizing research reports, metadata, indexes, and navigation files. Required reading before modifying the corpus structure.",
+      "tags": ["maintenance", "adding-reports", "metadata", "synchronization"],
+      "recommended_audience": ["corpus maintainers", "pillar coordinators", "AI agents tasked with corpus updates"],
+      "read_after": ["CORPUS_GUIDE.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "root/HACKBOT_BOOT_PROMPT",
+      "path": "HACKBOT_BOOT_PROMPT.md",
+      "type": "agent_config",
+      "title": "Hackbot Boot Prompt",
+      "pillar": "thriving-built-environment",
+      "summary": "Boot prompt for initializing Hackbot with full context for this pillar. Use this to start a fresh Hackbot session with all relevant context pre-loaded.",
+      "tags": ["hackbot", "boot-prompt", "initialization"],
+      "recommended_audience": ["hackathon teams using Hackbot", "AI agents"],
+      "read_after": ["AGENTS.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "root/evidence_log",
+      "path": "evidence_log.md",
+      "type": "evidence_log",
+      "title": "Evidence Log",
+      "pillar": "thriving-built-environment",
+      "summary": "Verified factual claims about Richmond's built environment with official source URLs and verification status. Use to confirm specific facts before citing them.",
+      "tags": ["evidence", "verified-claims", "sources", "confirmation"],
+      "recommended_audience": ["all teams", "AI agents verifying specific claims"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "core/00_pillar_overview",
+      "path": "00_core/00_pillar_overview.md",
+      "type": "core_doc",
+      "title": "Pillar Overview",
+      "pillar": "thriving-built-environment",
+      "summary": "Overview of the A Thriving and Sustainable Built Environment pillar: mission, scope, key problem areas, and how infrastructure transparency fits the Richmond Civic Hackathon.",
+      "tags": ["pillar-overview", "mission", "scope", "infrastructure"],
+      "recommended_audience": ["all teams", "first-time visitors"],
+      "read_after": ["README.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "core/01_map_alignment",
+      "path": "00_core/01_map_alignment.md",
+      "type": "core_doc",
+      "title": "MAP Alignment",
+      "pillar": "thriving-built-environment",
+      "summary": "Alignment document connecting this pillar to the Richmond MAP (Municipal Action Plan) framework. Documents how built environment work connects to citywide goals.",
+      "tags": ["MAP", "alignment", "Richmond", "municipal-action-plan"],
+      "recommended_audience": ["teams needing policy context", "teams preparing for judging"],
+      "read_after": ["00_core/00_pillar_overview.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "problem_space/01_bluesky",
+      "path": "01_problem_space/01_bluesky_problem_statements.md",
+      "type": "problem_doc",
+      "title": "Blue Sky Problem Statements",
+      "pillar": "thriving-built-environment",
+      "summary": "Broad, aspirational problem statements for the built environment pillar. Starting point for teams exploring problems before narrowing to targeted statements.",
+      "tags": ["problem-statements", "blue-sky", "exploration", "ideation"],
+      "recommended_audience": ["teams in orientation phase", "teams without a chosen direction"],
+      "read_after": ["00_core/00_pillar_overview.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "problem_space/02_targeted",
+      "path": "01_problem_space/02_targeted_problem_statements.md",
+      "type": "problem_doc",
+      "title": "Targeted Problem Statements",
+      "pillar": "thriving-built-environment",
+      "summary": "Scored, prioritized problem statements for the two main opportunities: Transportation Project Visibility (25/32 — Strong) and Fleet Operations Visibility (22/32 — Needs work). Read before choosing an MVP direction.",
+      "tags": ["problem-statements", "targeted", "scored", "transportation-visibility", "fleet-operations"],
+      "recommended_audience": ["teams choosing a problem", "all teams in Phase 2"],
+      "read_after": ["01_problem_space/01_bluesky_problem_statements.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "data/00_index",
+      "path": "02_data/00_index.md",
+      "type": "data_index",
+      "title": "Data Source Index",
+      "pillar": "thriving-built-environment",
+      "summary": "Index of all data sources catalogued for the built environment pillar. Cross-references source_inventory.csv with human-readable descriptions and access notes.",
+      "tags": ["data-index", "data-sources", "ArcGIS", "open-data"],
+      "recommended_audience": ["teams exploring data availability", "teams in Phase 3"],
+      "read_after": ["research/D1_data_arcgis_dpw.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "data/source_inventory",
+      "path": "02_data/source_inventory.csv",
+      "type": "data_file",
+      "title": "Source Inventory (CSV)",
+      "pillar": "thriving-built-environment",
+      "summary": "CSV inventory of verified data sources with access mode, update frequency, key fields, and notes. Machine-readable complement to 02_data/00_index.md.",
+      "tags": ["source-inventory", "CSV", "data-sources", "ArcGIS", "Socrata"],
+      "recommended_audience": ["teams integrating data", "developers building data pipelines"],
+      "read_after": ["02_data/00_index.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "artifacts/benchmark_scan",
+      "path": "03_artifacts/benchmark_scan.md",
+      "type": "synthesized_artifact",
+      "title": "Benchmark Scan",
+      "pillar": "thriving-built-environment",
+      "summary": "Synthesized scan of comparable civic infrastructure tools from other cities. Complements E-section research reports with curated benchmark examples.",
+      "tags": ["benchmark", "prior-art", "comparable-tools", "civic-tech"],
+      "recommended_audience": ["teams researching what has been built elsewhere", "teams in Phase 4"],
+      "read_after": ["research/E1_prior_art_project_trackers.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "artifacts/continuation_plan",
+      "path": "03_artifacts/continuation_plan.md",
+      "type": "synthesized_artifact",
+      "title": "Continuation Plan",
+      "pillar": "thriving-built-environment",
+      "summary": "Post-hackathon continuation plan identifying partners, artifacts worth continuing, and next steps for built environment projects beyond the weekend.",
+      "tags": ["continuation", "post-hackathon", "partners", "next-steps"],
+      "recommended_audience": ["teams planning beyond the hackathon", "continuity_planner skill"],
+      "read_after": ["research/H5_mvp_scope_boundaries.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "artifacts/dpw_data_landscape",
+      "path": "03_artifacts/dpw_data_landscape.md",
+      "type": "synthesized_artifact",
+      "title": "DPW Data Landscape",
+      "pillar": "thriving-built-environment",
+      "summary": "Synthesized landscape of Richmond DPW's publicly available data assets. Maps data availability to potential MVP use cases.",
+      "tags": ["DPW", "data-landscape", "synthesized", "ArcGIS", "open-data"],
+      "recommended_audience": ["teams exploring DPW data", "teams in Phase 3"],
+      "read_after": ["research/D1_data_arcgis_dpw.md", "research/D2_data_open_data_portal.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "artifacts/prototype_recommendations",
+      "path": "03_artifacts/prototype_recommendations.md",
+      "type": "synthesized_artifact",
+      "title": "Prototype Recommendations",
+      "pillar": "thriving-built-environment",
+      "summary": "Synthesized prototype recommendations for the built environment pillar. Provides ranked MVP options with rationale grounded in research.",
+      "tags": ["prototype", "recommendations", "MVP", "ranked-options"],
+      "recommended_audience": ["teams choosing an MVP direction", "teams in Phase 4"],
+      "read_after": ["research/F1_opportunities_ranked.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "artifacts/user_journeys",
+      "path": "03_artifacts/user_journeys.md",
+      "type": "synthesized_artifact",
+      "title": "User Journeys",
+      "pillar": "thriving-built-environment",
+      "summary": "Synthesized user journeys for key personas including the concerned resident, DPW supervisor, and DPW communications staff. Complements B-section research reports.",
+      "tags": ["user-journeys", "personas", "resident", "DPW", "synthesized"],
+      "recommended_audience": ["teams designing user flows", "teams in Phase 4–5"],
+      "read_after": ["research/B1_users_concerned_resident.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "build_guides/01_mvp_shapes",
+      "path": "04_build_guides/01_mvp_shapes.md",
+      "type": "build_guide",
+      "title": "MVP Shapes",
+      "pillar": "thriving-built-environment",
+      "summary": "Describes candidate MVP shapes for the built environment pillar with trade-offs, scope, and technical approaches for each. Read before Phase 4 opportunity framing.",
+      "tags": ["MVP-shapes", "build-guide", "scope", "trade-offs"],
+      "recommended_audience": ["teams in Phase 4", "teams choosing an MVP direction"],
+      "read_after": ["research/F1_opportunities_ranked.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "build_guides/02_recommended_architectures",
+      "path": "04_build_guides/02_recommended_architectures.md",
+      "type": "build_guide",
+      "title": "Recommended Architectures",
+      "pillar": "thriving-built-environment",
+      "summary": "Technical architecture recommendations for built environment MVPs. Covers ArcGIS integration patterns, geocoding options, mapping libraries, and fallback strategies.",
+      "tags": ["architecture", "ArcGIS", "geocoding", "Leaflet", "technical"],
+      "recommended_audience": ["developers", "teams in Phase 5"],
+      "read_after": ["04_build_guides/01_mvp_shapes.md", "research/H1_mvp_48hr_framework.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "build_guides/05_demo_advice",
+      "path": "04_build_guides/05_demo_advice.md",
+      "type": "build_guide",
+      "title": "Demo Advice",
+      "pillar": "thriving-built-environment",
+      "summary": "Practical demo advice for built environment civic prototypes. Covers narrative structure, judge-facing framing, and how to present synthetic data credibly.",
+      "tags": ["demo", "advice", "narrative", "judging", "credibility"],
+      "recommended_audience": ["teams in Phase 6–9", "demo_coach skill"],
+      "read_after": ["research/I1_demo_archetypes.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "skill/continuity_planner",
+      "path": "skills/continuity_planner/SKILL.md",
+      "type": "skill",
+      "title": "Skill: continuity_planner",
+      "pillar": "thriving-built-environment",
+      "summary": "Identifies post-hackathon continuation opportunities, potential partners, and artifacts worth continuing.",
+      "tags": ["skill", "continuity", "post-hackathon"],
+      "recommended_audience": ["AI agents", "teams planning beyond the hackathon"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/dataset_mapper",
+      "path": "skills/dataset_mapper/SKILL.md",
+      "type": "skill",
+      "title": "Skill: dataset_mapper",
+      "pillar": "thriving-built-environment",
+      "summary": "Identifies usable datasets by scanning the data directory, identifying schemas, and highlighting gaps.",
+      "tags": ["skill", "datasets", "data-mapping"],
+      "recommended_audience": ["AI agents", "teams exploring data availability"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/demo_coach",
+      "path": "skills/demo_coach/SKILL.md",
+      "type": "skill",
+      "title": "Skill: demo_coach",
+      "pillar": "thriving-built-environment",
+      "summary": "Helps teams present effectively with demo scripts, narrative structure, and judge-facing explanations.",
+      "tags": ["skill", "demo", "coaching", "pitch"],
+      "recommended_audience": ["AI agents", "teams preparing demos"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/mvp_designer",
+      "path": "skills/mvp_designer/SKILL.md",
+      "type": "skill",
+      "title": "Skill: mvp_designer",
+      "pillar": "thriving-built-environment",
+      "summary": "Turns an opportunity into a concrete MVP with user flow, architecture, and scope boundaries.",
+      "tags": ["skill", "MVP", "design", "scope"],
+      "recommended_audience": ["AI agents", "teams designing MVPs"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/opportunity_mapper",
+      "path": "skills/opportunity_mapper/SKILL.md",
+      "type": "skill",
+      "title": "Skill: opportunity_mapper",
+      "pillar": "thriving-built-environment",
+      "summary": "Translates research into buildable solution opportunities by matching problems to solution patterns.",
+      "tags": ["skill", "opportunities", "solution-mapping"],
+      "recommended_audience": ["AI agents", "teams in Phase 4"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/problem_scoping",
+      "path": "skills/problem_scoping/SKILL.md",
+      "type": "skill",
+      "title": "Skill: problem_scoping",
+      "pillar": "thriving-built-environment",
+      "summary": "Helps teams choose a strong problem by analyzing problem statements, ranking opportunities, and identifying realistic directions.",
+      "tags": ["skill", "problem-scoping", "problem-selection"],
+      "recommended_audience": ["AI agents", "teams in Phase 2"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/repo_librarian",
+      "path": "skills/repo_librarian/SKILL.md",
+      "type": "skill",
+      "title": "Skill: repo_librarian",
+      "pillar": "thriving-built-environment",
+      "summary": "Helps users navigate repository knowledge and locate specific files, datasets, or problem statements.",
+      "tags": ["skill", "navigation", "librarian", "file-location"],
+      "recommended_audience": ["AI agents", "teams exploring the repo"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/repo_memory",
+      "path": "skills/repo_memory/SKILL.md",
+      "type": "skill",
+      "title": "Skill: repo_memory",
+      "pillar": "thriving-built-environment",
+      "summary": "Reconstructs repository state by reading project artifacts, detecting the current stage, and summarizing progress.",
+      "tags": ["skill", "repo-memory", "context-reconstruction"],
+      "recommended_audience": ["AI agents", "Hackbot boot sequence"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/research_runner",
+      "path": "skills/research_runner/SKILL.md",
+      "type": "skill",
+      "title": "Skill: research_runner",
+      "pillar": "thriving-built-environment",
+      "summary": "Executes research prompts, extracts sources, and summarizes evidence for the team.",
+      "tags": ["skill", "research", "prompts", "evidence"],
+      "recommended_audience": ["AI agents", "teams in Phase 3"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/research_search",
+      "path": "skills/research_search/SKILL.md",
+      "type": "skill",
+      "title": "Skill: research_search",
+      "pillar": "thriving-built-environment",
+      "summary": "Searches the research corpus for relevant reports and data sources matching a user query.",
+      "tags": ["skill", "research-search", "corpus-search"],
+      "recommended_audience": ["AI agents", "teams searching for specific information"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/risk_review",
+      "path": "skills/risk_review/SKILL.md",
+      "type": "skill",
+      "title": "Skill: risk_review",
+      "pillar": "thriving-built-environment",
+      "summary": "Prevents civic-tech mistakes by checking for hallucinated services, legal claims, GPS overclaiming, and misleading infrastructure data language.",
+      "tags": ["skill", "risk-review", "guardrails", "GPS", "civic-tech"],
+      "recommended_audience": ["AI agents", "teams in Phase 5–6"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/research_corpus_navigation",
+      "path": "skills/research_corpus_navigation/SKILL.md",
+      "type": "skill",
+      "title": "Skill: research_corpus_navigation",
+      "pillar": "thriving-built-environment",
+      "summary": "Maps a user question to the correct section and specific research reports before attempting to answer. Uses research/index.json and CORPUS_GUIDE.md to build reading lists.",
+      "tags": ["skill", "corpus-navigation", "retrieval", "index"],
+      "recommended_audience": ["AI agents", "agents answering research questions"],
+      "read_after": ["CORPUS_GUIDE.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/cross_report_synthesis",
+      "path": "skills/cross_report_synthesis/SKILL.md",
+      "type": "skill",
+      "title": "Skill: cross_report_synthesis",
+      "pillar": "thriving-built-environment",
+      "summary": "Synthesizes findings from multiple research reports with source traceability, tension identification, and gap documentation.",
+      "tags": ["skill", "synthesis", "cross-report", "citation"],
+      "recommended_audience": ["AI agents", "agents answering multi-section questions"],
+      "read_after": ["skills/research_corpus_navigation/SKILL.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/evidence_grounded_answering",
+      "path": "skills/evidence_grounded_answering/SKILL.md",
+      "type": "skill",
+      "title": "Skill: evidence_grounded_answering",
+      "pillar": "thriving-built-environment",
+      "summary": "Answers questions using only content present in the corpus with explicit claim classification and anti-fabrication checking.",
+      "tags": ["skill", "evidence-grounded", "anti-fabrication", "claim-classification"],
+      "recommended_audience": ["AI agents", "agents making factual claims about Richmond"],
+      "read_after": ["skills/research_corpus_navigation/SKILL.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/report_update_protocol",
+      "path": "skills/report_update_protocol/SKILL.md",
+      "type": "skill",
+      "title": "Skill: report_update_protocol",
+      "pillar": "thriving-built-environment",
+      "summary": "Safely adds or updates research reports and keeps all metadata, indexes, and navigation files synchronized through a 7-step process.",
+      "tags": ["skill", "report-update", "maintenance", "synchronization"],
+      "recommended_audience": ["AI agents", "corpus maintainers"],
+      "read_after": ["MAINTENANCE.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "template/decision_memo",
+      "path": "99_templates/decision_memo.md",
+      "type": "template",
+      "title": "Decision Memo Template",
+      "pillar": "thriving-built-environment",
+      "summary": "Template for capturing the chosen problem, rationale, risks, and alternatives considered. Used in Phase 2 problem selection.",
+      "tags": ["template", "decision-memo", "problem-selection"],
+      "recommended_audience": ["teams in Phase 2"],
+      "read_after": ["01_problem_space/02_targeted_problem_statements.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "template/project_one_pager",
+      "path": "99_templates/project_one_pager_template.md",
+      "type": "template",
+      "title": "Project One-Pager Template",
+      "pillar": "thriving-built-environment",
+      "summary": "Template for the project one-pager used in Phase 5 scope lock. Captures user, problem, MVP shape, data sources, AI role, limits, and demo path.",
+      "tags": ["template", "one-pager", "scope-lock"],
+      "recommended_audience": ["teams in Phase 5"],
+      "read_after": ["04_build_guides/01_mvp_shapes.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "template/team_profile",
+      "path": "99_templates/team_profile_template.md",
+      "type": "template",
+      "title": "Team Profile Template",
+      "pillar": "thriving-built-environment",
+      "summary": "Template for creating a team profile file. Used by Hackbot to personalize task assignments, communication style, and role-based suggestions.",
+      "tags": ["template", "team-profile", "hackbot"],
+      "recommended_audience": ["all teams", "teams starting their first Hackbot session"],
+      "read_after": ["AGENTS.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "template/working_direction_note",
+      "path": "99_templates/working_direction_note.md",
+      "type": "template",
+      "title": "Working Direction Note Template",
+      "pillar": "thriving-built-environment",
+      "summary": "Template for capturing the team's working direction after Phase 1 orientation. Structures the candidate problem, likely user, and key uncertainties.",
+      "tags": ["template", "working-direction", "orientation"],
+      "recommended_audience": ["teams in Phase 1"],
+      "read_after": ["README.md"],
+      "source_of_truth": false
+    },
+
+    {
+      "id": "research/corpus_reference",
+      "path": "research/index.json",
+      "type": "research_index",
+      "title": "Research Corpus Index",
+      "pillar": "thriving-built-environment",
+      "summary": "Machine-readable index of all 51 research reports. Each entry has id, section, title, summary, and key_terms. Use to identify relevant files before reading them.",
+      "tags": ["research-index", "navigation", "machine-readable", "key-terms"],
+      "recommended_audience": ["AI agents", "search tools", "agents building reading lists"],
+      "read_after": ["CORPUS_GUIDE.md"],
+      "source_of_truth": false
+    }
+
+  ]
+}

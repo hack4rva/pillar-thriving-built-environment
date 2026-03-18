@@ -1,3 +1,25 @@
+---
+title: "Richmond DPW GeoHub: Target Layers and Gaps for a Fast Project Explorer"
+pillar: thriving-built-environment
+section: D
+problem_statement: transportation-project-visibility
+tags:
+  - GeoHub
+  - ArcGIS layers
+  - CIP dashboard
+  - road centerlines
+  - VDOT
+  - permit data
+summary: "Layer-by-layer assessment of Richmond's ArcGIS GeoHub for DPW data. Identifies MVP-ready layers (CIP dashboard, road centerlines, VDOT crash data) and gaps (construction permits, closures) for a fast project explorer."
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - D2_data_open_data_portal
+  - C2_services_arcgis_landscape
+  - H1_mvp_48hr_framework
+---
+
 # Richmond DPW GeoHub: Target Layers and Gaps for a Fast Project Explorer
 
 ## Executive Summary

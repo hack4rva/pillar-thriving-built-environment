@@ -1,0 +1,359 @@
+[
+  {
+    "id": "00_pillar_summary_context",
+    "section": "context",
+    "title": "From Patchwork to Clarity: Richmond Project & Fleet Visibility",
+    "summary": "Executive overview of the built environment pillar: infrastructure project transparency and fleet operations visibility for Richmond residents. Defines mission, constraints, and strategic path using existing public assets.",
+    "key_terms": ["infrastructure transparency", "fleet operations", "DPW", "capital project dashboard", "resident", "GPS"]
+  },
+  {
+    "id": "01_master_research_prompt",
+    "section": "master",
+    "title": "Fast-tracking Richmond's Street Transparency in 48 Hours",
+    "summary": "Comprehensive research framework for building a unified resident-facing infrastructure lookup tool in 48 hours. Covers data sources, federated ArcGIS layers, and DPW data approach.",
+    "key_terms": ["street transparency", "ArcGIS", "address lookup", "48 hours", "DPW", "hackathon MVP"]
+  },
+  {
+    "id": "90_top_10_research_questions",
+    "section": "cross-cutting",
+    "title": "Richmond's Path to a Unified Infrastructure Project Finder: What to Build Next, Using What We Already Have",
+    "summary": "Top 10 research questions for building a unified Richmond infrastructure project finder. Covers data consolidation, ArcGIS endpoints, open data momentum, and patterns from cities like New York, Boston, and Portland.",
+    "key_terms": ["infrastructure project finder", "ArcGIS", "open data", "pavement condition index", "research questions", "data consolidation"]
+  },
+  {
+    "id": "91_top_10_hypotheses_to_test",
+    "section": "cross-cutting",
+    "title": "De-risking Richmond's Built-Environment UX: 10 Evidence-Backed Tests to Launch Fast",
+    "summary": "Ten testable hypotheses for civic built-environment prototypes in Richmond, grounded in evidence. Guides teams toward validated assumptions before building.",
+    "key_terms": ["hypotheses", "testing", "UX", "de-risking", "civic prototype", "evidence-backed"]
+  },
+  {
+    "id": "92_red_flags",
+    "section": "cross-cutting",
+    "title": "Credible-by-Design: 8 Red Flags for Civic Prototypes",
+    "summary": "Eight red flags to watch for when building civic infrastructure transparency prototypes. Covers overclaiming, GPS dependency, official-looking interfaces, and unsafe data presentations.",
+    "key_terms": ["red flags", "civic prototype", "credibility", "GPS dependency", "overclaiming", "guardrails"]
+  },
+  {
+    "id": "93_missing_information_gaps",
+    "section": "cross-cutting",
+    "title": "Unblocking Richmond DPW MVPs: Data Gaps, Evidence, and Fast Workarounds",
+    "summary": "Identifies critical unknowns and information gaps for Richmond DPW MVPs. Documents missing data, evidence limitations, and practical workarounds for a weekend build.",
+    "key_terms": ["data gaps", "missing information", "workarounds", "DPW", "MVP", "evidence gaps"]
+  },
+  {
+    "id": "A1_problem_landscape_infrastructure_visibility",
+    "section": "A",
+    "title": "\"Near Me\" Isn't Near Enough — Why Richmond's Project Info Still Hides in Plain Sight",
+    "summary": "Analyzes the fragmented landscape of Richmond's infrastructure project information across six separate portals, with jargon, mismatched update cadences, and address search gaps preventing residents from getting answers.",
+    "key_terms": ["fragmentation", "capital project dashboard", "jargon", "address search", "resident", "portal"]
+  },
+  {
+    "id": "A2_problem_landscape_fleet_operations",
+    "section": "A",
+    "title": "Closing the Blind Spot: Making Snow Ops Visible Before AVL Is Fully Deployed",
+    "summary": "Examines the fleet operations visibility gap for snow removal and street cleaning. GPS infrastructure is incomplete as of March 2026; schedule and priority data already exist as a viable alternative.",
+    "key_terms": ["snow removal", "fleet operations", "GPS", "AVL", "schedule data", "street sweeping"]
+  },
+  {
+    "id": "A3_problem_landscape_compare_statements",
+    "section": "A",
+    "title": "Pick the Winner Fast: Transportation Project Visibility beats Fleet Ops on data, demo, and downstream adoption",
+    "summary": "Head-to-head comparison of the two targeted problem statements. Transportation Project Visibility scores higher on data readiness, demo viability, and downstream adoption than Fleet Operations Visibility.",
+    "key_terms": ["problem comparison", "transportation visibility", "fleet ops", "data readiness", "demo viability", "scoring"]
+  },
+  {
+    "id": "A4_problem_landscape_public_works_transparency",
+    "section": "A",
+    "title": "Closing the Gap: Turning Fragmented Public Works Data into Resident-Centric Transparency",
+    "summary": "Examines how fragmented DPW data can be reframed around resident needs rather than departmental silos. Proposes consolidating active works, closures, and utility projects into a resident-centric hub.",
+    "key_terms": ["public works transparency", "resident-centric", "data fragmentation", "DPW", "consolidation", "closures"]
+  },
+  {
+    "id": "A5_problem_landscape_infrastructure_data_fragmentation",
+    "section": "A",
+    "title": "Cutting Through the Noise: A no-new-systems path to unify city project data for residents",
+    "summary": "Outlines a no-new-systems approach to unifying Richmond's city project data for residents by federating existing public endpoints without requiring internal integrations.",
+    "key_terms": ["data fragmentation", "no new systems", "federated data", "city project data", "public endpoints", "unification"]
+  },
+  {
+    "id": "B1_users_concerned_resident",
+    "section": "B",
+    "title": "RVA's Concerned Resident: Turning Project Chaos into Clear, Local Answers",
+    "summary": "User persona and journey for Richmond's concerned resident navigating infrastructure project information. Documents pain points, mental models, and what clear local answers would look like.",
+    "key_terms": ["concerned resident", "user persona", "user journey", "local answers", "pain points", "mental model"]
+  },
+  {
+    "id": "B2_users_dpw_supervisor",
+    "section": "B",
+    "title": "From Radios to Real-Time: What DPW Supervisors Need to Run Snow and Street Cleaning at City Scale",
+    "summary": "User persona for DPW field supervisors coordinating snow removal and street cleaning operations. Covers radio-based coordination pain points and what real-time visibility would enable.",
+    "key_terms": ["DPW supervisor", "snow removal", "street cleaning", "radio coordination", "real-time", "city scale"]
+  },
+  {
+    "id": "B3_users_dpw_comms",
+    "section": "B",
+    "title": "From Questions to Clarity: Designing Tools for DPW Communications That Cut Repetitive Inquiries and Speed Storm Updates",
+    "summary": "User persona for DPW communications staff managing inbound resident inquiries. Focuses on reducing repetitive questions and speeding storm-related public updates.",
+    "key_terms": ["DPW communications", "repetitive inquiries", "storm updates", "public communication", "staff tools", "inquiry reduction"]
+  },
+  {
+    "id": "B4_users_stakeholders_map",
+    "section": "B",
+    "title": "Richmond's Transparency Triple-Win: Aligning Residents, DPW, and Council on Real-Time Infrastructure & Fleet Data",
+    "summary": "Stakeholder map covering residents, DPW staff, and City Council. Identifies shared incentives for infrastructure and fleet data transparency and how to align all three groups.",
+    "key_terms": ["stakeholder map", "residents", "DPW", "city council", "alignment", "infrastructure data"]
+  },
+  {
+    "id": "B5_users_accessibility",
+    "section": "B",
+    "title": "Keeping Richmond Moving: Designing Infrastructure Visibility That Works for Residents Who Can't Detour",
+    "summary": "Accessibility user profile for residents with mobility limitations or without reliable digital access. Documents constraints that infrastructure visibility tools must address for equitable access.",
+    "key_terms": ["accessibility", "mobility limitations", "digital access", "equitable design", "detour", "inclusive"]
+  },
+  {
+    "id": "C1_services_dpw_landscape",
+    "section": "C",
+    "title": "Richmond DPW, decoded: who does what and how to engage",
+    "summary": "Landscape overview of Richmond DPW's services, organizational structure, and engagement pathways. Required reading before exploring specific services or gaps.",
+    "key_terms": ["DPW", "services", "organizational structure", "engagement", "public works", "landscape"]
+  },
+  {
+    "id": "C2_services_arcgis_landscape",
+    "section": "C",
+    "title": "Richmond GeoHub DPW Data: Public Inventory, Quality, and API Playbook",
+    "summary": "Inventory of DPW-related data on Richmond's ArcGIS GeoHub, including quality assessments, available REST APIs, and a playbook for accessing data in a weekend build.",
+    "key_terms": ["GeoHub", "ArcGIS", "public inventory", "REST API", "data quality", "playbook"]
+  },
+  {
+    "id": "C3_services_project_tracking_systems",
+    "section": "C",
+    "title": "Bridging Richmond DPW's Project Data Silos to Real-Time Public Maps",
+    "summary": "Examines Richmond DPW's internal project tracking systems and identifies how to bridge them to public-facing maps without requiring internal system integration.",
+    "key_terms": ["project tracking", "data silos", "public maps", "bridging", "DPW systems", "real-time"]
+  },
+  {
+    "id": "C4_services_gaps",
+    "section": "C",
+    "title": "Richmond DPW's Blind Spots: Closing Public Info Gaps Residents Feel First",
+    "summary": "Documents specific gaps in Richmond DPW's public information: what residents experience as blind spots and which gaps can be closed within a hackathon weekend.",
+    "key_terms": ["blind spots", "public information gaps", "DPW", "resident experience", "closeable gaps", "weekend feasibility"]
+  },
+  {
+    "id": "C5_services_notification_systems",
+    "section": "C",
+    "title": "Richmond Public Works Alerts: Channels, Gaps, and Build-On Assets",
+    "summary": "Surveys existing Richmond public works notification channels, identifies communication gaps, and highlights assets (existing channels, formats) that a hackathon prototype can build upon.",
+    "key_terms": ["notification systems", "alerts", "communication channels", "gaps", "build-on assets", "public works"]
+  },
+  {
+    "id": "D1_data_arcgis_dpw",
+    "section": "D",
+    "title": "Richmond DPW GeoHub: Target Layers and Gaps for a Fast Project Explorer",
+    "summary": "Layer-by-layer assessment of Richmond's ArcGIS GeoHub for DPW data. Identifies MVP-ready layers (CIP dashboard, road centerlines, VDOT crash data) and gaps (construction permits, closures) for a fast project explorer.",
+    "key_terms": ["GeoHub", "ArcGIS layers", "CIP dashboard", "road centerlines", "VDOT", "permit data"]
+  },
+  {
+    "id": "D2_data_open_data_portal",
+    "section": "D",
+    "title": "Richmond DPW Data Playbook: What's Ready, What's Missing, What to Build",
+    "summary": "Assessment of Richmond's Socrata-based Open Data Portal for DPW-relevant datasets. Documents what is ready for use, what is missing, and what can be built with available data.",
+    "key_terms": ["open data portal", "Socrata", "DPW datasets", "data readiness", "playbook", "gaps"]
+  },
+  {
+    "id": "D3_data_grant_documentation",
+    "section": "D",
+    "title": "Connecting Grants to Pavement: Actionable Funding Intelligence for Richmond DPW Projects",
+    "summary": "Documents how grant funding data connects to DPW project information. Identifies funding intelligence sources that can help residents and stakeholders understand why projects are happening.",
+    "key_terms": ["grant documentation", "funding intelligence", "DPW projects", "pavement", "federal grants", "project context"]
+  },
+  {
+    "id": "D4_data_gps_fleet",
+    "section": "D",
+    "title": "From Dots to Decisions: A DPW-Ready GPS Schema for Richmond's Snow and Sweeping Ops",
+    "summary": "Proposes a GPS data schema for Richmond DPW fleet vehicles covering snow removal and street sweeping. Provides a data model teams can use even before live GPS feeds are available.",
+    "key_terms": ["GPS schema", "fleet data", "snow operations", "street sweeping", "data model", "synthetic data"]
+  },
+  {
+    "id": "D5_data_quality",
+    "section": "D",
+    "title": "Future-proofing a Fleet Ops Demo at D3=2: Ship Value Now, Avoid Rework Later",
+    "summary": "Data quality guidance for fleet operations demos when GPS data readiness is rated D3=2 (incomplete). Documents how to ship value now using available data while avoiding architectural rework later.",
+    "key_terms": ["data quality", "D3 rating", "fleet ops demo", "future-proofing", "rework avoidance", "GPS completeness"]
+  },
+  {
+    "id": "E1_prior_art_project_trackers",
+    "section": "E",
+    "title": "From Maps to Momentum: The Best Public Project Trackers Cities Use—and How Richmond Can Win",
+    "summary": "Survey of the best civic infrastructure project trackers used by cities nationally. Identifies patterns Richmond can immediately replicate and highlights what makes them successful.",
+    "key_terms": ["project trackers", "civic tech", "national benchmarks", "city examples", "patterns", "best practices"]
+  },
+  {
+    "id": "E2_prior_art_service_status",
+    "section": "E",
+    "title": "Snow Status, Fast: Replicable City Playbooks Without Live GPS",
+    "summary": "Prior art survey of cities that publish snow removal and service status dashboards without live GPS. Provides replicable patterns for Richmond to build a credible snow status tool using schedule data.",
+    "key_terms": ["snow status", "service status", "prior art", "GPS-free", "replicable patterns", "schedule data"]
+  },
+  {
+    "id": "E3_prior_art_311_integration",
+    "section": "E",
+    "title": "311 to Construction Clarity: Turning Service Requests into Project Visibility for Richmond",
+    "summary": "Prior art on integrating 311 service request data with construction and project information. Documents how cities have used 311 data to add context to infrastructure visibility tools.",
+    "key_terms": ["311 integration", "service requests", "construction clarity", "project visibility", "prior art", "civic data"]
+  },
+  {
+    "id": "E4_prior_art_failures",
+    "section": "E",
+    "title": "Stop Building Ghost Dashboards: How to Avoid Civic Infrastructure Transparency Tools That Die After Launch",
+    "summary": "Analysis of civic infrastructure transparency tools that failed post-launch. Identifies common failure modes (no champion, stale data, no user testing) and how to avoid them.",
+    "key_terms": ["ghost dashboards", "failure modes", "post-launch failure", "civic tech", "sustainability", "lessons learned"]
+  },
+  {
+    "id": "E5_prior_art_weekend_viable",
+    "section": "E",
+    "title": "48-Hour Civic Infra Wins: Patterns, Playbooks, and Pitfalls",
+    "summary": "Survey of civic infrastructure prototypes successfully built in 48 hours. Documents proven patterns, technology playbooks, and common pitfalls specific to weekend hackathon constraints.",
+    "key_terms": ["48 hours", "hackathon", "civic infrastructure", "patterns", "playbooks", "pitfalls"]
+  },
+  {
+    "id": "F1_opportunities_ranked",
+    "section": "F",
+    "title": "From Trash Day to TIP Maps: Fast-Track Civic Tools Richmond Residents Will Actually Use",
+    "summary": "Ranked list of civic tool opportunities for Richmond residents based on data readiness and user value. Highlights converging trash, recycling, and street sweeping schedules as the highest-impact opportunity.",
+    "key_terms": ["ranked opportunities", "trash day", "TIP maps", "street sweeping", "data readiness", "resident value"]
+  },
+  {
+    "id": "F2_opportunities_project_visibility",
+    "section": "F",
+    "title": "From \"What's That Roadwork?\" to Answers in Seconds — A Practical Solution Space for Transportation Project Visibility",
+    "summary": "Solution space analysis for transportation project visibility tools. Maps specific user pain points to buildable software solutions using Richmond's existing public data.",
+    "key_terms": ["transportation project visibility", "solution space", "roadwork", "user pain points", "software solutions", "ArcGIS"]
+  },
+  {
+    "id": "F3_opportunities_fleet_ops",
+    "section": "F",
+    "title": "48-Hour Fleet Visibility: Schedule-First Wins that De-risk GPS and Build Trust",
+    "summary": "Fleet operations opportunity analysis focused on schedule-first approaches that avoid GPS dependency. Identifies achievable wins for snow and sweeping visibility within 48 hours.",
+    "key_terms": ["fleet visibility", "schedule-first", "GPS de-risking", "snow operations", "48 hours", "trust building"]
+  },
+  {
+    "id": "F4_opportunities_where_software",
+    "section": "F",
+    "title": "Targeted transparency and reliable service: where software truly moves the needle in projects and fleets",
+    "summary": "Analysis of where software interventions provide genuine value in infrastructure project and fleet visibility versus where they create misleading impressions. Guides teams toward highest-leverage software opportunities.",
+    "key_terms": ["software value", "targeted transparency", "reliable service", "leverage points", "software limitations", "genuine impact"]
+  },
+  {
+    "id": "F5_opportunities_do_not_build",
+    "section": "F",
+    "title": "Hackathon Minefields: Five Civic Tech Ideas That Will Blow Up Your Project",
+    "summary": "Five civic tech ideas to avoid for the Richmond built environment hackathon. Documents why each fails on data availability, feasibility, or ethical grounds.",
+    "key_terms": ["do not build", "minefields", "civic tech pitfalls", "GPS tracking", "internal integrations", "feasibility risks"]
+  },
+  {
+    "id": "G1_risks_inaccurate_project_info",
+    "section": "G",
+    "title": "Building Trust Without False Precision: Mitigating Public Project Timeline Risk",
+    "summary": "Risk analysis for inaccurate project timeline information in civic prototypes. Documents how stale or estimated data misleads residents and provides mitigation strategies including explicit labeling.",
+    "key_terms": ["project timeline risk", "false precision", "trust building", "stale data", "labeling", "mitigation"]
+  },
+  {
+    "id": "G2_risks_gps_dependency",
+    "section": "G",
+    "title": "De-Risking Fleet GPS Prototypes: Bridging Synthetic Data to Real-World Feeds",
+    "summary": "Risk analysis for GPS-dependent fleet prototypes. Documents the gap between synthetic demo data and real GPS feeds and provides a bridging strategy for responsible prototyping.",
+    "key_terms": ["GPS dependency", "synthetic data", "fleet prototype", "risk mitigation", "real-world feeds", "bridging"]
+  },
+  {
+    "id": "G3_risks_accessibility",
+    "section": "G",
+    "title": "Bridging the Last-Mile: Making Infrastructure Visibility Tools Accessible Beyond Maps and SMS",
+    "summary": "Accessibility risk analysis for map-heavy infrastructure visibility prototypes. Documents WCAG requirements and inclusive design approaches that go beyond visual maps and SMS alerts.",
+    "key_terms": ["accessibility", "WCAG", "map accessibility", "inclusive design", "last-mile", "SMS alternatives"]
+  },
+  {
+    "id": "G4_risks_data_freshness",
+    "section": "G",
+    "title": "Trust on a Timer: Preventing Stale GeoHub Data in Project Dashboards",
+    "summary": "Risk analysis for data freshness in GeoHub-powered project dashboards. Documents how stale data erodes public trust and provides strategies for freshness labeling and update cadence management.",
+    "key_terms": ["data freshness", "stale data", "GeoHub", "public trust", "update cadence", "labeling"]
+  },
+  {
+    "id": "G5_risks_guardrails",
+    "section": "G",
+    "title": "Ship Safe: A 10-Guardrail Checklist to De-risk Built-Environment Prototypes Before Demos",
+    "summary": "Ten-guardrail checklist for de-risking built environment prototypes before demo. Covers jurisdictional boundaries, timeline volatility, accessibility requirements, and synthetic data labeling.",
+    "key_terms": ["guardrails", "10-point checklist", "de-risking", "jurisdictional boundaries", "accessibility", "synthetic data labeling"]
+  },
+  {
+    "id": "H1_mvp_48hr_framework",
+    "section": "H",
+    "title": "From Address to Active Projects in 48 Hours: A Feasible MVP Blueprint",
+    "summary": "Technical blueprint for building an address-based infrastructure project lookup in 48 hours. Covers Census Geocoder, ArcGIS FeatureService queries, and Leaflet map implementation with static GeoJSON fallback.",
+    "key_terms": ["48-hour MVP", "address lookup", "Census Geocoder", "ArcGIS FeatureService", "Leaflet", "GeoJSON"]
+  },
+  {
+    "id": "H2_mvp_project_visibility",
+    "section": "H",
+    "title": "Ship in 48 hours: Richmond Project Finder with Leaflet + OpenCage",
+    "summary": "Step-by-step MVP implementation guide for a Richmond project finder using Leaflet mapping and OpenCage geocoding. Provides technical architecture and scoped feature set for a weekend build.",
+    "key_terms": ["project finder", "Leaflet", "OpenCage", "geocoding", "MVP implementation", "weekend build"]
+  },
+  {
+    "id": "H3_mvp_fleet_ops",
+    "section": "H",
+    "title": "Build-Now Fleet Visibility: A GPS-Ready MVP for Richmond",
+    "summary": "GPS-ready fleet visibility MVP design for Richmond DPW. Provides a build-now architecture that works with synthetic data and can wire to live GPS feeds once infrastructure is complete.",
+    "key_terms": ["fleet visibility MVP", "GPS-ready", "synthetic data", "DPW fleet", "architecture", "live feed transition"]
+  },
+  {
+    "id": "H4_mvp_mock_data",
+    "section": "H",
+    "title": "Build-Now, Wire-Later: Credible Richmond DPW MVPs with Mock + Historical Data",
+    "summary": "Strategy for building credible Richmond DPW MVPs using mock and historical data when live feeds are unavailable. Explains how to wire to real data later without architectural rework.",
+    "key_terms": ["mock data", "historical data", "build-now wire-later", "DPW MVP", "credibility", "data architecture"]
+  },
+  {
+    "id": "H5_mvp_scope_boundaries",
+    "section": "H",
+    "title": "48-Hour MVP Guardrails: Winning Scope for Richmond Built-Environment Demos",
+    "summary": "Scope boundary framework for Richmond built environment MVPs. Documents what must be in scope, what can be mocked, and what must be explicitly excluded for a credible 48-hour demo.",
+    "key_terms": ["scope boundaries", "MVP guardrails", "48-hour demo", "must-haves", "mockables", "exclusions"]
+  },
+  {
+    "id": "I1_demo_archetypes",
+    "section": "I",
+    "title": "Zero-Friction Street Data: Crafting 90-Second Civic Infrastructure Demos That Win Hackathons",
+    "summary": "Demo archetypes for civic infrastructure prototypes targeting hackathon judging. Covers 90-second narrative structure, zero-friction interaction design, and what makes infrastructure demos win.",
+    "key_terms": ["demo archetypes", "90-second demo", "hackathon judging", "zero-friction", "narrative structure", "civic infrastructure"]
+  },
+  {
+    "id": "I2_demo_project_visibility_pitch",
+    "section": "I",
+    "title": "From \"What's going on?\" to \"Got it\" in 10 seconds — A winning demo narrative for Richmond's DPW project finder",
+    "summary": "Demo pitch guide for Richmond's DPW project finder. Provides a complete narrative from resident confusion to clarity in 10 seconds, tailored for hackathon judging panels.",
+    "key_terms": ["demo narrative", "project finder", "DPW", "10 seconds", "pitch guide", "hackathon judges"]
+  },
+  {
+    "id": "I3_demo_fleet_ops_pitch",
+    "section": "I",
+    "title": "Build Now, Calm the Snow-Day Chaos: Richmond's Fleet Visibility Demo That Works Without GPS",
+    "summary": "Demo pitch guide for Richmond's fleet visibility prototype that works without live GPS data. Covers how to present synthetic data credibly and address judge skepticism about GPS limitations.",
+    "key_terms": ["fleet visibility demo", "snow day", "GPS-free pitch", "synthetic data credibility", "demo pitch", "judge skepticism"]
+  },
+  {
+    "id": "I4_demo_credibility",
+    "section": "I",
+    "title": "Make It Real: A Credibility Playbook for Richmond Infrastructure Demos",
+    "summary": "Credibility playbook for Richmond infrastructure demos. Documents how to establish authority through real data citations, explicit scope statements, and honest limitation disclosures.",
+    "key_terms": ["credibility", "playbook", "real data citations", "scope statements", "limitation disclosure", "infrastructure demo"]
+  },
+  {
+    "id": "I5_demo_framing",
+    "section": "I",
+    "title": "Win the Room: Framing Built-Environment Civic Demos that Judges Trust",
+    "summary": "Framing guide for built-environment civic demos targeting judge trust. Covers how to position the problem, evidence the need, and present the solution in language judges respond to.",
+    "key_terms": ["demo framing", "judges trust", "problem positioning", "evidence", "civic demo", "built environment"]
+  }
+]

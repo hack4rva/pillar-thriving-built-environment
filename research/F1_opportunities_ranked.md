@@ -1,3 +1,25 @@
+---
+title: "From Trash Day to TIP Maps: Fast-Track Civic Tools Richmond Residents Will Actually Use"
+pillar: thriving-built-environment
+section: F
+problem_statement: general
+tags:
+  - ranked opportunities
+  - trash day
+  - TIP maps
+  - street sweeping
+  - data readiness
+  - resident value
+summary: "Ranked list of civic tool opportunities for Richmond residents based on data readiness and user value. Highlights converging daily service schedules (trash, recycling, street sweeping) as the highest-impact opportunity; internal fleet dashboards as lowest."
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - F2_opportunities_project_visibility
+  - F3_opportunities_fleet_ops
+  - H1_mvp_48hr_framework
+---
+
 # From Trash Day to TIP Maps: Fast-Track Civic Tools Richmond Residents Will Actually Use
 
 ## Executive Summary

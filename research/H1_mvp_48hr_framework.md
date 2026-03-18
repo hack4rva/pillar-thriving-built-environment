@@ -1,3 +1,25 @@
+---
+title: "From Address to Active Projects in 48 Hours: A Feasible MVP Blueprint"
+pillar: thriving-built-environment
+section: H
+problem_statement: transportation-project-visibility
+tags:
+  - 48-hour MVP
+  - address lookup
+  - Census Geocoder
+  - ArcGIS FeatureService
+  - Leaflet
+  - GeoJSON
+summary: "Technical blueprint for building an address-based infrastructure project lookup in 48 hours using Census Geocoder, ArcGIS FeatureService spatial queries, and Leaflet mapping with a static GeoJSON fallback."
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - H2_mvp_project_visibility
+  - D1_data_arcgis_dpw
+  - G1_risks_inaccurate_project_info
+---
+
 # From Address to Active Projects in 48 Hours: A Feasible MVP Blueprint
 
 ## Executive Summary

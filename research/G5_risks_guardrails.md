@@ -1,3 +1,26 @@
+---
+title: "Ship Safe: A 10-Guardrail Checklist to De-risk Built-Environment Prototypes Before Demos"
+pillar: thriving-built-environment
+section: G
+problem_statement: general
+tags:
+  - guardrails
+  - 10-point checklist
+  - de-risking
+  - jurisdictional boundaries
+  - accessibility
+  - synthetic data labeling
+summary: "Ten-guardrail checklist for de-risking built environment prototypes before demo. Covers jurisdictional boundaries (VDOT vs. city roads), timeline volatility, WCAG accessibility, and synthetic data labeling requirements."
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - G1_risks_inaccurate_project_info
+  - G2_risks_gps_dependency
+  - G3_risks_accessibility
+  - G4_risks_data_freshness
+---
+
 # Ship Safe: A 10-Guardrail Checklist to De-risk Built-Environment Prototypes Before Demos
 
 ## Executive Summary

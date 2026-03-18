@@ -1,3 +1,24 @@
+---
+title: "From Patchwork to Clarity: Richmond Project & Fleet Visibility"
+pillar: thriving-built-environment
+section: context
+problem_statement: general
+tags:
+  - infrastructure transparency
+  - fleet operations
+  - DPW
+  - capital project dashboard
+  - resident
+  - GPS
+summary: "Executive overview of the built environment pillar: mission, constraints, and strategic path for improving infrastructure project and fleet operations visibility using existing public assets."
+geography: Richmond, VA
+source: parallel-ai-pro
+status: raw
+related_reports:
+  - A1_problem_landscape_infrastructure_visibility
+  - A2_problem_landscape_fleet_operations
+---
+
 # From Patchwork to Clarity: Richmond Project & Fleet Visibility
 
 ## Executive Summary
