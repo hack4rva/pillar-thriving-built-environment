@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to validation_rules.json and adjust regexes for conflict checks.",
+  "fact_patterns": [
+    {
+      "key": "zoning_code_version",
+      "regex": "(?i)zoning(?:\s+code)?\s+version[:\- ]+(?P<val>[\w.-]+)"
+    }
+  ]
+}
+
