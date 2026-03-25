@@ -18,8 +18,56 @@ Three questions to answer fast: 1) What problem are we actually solving? 2) Can 
 
 ---
 
+## The Challenge
+
+**→ Full detail in [`CHALLENGE.md`](CHALLENGE.md).** Read it before anything else — it defines the two problems, the top blue sky vision, data constraints, and exactly how judges will score your solution.
+
+### Problem 1: Transportation Project Visibility & Discoverability — 25/32 — Strong
+
+> How might we use technology to improve how Richmond residents find and understand transportation and infrastructure projects happening in their neighborhoods so that project information is clear, centralized, and easy to track?
+
+Build toward: City Infrastructure Explorer Map (address search → project status) · "What's Happening Here?" mobile lookup tool · SMS lookup service · Opt-in notification system
+
+⚠ Do not replace ArcGIS or DPW program pages — surface and translate them. Technical descriptions must become plain language.
+
+---
+
+### Problem 2: Fleet Operations Visibility & Public Communication — 22/32 — Needs work
+
+> How might we use technology to improve how Richmond residents and DPW staff track the progress of services like snow removal and street cleaning?
+
+Build toward: Zone-based schedule display · Fleet route progress dashboard using synthetic GPS schema · Notification proof-of-concept
+
+⚠ GPS infrastructure is NOT complete as of the hackathon date. Any fleet MVP must use mock/synthetic data. Never claim real-time vehicle locations.
+
+---
+
+### Top Blue Sky: Reimagining Safer Streets — 22/27 — Strong
+
+> How might we use technology to help residents, advocates, and City planners identify and prioritize locations for transportation safety improvements?
+
+Map publicly available crash data against existing transportation project locations. Label everything as exploratory — never claim to guide official resource allocation.
+
+---
+
+### Pillar Award Rubric
+
+| Category | Weight | Dominant question |
+|----------|--------|-------------------|
+| **Impact** | **5** | Does this directly address one of the two problems above? |
+| User Value | 4 | Is there a specific real user? Does the prototype improve their experience? |
+| Feasibility | 3 | Could this be piloted by DPW or a City partner within a year? |
+| Innovation | 3 | Fresh thinking on infrastructure transparency or fleet ops? |
+| Execution | 3 | Does a working demo exist? Is the flow coherent? |
+| Equity | 3 | Does it reach residents with limited digital access or language barriers? |
+
+Full rubric with scoring anchors and judge instructions: [`../RUBRIC.md`](../RUBRIC.md)
+
+---
+
 ## Table of Contents
 
+0. [The Challenge](#the-challenge)
 1. Quick Start
 2. Repo Map
 3. Guardrails
@@ -41,7 +89,8 @@ Three questions to answer fast: 1) What problem are we actually solving? 2) Can 
 
 Do these first 15–30 minutes to get moving:
 
-1) Read: `QUICKSTART.md`
+1) Read: `CHALLENGE.md` — the two problems, top blue sky, and rubric (start here, not QUICKSTART.md)
+2) Read: `QUICKSTART.md`
 2) Skim: `00_core/00_pillar_overview.md` and `01_problem_space/02_targeted_problem_statements.md`
 3) Capture a 5‑bullet "Working Direction" using `99_templates/working_direction_note.md`
 4) Decide your path:
