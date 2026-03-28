@@ -20,7 +20,7 @@ Three questions to answer fast: 1) What problem are we actually solving? 2) Can 
 
 ## The Challenge
 
-**→ Full detail in [`CHALLENGE.md`](CHALLENGE.md).** Read it before anything else — it defines the two problems, the top blue sky vision, data constraints, and exactly how judges will score your solution.
+**→ Full detail in [`CHALLENGE.md`](CHALLENGE.md).** Read it before anything else — it defines the two problems, the top blue sky vision, data constraints, how Pillar Award weights use the shared rubric, and optional per-problem prompts to help your team think about the categories (not a second judge rubric).
 
 ### Problem 1: Transportation Project Visibility & Discoverability — 25/32 — Strong
 
@@ -61,7 +61,7 @@ Map publicly available crash data against existing transportation project locati
 | Execution | 3 | Does a working demo exist? Is the flow coherent? |
 | Equity | 3 | Does it reach residents with limited digital access or language barriers? |
 
-Full rubric with scoring anchors and judge instructions: [`../RUBRIC.md`](../RUBRIC.md)
+Official rubric — category definitions, scoring anchors, and judge-facing guidance: [`../RUBRIC.md`](../RUBRIC.md)
 
 ---
 
@@ -89,7 +89,7 @@ Full rubric with scoring anchors and judge instructions: [`../RUBRIC.md`](../RUB
 
 Do these first 15–30 minutes to get moving:
 
-1) Read: `CHALLENGE.md` — the two problems, top blue sky, and rubric (start here, not QUICKSTART.md)
+1) Read: `CHALLENGE.md` — the two problems, top blue sky, Pillar Award weights, and optional per-problem rubric prompts (start here, not QUICKSTART.md)
 2) Read: `QUICKSTART.md`
 2) Skim: `00_core/00_pillar_overview.md` and `01_problem_space/02_targeted_problem_statements.md`
 3) Capture a 5‑bullet "Working Direction" using `99_templates/working_direction_note.md`
@@ -103,7 +103,7 @@ Do these first 15–30 minutes to get moving:
 
 | Directory | Contents |
 |-----------|----------|
-| `research/` | 51 deep research reports (core corpus) |
+| `research/` | 70 deep research reports (core corpus) |
 | `00_core/` | Pillar overview and MAP alignment |
 | `01_problem_space/` | Scored problem statements |
 | `02_data/` | Data source inventory and index |
@@ -123,7 +123,7 @@ Do these first 15–30 minutes to get moving:
 |------|---------|
 | `CORPUS_GUIDE.md` | Canonical orientation for humans and AI agents navigating the research corpus |
 | `manifest.json` | Machine-readable index of all significant repository files |
-| `research/index.json` | Machine-readable index of all 51 research reports with key_terms |
+| `research/index.json` | Machine-readable index of all 70 research reports with key_terms |
 | `research/INDEX.md` | Human-readable table of contents for the research directory |
 | `MAINTENANCE.md` | How to add, update, and synchronize reports and metadata |
 

@@ -33,6 +33,23 @@ DPW manages transportation projects across Richmond — safety improvements, str
 - Richmond Open Data Portal: https://data.richmondgov.com/
 - DPW program pages (verify current URLs before building on them)
 
+#### Participant guide: connecting to the rubric (if you chose this problem)
+
+Optional prompts for your team — not a substitute for [`RUBRIC.md`](../../RUBRIC.md), which judges use for category definitions and scoring.
+
+- **Impact:** Show how residents (or partners) can **find or understand** transportation / infrastructure projects in their area without replacing official GeoHub or City pages.
+- **User Value:** A clear user (resident, block association, advocate) and a concrete “what I learned” from your demo.
+- **Feasibility:** Respect “surface, don’t replace” official sources; avoid claiming authoritative or real-time City status without evidence.
+- **Innovation:** Plain language, address lookup, notifications, or cross-linking beats a raw map embed alone.
+- **Execution:** Walkable demo (search → summary → link to official source).
+- **Equity and inclusion:** SMS, simple language, or low-literacy-friendly paths where you can justify them.
+
+**What often works well:** Explorer map, “what’s happening here” lookup, or opt-in alerts tied to real public data.
+
+**What to avoid:** Presenting exploratory data as official City truth, or implying complete coverage without saying what’s missing.
+
+*Try asking yourself:* Could a resident on my block understand what the cones are for and where to verify it officially?
+
 ---
 
 ### Problem 2: Fleet Operations Visibility & Public Communication
@@ -66,6 +83,23 @@ During storms and seasonal cleaning cycles, residents want to know when their st
 - No historical street cleaning or snow removal schedules by zone are linked
 - Teams choosing this problem must scope carefully or create a synthetic schema and state clearly it is a proof of concept
 
+#### Participant guide: connecting to the rubric (if you chose this problem)
+
+Optional prompts for your team — [`RUBRIC.md`](../../RUBRIC.md) remains authoritative for judges.
+
+- **Impact:** Improve **clarity** of service progress (snow, cleaning, etc.) for residents or coordination narrative for staff — without live GPS you do not have.
+- **User Value:** Resident (“when is my street?”) or supervisor story told honestly with schedule/synthetic schema as labeled.
+- **Feasibility:** No live GPS feed, no DPW internal integration, no sensitive route/driver exposure; synthetic data clearly labeled.
+- **Innovation:** Zone schedules, labeled mock progress, or notification proofs tied to a credible schema.
+- **Execution:** Demo shows zone or route concept end-to-end as a proof of concept.
+- **Equity and inclusion:** Consider neighborhoods that rely on public updates during storms or limited digital access.
+
+**What often works well:** Zone-based schedule UI, dashboard on **synthetic** GPS schema, notification POC with explicit disclaimers.
+
+**What to avoid:** Real-time vehicle tracking, pretending live DPW data exists, or leaking operational detail.
+
+*Try asking yourself:* Could a resident understand what “done” means for their area without us faking a live truck feed?
+
 ---
 
 ## The Blue Sky Vision
@@ -88,25 +122,29 @@ Build a map that overlays publicly available crash data with existing transporta
 
 The blue sky is the ceiling. Problem 1 (Transportation Project Visibility) is the practical floor. A team that builds Problem 1 with this blue sky framing — adding a layer about where gaps in current project coverage exist — will have a compelling pitch for both the Pillar Award and the Moonshot Award.
 
+**Rubric connection (blue sky):** Closest fit is **Problem 1** (visibility / discovery) plus safety and ethics around crash or project data. Use the Problem 1 participant guide and your required disclaimers; if you touch fleet-like ideas, also respect Problem 2 constraints (no live GPS fiction).
+
 ---
 
-## How Your Solution Will Be Judged (Pillar Award)
+## Pillar Award: official scoring mechanics
 
-The Pillar Award uses the following weights. For full category definitions and scoring anchors, see [`/RUBRIC.md`](../../RUBRIC.md) at the hackathon root.
+**Authoritative rubric:** Judges use [`RUBRIC.md`](../../RUBRIC.md) at the hackathon root for the six categories, scale, and judge-facing guidance.
 
-| Category | Weight | What judges are asking |
-|----------|--------|------------------------|
-| **Impact** | **5** | Does this directly address one of the two problem statements above? |
-| **User Value** | 4 | Is there a specific, real user? Does the prototype improve their experience? |
-| **Feasibility** | 3 | Could this be piloted by DPW or a City partner within a year? |
-| **Innovation** | 3 | Does the team bring fresh thinking to infrastructure transparency or fleet ops? |
-| **Execution** | 3 | Does a working demo exist? Is the flow coherent? |
-| **Equity** | 3 | Does the solution reach residents with limited digital access or language barriers? |
+**Participant guides** under each problem above are **optional examples** for teams — not binding on judges.
+
+| Category | Weight |
+|----------|--------|
+| **Impact** (targeted civic problem) | **5** |
+| **User Value** | 4 |
+| **Feasibility** / implementability | 3 |
+| **Innovation** / originality | 3 |
+| **Execution** / prototype quality | 3 |
+| **Equity and inclusion** | 3 |
+
+Read **`RUBRIC.md`** for full definitions and anchors.
 
 **Score formula:** Sum of (category score 1–5 × weight). Maximum 105.
 
 **Tiebreaker:** User Value score.
 
-**What wins here:** A prototype that makes infrastructure information findable or fleet operations trackable, using real public data, scoped tightly to what is demonstrable in a weekend.
-
-**What loses here:** Tools claiming real-time GPS tracking, solutions requiring DPW internal system integration, or projects that present exploratory data as official City information.
+**General tips** (full detail in `RUBRIC.md`): Civic usefulness over complexity; flag bad data assumptions; slides-only demos → low Execution; don’t claim integrations or feeds you don’t have.
