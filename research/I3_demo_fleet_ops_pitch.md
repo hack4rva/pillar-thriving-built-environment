@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Build Now, Calm the Snow-Day Chaos: Richmond's Fleet Visibility Demo That Works Without GPS
 
 ## Executive Summary

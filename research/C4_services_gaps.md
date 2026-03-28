@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Richmond DPW's Blind Spots: Closing Public Info Gaps Residents Feel First
 
 ## Executive Summary

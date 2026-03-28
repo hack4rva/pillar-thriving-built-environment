@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # DPW Data Landscape — What Is Actually Accessible
 
 This document analyzes what DPW-related data is publicly accessible, what requires integration, and what to use when building against the two targeted problem statements.

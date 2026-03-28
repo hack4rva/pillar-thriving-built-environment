@@ -1,0 +1,63 @@
+Gaps and Opportunities Q1 — Failures, Missing Capabilities, and Innovation Opportunities in Civic Service Transparency
+
+Conduct a synthesis of where current public service tracking and civic transparency systems fail, what capabilities are missing, and where the highest-value innovation opportunities exist.
+
+Focus areas:
+
+1. Current System Failures
+   - Where do existing municipal transparency tools fail?
+     - Stale data (updated quarterly, citizens expect daily)
+     - Data silos (each department has its own system, no unified view)
+     - Technical interfaces (ArcGIS dashboards not designed for residents)
+     - No mobile optimization
+     - No notification system (citizens must actively check)
+     - No plain-language translation of technical project descriptions
+   - Case studies of civic transparency tools that launched and died (ghost dashboards)
+   - Why do cities struggle to maintain citizen-facing tools after initial launch?
+
+2. Missing Capabilities
+   - Cross-agency service visibility (seeing all active work on your street, regardless of department)
+   - Predictive ETAs for government services (currently almost no city offers this)
+   - Crowdsourced status updates (residents confirming/denying service completion)
+   - Proactive notification (city reaches out before resident needs to ask)
+   - Historical performance tracking (how long does my neighborhood typically wait for service?)
+   - Equity dashboards (are all neighborhoods getting equal service?)
+
+3. Innovation Opportunities
+   - AI/LLM-powered plain-language translation of government project descriptions and status
+   - Predictive service timeline estimation using historical data + weather + queue position
+   - Crowdsourced data augmentation: residents reporting real-time conditions (road still flooded, power still out)
+   - Unified "what's happening on my street" interface across all city departments
+   - Proactive alerts: "A water main repair is starting on your block Monday — expect lane closures"
+   - Voice-first interfaces for accessibility (Alexa/Google Home: "When will my street be plowed?")
+   - Comparative analytics: how does my city compare to peer cities in service delivery speed?
+
+4. The Domino's-Style Tracker for Richmond, VA
+   - Propose a specific "service tracker" flow for a city like Richmond:
+     - Resident enters address or uses current location
+     - System shows: active projects nearby (CIP), scheduled services (street cleaning, trash), current incidents (outages, closures)
+     - Each item shows status stages with current position
+     - Estimated timeline with confidence level
+     - Notification opt-in for updates
+   - What data exists in Richmond to power this today?
+   - What data would need to be synthesized or mocked?
+   - What is the MVP version buildable in 48 hours?
+
+5. Conceptual Architecture
+   - Describe a textual architecture diagram for a complete civic service tracking platform:
+     - Data sources layer (311, work orders, fleet, weather, GIS)
+     - Integration/ETL layer
+     - Unified data store
+     - Prediction/simulation engine
+     - Public API layer
+     - Citizen-facing web/mobile application
+     - Notification service
+     - Admin dashboard for city staff
+
+Output:
+- Failure taxonomy: 10 common failure modes with examples and root causes
+- Missing capability matrix: capability × current availability across top 10 US cities
+- Innovation opportunity ranking: impact vs. feasibility matrix
+- Richmond-specific service tracker flow (step-by-step user experience)
+- Conceptual architecture diagram (textual, showing all layers and data flows)
+- Build roadmap: what to build in 48 hours, 3 months, and 1 year

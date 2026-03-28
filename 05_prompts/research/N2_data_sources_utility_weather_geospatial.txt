@@ -1,0 +1,49 @@
+Data Sources N2 — Utility, Weather, and Geospatial APIs
+
+Identify and catalog real-world data sources for utility outage information, weather data, and geospatial infrastructure data that can feed a public service tracking system.
+
+Focus areas:
+
+1. Utility Outage Data
+   - Do any electric utilities provide public APIs for outage data? (Dominion Energy, Duke Energy, ConEd, PG&E, etc.)
+   - How are public outage maps technically implemented? (Scraping approach vs. documented API)
+   - Are there aggregator services for utility outage data?
+   - DOE outage data: what is publicly available through the Department of Energy?
+   - PowerOutage.us and similar aggregators: data sources, coverage, access
+   - Water utility outage/incident data: any public APIs?
+
+2. Weather APIs
+   - NOAA Weather API (api.weather.gov): endpoints, data format, rate limits, coverage
+   - National Weather Service API: alerts, forecasts, observations, radar
+   - OpenWeatherMap: free tier capabilities, historical data access
+   - Visual Crossing, Tomorrow.io, Weatherbit: commercial alternatives with free tiers
+   - Weather Underground: personal weather station network
+   - Specific endpoints for: current conditions, hourly forecast, severe weather alerts, historical weather by date/location
+
+3. Geospatial Data Sources
+   - OpenStreetMap: road network, building footprints, infrastructure features. Overpass API for querying.
+   - US Census TIGER/Line: road centerlines, administrative boundaries, census tracts
+   - USGS: topographic data, flood risk maps, earth observation
+   - Esri Living Atlas: publicly available ArcGIS layers
+   - Google Maps Platform: geocoding, routing, places (pricing and free tier)
+   - Mapbox: vector tiles, geocoding, routing (pricing)
+   - Nominatim (OSM geocoder): free, no API key required
+
+4. Real-Time Traffic and Routing
+   - INRIX: traffic speed and incident data (commercial)
+   - TomTom Traffic API: free tier capabilities
+   - Waze for Cities (CCP): how do cities access Waze incident and congestion data?
+   - OSRM (Open Source Routing Machine): self-hosted routing engine
+   - How do these data sources enable better ETA calculation for service vehicles?
+
+5. Satellite and Remote Sensing
+   - Sentinel, Landsat imagery for infrastructure change detection
+   - Commercial providers (Planet, Maxar) — any free/academic access?
+   - Applicability to infrastructure monitoring vs. impractical for civic prototypes?
+
+Output:
+- API catalog: 20+ APIs with name, URL, authentication, rate limits, data format, free tier limits, and relevance to service tracking
+- Weather API comparison table: provider, coverage, endpoints, update frequency, historical data, cost
+- Geospatial data source comparison: source, coverage, format, resolution, licensing
+- Integration difficulty ranking: which APIs are easiest to prototype with?
+- Recommended API stack for a hackathon prototype (free tier only)

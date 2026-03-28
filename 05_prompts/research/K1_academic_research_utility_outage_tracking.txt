@@ -1,0 +1,36 @@
+Existing Research K1 — Academic Research on Utility Outage Tracking and Prediction
+
+Survey the academic literature and real-world systems for tracking and predicting utility outages — electric power, water, and sewer — with a focus on systems that provide public-facing visibility or use predictive models for service restoration timing.
+
+Focus areas:
+
+1. Power Outage Tracking Systems
+   - How do major utilities (Dominion Energy, Duke Energy, ConEd, PG&E) build and maintain their public outage maps?
+   - What data feeds into these systems (SCADA, AMI smart meters, customer calls, sensors)?
+   - What academic research exists on outage prediction using weather data, asset age, vegetation proximity, and historical patterns?
+   - Key papers on storm-based outage prediction models (e.g., Guikema, Nateghi, Liu)
+   - How is estimated restoration time (ERT) calculated? What features improve ERT accuracy?
+
+2. Water and Sewer Outage/Incident Tracking
+   - How do water utilities track and communicate main breaks and service interruptions?
+   - What sensor networks exist for sewer overflow detection (CSO monitoring)?
+   - Are there public-facing dashboards for water/sewer incidents? Examples?
+   - Academic research on predictive maintenance for water infrastructure (pipe break prediction)
+
+3. Key Datasets and Features for Prediction
+   - What data features most improve outage duration prediction? (asset type, age, weather severity, crew availability, time of day, historical repair times)
+   - Role of weather data (NOAA, NWS) in outage prediction models
+   - Role of infrastructure condition data (asset age, material, failure history)
+   - Machine learning approaches vs. statistical models for ERT prediction
+
+4. Smart Grid and IoT Sensing Research
+   - How do smart grid technologies (AMI, distribution automation) improve outage detection and communication?
+   - What role do IoT sensors play in real-time infrastructure monitoring?
+   - Urban sensing research relevant to infrastructure visibility (noise, vibration, flow sensors)
+
+Output:
+- Annotated bibliography of top 15 academic papers on utility outage tracking and prediction
+- Comparison table of public-facing utility outage maps (utility, data sources, features, ERT method)
+- Feature importance ranking: what data most improves restoration time prediction
+- Technology landscape: sensors, data systems, and platforms used in modern outage tracking
+- Gaps in current research and opportunities for civic tech innovation

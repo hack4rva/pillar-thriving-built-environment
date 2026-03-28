@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Winning Civic Hackathon Demos: Data-Driven 90-Second Street-Info Solutions for Richmond
 
 ## Executive Summary

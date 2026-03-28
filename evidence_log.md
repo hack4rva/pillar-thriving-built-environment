@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # Evidence Log — A Thriving and Sustainable Built Environment
 
 Track every factual claim here. Assign an ID, record the source, and mark verification status.

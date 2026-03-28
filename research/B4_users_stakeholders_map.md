@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Stakeholder and User Map: B4 Patch Management Tool
 
 ## Executive Summary

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Bridging the Last-Mile: Making Infrastructure Visibility Tools Accessible Beyond Maps and SMS
 
 ## Executive Summary

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # 48-Hour Fleet Visibility: Schedule-First Wins that De-risk GPS and Build Trust
 
 ## Executive Summary

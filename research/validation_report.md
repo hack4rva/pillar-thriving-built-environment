@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Validation Report
 
 **Repo:** `pillar-thriving-built-environment` — **prompts:** 51 **outputs:** 52 **files_with_issues:** 20 **general_issues:** 0

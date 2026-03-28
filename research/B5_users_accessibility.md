@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 
 # Keeping Richmond Moving: Designing Infrastructure Visibility That Works for Residents Who Can't Detour
 

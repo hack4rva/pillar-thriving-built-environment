@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # Maintenance Guide
 
 **A Thriving and Sustainable Built Environment Pillar Research Corpus**
@@ -25,8 +27,16 @@ Research reports go in `research/`. Choose the appropriate section prefix:
 | `G` | Risks & Guardrails |
 | `H` | MVP Feasibility |
 | `I` | Demo Guidance |
+| `J` | Transparency theory & asymmetry (academic / private-sector paradigms) |
+| `K` | Outages, work orders, smart-city visibility, predictive restoration |
+| `L` | Data models (service requests, assets/fleet, workforce/events, external context) |
+| `M` | Simulation (ETA/queue, routes, outage duration) |
+| `N` | Data-source playbooks (311/open data; utility/weather/geospatial) |
+| `O` | Architecture (GIS + work orders; realtime / digital twins) |
+| `P` | Consumer-grade civic tracking UX |
+| `Q` | Gaps, failures, innovation synthesis |
 
-If the report spans sections or introduces a new topic, use the next available number in the `90–98` range (cross-cutting).
+If the report spans sections or introduces a topic that does not fit **A–Q**, use the next available number in the `90–98` range (cross-cutting).
 
 ### Step 2 — Name the file consistently
 
@@ -86,9 +96,21 @@ Add a row to the appropriate section table:
 - [`A6_problem_landscape_permitting_coordination.md`](A6_problem_landscape_permitting_coordination.md) — Short description of report contents
 ```
 
-### Step 6 — Update `manifest.json` (root)
+### Step 6 — Update `CORPUS_GUIDE.md` (required for agent traversal)
 
-Add an entry to the manifest for the new file:
+Whenever you add or remove research files, or introduce a **new section letter**, update the corpus guide so AI agents can route questions correctly:
+
+- Bump the **report count** in the opening bullets and `research/` directory description if the total changed.
+- Add or adjust the **section table** (Research Section Structure) for any new section.
+- Add **navigation tree** branches and **Question-to-Section** rows if the new content answers a new question type.
+- Add or update **recommended reading orders** if the repo documents a new common scenario (e.g. unified service tracker).
+- Update **file naming conventions** if section letters or numbering rules change.
+
+`CORPUS_GUIDE.md` is the canonical human+agent orientation for how sections relate. **Do not** add research files without updating this guide when the change affects navigation.
+
+### Step 7 — Update `manifest.json` (root)
+
+Add an entry to the manifest for the new file (if your manifest lists individual research reports; otherwise ensure `corpus.research_index` and related nav entries remain accurate):
 
 ```json
 {
@@ -106,13 +128,21 @@ Add an entry to the manifest for the new file:
 }
 ```
 
-### Step 7 — Verify internal consistency
+### Step 8 — Sync repo-wide counts and agent spec (if totals changed)
+
+If the **total number of research reports** changed, search the repo for stale counts and update at minimum:
+
+- `README.md` (repo map / index description)
+- `AGENTS.md` (Research Corpus Navigation — “what the corpus contains” and `index.json` instructions)
+
+### Step 9 — Verify internal consistency
 
 Run a quick check:
 - Does the file exist in the expected location?
 - Does the frontmatter match the index.json entry?
 - Is the manifest.json valid JSON? (Use `python3 -m json.tool manifest.json`)
 - Is the research/INDEX.md row accurate?
+- Does `CORPUS_GUIDE.md` still describe every section and a correct total count?
 
 ---
 
@@ -183,7 +213,8 @@ After any structural change, verify:
 | `research/index.json` | All .md files have entries, no orphans |
 | `manifest.json` | All significant files present, types correct |
 | `AGENTS.md` | Section-to-file mappings still accurate |
-| `CORPUS_GUIDE.md` | Question-to-section table still accurate |
+| `CORPUS_GUIDE.md` | Question-to-section table, counts, and J–Q (if used) still accurate |
+| `skills/corpus_navigation_sync/SKILL.md` | Process still matches actual repo conventions |
 | `README.md` | Repo Map table matches actual directories |
 
 ---
@@ -197,8 +228,9 @@ Skills live in `skills/[SKILL_NAME]/SKILL.md`.
 1. Create `skills/[skill_name]/SKILL.md`
 2. Include at minimum: Purpose, When To Use, Inputs, Outputs, Process (step-by-step)
 3. Add the skill name to the Available Skills list in `AGENTS.md` (Step 6 — Announce Available Skills section)
-4. Add the skill name to the skills list in `README.md`
+4. Add the skill name to the skills list in `README.md` (if that file lists corpus skills)
 5. Add an entry to `manifest.json` with `type: "skill"`
+6. If the skill affects how agents traverse research, add a one-line pointer in `CORPUS_GUIDE.md` See Also (optional but recommended)
 
 ### Updating an existing skill
 
@@ -223,8 +255,10 @@ Templates live in `99_templates/`.
 ```
 [ ] All new .md files have consistent H1 headings
 [ ] research/index.json is valid JSON and includes new files
-[ ] manifest.json is valid JSON and includes new files
+[ ] CORPUS_GUIDE.md updated (counts, section table, navigation if applicable)
+[ ] manifest.json is valid JSON and includes new files (if applicable)
 [ ] research/INDEX.md tables include new files
+[ ] README.md / AGENTS.md research counts updated if total changed
 [ ] evidence_log.md updated if new verified claims added
 [ ] No broken internal links (spot-check key references)
 [ ] Frontmatter is accurate (no fabricated fields)

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Recommended Architectures — A Thriving and Sustainable Built Environment
 
 Lightweight, weekend-buildable architectures for each MVP shape. Prefer simplicity over scale.

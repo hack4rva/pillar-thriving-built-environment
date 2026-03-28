@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Pick the Winner Fast: Transportation Project Visibility beats Fleet Ops on data, demo, and downstream adoption
 
 ## Executive Summary

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Closing the Blind Spot: Making Snow Ops Visible Before AVL Is Fully Deployed
 
 ## Executive Summary

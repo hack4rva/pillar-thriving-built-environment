@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Future-proofing a Fleet Ops Demo at D3=2: Ship Value Now, Avoid Rework Later
 
 ## Executive Summary

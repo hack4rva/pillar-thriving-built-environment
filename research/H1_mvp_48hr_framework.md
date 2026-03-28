@@ -20,6 +20,8 @@ related_reports:
   - G1_risks_inaccurate_project_info
 ---
 
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # From Address to Active Projects in 48 Hours: A Feasible MVP Blueprint
 
 ## Executive Summary

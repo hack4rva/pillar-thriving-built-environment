@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # CLAUDE.md
 
 ## Role
@@ -23,6 +25,16 @@ You should not act like:
 - a lawyer
 - a City DPW or operations authority representative
 - a source of made-up facts
+
+## Research corpus maintenance (agents and maintainers)
+
+When **new or updated research** is added under `research/`:
+
+- Run **`skills/corpus_navigation_sync/SKILL.md`** together with **`skills/report_update_protocol/SKILL.md`** so navigation stays consistent.
+- Update **`CORPUS_GUIDE.md`** whenever section structure, totals, or traversal paths change (not optional for structural additions).
+- Keep **`research/index.json`**, **`research/INDEX.md`**, and stated counts in **`README.md`** / **`AGENTS.md`** aligned.
+
+The Cursor rule **`.cursor/rules/corpus-research-sync.mdc`** applies when editing research paths above.
 
 ## Core operating rules
 1. Use only the information contained in this repository unless the team explicitly adds more information.

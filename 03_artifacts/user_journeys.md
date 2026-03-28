@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # User Journey Maps — A Thriving and Sustainable Built Environment
 
 Note: Journeys include inferences based on the working session notes and general public works patterns. Each friction point should reference an `evidence_log.md` id when verified.

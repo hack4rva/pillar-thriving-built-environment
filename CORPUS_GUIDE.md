@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # Research Corpus Guide
 
 **A Thriving and Sustainable Built Environment Pillar — Richmond Civic Hackathon**
@@ -10,7 +12,7 @@ This file is the canonical orientation document for both human readers and AI ag
 
 This repository contains a structured research corpus on Richmond's built environment problem space — infrastructure project transparency, fleet operations visibility, and resident awareness of neighborhood construction and public works services — organized to support a weekend civic hackathon. It includes:
 
-- **51 deep research reports** generated via Parallel.ai (pro processor) from the prompt corpus in `05_prompts/research/` (in `research/`)
+- **70 deep research reports** generated via Parallel.ai (pro processor) from the prompt corpus in `05_prompts/research/` (in `research/`) — sections **A–I** (Richmond pillar core), plus **J–Q** (cross-domain transparency, service tracking, data models, simulation, architecture, and synthesis)
 - **Evidence-synthesized artifacts** (in `03_artifacts/`)
 - **Data source inventory** (in `02_data/`)
 - **Build and demo guides** (in `04_build_guides/`)
@@ -40,7 +42,7 @@ The corpus is grounded in publicly verifiable claims about Richmond. It does not
 ### Top-Level Directories
 
 ```
-research/         <- 51 deep research files (the core corpus)
+research/         <- 70 deep research files (the core corpus)
 03_artifacts/     <- synthesized artifacts (research notes, journeys, recommendations)
 02_data/          <- data source inventory and index
 04_build_guides/  <- MVP shapes, architectures, demo advice
@@ -68,6 +70,16 @@ The `research/` directory is organized into labeled sections:
 | `G` | Risks & Guardrails | G1–G5 |
 | `H` | MVP Feasibility | H1–H5 |
 | `I` | Demo Guidance | I1–I5 |
+| `J` | Transparency theory & asymmetry | J1–J3 |
+| `K` | Outages, work orders, smart-city visibility, predictive restoration | K1–K4 |
+| `L` | Data models (requests, assets, workforce/events, external context) | L1–L4 |
+| `M` | Simulation (ETA/queues, routes, outage duration) | M1–M2 |
+| `N` | External data playbooks (311/open data; utility/weather/geo) | N1–N2 |
+| `O` | Architecture (GIS + work orders; realtime / digital twins) | O1–O2 |
+| `P` | Consumer-grade civic tracking UX | P1 |
+| `Q` | Gaps, failures, innovation synthesis | Q1 |
+
+**How J–Q relates to A–I:** Sections **A–I** remain the primary Richmond hackathon spine (problem → demo). Sections **J–Q** deepen **unified “city service tracker”** and **transparency** work: theory (J), operational and smart-city patterns (K), **entity/data models** (L), **simulation and ETAs** (M), **national data/API playbooks** (N), **system architecture** (O), **resident-facing UX** (P), and a **cross-cutting gap/opportunity** capstone (Q). When a question is Richmond-specific, start in **A–I** and **D**; when it is about **schemas, ETAs, or Domino’s-style UX**, add **L, M, P**; when it is about **open data or 311 nationally**, add **N1**; for **failure modes and ghost dashboards**, add **Q1** with **E4** and **G1**.
 
 ---
 
@@ -78,7 +90,7 @@ The `research/` directory is organized into labeled sections:
 **Before reading any research report, use navigation files to narrow scope:**
 
 1. **`manifest.json`** (root) — machine-readable index of all significant files with summaries and tags
-2. **`research/index.json`** — structured metadata for all 51 research files (id, section, title, summary, key_terms)
+2. **`research/index.json`** — structured metadata for all 70 research files (id, section, title, summary, key_terms)
 3. **`research/INDEX.md`** — human-readable table of contents for the research directory
 4. **`README.md`** (root) — decision phases and overall repo map
 
@@ -93,6 +105,10 @@ Is it about the hackathon process?
 Is it about a specific problem domain?
   Infrastructure project visibility -> research/A1, A4, A5, B1, D1, D2, F2, H1, H2
   Fleet operations / snow removal   -> research/A2, B2, D4, D5, F3, H3, H4
+  Unified service tracker / Domino's-style UX / ETAs -> J2, J3, L1, M1, P1, N1, Q1; Richmond data still from A–I and D
+  Transparency theory / asymmetry   -> research/J1, J2, J3
+  Data modeling for trackers        -> research/L1–L4, O1
+  Simulation / probabilistic ETAs   -> research/M1, M2 (with G2, H4 on GPS and labeling)
   Both / overview                   -> read 00_pillar_summary_context first
         |
 Narrow to section using research/index.json
@@ -115,6 +131,14 @@ Verify against evidence_log.md if needed
 | What could go wrong? | `G` section (G1–G5) |
 | Is this feasible in a weekend? | `H` section (H1–H5) |
 | How do we demo this? | `I` section (I1–I5) |
+| Why is civic transparency hard (theory)? | `J` section (J1–J3) |
+| Outages, work orders, smart-city visibility? | `K` section (K1–K4) |
+| Data models / schemas for service tracking? | `L` section (L1–L4) |
+| Simulation, queues, ETAs, routes? | `M` section (M1–M2) |
+| Open data & 311 APIs (cross-city)? | `N1`; utility/weather/geo playbooks: `N2` |
+| GIS + work-order / realtime architecture? | `O` section (O1–O2) |
+| Consumer-grade resident UX for tracking? | `P1` |
+| What usually fails / where to innovate? | `Q1` (also `E4`, `92_red_flags.md`) |
 | What datasets are mentioned? | `D1`, `D2`, `D3`, `02_data/source_inventory.csv` |
 | What is the executive summary? | `research/00_pillar_summary_context.md` |
 | What are the top research questions? | `research/90_top_10_research_questions.md` |
@@ -243,6 +267,14 @@ When information is absent, say: "This repository does not contain that informat
 4. `research/H4_mvp_mock_data.md`
 5. `research/G2_risks_gps_dependency.md`
 
+### Team building a unified / “city service” or Domino’s-style tracker
+1. `research/P1_ux_consumer_grade_civic_tracking.md`
+2. `research/L1_data_model_work_orders_service_requests.md`
+3. `research/J2_information_asymmetry_government_services.md`, `research/J3_private_sector_transparency_paradigms.md`
+4. `research/N1_data_sources_municipal_open_data_311.md`, `research/D1_data_arcgis_dpw.md`, `research/D2_data_open_data_portal.md`
+5. `research/M1_simulation_probabilistic_eta_queue_modeling.md`, `research/Q1_gaps_failures_innovation_opportunities.md`
+6. `research/G2_risks_gps_dependency.md`, `research/G1_risks_inaccurate_project_info.md`, `research/92_red_flags.md`
+
 ### Agent answering research questions
 1. `research/index.json` -> identify relevant section
 2. Section INDEX.md or index -> narrow to specific files
@@ -260,12 +292,13 @@ Examples:
 - `G5_risks_guardrails.md` — Section G, file 5, topic: guardrails checklist
 - `90_top_10_research_questions.md` — Cross-cutting file 90
 
-Sections run A through I. Numbers within sections run 1–5. Cross-cutting files use 90–93. Context files use 00–01.
+Sections run **A through I** (five files each), then **J through Q** (variable counts: J1–J3, K1–K4, L1–L4, M1–M2, N1–N2, O1–O2, P1, Q1). Cross-cutting files use 90–93. Context files use 00–01.
 
 ---
 
 ## See Also
 
+- `skills/corpus_navigation_sync/SKILL.md` — Mandatory checklist when adding or removing research (keeps this guide and indexes aligned)
 - `AGENTS.md` — Hackbot agent specification and research corpus navigation instructions
 - `MAINTENANCE.md` — How to add, update, and synchronize reports and metadata
 - `manifest.json` — Machine-readable index of all significant files

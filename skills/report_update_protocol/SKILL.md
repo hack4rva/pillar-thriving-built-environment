@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../../docs/methodology.md) for details.
+
 # report_update_protocol
 
 Purpose: Safely add or update research reports and keep all metadata, indexes, and navigation files synchronized.
@@ -18,7 +20,9 @@ Purpose: Safely add or update research reports and keep all metadata, indexes, a
 - Updated or new `.md` file with proper structure
 - Updated `research/index.json` entry
 - Updated `research/INDEX.md` row
-- Updated `manifest.json` entry
+- Updated `CORPUS_GUIDE.md` when navigation, section map, counts, or reading orders change
+- Updated `README.md` and `AGENTS.md` when the total research report count changes
+- Updated `manifest.json` entry (when the manifest lists that file)
 - Optionally: updated `evidence_log.md` if new verified claims
 
 ## Process
@@ -26,7 +30,7 @@ Purpose: Safely add or update research reports and keep all metadata, indexes, a
 ### Step 1 — Locate or Name the File
 
 For a **new report:**
-1. Determine the correct section (A–I, or cross-cutting 90–98)
+1. Determine the correct section (A–I, J–Q, or cross-cutting 90–98)
 2. Choose the next available number in the section
 3. Create the filename: `[SECTION][NUMBER]_[topic_slug].md`
 4. Confirm no file with that name already exists
@@ -49,7 +53,7 @@ Recommended frontmatter (add if not present):
 ---
 title: "Full Report Title"
 pillar: thriving-built-environment
-section: [A-I or cross-cutting]
+section: [A–I, J–Q, or cross-cutting]
 problem_statement: transportation-project-visibility | fleet-operations-visibility | general
 tags:
   - [tag1]
@@ -94,7 +98,19 @@ Add a row to the correct section:
 
 For updated files, check whether the description still accurately represents the content.
 
-### Step 5 — Update `manifest.json`
+### Step 5 — Update `CORPUS_GUIDE.md`
+
+Whenever research additions affect **how agents should traverse the corpus**, update `CORPUS_GUIDE.md` in the same change-set:
+
+- **Report count** in the intro and directory description (if the total changed)
+- **Research Section Structure** table (if a new section letter or file range was added)
+- **Navigation decision tree** and **Question-to-Section mapping** (if new question types apply)
+- **Recommended reading orders** (if a new common team scenario is documented)
+- **File naming conventions** (if section rules changed)
+
+If the change is a minor edit to one report with no navigation impact, note “no CORPUS_GUIDE change” in your validation checklist.
+
+### Step 6 — Update `manifest.json`
 
 Add or update the entry in the root manifest:
 
@@ -114,7 +130,14 @@ Add or update the entry in the root manifest:
 }
 ```
 
-### Step 6 — Update `evidence_log.md` (If Applicable)
+### Step 7 — Sync `README.md` and `AGENTS.md` (if report total changed)
+
+If the number of files under `research/*.md` (excluding `INDEX.md`) changed, search for stale **51** / **70** / prior totals and update:
+
+- `README.md` — repo map lines for `research/` and `research/index.json`
+- `AGENTS.md` — “What the Research Corpus Contains” and the `index.json` bullet
+
+### Step 8 — Update `evidence_log.md` (If Applicable)
 
 If the report contains a newly verified factual claim (a claim with an official source URL):
 
@@ -125,7 +148,7 @@ Add a new row to `evidence_log.md` (root level):
 
 If the report corrects a previously `Confirmed` claim, update the existing row with a `[CORRECTED]` note rather than deleting it.
 
-### Step 7 — Run the Validation Check
+### Step 9 — Run the Validation Check
 
 Before committing:
 
@@ -135,7 +158,9 @@ Before committing:
 [ ] Frontmatter fields are grounded (no fabricated values)
 [ ] research/index.json entry is accurate and valid JSON
 [ ] research/INDEX.md row is present and accurate
-[ ] manifest.json entry is present and valid JSON
+[ ] CORPUS_GUIDE.md updated OR explicitly N/A (navigation unchanged)
+[ ] README.md / AGENTS.md counts updated OR N/A (total unchanged)
+[ ] manifest.json entry is present and valid JSON (or N/A if manifest omits per-report entries)
 [ ] Both JSON files pass: python3 -m json.tool [file]
 [ ] evidence_log.md updated if new verified claims added
 [ ] No broken internal links created

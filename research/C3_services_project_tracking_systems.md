@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Bridging Richmond DPW's Project Data Silos to Real-Time Public Maps
 
 ## Executive Summary

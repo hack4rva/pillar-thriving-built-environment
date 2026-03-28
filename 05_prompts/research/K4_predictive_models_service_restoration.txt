@@ -1,0 +1,37 @@
+Existing Research K4 — Predictive Models for Service Restoration and Dispatch Timing
+
+Research academic and industry approaches to predicting service restoration times, dispatch scheduling, and resource allocation for municipal and utility services.
+
+Focus areas:
+
+1. Outage Duration and Restoration Time Prediction
+   - What machine learning models have been applied to predict power outage duration? (Random forests, gradient boosting, neural networks, survival analysis)
+   - Key features: weather severity, asset type/age, crew availability, time of day, geographic factors, historical repair times
+   - Benchmark papers: Guikema & Quiring (2012), Nateghi et al. (2014), Liu et al. (2019), Eskandarpour & Khodaei
+   - How accurate are current models? What is the typical prediction error for ERT?
+   - Applicability to non-electric services: water main breaks, road repairs, sewer incidents
+
+2. Dispatch and Scheduling Optimization
+   - How do cities and utilities optimize crew dispatch? (Vehicle routing problems, priority queuing)
+   - Real-time vs. planned dispatch: how do emergencies disrupt planned work orders?
+   - Research on dispatch optimization for snow plowing, garbage collection, and street cleaning
+   - Multi-objective optimization: balancing response time, travel cost, equity, and crew fatigue
+
+3. Queue Modeling for Service Delivery
+   - Queueing theory applied to municipal service delivery (M/M/c models, priority queues)
+   - How do 311 systems model wait times and backlog?
+   - Research on the relationship between service request volume and response time
+   - How do seasonal patterns (winter storms, spring potholes) affect queue dynamics?
+
+4. ETA Communication Under Uncertainty
+   - How do utilities communicate estimated restoration times to the public?
+   - Research on the psychology of wait time communication (uncertain vs. padded vs. range-based estimates)
+   - How do ride-sharing and delivery companies handle ETA uncertainty — what transfers to public services?
+   - When is it better to show "no estimate" vs. a wide range vs. a potentially wrong estimate?
+
+Output:
+- Annotated bibliography of top 10 papers on service restoration prediction
+- Feature importance table: which data inputs most improve prediction accuracy, by service type
+- Model comparison table: approach, accuracy, data requirements, complexity, applicability to civic context
+- Queue modeling primer: key formulas and parameters for municipal service delivery
+- Practical recommendations for building an ETA engine with limited data (schedule-based, historical averages, simple regression)

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # From Dots to Decisions: A DPW-Ready GPS Schema for Richmond's Snow and Sweeping Ops
 
 ## Executive Summary

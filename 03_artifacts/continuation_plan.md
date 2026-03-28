@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Continuation Plan — A Thriving and Sustainable Built Environment
 
 This document outlines what a strong hackathon prototype could become after the event, who should be engaged, and what the realistic path forward looks like. Both targeted problem statements have been flagged with "no continuation pathway" as a quick-kill flag — this plan addresses how to establish one.

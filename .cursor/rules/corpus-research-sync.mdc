@@ -1,0 +1,21 @@
+---
+description: When adding or changing pillar research reports, keep corpus navigation in sync for AI traversal.
+globs:
+  - research/**/*.md
+  - 05_prompts/research/**/*
+  - research/index.json
+  - research/INDEX.md
+  - CORPUS_GUIDE.md
+alwaysApply: false
+---
+
+# Research corpus navigation sync
+
+When you **add, remove, rename, or batch-generate** files under `research/` (or add prompts under `05_prompts/research/` that imply new reports):
+
+1. Read and follow **`skills/corpus_navigation_sync/SKILL.md`** and **`skills/report_update_protocol/SKILL.md`**.
+2. Always update **`research/index.json`** and **`research/INDEX.md`** for each new report file.
+3. Always update **`CORPUS_GUIDE.md`** when the **total count**, **section letters**, **question-to-section mapping**, or **recommended reading orders** change. If the edit is typo-only inside one report, state **CORPUS_GUIDE: N/A** in the commit message.
+4. If the **total number of research reports** changed, update **`README.md`** and **`AGENTS.md`** so they do not contradict `CORPUS_GUIDE.md` or `research/INDEX.md`.
+
+Do not land orphaned `research/*.md` files without index entries.

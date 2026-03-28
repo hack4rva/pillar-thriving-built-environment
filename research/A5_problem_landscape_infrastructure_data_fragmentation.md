@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Cutting Through the Noise: A no-new-systems path to unify city project data for residents
 
 ## Executive Summary

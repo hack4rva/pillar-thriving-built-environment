@@ -1,0 +1,37 @@
+Core Problem Framing J3 — Private-Sector Transparency Paradigms: Domino's, Uber, Amazon
+
+Conduct a detailed analysis of how private-sector companies have solved the "service visibility" problem — transforming opaque delivery/service processes into real-time, consumer-facing tracking experiences — and what lessons apply to public service delivery.
+
+Focus areas:
+
+1. Case Studies in Consumer Service Tracking
+   - Domino's Pizza Tracker: How does it work technically? What data does it surface? How did it change customer satisfaction and call center volume? What is real vs. interpolated/simulated?
+   - Uber/Lyft driver tracking: Real-time GPS, ETA calculation, driver-to-rider matching visibility. How did this redefine consumer expectations for service transparency?
+   - Amazon logistics: Package tracking stages, delivery window estimation, "last mile" visibility. How does Amazon handle uncertainty (delayed packages, driver rerouting)?
+   - FedEx/UPS tracking: The original "status stage" paradigm. How did they normalize the concept of status-based service tracking?
+   - DoorDash/Instacart: Real-time shopper/driver tracking for on-demand services. How is ETA calculated and communicated?
+
+2. Design Patterns That Transfer to Public Services
+   - Status stages (ordered → preparing → out for delivery → delivered): How do these map to public works (reported → dispatched → en route → working → completed)?
+   - ETA with confidence intervals: How do companies communicate uncertainty without destroying trust?
+   - Map-based tracking: When does a map help vs. when does it create false expectations?
+   - Push notifications: What triggers an update? How much is too much?
+   - The "someone is working on it" signal: How does knowing a crew is assigned change resident anxiety?
+
+3. What Is Real vs. Simulated
+   - How much of the Domino's tracker is actual sensor data vs. estimated timing models?
+   - How do ride-sharing apps handle GPS gaps or inaccurate locations?
+   - What is the role of "optimistic UI" — showing progress that hasn't technically been confirmed?
+   - Where does simulation cross the line into misleading the customer?
+
+4. The Expectation Gap
+   - How have private-sector tracking experiences raised citizen expectations for government services?
+   - Academic or survey research on "why can I track my pizza but not my pothole repair?"
+   - What is the psychological effect of visibility (reduced anxiety, increased patience)?
+   - What happens when tracking is inaccurate — does bad visibility perform worse than no visibility?
+
+Output:
+- Comparison table: company, service type, data sources, tracking UX, ETA method, real vs. simulated, customer impact
+- Design pattern catalog: the 5–8 transferable UX patterns for civic service tracking
+- Risk analysis: what goes wrong when these patterns are applied naively to government services
+- Recommended "Domino's-style" tracker flow adapted for a municipal service (e.g., pothole repair or snow removal)

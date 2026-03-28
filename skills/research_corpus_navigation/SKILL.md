@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../../docs/methodology.md) for details.
+
 # research_corpus_navigation
 
 Purpose: Map a user question to the correct pillar section and specific research reports before attempting to answer.
@@ -49,6 +51,14 @@ Determine which category the user question falls into:
 | "GPS or synthetic data" | D4, D5, G2, H4 |
 | "Accessibility concerns" | B5, G3 |
 | "Risk or guardrails" | G1–G5, `research/92_red_flags.md` |
+| "Transparency theory / asymmetry / private-sector paradigms" | J1–J3 |
+| "Utility outages, work orders, smart-city sensing, predictive restoration" | K1–K4 |
+| "Data models for service tracking (requests, assets, workforce, context)" | L1–L4 |
+| "Simulation: ETA, queues, routes, outage duration" | M1–M2 |
+| "Cross-city open data, 311 APIs, free-tier utility/weather/geo" | N1–N2 |
+| "GIS + work-order or realtime / digital-twin architecture" | O1–O2 |
+| "Consumer-grade civic tracking UX (Domino's-style)" | P1 |
+| "Ghost dashboards, gaps, innovation synthesis" | Q1, E4, `research/92_red_flags.md` |
 
 ### Step 3 — Search `research/index.json`
 

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Data Index — A Thriving and Sustainable Built Environment
 
 This index describes known public data sources relevant to hackathon projects in this pillar. Entries are labeled by verification status.

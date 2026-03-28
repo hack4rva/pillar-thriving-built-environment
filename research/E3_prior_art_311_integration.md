@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # 311 to Construction Clarity: Turning Service Requests into Project Visibility for Richmond
 
 ## Executive Summary

@@ -1,0 +1,47 @@
+Data Sources N1 — Municipal Open Data Portals and 311 Service Request Systems
+
+Identify and catalog real-world data sources from municipal open data portals and 311 systems that can feed a public service tracking prototype.
+
+Focus areas:
+
+1. Municipal Open Data Portals
+   - What infrastructure-related datasets are commonly available on city open data portals?
+   - Catalog datasets from these portals specifically:
+     - Richmond, VA (data.richmondgov.com, GeoHub)
+     - NYC Open Data (data.cityofnewyork.us)
+     - Chicago Data Portal (data.cityofchicago.org)
+     - Boston Open Data (data.boston.gov)
+     - Philadelphia OpenDataPhilly
+     - Washington DC Open Data
+     - Los Angeles GeoHub
+   - For each: URL, dataset name, format (CSV, JSON, GeoJSON, Socrata API), update frequency, record count, key fields
+   - Common dataset categories: capital projects, road maintenance, permits, utility work, 311 requests, asset inventories
+
+2. 311 Service Request Datasets
+   - Which cities publish 311 data openly? Format and access method for each.
+   - Open311 API standard: which cities implement it? What endpoints are available?
+   - Typical 311 dataset fields: request_id, service_type, status, location, created_date, closed_date, agency, resolution
+   - Volume: how many requests per year for a mid-sized city?
+   - Quality issues: duplicate reports, miscategorization, location accuracy
+
+3. Federal Data Sources
+   - Data.gov: what municipal infrastructure datasets are available?
+   - Census Bureau: TIGER/Line files for geographic boundaries
+   - DOT: National Bridge Inventory, Highway Performance Monitoring System
+   - EPA: water system data, CSO (Combined Sewer Overflow) monitoring
+   - FEMA: flood maps, disaster declarations
+   - HUD: community development block grant data
+
+4. Data Format and Access Patterns
+   - REST API (Socrata SODA, ArcGIS REST, Open311)
+   - Bulk download (CSV, Shapefile, GeoJSON)
+   - Streaming / real-time (if any municipal data offers this)
+   - Authentication requirements and rate limits
+   - Data licensing (public domain, Creative Commons, usage restrictions)
+
+Output:
+- Master catalog: 30+ datasets with source, URL, format, fields, frequency, access method, and relevance score
+- API endpoint reference for the top 10 most useful datasets
+- Data quality assessment for each source (completeness, timeliness, accuracy)
+- Recommended "starter kit" of 5 datasets for building a service tracker prototype
+- Code snippets or curl examples for accessing top 3 APIs

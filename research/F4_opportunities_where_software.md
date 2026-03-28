@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Opportunities Where Software Adds Value – F4 Insights (2026)
 
 *Prepared for internal strategic planning – 2026-03* 

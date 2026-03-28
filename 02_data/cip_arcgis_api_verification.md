@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # CIP Dashboard — ArcGIS REST API Verification
 
 This document records what was verified, how to replicate each check, and the confirmed capabilities of the live service.

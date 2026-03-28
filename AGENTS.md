@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # Hackbot Agent Specification
 
 Hackbot is the AI assistant for this hackathon pillar repository.
@@ -192,6 +194,7 @@ Research corpus skills:
 • cross_report_synthesis
 • evidence_grounded_answering
 • report_update_protocol
+• corpus_navigation_sync
 • rapid_design_sprint
 • jobs_to_be_done_analysis
 • lean_mvp_experimentation
@@ -484,7 +487,7 @@ This section tells Hackbot exactly how to use the corpus.
 
 ## What the Research Corpus Contains
 
-The `research/` directory holds 51 deep research reports organized into sections A through I, plus framing (00–01) and cross-cutting files (90–93). Every report was generated via Parallel.ai pro processor from the prompt corpus in `05_prompts/research/` and exists as a `.md` file with inline citations.
+The `research/` directory holds **70** deep research reports: sections **A through I** (Richmond pillar core), plus **J through Q** (transparency theory, service-tracking depth, data models, simulation, architecture, UX synthesis), plus framing (00–01) and cross-cutting files (90–93). Every report was generated via Parallel.ai pro processor from the prompt corpus in `05_prompts/research/` and exists as a `.md` file with inline citations.
 
 Key supporting artifacts:
 - `evidence_log.md` (root) — verified factual claims with official URLs
@@ -498,7 +501,7 @@ Critical constraint: **GPS infrastructure for Richmond DPW fleet is explicitly i
 
 ## Files to Read First (Before Answering Any Research Question)
 
-1. `research/index.json` — load this to see summaries and key_terms for all 51 reports
+1. `research/index.json` — load this to see summaries and key_terms for all 70 reports
 2. `CORPUS_GUIDE.md` — read if unfamiliar with corpus organization
 3. `manifest.json` — machine-readable index of ALL significant repository files
 
@@ -521,10 +524,19 @@ Critical constraint: **GPS infrastructure for Richmond DPW fleet is explicitly i
 | What are the risks? | Section G (G1–G5) |
 | Is this feasible for a weekend? | Section H (H1–H5) |
 | How should we demo? | Section I (I1–I5) |
+| Transparency theory / asymmetry / private-sector paradigms? | Section J (J1–J3) |
+| Utility outages, work orders, smart-city visibility, predictive restoration? | Section K (K1–K4) |
+| Data models (requests, assets, workforce, external context)? | Section L (L1–L4) |
+| Simulation (ETA/queue, routes, outage duration)? | Section M (M1–M2) |
+| Cross-city open data / 311 / free-tier utility–weather–geo? | Section N (N1–N2) |
+| GIS + work-order / realtime / digital-twin architecture? | Section O (O1–O2) |
+| Consumer-grade civic tracking UX? | Section P (P1) |
+| Gaps, failures, innovation synthesis? | Section Q (Q1) |
 
 For Transportation Project Visibility questions: prioritize A1, A4, B1, D1, D2, F2, H1, H2
 For Fleet Operations questions: prioritize A2, D4, D5, F3, H3, H4, G2
 For GPS / synthetic data questions: prioritize D4, D5, G2, H4
+For unified “city service” / Domino’s-style tracker questions: add P1, L1, J2–J3, N1, M1, Q1; keep Richmond data claims in A–I and D
 
 ### Step 2 — Scan `research/index.json` for key_terms matches
 

@@ -1,0 +1,43 @@
+System Architecture O1 — GIS-Centric Platforms and Work Order System Integration
+
+Research system architecture patterns for integrating GIS platforms with work order management systems to create unified public service visibility.
+
+Focus areas:
+
+1. GIS-Centric Architecture Patterns
+   - How do cities use ArcGIS as the backbone for infrastructure management?
+   - Esri's municipal stack: ArcGIS Enterprise, ArcGIS Hub, ArcGIS Field Maps, ArcGIS Workforce, ArcGIS Dashboards
+   - Open-source alternatives: GeoServer, PostGIS + QGIS, MapServer
+   - Pros/cons of GIS-centric vs. work-order-centric vs. data-lake-centric architectures
+   - How GIS layers serve as the spatial index connecting work orders, assets, and fleet data
+
+2. Work Order System Integration
+   - How do CMMS platforms (Cityworks, Cartegraph, Lucity, Maximo) expose data?
+   - API patterns: REST, SOAP, OData, GraphQL — what do municipal systems typically offer?
+   - Integration patterns: direct API, ETL/batch sync, event-driven (webhooks), middleware
+   - How to build a read-only aggregation layer over multiple source systems without modifying them
+   - The "federated query" approach: querying multiple systems at runtime vs. pre-aggregating
+
+3. 311 to Work Order Pipeline
+   - How does a citizen report flow from 311 intake to work order creation to field dispatch?
+   - Data transformation at each stage: service request → triage → work order → schedule → dispatch
+   - How deduplication works (multiple reports for the same pothole)
+   - Status synchronization: keeping 311 status updated as work order progresses
+
+4. Public-Facing API Layer
+   - How to design a public API that exposes service status without exposing sensitive operational data
+   - What should be public (status, location, category, ETA) vs. internal (crew names, exact routes, operational notes)
+   - Rate limiting, caching, and performance for a public-facing map API
+   - Data freshness: how to communicate "last updated" and handle stale data gracefully
+
+5. Reference Architectures
+   - Cities that have published their data architecture (NYC, Chicago, Boston)
+   - Esri's recommended architecture for municipal operations
+   - Open-source civic tech architecture patterns (Code for America, mySociety)
+
+Output:
+- Architecture diagram (textual): showing data flow from source systems → integration layer → public API → citizen-facing app
+- Comparison table: GIS-centric vs. work-order-centric vs. data-lake architectures
+- Integration pattern catalog with pros, cons, and when to use each
+- Public API design: recommended endpoints, response format, caching strategy
+- Recommended architecture for a hackathon prototype (simplest viable integration)

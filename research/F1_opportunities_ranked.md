@@ -20,6 +20,8 @@ related_reports:
  - H1_mvp_48hr_framework
 ---
 
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # From Trash Day to TIP Maps: Fast-Track Civic Tools Richmond Residents Will Actually Use
 
 ## Executive Summary

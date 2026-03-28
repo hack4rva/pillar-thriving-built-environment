@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # I5_demo_framing.md – Corrected Version
 
 > **Note:** After exhaustive searches across public repositories (GitHub, GitLab, Gist, and the broader web) no source file matching **`I5_demo_framing.md`** could be located. Consequently, the original content is unavailable for direct correction. 

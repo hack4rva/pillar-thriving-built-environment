@@ -1,0 +1,56 @@
+Data Model L3 — Workforce, Events, Incidents, and Historical Prediction Data
+
+Define data models for workforce/crew management, event/incident tracking, and historical datasets needed for prediction and simulation in a public service tracking system.
+
+Requirements:
+
+1. Crew / Workforce Entity
+   - crew_id
+   - crew_name
+   - members (array of personnel with roles)
+   - skill_specializations (enum array: electrical, plumbing, road_repair, tree_work, heavy_equipment, cdl_driver, snow_operations, emergency_response)
+   - current_shift (start_time, end_time, break_periods)
+   - shift_schedule (weekly pattern)
+   - availability_status (enum: available, assigned, on_break, off_duty, on_call)
+   - assigned_vehicle_id
+   - assigned_zone or district
+   - certifications and equipment qualifications
+   - performance_metrics (avg_completion_time, jobs_per_shift)
+
+2. Event / Incident Entity
+   - event_id
+   - event_type (enum: outage_report, citizen_complaint, sensor_alert, weather_event, emergency_declaration, scheduled_maintenance, road_closure, water_main_break, sewer_overflow, flood_warning)
+   - severity (1-5)
+   - source (311, sensor, NOAA_weather, internal_dispatch, citizen_app, social_media)
+   - location (GIS point or area)
+   - affected_area (polygon or radius)
+   - affected_population_estimate
+   - start_time
+   - estimated_end_time
+   - actual_end_time
+   - linked_work_orders (array of job_ids)
+   - linked_assets (array of asset_ids)
+   - weather_conditions_at_event (temperature, precipitation, wind, from NOAA)
+   - status (active, monitoring, resolved, closed)
+   - public_notification_sent (boolean, timestamp)
+   - notification_text
+
+3. Historical Data for Prediction
+   - Past outages/incidents: event_type, location, duration, cause, weather_at_time, asset_age, crew_response_time, resolution_time
+   - Seasonal trends: monthly/weekly distributions of service requests by type
+   - Time-to-resolution distributions: by service_type, priority, weather_conditions, crew_size, time_of_day, day_of_week
+   - Failure rate data: asset_type × age → failure probability curves
+   - Demand forecasting inputs: population density, housing age, tree canopy coverage, soil type (for water main breaks)
+
+4. 311 / Citizen Report Aggregation
+   - How to aggregate duplicate reports for the same incident
+   - Spatial clustering logic for grouping nearby reports
+   - Temporal patterns in citizen reporting (lag between incident and first report)
+   - Sentiment signals from report text
+
+Output:
+- Complete entity schemas with field types and example records
+- Historical dataset schema with 10 example records spanning different service types
+- Time-to-resolution statistical summary format (median, p25, p75, p95 by category)
+- Data dictionary explaining each field's purpose and how it feeds into prediction models
+- Privacy considerations: what workforce/crew data can be public vs. internal-only

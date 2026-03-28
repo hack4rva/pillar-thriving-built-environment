@@ -21,6 +21,8 @@ related_reports:
   - G4_risks_data_freshness
 ---
 
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Ship Safe: A 10-Guardrail Checklist to De-risk Built-Environment Prototypes Before Demos
 
 ## Executive Summary

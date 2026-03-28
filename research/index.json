@@ -355,5 +355,138 @@
     "title": "Win the Room: Framing Built-Environment Civic Demos that Judges Trust",
     "summary": "Framing guide for built-environment civic demos targeting judge trust. Covers how to position the problem, evidence the need, and present the solution in language judges respond to.",
     "key_terms": ["demo framing", "judges trust", "problem positioning", "evidence", "civic demo", "built environment"]
+  },
+  {
+    "id": "J1_transparency_academic_frameworks",
+    "section": "J",
+    "title": "Bridging the Civic Visibility Gap: Academic Frameworks & Evidence on Transparency Failures in Urban Service Delivery",
+    "summary": "Academic and evidence-based frameworks for why urban service transparency fails and how civic visibility gaps form. Grounds hackathon work in transparency theory and empirical patterns.",
+    "key_terms": ["transparency", "academic frameworks", "urban service delivery", "civic visibility", "accountability", "information quality"]
+  },
+  {
+    "id": "J2_information_asymmetry_government_services",
+    "section": "J",
+    "title": "Closing the Visibility Gap: How Information Asymmetry Undermines Municipal Service Delivery and What Cities Can Do About It",
+    "summary": "Explains information asymmetry between residents and government in municipal services and practical levers cities use to reduce it without unsafe data exposure.",
+    "key_terms": ["information asymmetry", "municipal services", "resident trust", "public communication", "service delivery", "visibility"]
+  },
+  {
+    "id": "J3_private_sector_transparency_paradigms",
+    "section": "J",
+    "title": "From Pizza to Potholes: Translating Real-Time Service-Visibility Wins into Smarter Government Delivery",
+    "summary": "Compares private-sector real-time tracking paradigms to public-sector constraints; maps what transfers to civic service trackers versus what does not.",
+    "key_terms": ["private sector", "real-time tracking", "service visibility", "consumer UX", "government delivery", "paradigms"]
+  },
+  {
+    "id": "K1_academic_research_utility_outage_tracking",
+    "section": "K",
+    "title": "Utility Outage Visibility & Prediction 2026: From Smart-Grid Sensors to AI-Driven Restoration Forecasts",
+    "summary": "Academic and industry research on utility outage visibility, sensing, and predictive restoration—relevant analogs for municipal service restoration narratives.",
+    "key_terms": ["utility outage", "smart grid", "prediction", "restoration", "sensors", "visibility"]
+  },
+  {
+    "id": "K2_municipal_work_order_tracking",
+    "section": "K",
+    "title": "Blueprint for Transparent Municipal Work-Order Systems: Platform Insights, Public-Facing Portals, and Real-Time Fleet Integration",
+    "summary": "Patterns for municipal work-order transparency, public portals, and integration with fleet or asset systems at a conceptual level (not Richmond-internal integration claims).",
+    "key_terms": ["work orders", "municipal", "public portal", "transparency", "fleet integration", "platform patterns"]
+  },
+  {
+    "id": "K3_smart_city_gis_urban_sensing",
+    "section": "K",
+    "title": "Real-Time City-Wide Visibility: Platforms, Digital Twins & Sensor Networks that Turn Urban Infrastructure into Actionable Service",
+    "summary": "Survey of smart-city GIS, digital twins, and urban sensing for city-scale visibility; useful for architecture and data-pipeline thinking within hackathon guardrails.",
+    "key_terms": ["smart city", "GIS", "digital twin", "urban sensing", "real-time", "infrastructure"]
+  },
+  {
+    "id": "K4_predictive_models_service_restoration",
+    "section": "K",
+    "title": "Predictive Service Restoration & Dispatch: A Data-Driven Playbook for Municipal Utilities (2026)",
+    "summary": "Predictive modeling and dispatch patterns for service restoration in utility-like contexts; informs responsible ETA or queue language without overclaiming Richmond data.",
+    "key_terms": ["predictive models", "service restoration", "dispatch", "utilities", "ETA", "operations research"]
+  },
+  {
+    "id": "L1_data_model_work_orders_service_requests",
+    "section": "L",
+    "title": "Building a Future-Proof Work-Order Layer: A Cross-Platform Data Model for Multi-Domain Public-Service Tracking",
+    "summary": "Conceptual data model for work orders and service requests spanning domains (streets, utilities, 311)—schema-level guidance for unified trackers.",
+    "key_terms": ["data model", "work orders", "service requests", "multi-domain", "public service", "schema"]
+  },
+  {
+    "id": "L2_data_model_assets_infrastructure_fleet",
+    "section": "L",
+    "title": "Unified Asset-Fleet Data Model for Smart Public-Service Operations – From GIS Assets to Real-Time Vehicle Telemetry",
+    "summary": "Asset, infrastructure, and fleet entity relationships for public-service operations; aligns with schedule-first and synthetic-GPS MVP patterns.",
+    "key_terms": ["assets", "fleet", "GIS", "telemetry", "infrastructure", "data model"]
+  },
+  {
+    "id": "L3_data_model_workforce_events_historical",
+    "section": "L",
+    "title": "Future-Ready Public-Service Data Blueprint: Workforce, Events & Predictive History",
+    "summary": "Workforce, operational events, and historical signals as data primitives for transparency and light prediction; emphasizes what to log for credible demos.",
+    "key_terms": ["workforce", "events", "historical data", "predictive", "public service", "blueprint"]
+  },
+  {
+    "id": "L4_data_model_external_context",
+    "section": "L",
+    "title": "Context-Aware Public Service Delivery: A Unified Data Model for Weather, Traffic, and Regulatory Intelligence",
+    "summary": "External context layers (weather, traffic, regulation) for service delivery UX and prioritization; maps free or public context sources conceptually.",
+    "key_terms": ["external context", "weather", "traffic", "regulatory", "context-aware", "data model"]
+  },
+  {
+    "id": "M1_simulation_probabilistic_eta_queue_modeling",
+    "section": "M",
+    "title": "Real-Time Service-Delivery ETA & Queue Simulation: From Bayesian Updates to Hackathon-Ready Models",
+    "summary": "Probabilistic ETA and queue simulation methods suitable for hackathon prototypes; stresses labeling synthetic outputs and avoiding false precision.",
+    "key_terms": ["ETA", "queue", "simulation", "Bayesian", "probabilistic", "hackathon"]
+  },
+  {
+    "id": "M2_simulation_route_optimization_outage_prediction",
+    "section": "M",
+    "title": "Optimizing Municipal Fleet Routes & Predicting Outage Durations: A Simulation Blueprint for Public-Service Tracking",
+    "summary": "Route optimization and duration-prediction simulation patterns for municipal fleets and outages; use with G2/H4 guardrails on GPS and claims.",
+    "key_terms": ["route optimization", "outage prediction", "simulation", "municipal fleet", "operations", "blueprint"]
+  },
+  {
+    "id": "N1_data_sources_municipal_open_data_311",
+    "section": "N",
+    "title": "Building the City-Service Tracker: A Cross-City Playbook of Open-Data Assets & APIs (2026)",
+    "summary": "Cross-city open data and 311 API patterns for building service trackers; complements D1–D2 with national examples and integration ideas.",
+    "key_terms": ["open data", "311", "API", "Socrata", "CKAN", "city service tracker"]
+  },
+  {
+    "id": "N2_data_sources_utility_weather_geospatial",
+    "section": "N",
+    "title": "Building the Next-Gen Public-Service Tracker: Free-Tier Data-Source Playbook for 2026",
+    "summary": "Free-tier utility, weather, and geospatial sources for next-gen public service trackers; pairs with Richmond inventory in `02_data/` and section D.",
+    "key_terms": ["free tier", "utility data", "weather", "geospatial", "data sources", "playbook"]
+  },
+  {
+    "id": "O1_architecture_gis_platforms_work_order_integration",
+    "section": "O",
+    "title": "Unified Public-Service Visibility: GIS-Centric, Work-Order & Data-Lake Integration Playbook for Cities",
+    "summary": "GIS-centric architecture patterns integrating work orders and analytics data stores at a city scale; conceptual only for hackathon (no DPW internal integration claims).",
+    "key_terms": ["architecture", "GIS", "work orders", "data lake", "integration", "public service"]
+  },
+  {
+    "id": "O2_architecture_realtime_pipelines_digital_twins",
+    "section": "O",
+    "title": "Real-Time City-Scale Visibility: From Static Dashboards to Living Digital Twins",
+    "summary": "Real-time pipelines and digital twin patterns for city visibility; distinguishes demo-grade from production operational systems.",
+    "key_terms": ["real-time", "pipelines", "digital twin", "dashboards", "city scale", "architecture"]
+  },
+  {
+    "id": "P1_ux_consumer_grade_civic_tracking",
+    "section": "P",
+    "title": "From Potholes to Power Outages: Building a Domino's-Style Citizen Service Tracker",
+    "summary": "Consumer-grade UX patterns for civic service tracking (stages, ETAs, notifications) within public-sector constraints; primary UX bridge for unified tracker concepts.",
+    "key_terms": ["UX", "citizen tracker", "service stages", "ETA", "notifications", "consumer grade"]
+  },
+  {
+    "id": "Q1_gaps_failures_innovation_opportunities",
+    "section": "Q",
+    "title": "From Ghost Dashboards to Real-Time Street-Level Service Trackers: Turning Civic Transparency Failures into High-Impact Innovation",
+    "summary": "Synthesis of civic transparency failures, gaps, and high-impact innovation opportunities; use with E4/G1 and `92_red_flags.md` for de-risking.",
+    "key_terms": ["gaps", "failures", "innovation", "ghost dashboards", "transparency", "street-level"]
   }
 ]

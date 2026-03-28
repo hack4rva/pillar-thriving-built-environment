@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 
 # From "What's going on?" to "Got it" in 10 seconds — A winning demo narrative for Richmond's DPW project finder
 

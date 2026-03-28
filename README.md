@@ -1,8 +1,10 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 <div align="center">
 
-# A Thriving and Sustainable Built Environment — Decision Funnel
+# A Thriving and Sustainable Built Environment: Decision Funnel
 
-Richmond Civic Hackathon • March 27–29, 2026
+Richmond Civic Hackathon • March 27-29, 2026
 
 [![Pillar](https://img.shields.io/badge/Pillar-Built_Environment-4c68d7)](#)
 [![Stage](https://img.shields.io/badge/Stage-Decision_Funnel-00a38f)](#)
@@ -10,7 +12,7 @@ Richmond Civic Hackathon • March 27–29, 2026
 
 </div>
 
-This is a guided decision environment for teams working on the A Thriving and Sustainable Built Environment pillar. It's designed to help you quickly choose a credible, source‑linked, weekend‑buildable MVP—and avoid fantasy software.
+This is a guided decision environment for teams working on the A Thriving and Sustainable Built Environment pillar. It's designed to help you quickly choose a credible, source‑linked, weekend‑buildable MVP, and avoid fantasy software.
 
 Journey stages: Land → Orient → Choose → Research → Compare MVPs → Lock Scope → Build → Validate → Demo → Hand‑off
 
@@ -20,19 +22,19 @@ Three questions to answer fast: 1) What problem are we actually solving? 2) Can 
 
 ## The Challenge
 
-**→ Full detail in [`CHALLENGE.md`](CHALLENGE.md).** Read it before anything else — it defines the two problems, the top blue sky vision, data constraints, how Pillar Award weights use the shared rubric, and optional per-problem prompts to help your team think about the categories (not a second judge rubric).
+**→ Full detail in [`CHALLENGE.md`](CHALLENGE.md).** Read it before anything else. It covers the two problems, the top blue sky vision, data constraints, and optional per-problem prompts that relate to [`RUBRIC.md`](../RUBRIC.md) for teams preparing their pitch (those prompts are not judge instructions).
 
-### Problem 1: Transportation Project Visibility & Discoverability — 25/32 — Strong
+### Problem 1: Transportation Project Visibility & Discoverability
 
 > How might we use technology to improve how Richmond residents find and understand transportation and infrastructure projects happening in their neighborhoods so that project information is clear, centralized, and easy to track?
 
 Build toward: City Infrastructure Explorer Map (address search → project status) · "What's Happening Here?" mobile lookup tool · SMS lookup service · Opt-in notification system
 
-⚠ Do not replace ArcGIS or DPW program pages — surface and translate them. Technical descriptions must become plain language.
+⚠ Do not replace ArcGIS or DPW program pages ,  surface and translate them. Technical descriptions must become plain language.
 
 ---
 
-### Problem 2: Fleet Operations Visibility & Public Communication — 22/32 — Needs work
+### Problem 2: Fleet Operations Visibility & Public Communication
 
 > How might we use technology to improve how Richmond residents and DPW staff track the progress of services like snow removal and street cleaning?
 
@@ -42,26 +44,19 @@ Build toward: Zone-based schedule display · Fleet route progress dashboard usin
 
 ---
 
-### Top Blue Sky: Reimagining Safer Streets — 22/27 — Strong
+### Top Blue Sky: Reimagining Safer Streets
 
 > How might we use technology to help residents, advocates, and City planners identify and prioritize locations for transportation safety improvements?
 
-Map publicly available crash data against existing transportation project locations. Label everything as exploratory — never claim to guide official resource allocation.
+Map publicly available crash data against existing transportation project locations. Label everything as exploratory ,  never claim to guide official resource allocation.
 
 ---
 
-### Pillar Award Rubric
+### Rubric reference
 
-| Category | Weight | Dominant question |
-|----------|--------|-------------------|
-| **Impact** | **5** | Does this directly address one of the two problems above? |
-| User Value | 4 | Is there a specific real user? Does the prototype improve their experience? |
-| Feasibility | 3 | Could this be piloted by DPW or a City partner within a year? |
-| Innovation | 3 | Fresh thinking on infrastructure transparency or fleet ops? |
-| Execution | 3 | Does a working demo exist? Is the flow coherent? |
-| Equity | 3 | Does it reach residents with limited digital access or language barriers? |
+Hackathon judges use the category framework in [`../RUBRIC.md`](../RUBRIC.md). Optional prompts in [`CHALLENGE.md`](CHALLENGE.md) help teams prepare their story; they are not instructions to judges.
 
-Official rubric — category definitions, scoring anchors, and judge-facing guidance: [`../RUBRIC.md`](../RUBRIC.md)
+A single-file Markdown handout (same content as `CHALLENGE.md` plus a short cover note) is at [`docs/PARTICIPANT_HANDOUT.md`](docs/PARTICIPANT_HANDOUT.md).
 
 ---
 
@@ -78,7 +73,7 @@ Official rubric — category definitions, scoring anchors, and judge-facing guid
    - Phase 3: Research Spin‑Up
    - Phase 4: Opportunity Framing
    - Phase 5: Scope Lock
-   - Phases 6–9: Build → Validate → Demo
+   - Phases 6-9: Build → Validate → Demo
 5. Verification Workflow
 6. Hackbot Helper
 7. Appendix: Pillar Context & Rubric
@@ -87,15 +82,15 @@ Official rubric — category definitions, scoring anchors, and judge-facing guid
 
 ## Quick Start
 
-Do these first 15–30 minutes to get moving:
+Do these first 15-30 minutes to get moving:
 
-1) Read: `CHALLENGE.md` — the two problems, top blue sky, Pillar Award weights, and optional per-problem rubric prompts (start here, not QUICKSTART.md)
+1) Read: `CHALLENGE.md`  -  the two problems, top blue sky, Pillar Award weights, and optional per-problem rubric prompts (start here, not QUICKSTART.md)
 2) Read: `QUICKSTART.md`
 2) Skim: `00_core/00_pillar_overview.md` and `01_problem_space/02_targeted_problem_statements.md`
 3) Capture a 5‑bullet "Working Direction" using `99_templates/working_direction_note.md`
 4) Decide your path:
-   - Path A — already have a rough problem: jump to Phase 2 and Phase 4
-   - Path B — need help choosing: start at Phase 1 and proceed in order
+   - Path A  -  already have a rough problem: jump to Phase 2 and Phase 4
+   - Path B  -  need help choosing: start at Phase 1 and proceed in order
 
 ---
 
@@ -132,7 +127,7 @@ Do these first 15–30 minutes to get moving:
 ## Guardrails
 
 - Pick one user, one workflow, and one credible data/doc base.
-- Avoid GPS dependency — fleet GPS infrastructure is explicitly incomplete as of March 2026.
+- Avoid GPS dependency  -  fleet GPS infrastructure is explicitly incomplete as of March 2026.
 - Never claim to show real-time vehicle locations.
 - Always cite official sources. Log every claim in `evidence_log.md`.
 - Keep AI constrained to explanation, retrieval, translation, and guidance.
@@ -142,7 +137,7 @@ Do these first 15–30 minutes to get moving:
 ## Decision Phases
 
 <details open>
-<summary><strong>Phase 0 — Landing & Framing</strong></summary>
+<summary><strong>Phase 0  -  Landing & Framing</strong></summary>
 
 Goal: understand what this repo is and how to use it without "exploring" for two hours.
 
@@ -166,7 +161,7 @@ Call to action: choose Path A or Path B.
 </details>
 
 <details open>
-<summary><strong>Phase 1 — Rapid Orientation (20–30 min)</strong></summary>
+<summary><strong>Phase 1  -  Rapid Orientation (20-30 min)</strong></summary>
 
 Read just enough to build a shared mental model:
 - `QUICKSTART.md`
@@ -178,7 +173,7 @@ Filter for:
 - user groups; pain points; what the City actually cares about
 - problems that are software‑shaped vs policy‑shaped vs infrastructure‑shaped
 
-Team checkpoint — Working Direction (use `99_templates/working_direction_note.md`):
+Team checkpoint  -  Working Direction (use `99_templates/working_direction_note.md`):
 
 ```
 ## Working Direction
@@ -193,14 +188,14 @@ Team checkpoint — Working Direction (use `99_templates/working_direction_note.
 </details>
 
 <details>
-<summary><strong>Phase 2 — Problem Selection (30–45 min)</strong></summary>
+<summary><strong>Phase 2  -  Problem Selection (30-45 min)</strong></summary>
 
 Files:
 - `01_problem_space/01_bluesky_problem_statements.md`
 - `01_problem_space/02_targeted_problem_statements.md`
 - `05_prompts/01_problem_selection_prompt.md`
 
-Decision rule — choose only if the problem has:
+Decision rule  -  choose only if the problem has:
 - a real user and understandable workflow
 - a plausible public data/document base
 - a demoable artifact by Sunday
@@ -219,7 +214,7 @@ Output: Decision Memo (`99_templates/decision_memo.md`)
 </details>
 
 <details>
-<summary><strong>Phase 3 — Research Spin‑Up (60–90 min)</strong></summary>
+<summary><strong>Phase 3  -  Research Spin‑Up (60-90 min)</strong></summary>
 
 Goal: gather just enough evidence to avoid fantasy software.
 
@@ -246,7 +241,7 @@ Tip: parse URLs from API metadata; don't ask for URLs in prompt text.
 </details>
 
 <details>
-<summary><strong>Phase 4 — Opportunity Framing (45–60 min)</strong></summary>
+<summary><strong>Phase 4  -  Opportunity Framing (45-60 min)</strong></summary>
 
 Compare at least two MVP shapes before choosing.
 
@@ -271,7 +266,7 @@ Output:
 </details>
 
 <details>
-<summary><strong>Phase 5 — Scope Lock (45–60 min)</strong></summary>
+<summary><strong>Phase 5  -  Scope Lock (45-60 min)</strong></summary>
 
 Pin down must‑haves, mockables, data, AI role, limits, and demo path.
 
@@ -285,12 +280,12 @@ Key sentence:
 </details>
 
 <details>
-<summary><strong>Phases 6–9 — Build → Validate → Demo</strong></summary>
+<summary><strong>Phases 6-9  -  Build → Validate → Demo</strong></summary>
 
 Build:
 - Break work into FE/BE/data/content; assign source verification and demo owner.
 - Keep AI constrained to explanation, retrieval, translation, and guidance.
-- If building fleet-related tool, use mock data — never promise live GPS.
+- If building fleet-related tool, use mock data  -  never promise live GPS.
 
 Validate:
 - Use risk review prompts and red flags; check source links and clarity.
@@ -340,26 +335,20 @@ Notes:
 <details>
 <summary>Open context from the Pillar Committee session (February 26, 2026)</summary>
 
-Working Session: February 26, 2026, 10:00 AM – 12:00 PM
+Working Session: February 26, 2026, 10:00 AM - 12:00 PM
 
 Departmental champion: Al Wiggins (DCAO Operations), Daniel Klein
 Nonprofit partners: Nathan Burrell (Groundwork RVA), Justin Doyle or Shannon Orcutt (James River Association), Richard Hankins (Partnership for Smarter Growth)
 
-Rubric Score Summary
-| Statement                              | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | Total | Band        |
-|----------------------------------------|----|----|----|----|----|----|----|----|----|-------|-------------|
-| Transportation Project Visibility      | —  | —  | —  | —  | —  | —  | —  | —  | 25    | Strong      |
-| Fleet Operations Visibility            | —  | —  | —  | —  | —  | —  | —  | —  | 22    | Needs work  |
+**Workshop comparison (internal):** Committee notes referenced dimensions such as clarity, scope, data readiness, champions, population impact, operating environment, success criteria, and accessibility. See `CHALLENGE.md` and `01_problem_space/` for wording teams should use.
 
-Dimension key: D1 Clarity | D2 Scope | D3 Data readiness | D4 Champion | D5 Population & impact | D6 Operating environment | D7 Success criteria | D8 Accessibility
+Quick-kill flags: both targeted statements lack a continuation pathway. Fleet Operations also depends on GPS and route data that is explicitly incomplete in this repository.
 
-Quick‑kill flags: both targeted statements lack a continuation pathway. Fleet Operations also triggers D3=2 — GPS infrastructure explicitly incomplete.
-
-Targeted Statement 1: Transportation Project Visibility & Discoverability (Score 25/32 — Strong)
+Targeted Statement 1: Transportation Project Visibility & Discoverability
 - Problem, context, constraints, success, and gaps are in `01_problem_space/02_targeted_problem_statements.md`.
 
-Targeted Statement 2: Fleet Operations Visibility & Public Communication (Score 22/32 — Needs work)
-- Problem, context, constraints, success, and gaps (significant D3=2) are in `01_problem_space/02_targeted_problem_statements.md`.
+Targeted Statement 2: Fleet Operations Visibility & Public Communication
+- Problem, context, constraints, success, and gaps (including fleet data limits) are in `01_problem_space/02_targeted_problem_statements.md`.
 
 Blue Sky Statements
 - See `01_problem_space/01_bluesky_problem_statements.md`.

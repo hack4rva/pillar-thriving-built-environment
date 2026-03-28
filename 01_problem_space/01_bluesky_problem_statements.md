@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Blue Sky Problem Statements — A Thriving and Sustainable Built Environment
 
 These statements were developed during the pillar working session as broader, aspirational framings before the targeted statements were scoped. They are useful for context and longer-term thinking but are generally too broad or too infrastructure-dependent to build against in a weekend.

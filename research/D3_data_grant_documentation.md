@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # D³ Associates Program – Data Grant Documentation
 
 *Digital Data Design Institute at Harvard – Official Grant Guide* 

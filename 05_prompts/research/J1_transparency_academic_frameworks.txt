@@ -1,0 +1,34 @@
+Core Problem Framing J1 — Academic Frameworks for Public Service Transparency Gaps
+
+Conduct a comprehensive literature review on the academic and theoretical frameworks used to describe the lack of transparency in public service delivery systems — particularly urban infrastructure services such as power restoration, sanitation, road maintenance, sewer repair, and emergency dispatch.
+
+Focus areas:
+
+1. Information Asymmetry in Public Services
+   - How does the concept of information asymmetry (Akerlof, Stiglitz) apply to government-to-citizen service delivery?
+   - What are the documented effects of delayed, fragmented, or opaque data flows on citizen trust, service efficiency, and operational outcomes?
+   - Are there quantitative studies measuring the trust deficit caused by service opacity?
+
+2. Civic Visibility Gaps
+   - Is there an established academic term or framework for the gap between what governments know about service operations and what citizens can see?
+   - What models exist for "service opacity" or "civic information asymmetry"?
+   - How do researchers distinguish between data that exists internally but is not shared vs. data that does not exist at all?
+
+3. Theoretical Models
+   - Principal-agent theory applied to municipal service delivery
+   - Public value theory (Moore) and how transparency creates or destroys public value
+   - E-government maturity models that include transparency stages
+   - Open government and open data frameworks (OGP, Sunlight Foundation principles)
+   - Digital-era governance (Dunleavy) and its predictions about service visibility
+
+4. Measurement Frameworks
+   - How is public service transparency measured in academic literature?
+   - What indices or scorecards exist (e.g., Open Budget Index, open data indices)?
+   - How do researchers measure citizen satisfaction with service communication?
+
+Output:
+- Key academic frameworks and their originators (with paper/book titles)
+- Definitions of relevant terminology (information asymmetry, service opacity, civic visibility gap, etc.)
+- Summary of empirical findings on the trust/efficiency impact of poor service visibility
+- Gaps in the literature — what has NOT been studied
+- Recommended reading list (top 10 papers/books) for a team building a civic transparency tool

@@ -1,0 +1,49 @@
+Data Model L4 — External Contextual Data: Weather, Traffic, Permits, and Regulatory
+
+Define the data model for external contextual data sources that enrich a public service tracking system — weather conditions, traffic, permitting, and regulatory constraints that affect service delivery timelines.
+
+Requirements:
+
+1. Weather Data Model
+   - Current conditions: temperature, precipitation_type, precipitation_rate, wind_speed, wind_direction, visibility, humidity
+   - Forecast: hourly and daily forecasts for service area
+   - Alerts: NWS watches, warnings, advisories (winter storm, flood, heat, severe thunderstorm)
+   - Historical weather: for correlation with past service events
+   - Source mapping: NOAA Weather API, NWS API, Weather.gov
+   - Resolution: what geographic granularity is available (station-level, grid-level, zone-level)?
+   - Update frequency: how often should weather data be refreshed?
+
+2. Traffic Conditions Data Model
+   - Real-time traffic: road segment speed, congestion level, incidents
+   - Road closures: planned and unplanned closures affecting service routes
+   - Construction zones: active construction that affects crew routing
+   - Source mapping: city DOT feeds, INRIX, TomTom, Google Maps API, Waze data
+   - Impact on service delivery: how traffic conditions affect crew travel time and ETA calculations
+
+3. Permitting and Regulatory Data Model
+   - Active construction permits: location, type, duration, contractor
+   - Right-of-way permits: street closures, lane restrictions
+   - Utility work permits: cross-reference with infrastructure projects
+   - Environmental permits: restrictions on certain work (e.g., noise ordinances, tree protection)
+   - Source: city permitting system, often separate from DPW work orders
+   - How permit delays cascade into service delivery delays
+
+4. Other External Context
+   - School zones and schedules (affect routing and timing)
+   - Special events (parades, marathons, festivals that block streets)
+   - Daylight hours (affect crew working hours for outdoor work)
+   - Public transit disruptions (if service work affects transit routes)
+   - Power grid status (for services that depend on electricity)
+
+5. Data Fusion
+   - How should these external data sources be joined to work orders and fleet data?
+   - What is the appropriate spatial and temporal resolution for each?
+   - What caching and refresh strategies are appropriate?
+   - How to handle conflicting or missing external data?
+
+Output:
+- Entity schemas for each external data type with field definitions
+- API endpoint inventory: source, URL pattern, authentication, rate limits, data format (JSON, XML, GeoJSON)
+- Data fusion architecture: how external data joins to work orders, events, and routes
+- Refresh frequency table: which data needs real-time updates vs. hourly vs. daily
+- Cost estimates for API usage at city scale (free tier limits, paid tier costs)

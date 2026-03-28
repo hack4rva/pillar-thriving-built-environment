@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # From Friction to Flow: Modernizing DPW Communications to Deflect Calls and Accelerate Storm Response
 
 ## Executive Summary

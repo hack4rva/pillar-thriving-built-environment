@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](docs/methodology.md) for details.
+
 # Research Notes — A Thriving and Sustainable Built Environment
 
 Use this file to capture findings from research prompts, team discussions, and source verification. Log every claim with a source or label it as an assumption.

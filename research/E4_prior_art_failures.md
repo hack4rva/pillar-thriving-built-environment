@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Stop Building Ghost Dashboards: How to Avoid Civic Infrastructure Transparency Tools That Die After Launch
 
 ## Executive Summary

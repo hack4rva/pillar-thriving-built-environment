@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # De-risking Richmond's Built-Environment UX: 10 Evidence-Backed Tests to Launch Fast
 
 ## Executive Summary

@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Benchmark Scan — Infrastructure Project Transparency & Fleet Visibility Tools
 
 National and regional comparables for the two problem statements. Use these for inspiration and to understand what has been tried. Do not assume these are directly replicable without verifying Richmond-specific data availability.

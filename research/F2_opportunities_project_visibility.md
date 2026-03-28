@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # From "What's That Roadwork?" to Answers in Seconds — A Practical Solution Space for Transportation Project Visibility
 
 ## Executive Summary

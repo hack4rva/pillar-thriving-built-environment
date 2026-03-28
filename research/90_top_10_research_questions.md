@@ -1,3 +1,5 @@
+> **Note:** This research was generated using AI assistance (Claude + Parallel.ai) with human expert review. See [methodology](../docs/methodology.md) for details.
+
 # Richmond’s Path to a Unified Infrastructure Project Finder: What to Build Next, Using What We Already Have
 
 ## Executive Summary
