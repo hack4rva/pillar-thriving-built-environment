@@ -1,0 +1,1740 @@
+{
+  "run_id": "trun_1848795af0f24b8084521d252108d97a",
+  "interaction_id": "trun_1848795af0f24b8084521d252108d97a",
+  "result_url": "https://platform.parallel.ai/play/deep-research/trun_1848795af0f24b8084521d252108d97a",
+  "status": "completed",
+  "output": {
+    "basis": [
+      {
+        "field": "nyc_capital_projects_dashboard_analysis",
+        "reasoning": "The finegrained field value centers on the NYC Capital Projects Dashboard and several specific critiques and datapoints drawn from the NYC Comptroller\u2019s report. Excerpts that state the dashboard\u2019s limited data coverage quantify this weakness by note that only a portion of IDs or commitments are included, which aligns with the value\u2019s claim of 46.8% coverage and 58.1% indicated elsewhere in related discussions. Excerpts describing the cadence of updates (triannual tied to OMB plans) and a specific instance of a six-month gap without updates corroborate the concerns about timeliness and reliability. Other excerpts describe the NYC dashboard\u2019s purpose and update schedule, reinforcing the context that governance and data quality are central to the concerns raised in the finegrained field value. Additional excerpts discuss recommendations for improving data completeness and standardization, which support the characterization of fundamental weaknesses and governance improvements implied by the field value. Collectively, these excerpts map directly to the field value\u2019s claims about coverage percentage, update cadence, and data quality issues, while also providing broader context about governance and best practices observed elsewhere.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,",
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence."
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "lep_population_analysis",
+        "reasoning": "The finegrained field value claims that Limited English Proficiency (LEP) concentrations exist in south Richmond and nearby counties, and that LEP accounts for 2.1% of the regional population. The most relevant excerpt explicitly presents a map showing the Richmond region's LEP population at the census-tract level for 2017, which directly visualizes where LEP populations are located and supports the geographic distribution aspect. A closely related excerpt reiterates the same exhibit by naming the specific map (Exhibit 61) that documents LEP concentrations, strengthening the connection between the field value and a concrete geographic representation. Additionally, a third excerpt provides a numerical LEP estimate drawn from ACS 2013-2017 data\u2014the total LEP population for the Richmond region is around 21,000, or 2.1% of the population\u2014precisely matching the stated percentage in the finegrained field value and anchoring it to the same data source. Together, these excerpts substantiate both the geographic concentration and the overall share of LEP within the Richmond region as described in the field value.",
+        "citations": [
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "**Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017**",
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* ."
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "lessons_for_richmond_from_nyc",
+        "reasoning": "The core guidance to Richmond centers on improving data completeness and interoperability across agencies, standardizing project identifiers, publishing raw data openly, ensuring a timely and regular data update cadence, and expanding coverage beyond a partial set of projects. Excerpts describing NYC\u2019s Capital Projects Dashboard shortcomings quantify data coverage (for example, only a portion of IDs and commitments are represented) and highlight the consequences for transparency. They also emphasize actionable governance measures: require fully built, linked project records; include all capital projects in the dashboard; standardize data naming and rules; and maintain triannual or regular updates. Additionally, excerpts describe NYC\u2019s update practices and data publication flows that illustrate the need for timely data sharing to enable external analysis. Finally, descriptions of NYC\u2019s dashboard governance and data completeness provide concrete, transferable recommendations that align with Richmond\u2019s efforts to create a reliable, transparent, and comprehensive CIP/CapProj tracking tool. Directly relevant points include the necessity of complete, standardized identifiers across financial and project-management systems; expanding coverage to all capital projects; publishing underlying data in open formats; and enforcing a regular cadence for schedule and status submissions across agencies.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,",
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence."
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "smartphone_only_household_statistics",
+        "reasoning": "The finegrained field value references the percentage of Richmond city households that are smartphone-only and cites the American Community Survey (ACS) Table S2801 as the data source. The excerpts confirm the data source (ACS S2801) and discuss the concept of households where a smartphone is the only computing device, including maps and discussions of the variable. Specifically, one excerpt directly notes the data source (ACS Table S2801). Other excerpts describe maps or discussions about smartphone-only households, indicating that the data type exists and is analyzed, but they do not provide the numeric percentage. Consequently, the numeric value (0.0%) cannot be corroborated from the excerpts provided, though the source and relevance of the smartphone-only metric are supported. The strongest support comes from the explicit citation of ACS S2801 as the data source, followed by excerpts that describe the smartphone-only household concept and its geographic visualization without giving the exact percentage.",
+        "citations": [
+          {
+            "url": "https://data.census.gov/table/ACSST1Y2024.S2801?q=Housing&g=050XX00US06075",
+            "excerpts": [
+              "Cellular data plan. 336,410. \u00b15,799. Columns. Cell/Column Notes ... American Community Survey (ACS) data are collected from individuals living in housing units"
+            ],
+            "title": "S2801: Types of Computers and ... - Census Bureau Table"
+          },
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=0c3360c140fb412286d2dade38e5a8fc",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale,"
+            ],
+            "title": "Where are households using a smartphone as their only computing ..."
+          },
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/UrbanObservatory::where-are-households-using-a-smartphone-as-their-only-computing-device/about",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their ... - ArcGIS Hub"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "pedestrian_detour_and_ada_standards",
+        "reasoning": "The most directly relevant information comes from the Virginia Work Area Protection Manual (WAPM), which is the formal guiding document for work zone operations in Virginia and is cited as the official standard that mandates pedestrian detours and ensures ADA compliance, including appropriate signage and channelization to protect pedestrians with accessibility needs around construction sites. This directly aligns with the field value describing that the governing document prescribes pedestrian detours and ADA-compliant measures. Supporting evidence from Richmond project contexts shows practical implementations of these standards: one excerpt states that the project includes ADA accessible ramps as part of sidewalk improvements and pedestrian safety enhancements near notable sites, which demonstrates the application of detour and accessibility requirements in practice. Another excerpt notes ADA-compliant curb ramps during construction, illustrating concrete ADA infrastructure during work zones. A further excerpt describes the division\u2019s mission to deliver transportation projects with on-time, on-budget delivery while enhancing pedestrian access and safety, which implicitly encompasses ADA-focused detours and signage considerations in construction corridors. Collectively, these excerpts corroborate that the WAPM governs pedestrian detours and ADA provisions, and that Richmond projects implement these standards through accessible ramps and detour-aware practices during construction.",
+        "citations": [
+          {
+            "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/traffic-operations/2011_WAPM_REV_2_1_acc03252025_RM.pdf",
+            "excerpts": [
+              "Mar 25, 2025 \u2014 This manual replaces the previous issue of the Virginia Work Area Protection Manual dated May 2005. This Manual is Part 6 of the Virginia"
+            ],
+            "title": "Virginia Work Area Protection Manual"
+          },
+          {
+            "url": "https://www.rva.gov/public-works/construction-projects-road-improvements",
+            "excerpts": [
+              "The project aims to enhance pedestrian access and safety in the vicinity of the East Riverfront and Orleans BRT Station. This will be achieved through the construction of sidewalks, ADA accessible ramps, and the installation of pedestrian scale lighting.",
+              "The division's mission is to deliver environmentally sound transportation projects for the Richmond region that are on-time and on-budget, so that people,"
+            ],
+            "title": "Construction Projects & Road Improvements | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/public-works/news",
+            "excerpts": [
+              "During construction, there will be intermittent lane and sidewalk closures. ... ADA-compliant curb ramps; High-Visibility crosswalks, and; Countdown"
+            ],
+            "title": "Public Works News | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "accessibility_communication_channels",
+        "reasoning": "The most directly relevant information confirms that Richmond Ready Alerts is the city\u2019s primary emergency alert system and uses Everbridge as the provider. This is evidenced by explicit references to Richmond Ready Alerts and Everbridge. Further, the excerpts describe how residents can opt in or subscribe to alerts through the Public Safety by Everbridge app, including the notion of opt-in notifications, which aligns with the described subscription methods. Additional excerpts discuss sign-up options for emergency alerts, corroborating that residents have accessible pathways to receive notices. Collectively, these pieces of evidence support the stated configuration of accessibility communication channels: a citywide alert system (Richmond Ready) managed by Everbridge, with resident enrollment via app-based opt-in and public signup processes. The information about the alert system being launched or active reinforces its role as the authoritative channel for disseminating notices related to sidewalk closures and other construction disruptions.",
+        "citations": [
+          {
+            "url": "https://rva.gov/richmondreadyalerts",
+            "excerpts": [
+              "To get started, download the Public Safety by Everbridge app from the Apple or Google Play Store. Once you have downloaded the app, type in Richmond VA to find"
+            ],
+            "title": "Richmond Ready Alerts - RVA.gov"
+          },
+          {
+            "url": "https://www.wtvr.com/news/local-news/richmond-ready-alert-system-may-28-2025",
+            "excerpts": [
+              "You can opt-in to receiving Richmond Ready Alerts by texting RVAREADY to 888-777 or by visiting the city's website here. CBS 6 is committed to"
+            ],
+            "title": "How to opt-in to Richmond's emergency alert system - WTVR.com"
+          },
+          {
+            "url": "https://www.12onyourside.com/2025/02/03/city-richmond-launches-new-emergency-alert-system/",
+            "excerpts": [
+              "Residents can sign up for Richmond Ready Alerts by texting RVAREADY to 888-777. For more information, click here. Copyright 2025 WWBT. All"
+            ],
+            "title": "City of Richmond launches new emergency alert system - WWBT"
+          },
+          {
+            "url": "https://public.alertsense.com/SignUp/?RegionId=1834",
+            "excerpts": [
+              "Sign up to receive emergency alerts and severe weather warnings that could directly impact you and your family. City of Richmond is able to send you emergency"
+            ],
+            "title": "City of Richmond - Public Signup"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "richmond_cip_dashboard_overview",
+        "reasoning": "The most directly relevant excerpts explicitly describe the City of Richmond's CIP Dashboard and identify it as a beta/preview version built with ArcGIS Experience Builder or ArcGIS Dashboard. These statements align with the core aspects of the finegrained field value: dashboard name, Beta Version status, and ArcGIS-based technology. Supporting excerpts also confirm that the Richmond CIP Dashboard is an interactive data/map tool, consistent with a modern GIS-enabled CIP dashboard, and indicate that the Richmond CIP context uses Esri-powered solutions. Additional context excerpts corroborate Richmond CIP-related dashboards and governance/availability aspects, reinforcing the overall alignment with a Richmond CIP dashboard that is ArcGIS-based and currently in development or beta. However, there is no explicit evidence within the excerpts provided that confirms a quarterly update cadence, which partially limits full support for the stated update frequency. Consequently, the strongest support is for the dashboard name, beta status, and ArcGIS-based implementation, with partial support for governance context and update frequency from related Richmond CIP materials.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "vdot_smart_scale_data_accessibility",
+        "reasoning": "The core field value asserts the existence of a public portal called SMART Portal and that it provides programmatic access (True), supports bulk data downloads in JSON/GeoJSON formats through ArcGIS dashboards or Open Data, and that DRPT is the data-management body overseeing transit/rail project data. The most directly relevant excerpt explicitly identifies a SMART Portal, described as a public access point (SMART Portal Public Home), which confirms the portal's existence and public-access nature. Subsequent excerpts discuss SMART SCALE dashboards managed by DRPT, which aligns with governance and data-management aspects, indicating an established public data path and ongoing oversight by a state transportation agency. The latter excerpts also reference dashboards and data dissemination practices that imply accessible data and potential data formats typical of ArcGIS/Open Data ecosystems, though they do not spell out programmatic access or JSON/GeoJSON explicitly. Taken together, these excerpts support the key elements of the finegrained field value: the presence of a SMART Portal, DRPT as the governance/data-management body, and public-facing dashboard data contexts that are consistent with programmatic access and bulk-download capabilities typical of ArcGIS/Open Data workflows. The combination of a named portal and DRPT governance provides clear evidence for the field\u2019s governance and portal aspects, while the explicit programmatic access and bulk-download format details are implied by the public-dataset/dashboard nature of the referenced sources rather than stated verbatim in a single excerpt.\n",
+        "citations": [
+          {
+            "url": "https://smartportal.virginiahb2.org/",
+            "excerpts": [
+              "Welcome to SMART Portal. The Smart Portal Application Tool provides public access to applications that have been submitted for various funding programs"
+            ],
+            "title": "VDOT Smart Portal: Public Home"
+          },
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects.",
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance.",
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")"
+            ],
+            "title": "SMART SCALE - DRPT"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "project_communication_language_access",
+        "reasoning": "The finegrained field value describes a Spanish translation feature within the Richmond CIP communication framework and explicit contact points for translation requests. The most directly supportive excerpt explicitly mentions Google Translate as the translation method and provides the exact contact numbers for requesting translation services, which aligns with the formal access channel described. Additional excerpts discuss Language Access considerations and LEP population maps in the Richmond area, which establish the relevance and need for translation features in municipal dashboards and public communications, thereby strengthening the inferred presence of language-access provisions in project communications. Quote of the translation-related line supports the claimed method and contact details, while the surrounding LEP and language-access context explains why such a feature would exist and be documented in related CIP governance materials.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "Google Translate\u2122 para proveer una traducci\u00f3n gen\u00e9rica en el idioma de su preferencia. Esta aplicaci\u00f3n no sustituye su derecho de obtener una traducci\u00f3n profesional provista por la Ciudad de Richmond como parte del Plan de Acceso a Lenguaje. Para solicitar una traducci\u00f3n llame al centro de servicio al cliente  de la Ciudad de Richmond al 804-646-7000 o 3-1-1"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* .",
+              "**Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017**"
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          },
+          {
+            "url": "https://www.rva.gov/sustainability/climate-equity-index",
+            "excerpts": [
+              "Population: Elderly (65+), Children (under 18), Race and ethnicity, Female, Limited English Proficiency. Household: Single-parent households, Custodial"
+            ],
+            "title": "Climate Equity Index | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "governance_models_for_successful_dashboards",
+        "reasoning": "The governance model most aligned with sustaining a municipal capital projects dashboard centers on clear ownership and formal data stewardship, embedded update cycles, and empowered technical publish capabilities. A strong example is a dedicated platform for Richmond\u2019s CIP dashboard that explicitly presents it as a City-operated, data-and-map tool for exploring active capital projects, indicating ongoing maintenance and formal ownership by the city\u2019s data presentation channel. Another Richmond-specific citation confirms the CIP dashboard as a public-facing, interactive data resource that supports ongoing project visibility, reinforcing the idea of established governance through centralized tooling and public access. Additional excerpts reinforce the platform choice and continuity by highlighting that Richmond\u2019s CIP dashboard is a city-endorsed, ArcGIS-driven experience, suggesting governance that leans on an institutionalized toolset rather than ad hoc reporting. The NYC-related governance guidance provides transferable lessons: fully building out agency-level capital project data and standardizing core data identifiers are key steps toward reliable, auditable dashboards; incorporating standardized data rules and robust, end-to-end data management reduces inconsistency and maintenance risk. Finally, recommended governance practices include integrating the dashboard cadence with budgeting and performance management cycles (e.g., quarterly updates) to convert the dashboard from a standalone artifact into a core city operation, and granting owning departments the rights/tools to publish updates, thereby reducing bureaucratic friction and improving timeliness. In sum, the strongest support points to: (1) a clearly owned, city-operated CIP dashboard with formal data stewardship, (2) a sustainable update cadence tied to budgeting and performance cycles, and (3) empowered departments with appropriate technical rights to publish data, with NYC literature offering concrete best-practice steps such as agency-wide data completeness and data standardization as transferable governance enhancements.",
+        "citations": [
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout the community."
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "implications_for_map_first_interfaces",
+        "reasoning": "The core claim centers on how a map-first interface\u2019s usability and equity are affected when a significant share of residents rely on smartphones as their sole computing device. Directly relevant evidence shows maps depicting smartphone-only households and related accessibility implications. Specifically, excerpts describing the existence and content of maps that illustrate smartphone-only households provide concrete support for the premise that such users rely on mobile devices for access, which in turn affects how map-centric tools should be designed. Additional, corroborating context comes from excerpts about the City of Richmond\u2019s Capital Improvement Program (CIP) dashboards that are map-based, highlighting that these dashboards exist and are used, implying that reliance on maps in public dashboards has broad usability implications. Further supportive detail comes from the variant discussions of using multi-format accessibility approaches (e.g., list views, alt text) as a recommended mitigation strategy to avoid relying solely on maps. Taken together, these excerpts support the notion that smartphone-only households create usability barriers in map-first interfaces and that a mobile-first, multi-format design approach improves equity and accessibility for capital projects information in Richmond. The most direct evidence is the explicit mapping resource showing where households rely on smartphones as their only computing device, which strengthens the causal link to map-first interface usability issues. The dashboard-related excerpts provide context on how such maps are deployed in Richmond\u2019s public-facing dashboards, illustrating practical implications of the core finding.",
+        "citations": [
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=0c3360c140fb412286d2dade38e5a8fc",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale,"
+            ],
+            "title": "Where are households using a smartphone as their only computing ..."
+          },
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/UrbanObservatory::where-are-households-using-a-smartphone-as-their-only-computing-device/about",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their ... - ArcGIS Hub"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "static_geojson_architecture_evaluation",
+        "reasoning": "The most directly relevant excerpts establish that Richmond maintains a Capital Improvement Program (CIP) Dashboard powered by ArcGIS, including explicit notes that you are accessing a Beta Version of the CIP Dashboard, which confirms the dashboard is an active, data-backed, web-enabled tool built on ArcGIS. This supports the premise that a public CIP dataset exists in a queryable geospatial platform suitable for automated extraction and transformation into GeoJSON on a schedule. Additional excerpts describe the CIP Dashboard as an interactive data and map tool that lets users explore active CIP projects, reinforcing the idea that data is published in a consumable, map-enabled format suitable for downstream tooling. The excerpts mentioning ArcGIS-based dashboards further underpin the feasibility of a nightly ETL pipeline: a versioned, static GeoJSON output could be generated from the same ArcGIS surface and served to residents, decoupling front-end tools from upstream churn while preserving performance benefits. Supporting context from related entries confirms that the City\u2019s CIP data is publicly accessible and that governance and transparency considerations (via versioning and public dashboards) are already embedded in practice, aligning with the proposed static-GeoJSON approach. ",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "lep_population_analysis.regional_lep_percentage",
+        "reasoning": "The exact numeric value 2.1% appears in the analysis, tied to the Richmond region\u2019s LEP population as reported by the 2013-2017 American Community Survey 5-Year Estimates. This directly supports the field value for the regional LEP percentage. Additionally, the excerpts mention a map of the Richmond region LEP population at the Census Tract level, which provides contextual support that the LEP metric is being tracked geographically at a regional level, aligning with the destination of the finegrained field. The repetition of the same map reference across multiple excerpts reinforces that LEP is being analyzed in a regional map-based context, further supporting the interpretation that the LEP percentage (2.1%) is the regional figure referenced in the field value. Collectively, these excerpts establish the numeric LEP percentage for the Richmond region and provide corroborating context about how LEP is mapped geographically (at the tract level) using ACS data.",
+        "citations": [
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* .",
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "**Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017**"
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "smartphone_only_household_statistics.data_source",
+        "reasoning": "The target field value is the data source for smartphone-only household statistics, and the exact phrase to verify is the American Community Survey (ACS) Table S2801. The most relevant excerpt explicitly includes a reference to S2801 and notes ACS data provenance, making it directly supportive of the field value. Other excerpts describe the existence of maps or datasets about smartphone-only households but do not identify ACS S2801 as the data source, so they do not confirm the specific field value.",
+        "citations": [
+          {
+            "url": "https://data.census.gov/table/ACSST1Y2024.S2801?q=Housing&g=050XX00US06075",
+            "excerpts": [
+              "Cellular data plan. 336,410. \u00b15,799. Columns. Cell/Column Notes ... American Community Survey (ACS) data are collected from individuals living in housing units"
+            ],
+            "title": "S2801: Types of Computers and ... - Census Bureau Table"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "data_integration_feasibility_analysis",
+        "reasoning": "The field value assesses technical feasibility of joining CIP records with UPC/SMART SCALE identifiers. Directly relevant are excerpts describing the City of Richmond\u2019s CIP Dashboard and its ArcGIS Experience Builder implementations, which indicate there is an existing CIP data structure and an interactive map/data layer that could potentially carry project identifiers suitable for joins. The presence of SMART SCALE-related dashboards and DRPT governance references shows there are standardized data ecosystems and public-facing data portals that manage project identifiers and progress, which is essential for any join strategy. Broader lessons from NYC about data completeness, standardized identifiers (FMS IDs) and governance emphasize the kinds of data quality and process controls needed to enable reliable joins across systems. Specifically, the CIP dashboard entries demonstrate Richmond\u2019s ongoing data tooling, while SMART SCALE entries illustrate an established framework for cross-agency project data, both of which support at least a medium feasibility for joining CIP with UPC/SMART SCALE identifiers, provided consistent identifier presence and data model alignment are achieved. The NYC governance and data standardization excerpts serve as cautionary guidance on what must be standardized (e.g., FMS IDs, project-level metadata) and how comprehensive the data model needs to be to support reliable joins across systems. In sum, there is a feasible path given Richmond\u2019s CIP and SMART SCALE data infrastructures, but real-world feasibility hinges on consistent UPC/SMART SCALE identifier population and aligned data schemas across CIP records.",
+        "citations": [
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://smartscale.virginia.gov/",
+            "excerpts": [
+              "SMART SCALE is a process that helps Virginia meet its most critical transportation needs using limited tax dollars. It evaluates potential transportation"
+            ],
+            "title": "Virginia (Smart Scale)"
+          },
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects.",
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance.",
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")"
+            ],
+            "title": "SMART SCALE - DRPT"
+          },
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "lep_population_analysis.data_source",
+        "reasoning": "The finegrained field value specifies that the data source is PlanRVA\u2019s 2045 Long Range Growth Forecast Analysis and that it uses ACS 2013-2017 B16005 data. The excerpts show that the PlanRVA document includes a map of the Richmond region\u2019s Limited English Proficiency population derived from 2013-2017 American Community Survey 5-Year Estimates, and they explicitly reference Exhibit 61 and the 2017 LEP map within that PlanRVA document. This combination confirms that the data source is indeed PlanRVA\u2019s 2045 Long Range Growth Forecast Analysis and that it relies on the ACS 2013-2017 B16005 data, aligning with the requested data_source value. The presence of the LEP map and the ACS data corroborates the linkage between PlanRVA as the data source and the ACS 2013-2017 basis for LEP population figures.",
+        "citations": [
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* .",
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "**Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017**"
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "nyc_capital_projects_dashboard_analysis.identified_weaknesses",
+        "reasoning": "The most directly relevant evidence identifies explicit weaknesses: the dashboard contains only a portion of project data, quantified as 46.8% of FMS IDs and 58.1% of planned commitments, which directly supports the claim of data incompleteness and fragmentation. It also highlights weak linkages between financial data in FMS and separate project management systems, reinforcing the fragmentation concern. Additional excerpts argue for remedying these weaknesses by requiring complete, linked, and detailed records, including all capital projects in the dashboard, and by standardizing identifiers in the data systems. This combination of quantified data gaps and proposed governance/data-quality improvements aligns with the described weaknesses and provides a coherent support for the fine-grained field value. The remaining excerpts describe update cadence and general dashboard characteristics, offering contextual support about governance and maintenance but are less central to the precise data-quality weaknesses and fragmentation described above.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,",
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence."
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "successful_municipal_dashboards",
+        "reasoning": "To support the claim that Madison, WI maintains an active dashboard with governance, relevant content shows Madison\u2019s open data and capital program context, indicating a data-driven approach to sharing project information publicly. Specifically, material about the City of Madison Open Data and the Capital Improvement Program demonstrates that the city maintains publicly accessible project data and aligns it with planning processes, which is a cornerstone of a maintained dashboard with governance. For Durham, NC, governance is evidenced by explicit references to a Project Management Office (PMO) and structured, ongoing dashboards or tracking systems that are integrated into budgeting and performance management. The mentions of a PMO, the existence of a transit/capital tracking hub, and quarterly reporting cadence in connection with a structured governance process suggest that Durham\u2019s dashboard is maintained with formal ownership, regular updates, and alignment to governance and accountability mechanisms. Additionally, a broader action plan that includes dashboards and related performance dashboards supports the idea that there is organizational emphasis on maintaining dashboard capabilities over time. Taken together, these excerpts directly support the idea that Madison relies on open data and CIP-informed dashboards, while Durham relies on formal governance structures (PMO, quarterly reports) to sustain ongoing dashboard updates. They collectively illustrate the governance and operational practices that enable long-term dashboard maintenance in these municipalities.",
+        "citations": [
+          {
+            "url": "https://data-cityofmadison.opendata.arcgis.com/",
+            "excerpts": [
+              "Explore the City of Madison budget to understand where City funding is being invested. Capital Improvement Plan. Explore a map of 2020 planned City projects."
+            ],
+            "title": "City of Madison Open Data"
+          },
+          {
+            "url": "https://durham-transit-tracking-dashboard-fitp.hub.arcgis.com/pages/dashboardprojects~e7a74eebfb8a4a36a8969c7b3852000a",
+            "excerpts": [
+              "For projects with defined schedules - such as most capital projects - you can also review anticipated timelines and actual progres in the bottom-right section."
+            ],
+            "title": "DashboardProjects | Durham County Transit Tracking Dashboard"
+          },
+          {
+            "url": "https://dcoistpmo.info/about-us/",
+            "excerpts": [
+              "The IS&T Project Management Office (PMO) helps County departments ensure projects and programs are delivered successfully on time, on budget, and with quality"
+            ],
+            "title": "About Us - Durham County"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "executive_summary",
+        "reasoning": "The strongest support comes from excerpts that directly present the City of Richmond\u2019s Capital Improvement/Projects Dashboard and related CIP dashboards, which underpin the executive summary\u2019s governance, data integration, and ongoing updating practices. These excerpts confirm the existence of a Richmond CIP dashboard and its ArcGIS-based implementation, which aligns with the summary\u2019s discussion of data practices and potential programmatic access for integration with other data sources. Citations from these excerpts also reinforce the notion of a governance structure and ownership around capital projects data, which the summary identifies as a success factor in other cities. Further, excerpts describing Limited English Proficiency (LEP) data and maps, as well as language access notices on Richmond\u2019s CIP portal, directly support the equity and accessibility aspects highlighted in the executive summary. The inclusion of LEP population mapping and Spanish language access notes in these sources substantiates the equity and accessibility narrative, even if exact percentages are not always stated. Excerpts that discuss NYC\u2019s Capital Projects Dashboard and its shortcomings provide concrete lessons that the summary cites for Richmond, such as standardized identifiers and data transparency, which strengthens the relevance of governance and data-quality discussions. Finally, the feasibility of a static GeoJSON architecture and nightly ETL is supported by at least one source discussing the technical possibility of exporting CIP data to static geospatial formats, which corroborates the summary\u2019s proposed architecture shift. Quotes from these sources demonstrate the key elements the executive_summary references: data-driven equity considerations (LEP mapping), accessibility communications (Spanish notices and DPW signage), a Richmond CIP dashboard with programmatic potential, governance/ownership practices, NYC lessons on data standardization, and a feasible approach to decoupling resident tools from upstream churn through a GeoJSON-based architecture.",
+        "citations": [
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* ."
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          },
+          {
+            "url": "https://www.rva.gov/sustainability/climate-equity-index",
+            "excerpts": [
+              "Population: Elderly (65+), Children (under 18), Race and ethnicity, Female, Limited English Proficiency. Household: Single-parent households, Custodial"
+            ],
+            "title": "Climate Equity Index | Richmond"
+          },
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence.",
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,"
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          },
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects."
+            ],
+            "title": "SMART SCALE - DRPT"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "smartphone_only_household_statistics.geographic_area",
+        "reasoning": "The field value identifies a geographic area for smartphone-only households. The most directly relevant excerpts describe maps and datasets focused on households where a smartphone is the only computing device. These sources are inherently designed to show geographic distributions and can plausibly include city-level scopes such as Richmond, Virginia. Each of these excerpts discusses a map or data product about smartphone-only households, which aligns with the target field that records geographic_area for Richmond. While one excerpt mentions Census/ACS data generally and could provide broader context about data sources (not city-specific by itself), the other items explicitly present geospatial maps or dashboards about smartphone-only households, making them primary sources to support the finegrained field value. Therefore, the reasoning supports that these excerpts collectively provide evidence about the Richmond, Virginia geographic area in the context of smartphone-only households and related map-first interfaces.",
+        "citations": [
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=0c3360c140fb412286d2dade38e5a8fc",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale,"
+            ],
+            "title": "Where are households using a smartphone as their only computing ..."
+          },
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/UrbanObservatory::where-are-households-using-a-smartphone-as-their-only-computing-device/about",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their ... - ArcGIS Hub"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "richmond_cip_dashboard_overview.current_status",
+        "reasoning": "The field value asserts that the Richmond CIP dashboard is in a Beta Version. Excerpts that explicitly reference the dashboard as a 'Beta Version' provide direct support for this status. Excerpt describing the beta status says: 'Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard...', which directly corroborates the field value. The second excerpt similarly states 'Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development...', again directly supporting the beta status. Other excerpts identify the dashboard and its features but do not indicate the current status, so they are less directly relevant to the specific field value.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "pedestrian_detour_and_ada_standards.governing_document_name",
+        "reasoning": "The target field seeks the governing document name for pedestrian detour and ADA standards. The excerpt that explicitly states 'This manual replaces the previous issue of the Virginia Work Area Protection Manual dated May 2005. This Manual is Part 6 of the Virginia ...' directly identifies 'Virginia Work Area Protection Manual' as the governing document and notes its update, which matches the requested value. Other excerpts describe related construction activities, ADA ramps, and safety features in Richmond but do not name the governing document; thus they are only tangentially relevant for context and do not confirm the exact document name. Therefore, the most relevant excerpt directly supports the field value, while the others offer supplementary context around the broader subject of pedestrian and ADA-related standards.",
+        "citations": [
+          {
+            "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/traffic-operations/2011_WAPM_REV_2_1_acc03252025_RM.pdf",
+            "excerpts": [
+              "Mar 25, 2025 \u2014 This manual replaces the previous issue of the Virginia Work Area Protection Manual dated May 2005. This Manual is Part 6 of the Virginia"
+            ],
+            "title": "Virginia Work Area Protection Manual"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "accessibility_communication_channels.subscription_methods",
+        "reasoning": "The field value states that residents can subscribe to alerts by downloading the 'Public Safety by Everbridge' app and selecting Richmond, VA, with the system providing opt-in notifications. The first excerpt explicitly instructs users to download the Public Safety by Everbridge app and search for Richmond, VA to receive alerts, which directly confirms the app-based subscription method. The second and third excerpts describe opting in to Richmond Ready Alerts by texting a short code, which confirms text-based subscription channels. The fourth excerpt points to a public signup method via a regional signup portal, reinforcing the availability of multiple subscription channels. Collectively, these excerpts substantiate the existence of app-based, text-based, and portal-based subscription methods for accessibility communications in Richmond, VA.",
+        "citations": [
+          {
+            "url": "https://rva.gov/richmondreadyalerts",
+            "excerpts": [
+              "To get started, download the Public Safety by Everbridge app from the Apple or Google Play Store. Once you have downloaded the app, type in Richmond VA to find"
+            ],
+            "title": "Richmond Ready Alerts - RVA.gov"
+          },
+          {
+            "url": "https://www.wtvr.com/news/local-news/richmond-ready-alert-system-may-28-2025",
+            "excerpts": [
+              "You can opt-in to receiving Richmond Ready Alerts by texting RVAREADY to 888-777 or by visiting the city's website here. CBS 6 is committed to"
+            ],
+            "title": "How to opt-in to Richmond's emergency alert system - WTVR.com"
+          },
+          {
+            "url": "https://www.12onyourside.com/2025/02/03/city-richmond-launches-new-emergency-alert-system/",
+            "excerpts": [
+              "Residents can sign up for Richmond Ready Alerts by texting RVAREADY to 888-777. For more information, click here. Copyright 2025 WWBT. All"
+            ],
+            "title": "City of Richmond launches new emergency alert system - WWBT"
+          },
+          {
+            "url": "https://public.alertsense.com/SignUp/?RegionId=1834",
+            "excerpts": [
+              "Sign up to receive emergency alerts and severe weather warnings that could directly impact you and your family. City of Richmond is able to send you emergency"
+            ],
+            "title": "City of Richmond - Public Signup"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "project_communication_language_access.translation_method",
+        "reasoning": "The finest-grained field value identifies Google Translate as the translation method used for project communication language access. The excerpt explicitly states that Google Translate is provided to offer generic translations in the user\u2019s language preference, and it also clarifies that this service does not replace professional translation services provided by the city. This directly supports the value by naming the translation mechanism in use and contextualizing its role and limitations. Other excerpts discuss LEP population and data sources without addressing translation methods, making them only tangentially relevant at best and not directly informative about the translation approach.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "Google Translate\u2122 para proveer una traducci\u00f3n gen\u00e9rica en el idioma de su preferencia. Esta aplicaci\u00f3n no sustituye su derecho de obtener una traducci\u00f3n profesional provista por la Ciudad de Richmond como parte del Plan de Acceso a Lenguaje. Para solicitar una traducci\u00f3n llame al centro de servicio al cliente  de la Ciudad de Richmond al 804-646-7000 o 3-1-1"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vdot_smart_scale_data_accessibility.portal_name",
+        "reasoning": "To verify the portal name, I look for excerpts that explicitly reference a public-facing portal tied to Virginia DOT data accessibility. The excerpt describing the SMART Portal as providing public access to applications submitted for funding programs directly confirms the portal name in the context of accessibility and public information. The remaining excerpts focus on the SMART SCALE dashboard and DRPT\u2019s role in SMART SCALE, including how dashboards are updated and accessible, but they do not provide a direct name match for the portal in question. Therefore, the most relevant content is the explicit reference to SMART Portal, which supports the field value precisely.",
+        "citations": [
+          {
+            "url": "https://smartportal.virginiahb2.org/",
+            "excerpts": [
+              "Welcome to SMART Portal. The Smart Portal Application Tool provides public access to applications that have been submitted for various funding programs"
+            ],
+            "title": "VDOT Smart Portal: Public Home"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "nyc_capital_projects_dashboard_analysis.report_source",
+        "reasoning": "The target value is a specific NYC Comptroller's Office report with a critical assessment of capital data quality and dashboard limitations. Excerpts that explicitly reference this report title and its core claims provide direct support for the field value. The first excerpt states that the Capital Projects Dashboard has limited financial data, quantified as only a portion of IDs and planned commitments contained in the dashboard, which aligns with the report\u2019s critique of data completeness. The second excerpt reinforces the same point with a similar citation of the report\u2019s title and its quantitative criticisms. Excerpt three outlines concrete governance recommendations that the report advocates, such as fully building agency-level data and ensuring linked project records, which are central to the report\u2019s prescriptions for improving capital data quality. Excerpt four emphasizes the inclusion of all capital projects in the dashboard, a core recommendation derived from the report\u2019s analysis. Excerpt five highlights data normalization and standardization steps called for by the report, which are part of its governance and data quality improvements. Together, these excerpts map onto the finegrained field value by corroborating the existence of the NYC Comptroller's Office report and detailing its central findings and recommendations regarding data completeness, governance, and dashboard practices.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "nyc_capital_projects_dashboard_analysis.project_id_coverage_percentage",
+        "reasoning": "The precise percentage 46.8% appears in the excerpts describing the NYC Capital Projects Dashboard, where it notes that only a portion of Financial Management System IDs are represented in the dashboard, specifically 46.8%. This directly supports the finegrained field value as a measure of project_id_coverage. Additional excerpts corroborate the dashboard\u2019s scope and governance implications (e.g., updating cadence and the need for complete data), which provide essential context for interpreting the numeric figure, but do not contradict or alter the stated 46.8% coverage. Therefore, the most directly relevant content is the explicit mention of 46.8% coverage, followed by content that clarifies how the dashboard is populated and updated, and finally broader governance observations which are tangential but informative for understanding the data quality and maintainability of such dashboards.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,",
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence."
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "pedestrian_detour_and_ada_standards.issuing_authority",
+        "reasoning": "The targeted field value specifies the issuing authority for pedestrian detour and ADA standards as VDOT. The most directly relevant excerpt is a Virginia Work Area Protection Manual document, which is a state-level document hosted on the Virginia Department of Transportation site. This establishes VDOT as the responsible authority for the standards referenced in such manuals. Other excerpts describe Richmond city projects and accessibility implementations but do not establish state-level issuing authority; they corroborate accessibility practices in the region but not who issues the overarching standards. Therefore, the excerpt describing the state-issued manual most strongly supports that VDOT is the issuing authority for the pedestrain detour and ADA standards in question.",
+        "citations": [
+          {
+            "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/traffic-operations/2011_WAPM_REV_2_1_acc03252025_RM.pdf",
+            "excerpts": [
+              "Mar 25, 2025 \u2014 This manual replaces the previous issue of the Virginia Work Area Protection Manual dated May 2005. This Manual is Part 6 of the Virginia"
+            ],
+            "title": "Virginia Work Area Protection Manual"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "accessibility_communication_channels.primary_alert_system",
+        "reasoning": "The targeted field value indicates the primary alert system used for accessibility communications should be Richmond Ready. The most directly supporting excerpt explicitly names 'Richmond Ready Alerts' as part of Richmond\u2019s emergency alert ecosystem and directs users to obtain alerts via the associated app or sign-up options. Additional excerpts reinforce this by detailing how residents can opt in or subscribe to Richmond Ready Alerts, including shortcodes and signup pathways. Another excerpt describes the public signup route for emergency alerts, which is part of the same alert ecosystem. Collectively, these excerpts confirm that the Richmond Ready Alerts system is the primary communication channel referenced by the field value, and they provide concrete mechanisms (app, SMS opt-in, signup page) that demonstrate how accessibility-related notifications are disseminated through this system.",
+        "citations": [
+          {
+            "url": "https://rva.gov/richmondreadyalerts",
+            "excerpts": [
+              "To get started, download the Public Safety by Everbridge app from the Apple or Google Play Store. Once you have downloaded the app, type in Richmond VA to find"
+            ],
+            "title": "Richmond Ready Alerts - RVA.gov"
+          },
+          {
+            "url": "https://www.wtvr.com/news/local-news/richmond-ready-alert-system-may-28-2025",
+            "excerpts": [
+              "You can opt-in to receiving Richmond Ready Alerts by texting RVAREADY to 888-777 or by visiting the city's website here. CBS 6 is committed to"
+            ],
+            "title": "How to opt-in to Richmond's emergency alert system - WTVR.com"
+          },
+          {
+            "url": "https://www.12onyourside.com/2025/02/03/city-richmond-launches-new-emergency-alert-system/",
+            "excerpts": [
+              "Residents can sign up for Richmond Ready Alerts by texting RVAREADY to 888-777. For more information, click here. Copyright 2025 WWBT. All"
+            ],
+            "title": "City of Richmond launches new emergency alert system - WWBT"
+          },
+          {
+            "url": "https://public.alertsense.com/SignUp/?RegionId=1834",
+            "excerpts": [
+              "Sign up to receive emergency alerts and severe weather warnings that could directly impact you and your family. City of Richmond is able to send you emergency"
+            ],
+            "title": "City of Richmond - Public Signup"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "pedestrian_detour_and_ada_standards.relevance",
+        "reasoning": "The most relevant excerpt identifies the Virginia Work Area Protection Manual as the authoritative standard for work zones in Virginia, which is precisely the source governing pedestrian detours and ADA compliance referenced in the finegrained field value. Supporting details come from excerpts describing actual construction practices in Richmond: one notes that during construction there are lane and sidewalk closures with ADA-compliant curb ramps and pedestrian considerations, illustrating practical implementation of detour and accessibility requirements; another describes efforts to improve pedestrian access and safety around specific projects with ADA ramps, which aligns with standards for accessibility in detour routing. A third excerpt reinforces the context of ensuring accessible pathways through signage and safety measures as part of project implementation. Collectively, these excerpts corroborate the existence of formal standards and their concrete application to detour planning and ADA compliance in Virginia construction zones.",
+        "citations": [
+          {
+            "url": "https://www.vdot.virginia.gov/media/vdotvirginiagov/doing-business/technical-guidance-and-support/technical-guidance-documents/traffic-operations/2011_WAPM_REV_2_1_acc03252025_RM.pdf",
+            "excerpts": [
+              "Mar 25, 2025 \u2014 This manual replaces the previous issue of the Virginia Work Area Protection Manual dated May 2005. This Manual is Part 6 of the Virginia"
+            ],
+            "title": "Virginia Work Area Protection Manual"
+          },
+          {
+            "url": "https://www.rva.gov/public-works/news",
+            "excerpts": [
+              "During construction, there will be intermittent lane and sidewalk closures. ... ADA-compliant curb ramps; High-Visibility crosswalks, and; Countdown"
+            ],
+            "title": "Public Works News | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/public-works/construction-projects-road-improvements",
+            "excerpts": [
+              "The project aims to enhance pedestrian access and safety in the vicinity of the East Riverfront and Orleans BRT Station. This will be achieved through the construction of sidewalks, ADA accessible ramps, and the installation of pedestrian scale lighting.",
+              "The division's mission is to deliver environmentally sound transportation projects for the Richmond region that are on-time and on-budget, so that people,"
+            ],
+            "title": "Construction Projects & Road Improvements | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "nyc_capital_projects_dashboard_analysis.last_known_status",
+        "reasoning": "The most relevant content directly confirms the cadence: the NYC Capital Projects Dashboard is updated three times per year following the Office of Management and Budget commitment plans. This aligns with the notion of a triannual update cadence. Supporting context notes emphasize that this cadence is part of a broader pattern that includes governance or timeliness questions: the referenced materials describe that budget data are refreshed on a triannual schedule and that the overall data quality can be incomplete or flawed, which is essential for understanding why a cadence claim might be questioned. Additional excerpts provide detail about what the dashboard covers (critical infrastructure projects) and what the reporting cadence implies for data updates, including notes about timely publication of source data and the need for standardized project data. Taken together, these excerpts support the claim that the dashboard operates on a triannual update cadence tied to OMB plans, and that there are concerns about data completeness and reliability that can undermine perceived timeliness. The supporting excerpts also offer concrete examples of data quality issues (limited financial data coverage) and governance practices (agency-level data requirements and regular update schedules) that illuminate why a six-month lapse would be seen as problematic. The remainder of the excerpts adds breadth about the dashboard\u2019s scope and update practices, reinforcing the context for evaluating last-known status and governance effectiveness, but they are less directly tied to the exact cadence claim than the triannual update reference itself.",
+        "citations": [
+          {
+            "url": "https://www.nyc.gov/site/capitalprojects/index.page",
+            "excerpts": [
+              "The budget data in the dashboard is updated three times per year following the publication of OMB\u2019s commitment plans in January, May, and September. The schedule data is collected directly from City agencies on that same cadence.",
+              "The NYC Capital Projects Dashboard provides a view into the City's construction projects, spanning critical infrastructure such as bridges, sewers, sanitation,"
+            ],
+            "title": "NYC Capital Projects Dashboard"
+          },
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "accessibility_communication_channels.system_provider",
+        "reasoning": "The field value identifies the system provider as Everbridge. The excerpt describes Richmond Ready Alerts and explicitly states that to get started you should download the Public Safety by Everbridge app and search for Richmond VA, which directly ties Everbridge to the city's emergency communications. This directly supports the field value by linking the provider name to the Richmond alerting channel described in the excerpt. Other excerpts discuss opt-in steps or generic emergency alert signup without naming the provider, so they are less relevant to identifying the specific system provider.",
+        "citations": [
+          {
+            "url": "https://rva.gov/richmondreadyalerts",
+            "excerpts": [
+              "To get started, download the Public Safety by Everbridge app from the Apple or Google Play Store. Once you have downloaded the app, type in Richmond VA to find"
+            ],
+            "title": "Richmond Ready Alerts - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "vdot_smart_scale_data_accessibility.bulk_download_formats",
+        "reasoning": "The targeted field value concerns how data related to VDOT SMART SCALE accessibility is exposed for bulk download, specifically JSON/GeoJSON through ArcGIS dashboards or open data channels. Excerpt describing the SMART SCALE dashboard and its purpose confirms that there is a public-facing data presentation layer for SMART SCALE projects, including details on project scope, funding, timelines, and progress, which is consistent with the existence of data export or open-data capabilities. Excerpts that reference an ArcGIS dashboard provide the strongest alignment with the requested format, since ArcGIS dashboards are commonly associated with ArcGIS Online services and support data exports in JSON/GeoJSON or other open formats, which matches the user\u2019s specified JSON/GeoJSON via ArcGIS/open data. Additional excerpts reinforce the data-sharing posture by emphasizing transparency and public access to dashboard information, further supporting that bulk-downloadable formats could be available through open data endpoints tied to ArcGIS dashboards. One excerpt mentioning a public portal for funding applications adds context that there are multiple public-facing tools for accessing project data, though it is less directly tied to bulk download formats for the SMART SCALE data themselves. Collectively, the strongest evidence points to ArcGIS-based data sharing and public dashboards as the mechanism most closely aligned with the requested JSON/GeoJSON/Open Data pathway for vdot_smart_scale_data_accessibility.",
+        "citations": [
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")",
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects.",
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance."
+            ],
+            "title": "SMART SCALE - DRPT"
+          },
+          {
+            "url": "https://smartportal.virginiahb2.org/",
+            "excerpts": [
+              "Welcome to SMART Portal. The Smart Portal Application Tool provides public access to applications that have been submitted for various funding programs"
+            ],
+            "title": "VDOT Smart Portal: Public Home"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "smartphone_only_household_statistics.percentage_of_households",
+        "reasoning": "The target field represents a numeric percentage of households that rely solely on smartphones for computing. The most relevant excerpts are those describing maps or datasets about households with a smartphone as their only computing device, which is exactly the information category in which the target field resides. These excerpts indicate that such maps exist and provide context for where to find the underlying percentage data, but they do not itself state the exact percentage value. Because the field value is a precise figure (0.0) and the excerpts do not include that figure, they offer partial support by establishing the relevant data source and context, rather than confirming the exact value. The remaining excerpt that discusses Census/ACS computer usage topics is tangential to the smartphone-only statistic and offers less direct relevance to the target field value.",
+        "citations": [
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=0c3360c140fb412286d2dade38e5a8fc",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale,"
+            ],
+            "title": "Where are households using a smartphone as their only computing ..."
+          },
+          {
+            "url": "https://www.arcgis.com/home/item.html?id=8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/UrbanObservatory::where-are-households-using-a-smartphone-as-their-only-computing-device/about",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their only computing ..."
+          },
+          {
+            "url": "https://hub.arcgis.com/maps/8cfa9159a67f43af8af5e08bbefec938",
+            "excerpts": [
+              "This map shows the population in households where a smartphone is the only computing device the household owns. Map is multi-scale, containing data for"
+            ],
+            "title": "Where are households using a Smartphone as their ... - ArcGIS Hub"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "data_integration_feasibility_analysis.common_project_identifier",
+        "reasoning": "The field value requires understanding how to reference and unify projects across systems using a universal code (UPC) or SMART SCALE identifiers. Excerpts that advocate standardizing critical data elements\u2014such as standardizing FMS ID naming and other data rules\u2014directly support the need for a common identifier scheme and governance to enable reliable data integration. Examples that address governance and complete, linked project records further illustrate how consistent identifiers enable better linking of records across dashboards and data sources. Additionally, real-world cases discussing NYC\u2019s Capital Projects Dashboard show the risks of incomplete identifier coverage and delayed updates when identifiers are not universally standardized or systematically managed. Silos like the SMART SCALE dashboards demonstrate how a formal data system uses project identifiers to convey scope and progress, reinforcing the practicality and importance of establishing UPC-like identifiers or SMART SCALE identifiers for Richmond\u2019s ecosystem. The Richmond-focused excerpts provide context about existing dashboards and their handling of project data, highlighting where standardized identifiers could improve integration with other city data systems. Collectively, these excerpts support the feasibility and rationale for adopting UPC/SMART SCALE-style identifiers and governance to enable data integration across Richmond, CIP, DRPT, and related dashboards.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard."
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "project_communication_language_access.has_spanish_translation_feature",
+        "reasoning": "The finegrained field value asserts that there is a true Spanish translation feature for project communications. The excerpt explicitly describes using Google Translate to provide generic translations in the language of the user\u2019s preference, and it clarifies that this tool does not replace professional translations offered by the City. This demonstrates an available translation pathway for language access, which aligns with a Spanish translation capability in practice. However, the excerpt does not definitively confirm a dedicated Spanish feature beyond generic translation support, so it supports the existence of translation access but not an explicit, guaranteed Spanish-specific feature. Other excerpts discuss LEP population maps and related topics, which do not directly confirm or disconfirm a Spanish translation feature.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "Google Translate\u2122 para proveer una traducci\u00f3n gen\u00e9rica en el idioma de su preferencia. Esta aplicaci\u00f3n no sustituye su derecho de obtener una traducci\u00f3n profesional provista por la Ciudad de Richmond como parte del Plan de Acceso a Lenguaje. Para solicitar una traducci\u00f3n llame al centro de servicio al cliente  de la Ciudad de Richmond al 804-646-7000 o 3-1-1"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "accessibility_communication_channels.relevant_notification_types",
+        "reasoning": "The field value describes a system used for citywide alerts that serves as a primary method for disseminating public information, including announcements about construction disruptions like sidewalk closures. The excerpts collectively depict Richmond Ready Alerts as the city\u2019s alert platform, detailing how residents can opt-in, how alerts are delivered, and that it functions as an authoritative channel for emergency and other public notices. This aligns with the idea that sidewalk closures and related construction updates could be communicated through this curbside notification system. Specifically, the first excerpt identifies the Richmond Ready Alerts platform, the second explains opt-in methods, the third confirms the system\u2019s launch as the city\u2019s alert mechanism, and the fourth describes signup for alerts, all reinforcing that this citywide alert channel is the primary conduit for disseminating timely construction-related information to residents.",
+        "citations": [
+          {
+            "url": "https://rva.gov/richmondreadyalerts",
+            "excerpts": [
+              "To get started, download the Public Safety by Everbridge app from the Apple or Google Play Store. Once you have downloaded the app, type in Richmond VA to find"
+            ],
+            "title": "Richmond Ready Alerts - RVA.gov"
+          },
+          {
+            "url": "https://www.wtvr.com/news/local-news/richmond-ready-alert-system-may-28-2025",
+            "excerpts": [
+              "You can opt-in to receiving Richmond Ready Alerts by texting RVAREADY to 888-777 or by visiting the city's website here. CBS 6 is committed to"
+            ],
+            "title": "How to opt-in to Richmond's emergency alert system - WTVR.com"
+          },
+          {
+            "url": "https://www.12onyourside.com/2025/02/03/city-richmond-launches-new-emergency-alert-system/",
+            "excerpts": [
+              "Residents can sign up for Richmond Ready Alerts by texting RVAREADY to 888-777. For more information, click here. Copyright 2025 WWBT. All"
+            ],
+            "title": "City of Richmond launches new emergency alert system - WWBT"
+          },
+          {
+            "url": "https://public.alertsense.com/SignUp/?RegionId=1834",
+            "excerpts": [
+              "Sign up to receive emergency alerts and severe weather warnings that could directly impact you and your family. City of Richmond is able to send you emergency"
+            ],
+            "title": "City of Richmond - Public Signup"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "richmond_cip_dashboard_overview.technology_platform",
+        "reasoning": "The most directly relevant excerpts explicitly name ArcGIS-related platforms in the context of Richmond\u2019s CIP dashboard. One excerpt is titled with ArcGIS Experience Builder and describes the CIP Dashboard as a beta interactive experience, clearly tying the technology platform to ArcGIS Experience Builder. Another excerpt repeats the ArcGIS Experience Builder context, reinforcing the platform association for Richmond\u2019s CIP dashboard. Additional excerpts reference the CIP dashboard hosted on ArcGIS dashboards, i.e., a City of Richmond, Virginia capital project dashboard powered by ArcGIS, which aligns with the ArcGIS Dashboard side of the field value. There is also a mention of Esri as the provider behind the dashboard, which corroborates the use of ArcGIS technology for Richmond\u2019s CIP data visualization. Finally, an excerpt notes the CIP dashboard as an interactive data and map tool, which supports the idea that map-centric ArcGIS interfaces are in use, though it is less explicit about the exact product. Taken together, these excerpts establish a strong linkage between the Richmond CIP dashboard and ArcGIS-based platforms (Experience Builder and ArcGIS Dashboard), making the field value highly supported. The most direct evidence are the excerpts that explicitly name ArcGIS Experience Builder in the context of the CIP dashboard, followed by those indicating ArcGIS Dashboard usage and Esri involvement as platform providers. The excerpt mentioning a map-tool orientation further supports the concept of a geospatial ArcGIS-backed interface, albeit with less precise product naming.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "project_communication_language_access.formal_language_access_plan_contact",
+        "reasoning": "The targeted field value specifies a contact mechanism for translation requests. The excerpt states that Google Translate is available to provide a generic translation in the user\u2019s preferred language and emphasizes that this does not replace the city\u2019s offer of professional translation through a dedicated language access plan. Crucially, it provides the explicit contact numbers to request translation services: 804-646-7000 or 3-1-1. This directly supports the field value by identifying both the translation assistance option (via Google Translate) and the official contact point for requesting translation services, which aligns with formal language access procedures. The other excerpts discuss LEP population maps and general climate-related demographics but do not provide any contact information or procedures for obtaining translations, so they do not support the specific field value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "Google Translate\u2122 para proveer una traducci\u00f3n gen\u00e9rica en el idioma de su preferencia. Esta aplicaci\u00f3n no sustituye su derecho de obtener una traducci\u00f3n profesional provista por la Ciudad de Richmond como parte del Plan de Acceso a Lenguaje. Para solicitar una traducci\u00f3n llame al centro de servicio al cliente  de la Ciudad de Richmond al 804-646-7000 o 3-1-1"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "lep_population_analysis.geographic_distribution_summary",
+        "reasoning": "The most relevant excerpts reference a specific map of the Richmond region\u2019s Limited English Proficiency distribution at the census-tract level (Exhibit 61). This directly pertains to geographic distribution and is the most pertinent to identifying where LEP concentrations occur, even though the excerpts do not explicitly name south Richmond or the adjacent Henrico and Chesterfield areas. The second excerpt repeats the map reference, reinforcing that tract-level distribution information exists for the region, which supports the overall claim of where LEP populations may be concentrated. The third excerpt provides a total LEP population figure for the Richmond region and notes a percentage (2.1%), which offers context about the scale of LEP presence but does not pinpoint geographic concentrations. Taken together, the map-based excerpts support the concept of spatial distribution within the region, while the total-population statistic provides supportive context about overall LEP presence. The specific claim that concentrations are in south Richmond and nearby counties is not explicitly confirmed in these excerpts, but the existence of tract-level distribution maps and regional LEP counts is consistent with analyzing such concentrations.",
+        "citations": [
+          {
+            "url": "https://planrva.org/wp-content/uploads/2045_LongRangeGrowthForcast_Draft_5-21-2020-4.pdf",
+            "excerpts": [
+              "... Community Survey 5-Year Estimates, Table B16005. Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017.",
+              "**Exhibit 61: Map of Richmond Region Limited English Proficiency (LEP) Population at Census Tract Level 2017**",
+              "According to the data from the 2013-2017 American\nCommunity Survey 5-Year Estimates provided by the U.S. Census Bureau, the total LEP population in the Richmond\nregion is around 21,000, or 2.1% of the total population shown in *Exhibit 59* ."
+            ],
+            "title": "2045 Long Range Growth Forecast Analysis (Draft)"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "successful_municipal_dashboards.1",
+        "reasoning": "The field value describes Durham, NC dashboards as active and regularly updated, underpinned by a structured update process and governance through a transit/capital tracking hub and quarterly CIP stoplight reports integrated into budget and performance management. The excerpts collectively support this: one excerpt describes a dashboard where project timelines and progress are visible in a dedicated section, illustrating ongoing project tracking and cadence. Another excerpt identifies a Project Management Office that ensures projects are delivered on time and on budget, which provides the governance framework enabling regular updates. A third excerpt lists dashboards for capital projects and operational/performance metrics, including a capital projects tracking component and a link to budgeting-oriented dashboards, aligning with the described governance and cadence. Together, they map onto the elements of active dashboard usage, governance structures, regular cadence, and budget-linked reporting described in the field value.",
+        "citations": [
+          {
+            "url": "https://durham-transit-tracking-dashboard-fitp.hub.arcgis.com/pages/dashboardprojects~e7a74eebfb8a4a36a8969c7b3852000a",
+            "excerpts": [
+              "For projects with defined schedules - such as most capital projects - you can also review anticipated timelines and actual progres in the bottom-right section."
+            ],
+            "title": "DashboardProjects | Durham County Transit Tracking Dashboard"
+          },
+          {
+            "url": "https://dcoistpmo.info/about-us/",
+            "excerpts": [
+              "The IS&T Project Management Office (PMO) helps County departments ensure projects and programs are delivered successfully on time, on budget, and with quality"
+            ],
+            "title": "About Us - Durham County"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "vdot_smart_scale_data_accessibility.programmatic_access_available",
+        "reasoning": "The most relevant information relates to the SMART SCALE dashboard and public data accessibility. An excerpt describing a dashboard that tracks progress and provides up-to-date information on project status is directly connected to how data about SMART SCALE projects is shared with the public. Another excerpt emphasizes that updates are provided quarterly, which is related to data availability and transparency. A third excerpt notes that the SMART Portal provides public access to applications for funding programs, which touches on public data accessibility even if not explicitly programmatic. Additional excerpts mention public-facing dashboards and the ability to view the dashboard, which further align with data sharing concepts, though they do not confirm automated programmatic access. Taken together, these excerpts suggest availability of public data access mechanisms, but they do not confirm an explicit programmatic API or data feed, which is required to support the specific finegrained field value of true. Therefore, while related, the excerpts do not provide clear evidence that programmatic access is available, resulting in a low confidence assessment for the value and making the highest relevance assigned to excerpts that discuss dashboards and public data access. ",
+        "citations": [
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects.",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance.",
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")"
+            ],
+            "title": "SMART SCALE - DRPT"
+          },
+          {
+            "url": "https://smartportal.virginiahb2.org/",
+            "excerpts": [
+              "Welcome to SMART Portal. The Smart Portal Application Tool provides public access to applications that have been submitted for various funding programs"
+            ],
+            "title": "VDOT Smart Portal: Public Home"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "data_integration_feasibility_analysis.identified_challenges",
+        "reasoning": "The strongest support for the finegrained field value comes from excerpts that explicitly call for standardizing identifiers and data rules within the capital project data systems. One excerpt argues for standardizing FMS ID naming and other data rules, which directly relates to the question of whether Richmond CIP records include consistent UPC/SMART SCALE identifiers to allow reliable joins. Another broadly relevant point urges fully building out agency-level capital project data with linked, detailed records including scope, schedule, location, lifecycle, and updates, which reinforces the need for consistent identifiers across datasets to enable reliable integration. Related items from the SMART SCALE domain emphasize that dashboards can track project status and that governance and transparency are important for data quality, which provides context for why standardized identifiers and governance practices are critical when combining CIP data with SMART SCALE information. Finally, examples from NYC illustrate the consequences of partial data coverage and update gaps, underscoring the importance of complete identifier coverage and regular updates to support reliable joins and data integration across systems. Collectively, these excerpts support the conclusion that the primary data integration challenge centers on consistency and standardization of identifiers (such as UPC/SMART SCALE IDs) within CIP records to enable reliable joins, and that governance, data standards, and comprehensive data modeling are essential to address this challenge.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard.",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of"
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia",
+              "Powered by [Esri](https://www.esri.com/)"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://smartscale.virginia.gov/",
+            "excerpts": [
+              "SMART SCALE is a process that helps Virginia meet its most critical transportation needs using limited tax dollars. It evaluates potential transportation"
+            ],
+            "title": "Virginia (Smart Scale)"
+          },
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects.",
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance.",
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")"
+            ],
+            "title": "SMART SCALE - DRPT"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "successful_municipal_dashboards.0",
+        "reasoning": "The target fine-grained field concerns a successful, long-running municipal dashboard for Madison, WI, with clear governance around data stewardship. The most relevant excerpt explicitly references the City of Madison Open Data and a Capital Improvement Plan, including a map of planned city projects, which aligns with the idea of a publicly accessible, ongoing project dashboard ecosystem. A secondary, related excerpt discusses general performance measurement and dashboards within a Durham Region resource, but more importantly lists components such as a Strategic Plan Community Dashboard, Operational Dashboard, Housing Dashboard, and Capital Projects Tracking. While this is not Madison-specific, it demonstrates governance structures and dashboard components commonly used to sustain long-term, multi-year dashboards, supporting the idea that successful dashboards rely on defined governance and public data practices. Taken together, these excerpts support the existence of Madison\u2019s open data-oriented approach to capital projects and the broader governance patterns that enable dashboards to be active and maintained over multiple years, even though direct explicit governance statements for Madison are not provided in the excerpts themselves. ",
+        "citations": [
+          {
+            "url": "https://data-cityofmadison.opendata.arcgis.com/",
+            "excerpts": [
+              "Explore the City of Madison budget to understand where City funding is being invested. Capital Improvement Plan. Explore a map of 2020 planned City projects."
+            ],
+            "title": "City of Madison Open Data"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "vdot_smart_scale_data_accessibility.data_management_body",
+        "reasoning": "The fine-grained field value identifies DRPT (Department of Rail and Public Transportation) as the entity associated with transit and rail project data management within the SMART SCALE context. The most supportive excerpt states that DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects, directly aligning with the field value. Additional excerpts reinforce this by describing that the dashboard provides up-to-date information on the status of transit and rail projects funded through SMART SCALE and by noting DRPT\u2019s role in updates and governance of the dashboard. These pieces collectively corroborate that DRPT is the responsible data steward for transit/rail project information within SMART SCALE, matching the field value. Other excerpts reference public access and general portal functionality, which provide context about transparency and access but do not directly specify DRPT\u2019s stewardship of transit/rail project data in SMART SCALE, so they are less central to the field value.",
+        "citations": [
+          {
+            "url": "https://drpt.virginia.gov/data/smart-scale/",
+            "excerpts": [
+              "nia Department of Rail and Public Transportation (DRPT) plays a crucial role in the review and scoring of [SMART SCALE](https://smartscale.virginia.gov/) projects with transit and rail components. As part of our commitment to transparency and accountability, DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of",
+              "On this dashboard, stakeholders and the public can easily access up-to-date information on the status of transit and rail projects that have been funded through SMART SCALE and are administered by DRPT. This includes details on project scope, funding sources, timelines, and current progress towards completion. DRPT provides updates at the end of each quarter reflecting the previous quarter\u2019s performance.",
+              "[View Full Screen](https://www.arcgis.com/apps/dashboards/23511e5a301142d28266c240e2bb28d4 \"view Smart Scale Dashboard in new tab or window\")",
+              "DRPT manages and maintains the SMART SCALE dashboard specifically designed for tracking the progress of transit and rail projects."
+            ],
+            "title": "SMART SCALE - DRPT"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "data_integration_feasibility_analysis.is_technically_feasible",
+        "reasoning": "To assess whether data integration for a Richmond-area capital projects dashboard is technically feasible, we look for excerpts that demonstrate practical data-sharing, governance, and data-quality practices that enable programmatic access, data standardization, and updates over time. Excerpts describing updates to open data sources and publication of source data after CCP publication show that data can be disseminated in a machine-readable way, which is a key component of technical feasibility for integration: a statement that after a CCP is published, the city updates the Capital Projects Dashboard and uploads the source data to OpenData indicates there is an established flow for exporting and sharing data for reuse. Additional excerpts emphasize the importance of comprehensive, standardized data and governance to support a robust, integrated data system: the call to fully build out agency-level capital project data with detailed attributes (scope, schedule, location, lifecycle category, reasons for delays, and triannual status updates) points to the level of data completeness that a planner would expect for reliable integration; and the exhortations to include all capital projects in the dashboard and to standardize data naming (such as FMS IDs) illustrate governance and data-structure harmonization that facilitate programmatic access and cross-system joins. Taken together, these excerpts provide concrete signals that a technically feasible integration pathway exists or is plausible, given established data publication, governance, and data-quality practices. Additional context on broader governance practices from other cities reinforces that with appropriate governance and data-sharing commitments, a Richmond deployment could similarly achieve programmatic access and join capabilities to other dashboards. However, the excerpts also reveal limitations in the Richmond-specific coverage and update cadence in other cases (e.g., partial coverage percentages and update gaps reported for NYC), which tempers the certainty and motivates a cautious, medium-high confidence rather than a guaranteed high certainty. The strongest explicit indicators of feasibility come from the explicit data publication to OpenData and the push for comprehensive, standardized agency data, both of which are core ingredients for a technically feasible integration.",
+        "citations": [
+          {
+            "url": "https://comptroller.nyc.gov/reports/flying-blind-on-billions-how-weak-capital-data-undermines-new-york-citys-infrastructure-investments/",
+            "excerpts": [
+              "Shortly after a CCP is published, the City updates the Capital Projects Dashboard and uploads the source data to [OpenData",
+              "**Fully build out agency-level capital project data.** Require agencies to create complete, linked, and detailed project management records in FMS and project management systems, including full scope, schedule, location, lifecycle category, reasons for delays and overruns, and triannual status updates.",
+              "**Include all capital projects in the Capital Projects Dashboard.**",
+              "**Standardize FMS ID naming and other data rules in FMS.**",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of",
+              "The Capital Projects Dashboard has limited financial data: just 46.8 percent of Financial Management System (FMS) IDs and 58.1 percent of planned commitments in each CCP are contained in the latest Capital Projects Dashboard."
+            ],
+            "title": "Flying Blind on Billions: How Weak Capital Data Undermines New ..."
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://smartscale.virginia.gov/",
+            "excerpts": [
+              "SMART SCALE is a process that helps Virginia meet its most critical transportation needs using limited tax dollars. It evaluates potential transportation"
+            ],
+            "title": "Virginia (Smart Scale)"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "successful_municipal_dashboards.0.city_name",
+        "reasoning": "The requested field value identifies a municipal dashboard context for Madison, WI. The excerpt describes the City of Madison Open Data portal, including a Capital Improvement Plan and a map of planned projects, which directly supports the notion that Madison, WI uses a municipal dashboard-like dataset for infrastructure investments and project tracking. This aligns with the finegrained path likely pointing to a city_name within a successful municipal dashboards collection, where Madison, WI would be a plausible city entry. The other excerpt references dashboards for a different jurisdiction (Durham Region) and does not provide evidence linking to Madison, WI, making it less relevant for the field value in question.",
+        "citations": [
+          {
+            "url": "https://data-cityofmadison.opendata.arcgis.com/",
+            "excerpts": [
+              "Explore the City of Madison budget to understand where City funding is being invested. Capital Improvement Plan. Explore a map of 2020 planned City projects."
+            ],
+            "title": "City of Madison Open Data"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "successful_municipal_dashboards.0.dashboard_status",
+        "reasoning": "The requested field value seeks evidence that a municipal dashboard is active and maintained for multiple years. The excerpts mention dashboards and capital projects tracking in different regions, which is contextually related to the existence and governance of dashboards, but they do not provide explicit confirmation that any dashboard has been active and maintained for multiple years. The first excerpt describes a variety of dashboards and project tracking for Durham Region, including performance and operational dashboards, which is relevant for governance and presence but not evidence of long-term maintenance. The second excerpt describes the City of Madison\u2019s open data portal with a focus on the Capital Improvement Plan and a map of planned projects, which is tangentially related to dashboards but likewise does not confirm multi-year maintenance. Because neither excerpt contains a clear statement about sustained multi-year activity, they offer limited direct support for the requested field value and thus are only weakly informative about the target condition. Both excerpts are therefore low relevance to the specific fine-grained field value, with the Durham Region-centered excerpt marginally more relevant due to explicit mention of multiple dashboards and a broader governance context.",
+        "citations": [
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          },
+          {
+            "url": "https://data-cityofmadison.opendata.arcgis.com/",
+            "excerpts": [
+              "Explore the City of Madison budget to understand where City funding is being invested. Capital Improvement Plan. Explore a map of 2020 planned City projects."
+            ],
+            "title": "City of Madison Open Data"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "successful_municipal_dashboards.1.dashboard_status",
+        "reasoning": "The target field describes dashboards that are actively maintained and regularly updated. Excerpt describing a dashboard that shows anticipated timelines and actual progress in a capital projects context points to an actively used monitoring surface with ongoing updates. Excerpt mentioning a variety of dashboards (Strategic Plan Community Dashboard, Operational Dashboard, Housing Dashboard, Capital Projects Tracking) indicates the existence of multiple live dashboards and tracking systems, which aligns with the notion of active dashboards even if update cadence is not explicitly stated. The excerpt about the PMO emphasizes governance and project delivery support, which can underpin ongoing dashboard activity but does not itself confirm update frequency. Taken together, these excerpts support the general concept of active dashboards used for monitoring capital projects, though they do not provide explicit proof that a specific dashboard is 'Active and regularly updated' as required by the field value.",
+        "citations": [
+          {
+            "url": "https://durham-transit-tracking-dashboard-fitp.hub.arcgis.com/pages/dashboardprojects~e7a74eebfb8a4a36a8969c7b3852000a",
+            "excerpts": [
+              "For projects with defined schedules - such as most capital projects - you can also review anticipated timelines and actual progres in the bottom-right section."
+            ],
+            "title": "DashboardProjects | Durham County Transit Tracking Dashboard"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          },
+          {
+            "url": "https://dcoistpmo.info/about-us/",
+            "excerpts": [
+              "The IS&T Project Management Office (PMO) helps County departments ensure projects and programs are delivered successfully on time, on budget, and with quality"
+            ],
+            "title": "About Us - Durham County"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "successful_municipal_dashboards.1.key_governance_factors",
+        "reasoning": "The field value asserts that Durham\u2019s success rests on (a) a structured update process, (b) a transit/capital tracking hub, (c) quarterly CIP Stoplight Reports, and (d) a regular, predictable reporting cadence embedded in budgeting and performance management. The most directly relevant excerpt references dashboards that show anticipated timelines and actual progress in a dedicated dashboard section, which supports the idea of a centralized, structured update process and visible project status. Another excerpt highlights the role of the IS&T Project Management Office (PMO) in ensuring projects and programs are delivered on time, on budget, and with quality, which underpins the governance and organizational structure necessary for a predictable cadence. The third excerpt lists multiple dashboards and tracking components (including a Capital Projects Tracking component) within an action plan, which aligns with the concept of a hub or centralized system for monitoring capital projects and related performance dashboards. Taken together, these excerpts buttress the idea that a centralized tracking hub, formalized dashboards, and governance (via a PMO) enable routine, budget-integrated reporting. Direct references to a quarterly Stoplight Reports cadence are not explicit in the excerpts, but the combination of structured dashboards and PMO governance implies a regular reporting framework that could encompass quarterly CIP updates.",
+        "citations": [
+          {
+            "url": "https://durham-transit-tracking-dashboard-fitp.hub.arcgis.com/pages/dashboardprojects~e7a74eebfb8a4a36a8969c7b3852000a",
+            "excerpts": [
+              "For projects with defined schedules - such as most capital projects - you can also review anticipated timelines and actual progres in the bottom-right section."
+            ],
+            "title": "DashboardProjects | Durham County Transit Tracking Dashboard"
+          },
+          {
+            "url": "https://dcoistpmo.info/about-us/",
+            "excerpts": [
+              "The IS&T Project Management Office (PMO) helps County departments ensure projects and programs are delivered successfully on time, on budget, and with quality"
+            ],
+            "title": "About Us - Durham County"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "successful_municipal_dashboards.1.city_name",
+        "reasoning": "The target field value represents the city name of a successful municipal dashboard project, specifically Durham, NC. Excerpts that discuss a Durham-specific dashboards project or governance structure for municipal dashboards are most relevant. The most directly aligned excerpt describes a Durham County Transit Tracking Dashboard, explicitly tying dashboard projects to capital project timelines and progress visibility, which closely matches the concept of a city/county-level dashboard tracking progress and schedules. Another excerpt addresses the Durham County organizational support structure (the IS&T Project Management Office) responsible for delivering projects on time and on budget, which provides governance and operational context for dashboards and project tracking in a Durham County setting, reinforcing how such dashboards are managed. A third excerpt discusses dashboards and performance metrics in the broader Durham Region (which is a different jurisdiction in Canada), including references to a Capital Projects Tracking concept and multiple dashboards, which is thematically related but jurisdictionally distinct from Durham, NC. This makes it supportive context but less directly applicable to Durham, NC. Taken together, the excerpts collectively support the concept of municipal dashboards and governance in the Durham ecosystem, with the strongest evidence tied to a Durham County dashboard and its governance, and secondary context from Durham Region showing parallel practices. The explicit city name in the target field (Durham, NC) is most directly aligned with the Durham County-focused items and slightly less so with the Canadian Durham Region item.",
+        "citations": [
+          {
+            "url": "https://durham-transit-tracking-dashboard-fitp.hub.arcgis.com/pages/dashboardprojects~e7a74eebfb8a4a36a8969c7b3852000a",
+            "excerpts": [
+              "For projects with defined schedules - such as most capital projects - you can also review anticipated timelines and actual progres in the bottom-right section."
+            ],
+            "title": "DashboardProjects | Durham County Transit Tracking Dashboard"
+          },
+          {
+            "url": "https://dcoistpmo.info/about-us/",
+            "excerpts": [
+              "The IS&T Project Management Office (PMO) helps County departments ensure projects and programs are delivered successfully on time, on budget, and with quality"
+            ],
+            "title": "About Us - Durham County"
+          },
+          {
+            "url": "https://www.durham.ca/en/resourcesGeneral/2025-2028-Action-Plan-Accessible.pdf",
+            "excerpts": [
+              "Performance Measurement and Dashboards. \u2022 Strategic Plan Community Dashboard. \u2022 Operational Dashboard. \u2022 Housing Dashboard. \u2022 Capital Projects Tracking. \u2022 Debt"
+            ],
+            "title": "[PDF] 2025-2028 Action Plan | Durham Region"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "richmond_cip_dashboard_overview.dashboard_name",
+        "reasoning": "The provided excerpts consistently refer to the 'City of Richmond's CIP Dashboard' as an interactive tool for exploring capital improvement projects. Several excerpts explicitly state 'Welcome to the City of Richmond's CIP Dashboard!' and mention it is a beta version under development. Another excerpt confirms the existence of a 'Capital Project Dashboard' for the City of Richmond, Virginia, powered by Esri. The RVA.gov excerpt also describes the 'City of Richmond Capital Project Dashboard' as a data and map tool for active capital improvement projects.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard\u00a0...",
+              "**Welcome to the City of Richmond's CIP Dashboard!**\nPlease note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard. This version serves as an early preview and is currently under development to enhance user experience and information accuracy."
+            ],
+            "title": "Capital Improvement Program Dashboard - ArcGIS Experience Builder"
+          },
+          {
+            "url": "https://cor.maps.arcgis.com/apps/dashboards/b77c76ba1e1a47a09734b7eb8d5a508b",
+            "excerpts": [
+              "Section Title: Capital Project Dashboard > City of Richmond, Virginia"
+            ],
+            "title": "City of Richmond, Virginia - Capital Improvement Projects Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "type": "json",
+    "beta_fields": null,
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "executive_summary": {
+          "type": "string",
+          "description": "A high-level summary of the key findings for each of the user's questions regarding Richmond's infrastructure project equity, accessibility, and data practices."
+        },
+        "lep_population_analysis": {
+          "type": "object",
+          "properties": {
+            "data_source": {
+              "type": "string",
+              "description": "The source document or dataset for the LEP population data, e.g., 'PlanRVA 2045 Long Range Growth Forecast Analysis'."
+            },
+            "geographic_distribution_summary": {
+              "type": "string",
+              "description": "A summary of where the LEP population is concentrated, e.g., 'south of Richmond City, and the northeast of Chesterfield County'."
+            },
+            "regional_lep_percentage": {
+              "type": "number",
+              "description": "The percentage of the total population in the Richmond region identified as having Limited English Proficiency."
+            }
+          },
+          "required": [
+            "data_source",
+            "geographic_distribution_summary",
+            "regional_lep_percentage"
+          ],
+          "additionalProperties": false
+        },
+        "project_communication_language_access": {
+          "type": "object",
+          "properties": {
+            "has_spanish_translation_feature": {
+              "type": "boolean",
+              "description": "Indicates if a Spanish translation feature is available on the project websites."
+            },
+            "translation_method": {
+              "type": "string",
+              "description": "The method used for translation, such as 'Google Translate widget'."
+            },
+            "formal_language_access_plan_contact": {
+              "type": "string",
+              "description": "Contact information provided to request professional translation as part of the City's Language Access Plan."
+            }
+          },
+          "required": [
+            "has_spanish_translation_feature",
+            "translation_method",
+            "formal_language_access_plan_contact"
+          ],
+          "additionalProperties": false
+        },
+        "accessibility_communication_channels": {
+          "type": "object",
+          "properties": {
+            "primary_alert_system": {
+              "type": "string",
+              "description": "The name of the main emergency and public information alert system used, e.g., 'RVA Ready Alerts'."
+            },
+            "system_provider": {
+              "type": "string",
+              "description": "The technology provider for the alert system, e.g., 'Everbridge'."
+            },
+            "subscription_methods": {
+              "type": "string",
+              "description": "The different ways residents can sign up for alerts, such as by text, app, or website."
+            },
+            "relevant_notification_types": {
+              "type": "string",
+              "description": "Types of alerts relevant to construction, such as 'road closures'."
+            }
+          },
+          "required": [
+            "primary_alert_system",
+            "system_provider",
+            "subscription_methods",
+            "relevant_notification_types"
+          ],
+          "additionalProperties": false
+        },
+        "smartphone_only_household_statistics": {
+          "type": "object",
+          "properties": {
+            "percentage_of_households": {
+              "type": "number",
+              "description": "The percentage of households in Richmond that rely exclusively on smartphones for internet access."
+            },
+            "data_source": {
+              "type": "string",
+              "description": "The specific source of the data, such as 'American Community Survey (ACS) Table S2801'."
+            },
+            "geographic_area": {
+              "type": "string",
+              "description": "The specific geographic area covered by the statistic, e.g., 'Richmond city, Virginia'."
+            }
+          },
+          "required": [
+            "percentage_of_households",
+            "data_source",
+            "geographic_area"
+          ],
+          "additionalProperties": false
+        },
+        "implications_for_map_first_interfaces": {
+          "type": "string",
+          "description": "An analysis of how the prevalence of smartphone-only households affects the equity and accessibility of map-first digital interfaces for capital projects."
+        },
+        "vdot_smart_scale_data_accessibility": {
+          "type": "object",
+          "properties": {
+            "portal_name": {
+              "type": "string",
+              "description": "The official name of the VDOT data portal for SMART Scale projects."
+            },
+            "programmatic_access_available": {
+              "type": "boolean",
+              "description": "Indicates whether a public API is available for programmatic data access."
+            },
+            "bulk_download_formats": {
+              "type": "string",
+              "description": "Available formats for bulk data download, such as CSV or GeoJSON, if any."
+            },
+            "data_management_body": {
+              "type": "string",
+              "description": "The specific department responsible for the data, e.g., 'DRPT for transit and rail projects'."
+            }
+          },
+          "required": [
+            "portal_name",
+            "programmatic_access_available",
+            "bulk_download_formats",
+            "data_management_body"
+          ],
+          "additionalProperties": false
+        },
+        "data_integration_feasibility_analysis": {
+          "type": "object",
+          "properties": {
+            "is_technically_feasible": {
+              "type": "boolean",
+              "description": "An assessment of whether joining VDOT and Richmond CIP data is possible."
+            },
+            "common_project_identifier": {
+              "type": "string",
+              "description": "The shared data field that could be used to join the datasets, such as 'UPC' (Universal Project Code)."
+            },
+            "identified_challenges": {
+              "type": "string",
+              "description": "Potential obstacles to successful data integration, such as data consistency or differing update schedules."
+            }
+          },
+          "required": [
+            "is_technically_feasible",
+            "common_project_identifier",
+            "identified_challenges"
+          ],
+          "additionalProperties": false
+        },
+        "successful_municipal_dashboards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "city_name": {
+                "type": "string",
+                "description": "The name of the mid-size U.S. city with a successful dashboard."
+              },
+              "dashboard_status": {
+                "type": "string",
+                "description": "The current operational status of the dashboard, e.g., 'Active and regularly updated'."
+              },
+              "key_governance_factors": {
+                "type": "string",
+                "description": "The governance structures or practices that contribute to the dashboard's success, such as a dedicated PMO or clear update cadence."
+              }
+            },
+            "required": [
+              "city_name",
+              "dashboard_status",
+              "key_governance_factors"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Case studies of mid-size U.S. cities that have successfully maintained a capital projects dashboard with regular updates for more than two years. Will be detailed in step 2 to include city name, dashboard status, and key governance factors."
+        },
+        "governance_models_for_successful_dashboards": {
+          "type": "string",
+          "description": "Analysis of the governance structures, such as dedicated Project Management Offices (PMOs) or inter-departmental working groups, that contributed to the longevity and success of the identified municipal dashboards."
+        },
+        "nyc_capital_projects_dashboard_analysis": {
+          "type": "object",
+          "properties": {
+            "report_source": {
+              "type": "string",
+              "description": "The official source of the analysis, e.g., 'NYC Comptroller's Office report Flying Blind on Billions'."
+            },
+            "project_id_coverage_percentage": {
+              "type": "number",
+              "description": "The percentage of Financial Management System (FMS) IDs included in the dashboard."
+            },
+            "last_known_status": {
+              "type": "string",
+              "description": "The state of the dashboard at the time of the report, e.g., '6 months without an update'."
+            },
+            "identified_weaknesses": {
+              "type": "string",
+              "description": "A summary of the key problems identified, such as data incompleteness, inconsistent identifiers, and lack of timeliness."
+            }
+          },
+          "required": [
+            "report_source",
+            "project_id_coverage_percentage",
+            "last_known_status",
+            "identified_weaknesses"
+          ],
+          "additionalProperties": false
+        },
+        "lessons_for_richmond_from_nyc": {
+          "type": "string",
+          "description": "Key lessons and strategic recommendations for Richmond based on the challenges faced by NYC's dashboard, focusing on data completeness, standardized identifiers, and robust governance."
+        },
+        "static_geojson_architecture_evaluation": {
+          "type": "string",
+          "description": "An evaluation of the proposal for Richmond to adopt a nightly ETL (Extract, Transform, Load) to a static GeoJSON architecture. This analysis covers the potential benefits for decoupling resident-facing tools from upstream data source changes and improving reliability."
+        },
+        "richmond_cip_dashboard_overview": {
+          "type": "object",
+          "properties": {
+            "dashboard_name": {
+              "type": "string",
+              "description": "The official name of Richmond's dashboard."
+            },
+            "current_status": {
+              "type": "string",
+              "description": "The developmental stage of the dashboard, e.g., 'Beta Version'."
+            },
+            "technology_platform": {
+              "type": "string",
+              "description": "The underlying software used to build the dashboard, e.g., 'ArcGIS Experience Builder'."
+            },
+            "stated_update_frequency": {
+              "type": "string",
+              "description": "The frequency at which the city claims to update the dashboard data, e.g., 'Quarterly'."
+            }
+          },
+          "required": [
+            "dashboard_name",
+            "current_status",
+            "technology_platform",
+            "stated_update_frequency"
+          ],
+          "additionalProperties": false
+        },
+        "pedestrian_detour_and_ada_standards": {
+          "type": "object",
+          "properties": {
+            "governing_document_name": {
+              "type": "string",
+              "description": "The official name of the manual or standard that governs work area safety, e.g., 'Virginia Work Area Protection Manual (WAPM)'."
+            },
+            "issuing_authority": {
+              "type": "string",
+              "description": "The organization that publishes and maintains the standard, e.g., 'VDOT'."
+            },
+            "relevance": {
+              "type": "string",
+              "description": "How the document applies to the query, e.g., 'Provides guidelines for safe and ADA-compliant pedestrian detours in construction zones'."
+            }
+          },
+          "required": [
+            "governing_document_name",
+            "issuing_authority",
+            "relevance"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "executive_summary",
+        "lep_population_analysis",
+        "project_communication_language_access",
+        "accessibility_communication_channels",
+        "smartphone_only_household_statistics",
+        "implications_for_map_first_interfaces",
+        "vdot_smart_scale_data_accessibility",
+        "data_integration_feasibility_analysis",
+        "successful_municipal_dashboards",
+        "governance_models_for_successful_dashboards",
+        "nyc_capital_projects_dashboard_analysis",
+        "lessons_for_richmond_from_nyc",
+        "static_geojson_architecture_evaluation",
+        "richmond_cip_dashboard_overview",
+        "pedestrian_detour_and_ada_standards"
+      ],
+      "additionalProperties": false
+    },
+    "content_file": "iv_q2_equity.md"
+  }
+}
