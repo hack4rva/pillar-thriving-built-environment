@@ -16,9 +16,14 @@
   "dependencies": {
     "3d-force-graph": "1.80.0",
     "d3": "7.9.0",
-    "d3-sankey": "0.12.3"
+    "d3-sankey": "0.12.3",
+    "three": "0.185.1",
+    "three-spritetext": "1.10.0"
   },
   "devDependencies": {
+    "@types/d3": "7.4.3",
+    "@types/d3-sankey": "0.12.5",
+    "@types/three": "0.185.3",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",
     "csv-parse": "7.0.1",
