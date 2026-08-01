@@ -1,0 +1,1486 @@
+[
+  {
+    "source": "n:problem:transportation-project-visibility",
+    "target": "n:population:richmond-residents",
+    "type": "AFFECTS",
+    "description": "Residents cannot reliably find what is being built on their street, who is responsible, or how long it will last.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 18-22",
+        "excerpt": "A resident who sees orange construction cones on their street may have no reliable way to find"
+      }
+    ]
+  },
+  {
+    "source": "n:problem:fleet-operations-visibility",
+    "target": "n:population:richmond-residents",
+    "type": "AFFECTS",
+    "description": "Residents lack timely, accurate updates on when their street will be plowed or cleaned.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 99-99",
+        "excerpt": "Residents who want to know when their street will be cleaned or plowed"
+      }
+    ]
+  },
+  {
+    "source": "n:problem:fleet-operations-visibility",
+    "target": "n:group:dpw-supervisors",
+    "type": "AFFECTS",
+    "description": "Supervisors lack real-time visibility into route completion.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 98-98",
+        "excerpt": "DPW supervisors who need route completion visibility"
+      }
+    ]
+  },
+  {
+    "source": "n:problem:safer-streets",
+    "target": "n:group:advocates-planners",
+    "type": "AFFECTS",
+    "description": "Advocates and planners need help identifying and prioritizing safety-improvement locations.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceLocation": "lines 34-35",
+        "excerpt": "identify and prioritize locations for transportation safety improvements"
+      }
+    ]
+  },
+  {
+    "source": "n:problem:safer-streets",
+    "target": "n:population:richmond-residents",
+    "type": "AFFECTS",
+    "description": "Residents are exposed to unsafe corridors until improvements are prioritized.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceLocation": "lines 34-35",
+        "excerpt": "help Richmond residents, advocates, and City planners"
+      }
+    ]
+  },
+  {
+    "source": "n:population:richmond-residents",
+    "target": "n:need:find-project-info",
+    "type": "EXPERIENCES_NEED",
+    "description": "Residents need a reliable way to find nearby project information.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 18-22",
+        "excerpt": "may have no reliable way to find"
+      }
+    ]
+  },
+  {
+    "source": "n:population:richmond-residents",
+    "target": "n:need:plain-language",
+    "type": "EXPERIENCES_NEED",
+    "description": "CIP data is technical and not designed for residents.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 16-16",
+        "excerpt": "the data is technical and not designed for residents"
+      }
+    ]
+  },
+  {
+    "source": "n:population:richmond-residents",
+    "target": "n:need:resident-service-timing",
+    "type": "EXPERIENCES_NEED",
+    "description": "Residents want to know when their street will be cleaned or plowed.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 99-99",
+        "excerpt": "Residents who want to know when their street will be cleaned or plowed"
+      }
+    ]
+  },
+  {
+    "source": "n:group:residents-accessibility-needs",
+    "target": "n:need:equitable-access",
+    "type": "EXPERIENCES_NEED",
+    "description": "Access to infrastructure information matters most for residents with fewer workaround options.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceLocation": "lines 22-22",
+        "excerpt": "residents with fewer workaround options"
+      }
+    ]
+  },
+  {
+    "source": "n:group:dpw-supervisors",
+    "target": "n:need:supervisor-route-visibility",
+    "type": "EXPERIENCES_NEED",
+    "description": "Supervisors need route completion visibility without calling every driver.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 98-98",
+        "excerpt": "route completion visibility without calling every driver"
+      }
+    ]
+  },
+  {
+    "source": "n:group:dpw-comms-staff",
+    "target": "n:need:staff-inquiry-deflection",
+    "type": "EXPERIENCES_NEED",
+    "description": "Staff spend time answering questions a clear public resource could deflect.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceLocation": "lines 19-19",
+        "excerpt": "DPW staff spend time answering questions that a clear public resource could deflect"
+      }
+    ]
+  },
+  {
+    "source": "n:need:find-project-info",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Core need within the transportation visibility problem.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 12-22",
+        "excerpt": "find and understand transportation and infrastructure projects"
+      }
+    ]
+  },
+  {
+    "source": "n:need:plain-language",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Plain-language translation is a success criterion of the problem statement.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 45-45",
+        "excerpt": "Technical descriptions are translated into plain language"
+      }
+    ]
+  },
+  {
+    "source": "n:need:staff-inquiry-deflection",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Success would mean staff receive fewer repetitive information requests.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 47-47",
+        "excerpt": "Staff receive fewer repetitive information requests"
+      }
+    ]
+  },
+  {
+    "source": "n:need:equitable-access",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Equity of information access is part of why the pillar matters.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceLocation": "lines 22-22",
+        "excerpt": "equitable access to infrastructure information"
+      }
+    ]
+  },
+  {
+    "source": "n:need:resident-service-timing",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Core resident need within the fleet operations problem.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 77-78",
+        "excerpt": "track the progress of services like snow removal and street cleaning"
+      }
+    ]
+  },
+  {
+    "source": "n:need:supervisor-route-visibility",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Core staff need within the fleet operations problem.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 98-98",
+        "excerpt": "route completion visibility"
+      }
+    ]
+  },
+  {
+    "source": "n:project:fall-line-trail-walmsley-boulevard-to-bellemeade-road",
+    "target": "n:need:fall-line-trail-funding-gap",
+    "type": "EXPERIENCES_NEED",
+    "description": "The Fall Line Trail segment has a documented current funding gap while design proceeds.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=45",
+        "excerpt": "coordination is underway with VDOT, DPU Utilities, and CVTA to address the current funding gap"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:cvta",
+    "target": "n:need:fall-line-trail-funding-gap",
+    "type": "ADDRESSES",
+    "description": "CVTA is coordinating with the City to address the funding gap. Whether CVTA will contribute funds is not documented.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=45",
+        "excerpt": "coordination is underway with VDOT, DPU Utilities, and CVTA"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:vdot",
+    "target": "n:need:fall-line-trail-funding-gap",
+    "type": "ADDRESSES",
+    "description": "VDOT is coordinating with the City to address the funding gap.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=45",
+        "excerpt": "coordination is underway with VDOT, DPU Utilities, and CVTA"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpu",
+    "target": "n:need:fall-line-trail-funding-gap",
+    "type": "ADDRESSES",
+    "description": "DPU Utilities is coordinating on the funding gap and utility work.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=45",
+        "excerpt": "coordination is underway with VDOT, DPU Utilities, and CVTA"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:city-of-richmond",
+    "target": "n:agency:richmond-dpw",
+    "type": "GOVERNS",
+    "description": "DPW is a department of the City of Richmond.",
+    "evidenceStatus": "inferred",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 16-16",
+        "excerpt": "The Department of Public Works (DPW) manages transportation projects across Richmond",
+        "note": "Departmental relationship inferred from standard municipal structure and consistent corpus usage."
+      }
+    ]
+  },
+  {
+    "source": "n:agency:city-of-richmond",
+    "target": "n:agency:dcao-operations",
+    "type": "GOVERNS",
+    "description": "DCAO Operations is a City administrative office.",
+    "evidenceStatus": "inferred",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 340-340",
+        "excerpt": "Al Wiggins (DCAO Operations)",
+        "note": "DCAO = Deputy Chief Administrative Officer, a City role; inferred."
+      }
+    ]
+  },
+  {
+    "source": "n:agency:city-of-richmond",
+    "target": "n:fund:richmond-cip-budget",
+    "type": "ADMINISTERS",
+    "description": "The CIP is the City's capital program; the City administers its budget.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 16-16",
+        "excerpt": "Dashboard is the authoritative public source for funded projects"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:program:cip",
+    "type": "ADMINISTERS",
+    "description": "DPW manages the transportation projects in the CIP.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 16-16",
+        "excerpt": "The Department of Public Works (DPW) manages transportation projects across Richmond"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:service:snow-removal",
+    "type": "ADMINISTERS",
+    "description": "DPW manages snow removal.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 81-81",
+        "excerpt": "DPW manages highly visible operational services: snow removal and street cleaning"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:service:street-cleaning",
+    "type": "ADMINISTERS",
+    "description": "DPW manages street cleaning.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 81-81",
+        "excerpt": "DPW manages highly visible operational services: snow removal and street cleaning"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:city-of-richmond",
+    "target": "n:service:rva311",
+    "type": "ADMINISTERS",
+    "description": "RVA311 is the City's service-request intake.",
+    "evidenceStatus": "inferred",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Demand and Impact Estimation section",
+        "excerpt": "RVA311 is the primary intake for DPW-related concerns",
+        "note": "City administration of RVA311 inferred; the corpus does not name the administering office."
+      }
+    ]
+  },
+  {
+    "source": "n:policy:wmp-2025-2026",
+    "target": "n:service:snow-removal",
+    "type": "GOVERNS",
+    "description": "The WMP defines the snow route priority system (P1/P2/P3) governing snow operations.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 85-85",
+        "excerpt": "defines the snow route priority system beginning on page 67"
+      }
+    ]
+  },
+  {
+    "source": "n:program:cip",
+    "target": "n:policy:richmond-300",
+    "type": "IMPLEMENTS",
+    "description": "Many CIP projects directly implement Richmond 300 goals; per-project goal tags are not mapped (open research question).",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 34-34",
+        "excerpt": "directly implement goals from Richmond"
+      }
+    ]
+  },
+  {
+    "source": "n:fund:richmond-cip-budget",
+    "target": "n:program:cip",
+    "type": "ASSOCIATED_WITH",
+    "description": "The CIP capital budget is the funding pool behind the program's 125 funded projects.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 24-24",
+        "excerpt": "125 funded projects"
+      }
+    ]
+  },
+  {
+    "source": "n:service:snow-removal",
+    "target": "n:population:richmond-residents",
+    "type": "DELIVERS_SERVICE_TO",
+    "description": "Snow removal is delivered to residents by priority tier.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 81-81",
+        "excerpt": "residents seek information about when their street will be serviced"
+      }
+    ]
+  },
+  {
+    "source": "n:service:street-cleaning",
+    "target": "n:population:richmond-residents",
+    "type": "DELIVERS_SERVICE_TO",
+    "description": "Street cleaning is delivered on a neighborhood-based calendar.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Snow and Street Cleaning Operational Geography section",
+        "excerpt": "For street sweeping, DPW utilizes a neighborhood-based calendar"
+      }
+    ]
+  },
+  {
+    "source": "n:service:rva311",
+    "target": "n:population:richmond-residents",
+    "type": "DELIVERS_SERVICE_TO",
+    "description": "RVA311 is the primary intake for resident DPW-related concerns.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Demand and Impact Estimation section",
+        "excerpt": "RVA311 is the primary intake for DPW-related concerns"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:vdot",
+    "target": "n:decision:vdot-authorization",
+    "type": "GOVERNS",
+    "description": "VDOT controls the authorization to advertise certain projects for bidding.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=46",
+        "excerpt": "request VDOT authorization to advertise the project for bidding"
+      }
+    ]
+  },
+  {
+    "source": "n:decision:vdot-authorization",
+    "target": "n:project:deepwater-terminal-road-connector-to-goodes-street",
+    "type": "RESTRICTS",
+    "description": "Deepwater Terminal Road Connector cannot be advertised for bidding until VDOT authorizes it \u2014 an administrative gate between committed money and contractors.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=46",
+        "excerpt": "We will then request VDOT authorization to advertise the project for bidding"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:project-explorer-map",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ADDRESSES",
+    "description": "Address search surfacing nearby funded projects on a map.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 31-31",
+        "excerpt": "City Infrastructure Explorer Map"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:whats-happening-here",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ADDRESSES",
+    "description": "Mobile lookup with plain-language project cards.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 31-31",
+        "excerpt": "mobile lookup tool"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:notification-system",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ADDRESSES",
+    "description": "Opt-in notification when a nearby project changes phase.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 31-31",
+        "excerpt": "Opt-in notification system"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:snow-priority-lookup",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ADDRESSES",
+    "description": "Address lookup returning snow priority tier in plain language.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 115-115",
+        "excerpt": "Snow Route Priority Lookup"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:fleet-progress-dashboard",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ADDRESSES",
+    "description": "Mock-schema supervisor dashboard for route progress.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 117-117",
+        "excerpt": "Fleet Route Progress Dashboard"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:street-cleaning-lookup",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ADDRESSES",
+    "description": "Zone lookup using the public street cleaning schedule.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 118-118",
+        "excerpt": "Street Cleaning Zone Lookup"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:safer-streets-map",
+    "target": "n:problem:safer-streets",
+    "type": "ADDRESSES",
+    "description": "Crash-data overlay to identify corridors with no planned project. Exploratory only.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceLocation": "lines 50-50",
+        "excerpt": "overlays publicly available crash data with existing transportation project locations"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:project-explorer-map",
+    "target": "n:dataset:cor-cip-dashboard-csv",
+    "type": "DEPENDS_ON",
+    "description": "Explorer map builds on the verified CIP export.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 56-56",
+        "excerpt": "The CIP dataset is verified and in the repository"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:project-explorer-map",
+    "target": "n:dataset:cip-arcgis-webmap",
+    "type": "DEPENDS_ON",
+    "description": "Live FeatureService returns polygon geometry for all projects \u2014 no geocoding needed.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 56-56",
+        "excerpt": "returns **polygon geometry** for all projects"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:whats-happening-here",
+    "target": "n:dataset:cor-cip-dashboard-csv",
+    "type": "DEPENDS_ON",
+    "description": "Lookup tool builds on the CIP export.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 64-64",
+        "excerpt": "125 projects, provided by DPW GIS Team"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:notification-system",
+    "target": "n:dataset:cip-dashboard-live",
+    "type": "DEPENDS_ON",
+    "description": "Phase-change notifications require polling the live (quarterly) dashboard.",
+    "evidenceStatus": "proposed",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 53-53",
+        "excerpt": "Opt-in notification when a nearby project changes phase"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:snow-priority-lookup",
+    "target": "n:dataset:wmp-2025-2026-pdf",
+    "type": "DEPENDS_ON",
+    "description": "P1/P2 route lists in the WMP (pg. 67+) are the data source; P3 is the residual category.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 121-121",
+        "excerpt": "Teams can extract those route names/segments and build a lookup against them"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:fleet-progress-dashboard",
+    "target": "n:dataset:dpw-gps-fleet-data",
+    "type": "DEPENDS_ON",
+    "description": "Would consume the future GPS feed; until then must use a documented synthetic schema.",
+    "evidenceStatus": "proposed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 105-105",
+        "excerpt": "must use WMP route data or synthetic mock data"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:street-cleaning-lookup",
+    "target": "n:dataset:street-cleaning-schedule-page",
+    "type": "DEPENDS_ON",
+    "description": "Uses the public schedule page as its data source.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 118-118",
+        "excerpt": "Street Cleaning Zone Lookup using the public schedule page"
+      }
+    ]
+  },
+  {
+    "source": "n:proposal:safer-streets-map",
+    "target": "n:dataset:crash-data",
+    "type": "DEPENDS_ON",
+    "description": "Requires public crash data whose specific source is not documented in the corpus.",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceLocation": "lines 39-39",
+        "excerpt": "Public data exists (crash data, road network, project data on GeoHub)"
+      }
+    ]
+  },
+  {
+    "source": "n:org:hack-rva",
+    "target": "n:program:richmond-civic-hackathon",
+    "type": "ADMINISTERS",
+    "description": "Hack RVA organizes the Richmond Civic Hackathon.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 21-21",
+        "excerpt": "Hack RVA"
+      }
+    ]
+  },
+  {
+    "source": "n:program:richmond-civic-hackathon",
+    "target": "n:region:city-of-richmond",
+    "type": "LOCATED_IN",
+    "description": "Held at VCU Snead Hall in Richmond, March 27-29, 2026.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 21-21",
+        "excerpt": "at VCU Snead Hall"
+      }
+    ]
+  },
+  {
+    "source": "n:program:richmond-civic-hackathon",
+    "target": "n:university:vcu",
+    "type": "ASSOCIATED_WITH",
+    "description": "VCU Snead Hall is the venue.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 21-21",
+        "excerpt": "at VCU Snead Hall"
+      }
+    ]
+  },
+  {
+    "source": "n:person:al-wiggins",
+    "target": "n:agency:dcao-operations",
+    "type": "REPRESENTS",
+    "description": "Al Wiggins (DCAO Operations) is the departmental champion for the pillar.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 340-340",
+        "excerpt": "Departmental champion: Al Wiggins (DCAO Operations)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:daniel-klein",
+    "target": "n:agency:dcao-operations",
+    "type": "ASSOCIATED_WITH",
+    "description": "Daniel Klein is listed with the departmental champion; his affiliation is not stated (flagged for review).",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "low",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 340-340",
+        "excerpt": "Al Wiggins (DCAO Operations), Daniel Klein"
+      }
+    ]
+  },
+  {
+    "source": "n:person:nathan-burrell",
+    "target": "n:nonprofit:groundwork-rva",
+    "type": "REPRESENTS",
+    "description": "Nonprofit partner representative on the pillar committee.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Nathan Burrell (Groundwork RVA)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:justin-doyle",
+    "target": "n:nonprofit:james-river-association",
+    "type": "REPRESENTS",
+    "description": "Nonprofit partner representative on the pillar committee.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Justin Doyle or Shannon Orcutt (James River Association)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:shannon-orcutt",
+    "target": "n:nonprofit:james-river-association",
+    "type": "REPRESENTS",
+    "description": "Nonprofit partner representative on the pillar committee.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Justin Doyle or Shannon Orcutt (James River Association)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:richard-hankins",
+    "target": "n:nonprofit:partnership-for-smarter-growth",
+    "type": "REPRESENTS",
+    "description": "Nonprofit partner representative on the pillar committee.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Richard Hankins (Partnership for Smarter Growth)"
+      }
+    ]
+  },
+  {
+    "source": "n:nonprofit:groundwork-rva",
+    "target": "n:program:richmond-civic-hackathon",
+    "type": "SUPPORTS",
+    "description": "Nonprofit partner of the Built Environment pillar.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Nonprofit partners: Nathan Burrell (Groundwork RVA)"
+      }
+    ]
+  },
+  {
+    "source": "n:nonprofit:james-river-association",
+    "target": "n:program:richmond-civic-hackathon",
+    "type": "SUPPORTS",
+    "description": "Nonprofit partner of the Built Environment pillar.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "James River Association"
+      }
+    ]
+  },
+  {
+    "source": "n:nonprofit:partnership-for-smarter-growth",
+    "target": "n:program:richmond-civic-hackathon",
+    "type": "SUPPORTS",
+    "description": "Nonprofit partner of the Built Environment pillar.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 341-341",
+        "excerpt": "Partnership for Smarter Growth"
+      }
+    ]
+  },
+  {
+    "source": "n:person:al-wiggins",
+    "target": "n:program:richmond-civic-hackathon",
+    "type": "SUPPORTS",
+    "description": "Departmental champion for the pillar at the hackathon.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 340-340",
+        "excerpt": "Departmental champion: Al Wiggins"
+      }
+    ]
+  },
+  {
+    "source": "n:person:chad-phillips",
+    "target": "n:agency:richmond-dpw",
+    "type": "REPRESENTS",
+    "description": "DPW GIS Team member who provided the CIP export.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 10-10",
+        "excerpt": "provided by DPW GIS Team (Chad Phillips"
+      }
+    ]
+  },
+  {
+    "source": "n:person:daniel-wagner",
+    "target": "n:agency:richmond-dpw",
+    "type": "REPRESENTS",
+    "description": "DPW staff member who co-provided the WMP.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 75-75",
+        "excerpt": "provided by DPW (Daniel Wagner / Chad Phillips)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:chad-phillips",
+    "target": "n:dataset:cor-cip-dashboard-csv",
+    "type": "PRODUCES",
+    "description": "Provided the CIP Dashboard export to the hackathon.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 10-10",
+        "excerpt": "CIP Dashboard export provided by DPW GIS Team (Chad Phillips"
+      }
+    ]
+  },
+  {
+    "source": "n:person:daniel-wagner",
+    "target": "n:dataset:wmp-2025-2026-pdf",
+    "type": "PRODUCES",
+    "description": "Co-provided the Winter Maintenance Plan PDF.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 75-75",
+        "excerpt": "WMP 2025-2026 provided by DPW (Daniel Wagner / Chad Phillips)"
+      }
+    ]
+  },
+  {
+    "source": "n:person:chad-phillips",
+    "target": "n:dataset:wmp-2025-2026-pdf",
+    "type": "PRODUCES",
+    "description": "Co-provided the Winter Maintenance Plan PDF.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 75-75",
+        "excerpt": "WMP 2025-2026 provided by DPW (Daniel Wagner / Chad Phillips)"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:gps-incomplete",
+    "target": "n:evidence:e-004",
+    "type": "HAS_EVIDENCE",
+    "description": "Working-session evidence: GPS devices being installed, not yet complete.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 22-22",
+        "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:gps-incomplete",
+    "target": "n:problem:fleet-operations-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "The GPS constraint bounds every fleet-visibility solution.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 102-102",
+        "excerpt": "GPS infrastructure is still being implemented"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:gps-incomplete",
+    "target": "n:proposal:fleet-progress-dashboard",
+    "type": "RESTRICTS",
+    "description": "Any fleet MVP must use WMP route data or synthetic mock data \u2014 not live GPS.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 105-105",
+        "excerpt": "must use WMP route data or synthetic mock data"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:snow-priority-structure",
+    "target": "n:service:snow-removal",
+    "type": "ASSOCIATED_WITH",
+    "description": "Snow operations are organized by P1/P2/P3 priority routes, not zones.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Gap-by-Gap Assessment table",
+        "excerpt": "Snow uses priority routes"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:snow-priority-structure",
+    "target": "n:policy:wmp-2025-2026",
+    "type": "SUPPORTED_BY",
+    "description": "The priority structure is defined in the WMP beginning on page 67.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 85-91",
+        "excerpt": "defines the snow route priority system beginning on page 67"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:cip-quarterly",
+    "target": "n:program:cip",
+    "type": "ASSOCIATED_WITH",
+    "description": "The dashboard behind the CIP is updated quarterly \u2014 a freshness constraint.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 37-37",
+        "excerpt": "The live CIP ArcGIS dashboard is updated quarterly"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:sweeping-neighborhood-calendar",
+    "target": "n:service:street-cleaning",
+    "type": "ASSOCIATED_WITH",
+    "description": "Sweeping is scheduled by neighborhood calendar, unlike snow priority routes.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Snow and Street Cleaning Operational Geography section",
+        "excerpt": "For street sweeping, DPW utilizes a neighborhood-based calendar"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:sweeping-paused-2025",
+    "target": "n:service:street-cleaning",
+    "type": "ASSOCIATED_WITH",
+    "description": "Operational volatility: sweeping was reportedly paused in late 2025.",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Risk Register table",
+        "excerpt": "Street sweeping was temporarily paused in late 2025"
+      }
+    ]
+  },
+  {
+    "source": "n:claim:d3-report-mismatch",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Grant documentation for Richmond transportation projects is missing from the corpus; the D3 report slot contains unrelated Harvard content.",
+    "evidenceStatus": "disputed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/D3_data_grant_documentation.md",
+        "sourceLocation": "document body",
+        "excerpt": "Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty"
+      }
+    ]
+  },
+  {
+    "source": "n:dataset:richmond-geohub",
+    "target": "n:evidence:e-001",
+    "type": "HAS_EVIDENCE",
+    "description": "GeoHub existence confirmed with official URL.",
+    "evidenceStatus": "externally_verified",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 19-19",
+        "excerpt": "Richmond GeoHub exists as a public ArcGIS hub"
+      }
+    ]
+  },
+  {
+    "source": "n:dataset:richmond-open-data-portal",
+    "target": "n:evidence:e-002",
+    "type": "HAS_EVIDENCE",
+    "description": "Open Data Portal existence confirmed with official URL.",
+    "evidenceStatus": "externally_verified",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 20-20",
+        "excerpt": "Richmond Open Data Portal exists on Socrata"
+      }
+    ]
+  },
+  {
+    "source": "n:program:richmond-civic-hackathon",
+    "target": "n:evidence:e-003",
+    "type": "HAS_EVIDENCE",
+    "description": "Hackathon date and venue confirmed.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 21-21",
+        "excerpt": "at VCU Snead Hall"
+      }
+    ]
+  },
+  {
+    "source": "n:dataset:dpw-gps-fleet-data",
+    "target": "n:evidence:e-004",
+    "type": "HAS_EVIDENCE",
+    "description": "GPS installation status per working-session notes.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 22-22",
+        "excerpt": "GPS devices are being installed across the DPW fleet"
+      }
+    ]
+  },
+  {
+    "source": "n:unknown:gps-vendor",
+    "target": "n:dataset:dpw-gps-fleet-data",
+    "type": "ASSOCIATED_WITH",
+    "description": "The vendor behind the future GPS feed is undocumented (E-031).",
+    "evidenceStatus": "unknown",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 54-54",
+        "excerpt": "Current GPS system vendor and data schema being installed"
+      }
+    ]
+  },
+  {
+    "source": "n:risk:r-001",
+    "target": "n:proposal:project-explorer-map",
+    "type": "ASSOCIATED_WITH",
+    "description": "Risk: GeoHub layers not public or field names differ from assumed.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 76-76",
+        "excerpt": "GeoHub layers are not public or field names differ from assumed"
+      }
+    ]
+  },
+  {
+    "source": "n:risk:r-002",
+    "target": "n:proposal:fleet-progress-dashboard",
+    "type": "ASSOCIATED_WITH",
+    "description": "Risk: fleet tool implies live GPS when none exists.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 77-77",
+        "excerpt": "Fleet tool implies live GPS when none exists"
+      }
+    ]
+  },
+  {
+    "source": "n:risk:r-003",
+    "target": "n:proposal:project-explorer-map",
+    "type": "ASSOCIATED_WITH",
+    "description": "Risk: project timeline claims are inaccurate.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 78-78",
+        "excerpt": "Project timeline claims are inaccurate"
+      }
+    ]
+  },
+  {
+    "source": "n:risk:r-004",
+    "target": "n:proposal:whats-happening-here",
+    "type": "ASSOCIATED_WITH",
+    "description": "Risk: plain-language AI translations contain errors.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "evidence_log.md",
+        "sourceLocation": "lines 79-79",
+        "excerpt": "Plain-language AI translations contain errors"
+      }
+    ]
+  },
+  {
+    "source": "n:org:timmons-group",
+    "target": "n:dataset:candidate-projects-webmap",
+    "type": "PUBLISHES",
+    "description": "Candidate Projects Web Map is hosted on the Timmons Group ArcGIS organization.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Public GIS Sources Inventory table",
+        "excerpt": "timmons-group.maps.arcgis.com"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:dataset:cor-cip-dashboard-csv",
+    "type": "PUBLISHES",
+    "description": "Export provided to the hackathon by the DPW GIS Team.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 10-10",
+        "excerpt": "CIP Dashboard export provided by DPW GIS Team"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:dataset:cip-dashboard-live",
+    "type": "PUBLISHES",
+    "description": "DPW actively updates the CIP Dashboard.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Gap-by-Gap Assessment table",
+        "excerpt": "DPW actively updates the CIP Dashboard"
+      }
+    ]
+  },
+  {
+    "source": "n:agency:richmond-dpw",
+    "target": "n:dataset:wmp-2025-2026-pdf",
+    "type": "PUBLISHES",
+    "description": "WMP provided by DPW staff.",
+    "evidenceStatus": "documented",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 135-135",
+        "excerpt": "provided by DPW (Daniel Wagner, Chad Phillips)"
+      }
+    ]
+  },
+  {
+    "source": "n:program:richmond-connects",
+    "target": "n:problem:transportation-project-visibility",
+    "type": "ASSOCIATED_WITH",
+    "description": "Richmond Connects is one of the known official program pages for source-linking.",
+    "evidenceStatus": "documented",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Content and Communications Layer section",
+        "excerpt": "Richmond Connects"
+      }
+    ]
+  },
+  {
+    "source": "n:unknown:cip-funding-sources",
+    "target": "n:fund:richmond-cip-budget",
+    "type": "APPROPRIATES_TO",
+    "description": "Some mix of city, state, and federal sources fills the CIP capital budget; the corpus does not document that mix. Explicit unknown upstream of all CIP flows.",
+    "evidenceStatus": "unknown",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 24-24",
+        "excerpt": "125 funded projects",
+        "note": "Documents that projects are funded, not by what mix of sources."
+      }
+    ],
+    "financial": {
+      "amountUSD": null,
+      "currency": "USD",
+      "mechanism": "unknown",
+      "status": "unknown",
+      "fundingPeriod": null,
+      "restricted": null,
+      "restrictions": null
+    },
+    "flowId": "f:cip-budget-sources"
+  },
+  {
+    "source": "n:agency:us-federal-government",
+    "target": "n:grant:federal-transportation-grants",
+    "type": "DISTRIBUTES_TO",
+    "description": "Federal RAISE/TIGER discretionary grant programs (specific awards not documented in the corpus).",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "medium",
+    "provenance": [
+      {
+        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceLocation": "row id=S006",
+        "excerpt": "Richmond RAISE/TIGER grant data for project context"
+      }
+    ],
+    "financial": {
+      "amountUSD": null,
+      "currency": "USD",
+      "mechanism": "federal discretionary grant program",
+      "status": "unknown",
+      "fundingPeriod": null,
+      "restricted": true,
+      "restrictions": "Federal grant terms (not detailed in the corpus)."
+    },
+    "flowId": "f:federal-grants-city"
+  },
+  {
+    "source": "n:grant:federal-transportation-grants",
+    "target": "n:agency:city-of-richmond",
+    "type": "GRANTS_TO",
+    "description": "The source inventory implies Richmond has (or seeks) RAISE/TIGER awards; no award, amount, or date is documented.",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "low",
+    "provenance": [
+      {
+        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceLocation": "row id=S006",
+        "excerpt": "Richmond RAISE/TIGER grant data for project context"
+      }
+    ],
+    "financial": {
+      "amountUSD": null,
+      "currency": "USD",
+      "mechanism": "federal grant award",
+      "status": "unknown",
+      "fundingPeriod": null,
+      "restricted": true,
+      "restrictions": "Unknown; verify on USASpending.gov."
+    },
+    "flowId": "f:federal-grants-city"
+  },
+  {
+    "source": "n:org:d3-institute",
+    "target": "n:group:harvard-faculty",
+    "type": "GRANTS_TO",
+    "description": "D3 Associates Program: ~$50,000 for one year to Harvard faculty for AI research. Present in the corpus but of disputed relevance to the Richmond problem space.",
+    "evidenceStatus": "disputed",
+    "confidence": "high",
+    "provenance": [
+      {
+        "sourceDoc": "research/D3_data_grant_documentation.md",
+        "sourceLocation": "document body",
+        "excerpt": "Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty"
+      }
+    ],
+    "financial": {
+      "amountUSD": 50000,
+      "currency": "USD",
+      "mechanism": "research grant (per award)",
+      "status": "unknown",
+      "fundingPeriod": "one year; funds must be expended by December 31, 2026",
+      "restricted": true,
+      "restrictions": "Direct research costs only; indirect/overhead/F&A costs, fund fees, and subawards ineligible."
+    },
+    "flowId": "f:d3-harvard-grant"
+  }
+]

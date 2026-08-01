@@ -1,0 +1,405 @@
+[
+ {
+  "id": "ev:E-001",
+  "claim": "Richmond GeoHub exists as a public ArcGIS hub",
+  "status": "confirmed",
+  "source": "City of Richmond GIS",
+  "url": "https://richmond-geo-hub-cor.hub.arcgis.com/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 19-19",
+    "excerpt": "Richmond GeoHub exists as a public ArcGIS hub"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-002",
+  "claim": "Richmond Open Data Portal exists on Socrata",
+  "status": "confirmed",
+  "source": "City of Richmond",
+  "url": "https://data.richmondgov.com/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 20-20",
+    "excerpt": "Richmond Open Data Portal exists on Socrata"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-003",
+  "claim": "Richmond Civic Hackathon is March 27–29, 2026 at VCU Snead Hall",
+  "status": "confirmed",
+  "source": "Hack RVA",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 21-21",
+    "excerpt": "Richmond Civic Hackathon is March 27–29, 2026 at VCU Snead Hall"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-004",
+  "claim": "GPS devices are being installed across the DPW fleet (not yet complete)",
+  "status": "confirmed",
+  "source": "Working session notes (Feb 26, 2026)",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 22-22",
+    "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-010",
+  "claim": "GeoHub contains public layers for DPW transportation projects",
+  "status": "likely",
+  "source": "Known City GIS practice",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 30-30",
+    "excerpt": "GeoHub contains public layers for DPW transportation projects"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-011",
+  "claim": "Richmond Open Data Portal contains capital improvement or 311 datasets",
+  "status": "likely",
+  "source": "Common Socrata pattern",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 31-31",
+    "excerpt": "Richmond Open Data Portal contains capital improvement or 311 datasets"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-012",
+  "claim": "DPW program pages describe active projects including streetscape and safety programs",
+  "status": "likely",
+  "source": "Known DPW structure",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 32-32",
+    "excerpt": "DPW program pages describe active projects including streetscape and safety programs"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-013",
+  "claim": "DPW communications staff receive repetitive resident inquiries about project status",
+  "status": "likely",
+  "source": "Working session notes inference",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 33-33",
+    "excerpt": "DPW communications staff receive repetitive resident inquiries about project status"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-014",
+  "claim": "Zone-level street cleaning schedules exist internally at DPW",
+  "status": "likely",
+  "source": "Standard operational practice",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 34-34",
+    "excerpt": "Zone-level street cleaning schedules exist internally at DPW"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-020",
+  "claim": "Snow removal routes are assigned by geographic zone",
+  "status": "unverified",
+  "source": "Working session inference",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 42-42",
+    "excerpt": "Snow removal routes are assigned by geographic zone"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-021",
+  "claim": "GPS data schema will include route_id, completion_pct, and timestamp fields",
+  "status": "unverified",
+  "source": "Synthetic schema design assumption",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 43-43",
+    "excerpt": "GPS data schema will include route_id, completion_pct, and timestamp fields"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-022",
+  "claim": "Project descriptions in GeoHub contain enough fields to build a useful project card",
+  "status": "unverified",
+  "source": "Assumed from other city examples",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 44-44",
+    "excerpt": "Project descriptions in GeoHub contain enough fields to build a useful project card"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-023",
+  "claim": "VDOT maintains a separate project tracker for state-maintained roads in Richmond",
+  "status": "unverified",
+  "source": "Known VDOT practice",
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 45-45",
+    "excerpt": "VDOT maintains a separate project tracker for state-maintained roads in Richmond"
+   }
+  ]
+ },
+ {
+  "id": "ev:E-030",
+  "claim": "MISSING: Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects",
+  "status": "missing",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 53-53",
+    "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
+   }
+  ],
+  "notes": "Impact: Blocks Shape A and B build. How to get it: Browse GeoHub; use \"Explore Data\" on each candidate layer"
+ },
+ {
+  "id": "ev:E-031",
+  "claim": "MISSING: Current GPS system vendor and data schema being installed",
+  "status": "missing",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 54-54",
+    "excerpt": "Current GPS system vendor and data schema being installed"
+   }
+  ],
+  "notes": "Impact: Blocks Fleet MVP schema accuracy. How to get it: Request from DPW IT or Al Wiggins"
+ },
+ {
+  "id": "ev:E-032",
+  "claim": "MISSING: Zone boundary data for snow removal and street cleaning",
+  "status": "missing",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 55-55",
+    "excerpt": "Zone boundary data for snow removal and street cleaning"
+   }
+  ],
+  "notes": "Impact: Blocks Shape D build. How to get it: Request from DPW; or use council districts as proxy"
+ },
+ {
+  "id": "ev:E-033",
+  "claim": "MISSING: Historical street cleaning schedules by zone or district",
+  "status": "missing",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 56-56",
+    "excerpt": "Historical street cleaning schedules by zone or district"
+   }
+  ],
+  "notes": "Impact: Blocks schedule-based display. How to get it: Request from DPW; may exist as PDF"
+ },
+ {
+  "id": "ev:E-034",
+  "claim": "MISSING: Sample or anonymized 311 request data related to construction or road issues",
+  "status": "missing",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 57-57",
+    "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
+   }
+  ],
+  "notes": "Impact: Affects opportunity mapping. How to get it: Check Open Data Portal"
+ },
+ {
+  "id": "ev:D-001",
+  "claim": "DATASET: Richmond GeoHub transportation layers",
+  "status": "dataset",
+  "source": "City GIS",
+  "url": "https://richmond-geo-hub-cor.hub.arcgis.com/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 65-65",
+    "excerpt": "Richmond GeoHub transportation layers"
+   }
+  ],
+  "notes": "Verify layer names before building"
+ },
+ {
+  "id": "ev:D-002",
+  "claim": "DATASET: Richmond Open Data Portal",
+  "status": "dataset",
+  "source": "City of Richmond",
+  "url": "https://data.richmondgov.com/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 66-66",
+    "excerpt": "Richmond Open Data Portal"
+   }
+  ],
+  "notes": "Browse for DPW-adjacent datasets"
+ },
+ {
+  "id": "ev:D-003",
+  "claim": "DATASET: VDOT project tracker",
+  "status": "dataset",
+  "source": "Virginia DOT",
+  "url": "https://www.virginiadot.org/projects/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 67-67",
+    "excerpt": "VDOT project tracker"
+   }
+  ],
+  "notes": "State-maintained roads only"
+ },
+ {
+  "id": "ev:D-004",
+  "claim": "DATASET: GRTC GTFS",
+  "status": "dataset",
+  "source": "GRTC",
+  "url": "https://ridegrtc.com/",
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 68-68",
+    "excerpt": "GRTC GTFS"
+   }
+  ],
+  "notes": "Transit stops and routes"
+ },
+ {
+  "id": "ev:R-001",
+  "claim": "RISK: GeoHub layers are not public or field names differ from assumed",
+  "status": "risk",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 76-76",
+    "excerpt": "GeoHub layers are not public or field names differ from assumed"
+   }
+  ],
+  "notes": "Severity: High. Mitigation: Verify before building; have static fallback"
+ },
+ {
+  "id": "ev:R-002",
+  "claim": "RISK: Fleet tool implies live GPS when none exists",
+  "status": "risk",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 77-77",
+    "excerpt": "Fleet tool implies live GPS when none exists"
+   }
+  ],
+  "notes": "Severity: High. Mitigation: Label synthetic data clearly everywhere; address in demo"
+ },
+ {
+  "id": "ev:R-003",
+  "claim": "RISK: Project timeline claims are inaccurate",
+  "status": "risk",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 78-78",
+    "excerpt": "Project timeline claims are inaccurate"
+   }
+  ],
+  "notes": "Severity: Medium. Mitigation: Show \"last updated\" timestamp; link to official source"
+ },
+ {
+  "id": "ev:R-004",
+  "claim": "RISK: Plain-language AI translations contain errors",
+  "status": "risk",
+  "source": null,
+  "url": null,
+  "repo": "pillar-thriving-built-environment",
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 79-79",
+    "excerpt": "Plain-language AI translations contain errors"
+   }
+  ],
+  "notes": "Severity: Medium. Mitigation: Show original alongside; label as AI-generated; review sample translations"
+ }
+]

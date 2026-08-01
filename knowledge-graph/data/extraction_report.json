@@ -1,0 +1,72 @@
+{
+ "generatedAt": "2026-08-01T18:28:47.731Z",
+ "repo": "pillar-thriving-built-environment",
+ "filesExamined": [
+  "00_core/00_pillar_overview.md",
+  "01_problem_space/01_bluesky_problem_statements.md",
+  "01_problem_space/02_targeted_problem_statements.md",
+  "02_data/source_inventory.csv",
+  "README.md",
+  "evidence_log.md",
+  "research/93_missing_information_gaps.md",
+  "research/B3_users_dpw_comms.md",
+  "research/B5_users_accessibility.md",
+  "research/COR_CIP_Dashboard_projects.csv",
+  "research/D3_data_grant_documentation.md"
+ ],
+ "provenanceVerification": {
+  "exact": 190,
+  "moved": 0,
+  "unchecked": 2,
+  "missing": 0
+ },
+ "warnings": [],
+ "metrics": {
+  "totalNodes": 280,
+  "totalEdges": 539,
+  "financialFlows": 131,
+  "financialEdges": 132,
+  "totalDocumentedFundingUSD": 982322153,
+  "totalProposedFundingUSD": 0,
+  "totalDisbursedUSDEstimate": 78468766,
+  "disbursedEstimateNote": "Estimate: completed-phase CIP projects assumed fully spent; the corpus has no expenditure ledger.",
+  "flowsWithUnknownDestination": 1,
+  "flowsWithUnknownSource": 1,
+  "fundingWithUnknownDestinationUSD": 0,
+  "intendedBeneficiaryNodes": 6,
+  "needsTotal": 7,
+  "needsWithNoFunding": [
+   "n:need:equitable-access",
+   "n:need:fall-line-trail-funding-gap",
+   "n:need:find-project-info",
+   "n:need:plain-language",
+   "n:need:resident-service-timing",
+   "n:need:staff-inquiry-deflection",
+   "n:need:supervisor-route-visibility"
+  ],
+  "fundingFlowsWithNoDocumentedOutcome": 131,
+  "outcomeNote": "No outcome measurements are documented anywhere in the corpus (see q:outcome-measurements).",
+  "claimsTotal": 6,
+  "claimsLackingPrimaryEvidence": [
+   "n:claim:cip-quarterly",
+   "n:claim:d3-report-mismatch",
+   "n:claim:snow-priority-structure",
+   "n:claim:sweeping-neighborhood-calendar",
+   "n:claim:sweeping-paused-2025"
+  ],
+  "inferredRelationships": 3,
+  "disputedRelationships": 2,
+  "reportedButUnverifiedRelationships": 8,
+  "brokenReferences": 0,
+  "duplicateCandidates": 0,
+  "reviewQueueSize": 4,
+  "evidenceRecords": 26,
+  "provenanceCoverage": 100,
+  "provenanceVerification": {
+   "exact": 190,
+   "moved": 0,
+   "unchecked": 2,
+   "missing": 0
+  }
+ }
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "f:cip-budget-sources",
+    "label": "Unknown sources → Richmond CIP capital budget",
+    "repo": "pillar-thriving-built-environment",
+    "purpose": "Upstream side of all CIP project funding. The corpus documents 125 funded projects but never documents where the capital comes from (city bonds, state programs, federal grants).",
+    "stages": [
+      {
+        "from": "n:unknown:cip-funding-sources",
+        "to": "n:fund:richmond-cip-budget",
+        "mechanism": "unknown",
+        "amountUSD": null,
+        "evidenceStatus": "unknown",
+        "note": "Explicit unknown: no appropriation, bond issue, or grant is documented as the source of the CIP pool."
+      }
+    ],
+    "amountUSD": null,
+    "currency": "USD",
+    "status": "unknown",
+    "fundingPeriod": null,
+    "mechanism": "unknown",
+    "restricted": null,
+    "restrictions": null,
+    "evidenceStatus": "unknown",
+    "confidence": "high",
+    "provenance": [{
+      "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+      "sourceLocation": "lines 24-24",
+      "excerpt": "125 funded projects",
+      "note": "The corpus states the projects are funded; the sources are undocumented."
+    }],
+    "rollup": {
+      "originatingUSD": null,
+      "committedUSD": null,
+      "disbursedUSD": null,
+      "reachingFinalUSD": null,
+      "pctReachingFinal": null,
+      "isEstimate": false,
+      "methodology": "Nothing calculable: no upstream amounts are documented."
+    },
+    "unknowns": [
+      "Mix of city GO bonds, state programs, and federal grants behind the CIP budget.",
+      "Whether any of the 125 projects are backed by RAISE/TIGER or Smart Scale awards."
+    ]
+  },
+  {
+    "id": "f:federal-grants-city",
+    "label": "U.S. federal government → RAISE/TIGER grants → City of Richmond",
+    "repo": "pillar-thriving-built-environment",
+    "purpose": "Federal discretionary transportation grants that the source inventory says can be looked up on USASpending.gov for Richmond project context. No specific award is documented in the corpus.",
+    "stages": [
+      {
+        "from": "n:agency:us-federal-government",
+        "to": "n:grant:federal-transportation-grants",
+        "mechanism": "federal discretionary grant program",
+        "amountUSD": null,
+        "evidenceStatus": "reported_but_unverified"
+      },
+      {
+        "from": "n:grant:federal-transportation-grants",
+        "to": "n:agency:city-of-richmond",
+        "mechanism": "grant award",
+        "amountUSD": null,
+        "evidenceStatus": "reported_but_unverified",
+        "note": "Existence of actual Richmond awards must be verified on USASpending.gov."
+      }
+    ],
+    "amountUSD": null,
+    "currency": "USD",
+    "status": "unknown",
+    "fundingPeriod": null,
+    "mechanism": "federal discretionary grant",
+    "restricted": true,
+    "restrictions": "Federal grant terms; not detailed in the corpus.",
+    "evidenceStatus": "reported_but_unverified",
+    "confidence": "low",
+    "provenance": [{
+      "sourceDoc": "02_data/source_inventory.csv",
+      "sourceLocation": "row id=S006",
+      "excerpt": "Richmond RAISE/TIGER grant data for project context"
+    }],
+    "rollup": {
+      "originatingUSD": null,
+      "committedUSD": null,
+      "disbursedUSD": null,
+      "reachingFinalUSD": null,
+      "pctReachingFinal": null,
+      "isEstimate": false,
+      "methodology": "Nothing calculable: no award, amount, or recipient is documented."
+    },
+    "unknowns": [
+      "Which RAISE/TIGER awards, if any, the City of Richmond has received.",
+      "Award amounts, periods, and which CIP projects they fund."
+    ]
+  },
+  {
+    "id": "f:d3-harvard-grant",
+    "label": "D3 Institute → Harvard faculty (~$50,000/award) [disputed relevance]",
+    "repo": "pillar-thriving-built-environment",
+    "purpose": "Grant program described in research/D3_data_grant_documentation.md. The file occupies the corpus slot for Richmond grant documentation but describes an unrelated Harvard AI-research program — retained here as a documented data-quality anomaly, visually flagged as disputed.",
+    "stages": [
+      {
+        "from": "n:org:d3-institute",
+        "to": "n:group:harvard-faculty",
+        "mechanism": "research grant (per award)",
+        "amountUSD": 50000,
+        "evidenceStatus": "disputed",
+        "note": "Approximately $50,000 for one year per awardee; direct research costs only."
+      }
+    ],
+    "amountUSD": 50000,
+    "currency": "USD",
+    "status": "unknown",
+    "fundingPeriod": "one year; funds must be expended by December 31, 2026",
+    "mechanism": "research grant",
+    "restricted": true,
+    "restrictions": "Direct research costs only; indirect, overhead, and F&A costs, fund fees, and subawards are ineligible; quarterly cohort meetings and midterm/final reports required.",
+    "evidenceStatus": "disputed",
+    "confidence": "high",
+    "provenance": [{
+      "sourceDoc": "research/D3_data_grant_documentation.md",
+      "sourceLocation": "document body",
+      "excerpt": "Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty"
+    }],
+    "rollup": {
+      "originatingUSD": 50000,
+      "committedUSD": null,
+      "disbursedUSD": null,
+      "reachingFinalUSD": null,
+      "pctReachingFinal": null,
+      "isEstimate": true,
+      "methodology": "Per-award figure quoted from the document; number of awards and disbursements unknown. Flow is irrelevant to the Richmond problem space (disputed)."
+    },
+    "unknowns": [
+      "Why this document is in the Richmond corpus (probable research-generation error).",
+      "Where the actual Richmond grant documentation intended for slot D3 can be found."
+    ]
+  }
+]

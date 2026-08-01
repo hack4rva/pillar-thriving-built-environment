@@ -1,0 +1,338 @@
+[
+ {
+  "id": "q:e-030",
+  "question": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:e-030"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 53-53",
+    "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
+   }
+  ]
+ },
+ {
+  "id": "q:e-031",
+  "question": "Current GPS system vendor and data schema being installed",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:e-031"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 54-54",
+    "excerpt": "Current GPS system vendor and data schema being installed"
+   }
+  ]
+ },
+ {
+  "id": "q:e-032",
+  "question": "Zone boundary data for snow removal and street cleaning",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:e-032"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 55-55",
+    "excerpt": "Zone boundary data for snow removal and street cleaning"
+   }
+  ]
+ },
+ {
+  "id": "q:e-033",
+  "question": "Historical street cleaning schedules by zone or district",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:e-033"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 56-56",
+    "excerpt": "Historical street cleaning schedules by zone or district"
+   }
+  ]
+ },
+ {
+  "id": "q:e-034",
+  "question": "Sample or anonymized 311 request data related to construction or road issues",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:e-034"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "evidence_log.md",
+    "sourceLocation": "lines 57-57",
+    "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
+   }
+  ]
+ },
+ {
+  "id": "q:richmond-300-mapping",
+  "question": "Which Richmond 300 goals does each CIP project implement? Goal tags have not been mapped to individual projects.",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:richmond-300-mapping",
+   "n:policy:richmond-300",
+   "n:program:cip"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 59-59",
+    "excerpt": "Richmond 300 goal tags have not been mapped to individual CIP projects"
+   }
+  ]
+ },
+ {
+  "id": "q:device-usage",
+  "question": "What is the device usage and digital literacy range of residents in affected neighborhoods?",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:device-usage",
+   "n:population:richmond-residents"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 61-61",
+    "excerpt": "Resident device usage and digital literacy range in affected neighborhoods are undocumented"
+   }
+  ]
+ },
+ {
+  "id": "q:p1p2-geometries",
+  "question": "What are the GIS line geometries for P1 and P2 snow routes? Only street name lists exist in the WMP PDF.",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:p1p2-geometries",
+   "n:dataset:wmp-2025-2026-pdf"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 124-124",
+    "excerpt": "P1 and P2 route geometries (GIS lines) have not been extracted from the WMP"
+   }
+  ]
+ },
+ {
+  "id": "q:cleaning-zone-data",
+  "question": "Where are the street cleaning zone boundaries and structured schedule data?",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:cleaning-zone-data",
+   "n:service:street-cleaning"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 125-125",
+    "excerpt": "Street cleaning zone boundaries and schedule data are not yet in the repository"
+   }
+  ]
+ },
+ {
+  "id": "q:gps-schema",
+  "question": "What data schema will the future DPW GPS system produce?",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:gps-schema",
+   "n:dataset:dpw-gps-fleet-data"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 126-126",
+    "excerpt": "GPS data schema that the future system will produce has not been documented"
+   }
+  ]
+ },
+ {
+  "id": "q:inquiry-volume",
+  "question": "What is the exact monthly volume of calls/emails/311 requests about project status? Needed to size MVP impact.",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:inquiry-volume",
+   "n:service:rva311"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/93_missing_information_gaps.md",
+    "sourceLocation": "Gap-by-Gap Assessment table, gap 7",
+    "excerpt": "Exact monthly calls/emails/311 for project status"
+   }
+  ]
+ },
+ {
+  "id": "q:champion-commitment",
+  "question": "Which DPW sponsor will commit to a post-hackathon review cadence?",
+  "category": "governance",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:champion-commitment",
+   "n:agency:richmond-dpw"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/93_missing_information_gaps.md",
+    "sourceLocation": "Gap-by-Gap Assessment table, gap 8",
+    "excerpt": "Specific willing sponsor and review cadence"
+   }
+  ]
+ },
+ {
+  "id": "q:plain-language-standard",
+  "question": "Does the City have an official plain-language vocabulary standard for public works communication?",
+  "category": "missing-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:plain-language-standard",
+   "n:need:plain-language"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/93_missing_information_gaps.md",
+    "sourceLocation": "Gap-by-Gap Assessment table, gap 6",
+    "excerpt": "Official vocabulary replacements"
+   }
+  ]
+ },
+ {
+  "id": "q:arpa-portion",
+  "question": "What dollar amount of the $30,513,000 Southside Community Center cost was covered by ARPA?",
+  "category": "missing-financial-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:arpa-portion",
+   "n:legislation:arpa"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+    "sourceLocation": "row OBJECTID=32",
+    "excerpt": "This project is partially funded through the American Rescue Plan Act (ARPA)"
+   }
+  ]
+ },
+ {
+  "id": "q:cip-funding-mix",
+  "question": "What mix of sources (city bonds, state, federal) funds the CIP budget and each individual project?",
+  "category": "missing-financial-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:cip-funding-mix",
+   "n:fund:richmond-cip-budget"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceLocation": "lines 24-24",
+    "excerpt": "125 funded projects"
+   }
+  ]
+ },
+ {
+  "id": "q:fall-line-gap-size",
+  "question": "How large is the Fall Line Trail funding gap, and who will close it?",
+  "category": "missing-financial-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:fall-line-gap-size",
+   "n:need:fall-line-trail-funding-gap"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+    "sourceLocation": "row OBJECTID=45",
+    "excerpt": "to address the current funding gap while design proceeds"
+   }
+  ]
+ },
+ {
+  "id": "q:raise-tiger-details",
+  "question": "Which RAISE/TIGER awards has the City of Richmond actually received (verify on USASpending.gov)?",
+  "category": "missing-financial-data",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:raise-tiger-details",
+   "n:grant:federal-transportation-grants"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "02_data/source_inventory.csv",
+    "sourceLocation": "row id=S006",
+    "excerpt": "Richmond RAISE/TIGER grant data for project context"
+   }
+  ]
+ },
+ {
+  "id": "q:daniel-klein-role",
+  "question": "What is Daniel Klein's role and organizational affiliation? He is listed as a champion without an affiliation.",
+  "category": "ambiguous-role",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:daniel-klein-role",
+   "n:person:daniel-klein"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "README.md",
+    "sourceLocation": "lines 340-340",
+    "excerpt": "Al Wiggins (DCAO Operations), Daniel Klein"
+   }
+  ]
+ },
+ {
+  "id": "q:outcome-measurements",
+  "question": "No outcome measurements exist for any documented funding flow (e.g., inquiry deflection, service satisfaction). Which outcomes will be measured, by whom?",
+  "category": "missing-outcomes",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:outcome-measurements",
+   "n:fund:richmond-cip-budget"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/93_missing_information_gaps.md",
+    "sourceLocation": "Demand and Impact Estimation section",
+    "excerpt": "Lightweight instrumentation can size impact in weeks"
+   }
+  ]
+ },
+ {
+  "id": "q:d3-report-provenance",
+  "question": "Where is the intended Richmond grant-documentation research for corpus slot D3? The current file covers an unrelated Harvard program.",
+  "category": "data-quality",
+  "repo": "pillar-thriving-built-environment",
+  "relatedNodeIds": [
+   "n:question:d3-report-provenance",
+   "n:claim:d3-report-mismatch"
+  ],
+  "provenance": [
+   {
+    "sourceDoc": "research/D3_data_grant_documentation.md",
+    "sourceLocation": "document body",
+    "excerpt": "Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty"
+   }
+  ]
+ }
+]
