@@ -118,6 +118,9 @@ export interface UnansweredQuestion {
   repo: string;
   relatedNodeIds?: string[];
   provenance: Provenance[];
+  /** Set by external research; absent means the question is still open. */
+  status?: 'open' | 'partially_answered' | 'answered';
+  answer?: string;
 }
 
 export interface ReviewItem {

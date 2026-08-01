@@ -166,7 +166,11 @@ check('data-quality report renders', /provenance|funding|unknown/i.test(quality)
 await shot('10-data-quality.png');
 await page.click('#drawer-tabs button[data-tab="questions"]');
 await settle(300);
-check('open questions render', /\?/.test((await page.textContent('#drawer-content')) ?? ''));
+const questionsText = (await page.textContent('#drawer-content')) ?? '';
+check('open questions render', /\?/.test(questionsText));
+check('externally researched answers shown', /answered/i.test(questionsText) && /\$16,000,000/.test(questionsText));
+check('answered/partial badges present', (await page.locator('#drawer-content .badge').count()) >= 20);
+await shot('10b-questions-answered.png');
 await page.click('#drawer-tabs button[data-tab="review"]');
 await settle(300);
 check('review queue renders', ((await page.textContent('#drawer-content')) ?? '').length > 50);
