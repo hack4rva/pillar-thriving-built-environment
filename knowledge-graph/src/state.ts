@@ -21,7 +21,9 @@ export class AppState {
   private listeners = new Set<Listener>();
 
   constructor(public data: Dataset) {
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const reducedMotion = typeof window !== 'undefined' && typeof window.matchMedia === 'function'
+      ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      : false;
     this.animateFlows = !reducedMotion;
     this.filters = {
       repos: new Set(data.graph.meta.repos),

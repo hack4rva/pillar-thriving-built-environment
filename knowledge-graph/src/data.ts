@@ -18,6 +18,23 @@ export class Dataset {
   inEdges = new Map<string, GraphEdge[]>();
   flowsByNode = new Map<string, FinancialFlow[]>();
 
+  /** Build a Dataset from in-memory graph data (used by tests and fixtures). */
+  static fromGraph(graph: GraphData, extras?: {
+    evidence?: EvidenceRecord[]; questions?: UnansweredQuestion[];
+    reviewQueue?: ReviewItem[]; report?: ExtractionReport;
+  }): Dataset {
+    const d = new Dataset();
+    d.graph = graph;
+    d.evidence = extras?.evidence ?? [];
+    d.questions = extras?.questions ?? [];
+    d.reviewQueue = extras?.reviewQueue ?? [];
+    d.report = extras?.report ?? {
+      generatedAt: '', repo: '', filesExamined: [], provenanceVerification: {}, warnings: [], metrics: {},
+    };
+    d.buildIndexes();
+    return d;
+  }
+
   async load(): Promise<void> {
     const fetchJson = async (name: string) => {
       const res = await fetch(`${import.meta.env.BASE_URL}data/${name}`);

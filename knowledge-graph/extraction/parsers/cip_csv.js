@@ -257,13 +257,16 @@ export function parseCipCsv() {
             evidenceStatus: 'documented',
             note: `CIP dashboard: "This project is partially funded through the American Rescue Plan Act (ARPA)." Total project cost ${row.Cost || 'unknown'}; ARPA portion undocumented.`,
           },
-          {
+          // Only the Southside Community Center has an inferable final beneficiary
+          // (Southside residents, from the project name). Other ARPA projects end
+          // at the project node: the corpus does not identify their beneficiaries.
+          ...(pid === 'n:project:southside-community-center' ? [{
             from: pid, to: 'n:region:southside-richmond',
             mechanism: 'community facility service delivery',
             amountUSD: null,
             evidenceStatus: 'inferred',
             note: 'The Southside Community Center serves Southside residents (inferred from project name/description).',
-          },
+          }] : []),
         ],
         amountUSD: null,
         currency: 'USD',
