@@ -13,11 +13,23 @@ interface Coords { x: number; y: number; z: number }
 const LABEL_METRIC_THRESHOLD = 6.4;
 const LARGE_GRAPH_THRESHOLD = 2500;
 
+/** Fog of War tiers: how solidly a graph element is known. */
+type FogTier = 'lit' | 'haze' | 'disputed' | 'void';
+
+function fogTier(evidenceStatus: string, nodeType?: string): FogTier {
+  if (nodeType === 'UnknownEntity' || evidenceStatus === 'unknown') return 'void';
+  if (evidenceStatus === 'disputed') return 'disputed';
+  if (evidenceStatus === 'documented' || evidenceStatus === 'externally_verified') return 'lit';
+  return 'haze'; // proposed / reported_but_unverified / inferred / hypothetical
+}
+
 export class Graph3D {
   private fg: ForceGraph3DInstance<SimNode, SimLink>;
   private simNodes = new Map<string, SimNode>();
   private lastKey = '';
   private frames = 0;
+  /** Nodes an open research question is attached to (glowing markers in fog mode). */
+  private questionNodeIds: Set<string> | null = null;
   fps = 0;
   renderedNodes = 0;
   renderedLinks = 0;
@@ -38,7 +50,7 @@ export class Graph3D {
       .nodeThreeObject((n) => this.buildNodeObject(n))
       .nodeLabel((n) => this.nodeTooltip(n.node))
       .linkLabel((l) => this.linkTooltip(l.edge))
-      .linkColor((l) => EVIDENCE_EDGE_STYLES[l.edge.evidenceStatus].colorOverride ?? edgeBaseColor(l.edge))
+      .linkColor((l) => this.linkColorFor(l.edge))
       .linkOpacity(0.55)
       .linkWidth((l) => this.isHighlighted(l) ? edgeWidth(l.edge) + 1.2 : edgeWidth(l.edge))
       // three-forcegraph has no native dashed lines: render non-solid evidence
@@ -80,14 +92,34 @@ export class Graph3D {
     return this.state.highlightedEdgeIds.has(l.edge.id);
   }
 
+  private hasOpenQuestion(nodeId: string): boolean {
+    if (!this.questionNodeIds) {
+      this.questionNodeIds = new Set(
+        this.state.data.questions.flatMap((q) => q.relatedNodeIds ?? []));
+    }
+    return this.questionNodeIds.has(nodeId);
+  }
+
+  private linkColorFor(edge: GraphEdge): string {
+    const normal = EVIDENCE_EDGE_STYLES[edge.evidenceStatus].colorOverride ?? edgeBaseColor(edge);
+    if (this.state.mode !== 'fog') return normal;
+    switch (fogTier(edge.evidenceStatus)) {
+      case 'lit': return normal;
+      case 'disputed': return '#8a3030';
+      default: return '#222b3c'; // haze/void: recede into the fog
+    }
+  }
+
   /** Custom dashed THREE.Line for non-solid evidence statuses; false = default solid link. */
   private buildDashedLink(l: SimLink): THREE.Object3D | false {
     const style = EVIDENCE_EDGE_STYLES[l.edge.evidenceStatus];
     if (!style.dash) return false;
+    const fogHaze = this.state.mode === 'fog' && fogTier(l.edge.evidenceStatus) !== 'lit';
     const material = new THREE.LineDashedMaterial({
-      color: new THREE.Color(style.colorOverride ?? edgeBaseColor(l.edge)),
+      color: new THREE.Color(this.linkColorFor(l.edge)),
       transparent: true,
-      opacity: this.state.highlightedEdgeIds.size && !this.isHighlighted(l) ? 0.08 : style.opacity,
+      opacity: this.state.highlightedEdgeIds.size && !this.isHighlighted(l) ? 0.08
+        : fogHaze ? 0.2 : style.opacity,
       dashSize: style.dash[0],
       gapSize: style.dash[1],
     });
@@ -123,14 +155,52 @@ export class Graph3D {
     const size = metric;
     const dim = this.nodeDim(node);
     const selected = this.state.selection.kind === 'node' && this.state.selection.id === node.id;
+    const fog = this.state.mode === 'fog';
+    const tier = fogTier(node.evidenceStatus, node.type);
 
-    const color = new THREE.Color(style.color);
-    const opacity = dim ? 0.13 : (node.evidenceStatus === 'disputed' ? 0.85 : 0.95);
+    let color = new THREE.Color(style.color);
+    let opacity = dim ? 0.13 : (node.evidenceStatus === 'disputed' ? 0.85 : 0.95);
+    let emissive = selected ? new THREE.Color('#ffffff')
+      : (node.evidenceStatus === 'disputed' ? new THREE.Color('#5a1717') : new THREE.Color('#000000'));
+    let emissiveIntensity = selected ? 0.45 : 0.9;
+
+    if (fog && !selected && !dim) {
+      // Documented knowledge glows; everything else recedes into the dark.
+      switch (tier) {
+        case 'lit':
+          emissive = color.clone();
+          emissiveIntensity = 0.5;
+          break;
+        case 'haze':
+          color = new THREE.Color('#39445a');
+          opacity = 0.3;
+          break;
+        case 'disputed':
+          color = new THREE.Color('#4a1d1d');
+          emissive = new THREE.Color('#e06666');
+          emissiveIntensity = 0.35;
+          opacity = 0.8;
+          break;
+        case 'void':
+          color = new THREE.Color('#05070d');
+          emissive = new THREE.Color('#2b1a4d');
+          emissiveIntensity = 1.0;
+          opacity = 0.95;
+          break;
+      }
+    }
+    if (fog && selected && tier === 'void' && !dim) {
+      // Selection must not un-void the void: stay dark, glow purple.
+      color = new THREE.Color('#0a0d18');
+      emissive = new THREE.Color('#8a6bff');
+      emissiveIntensity = 0.9;
+      opacity = 0.98;
+    }
+
     const material = new THREE.MeshLambertMaterial({
       color, transparent: true, opacity,
-      wireframe: style.shape === 'wiresphere',
-      emissive: selected ? new THREE.Color('#ffffff') : (node.evidenceStatus === 'disputed' ? new THREE.Color('#5a1717') : new THREE.Color('#000000')),
-      emissiveIntensity: selected ? 0.45 : 0.9,
+      wireframe: style.shape === 'wiresphere' && !(fog && tier === 'void'),
+      emissive, emissiveIntensity,
     });
 
     let geometry: THREE.BufferGeometry;
@@ -149,11 +219,36 @@ export class Graph3D {
     const group = new THREE.Group();
     group.add(mesh);
 
+    if (fog && tier === 'void' && !dim) {
+      // Dark halo shell: money emerges from (or vanishes into) this void.
+      const halo = new THREE.Mesh(
+        new THREE.SphereGeometry(size * 2.2, 12, 10),
+        new THREE.MeshBasicMaterial({
+          color: new THREE.Color('#1a0f33'), transparent: true, opacity: 0.35,
+          side: THREE.BackSide,
+        }));
+      group.add(halo);
+    }
+
+    const question = fog && this.hasOpenQuestion(node.id) && !dim;
+    if (question) {
+      const q = new SpriteText('?');
+      q.color = '#ffd76b';
+      q.fontWeight = 'bold';
+      q.strokeColor = '#3d2e00';
+      q.strokeWidth = 0.5;
+      q.textHeight = Math.max(5.5, size * 1.1);
+      q.position.set(0, size + (tier === 'void' ? size * 1.6 : 2.5) + 3.5, 0);
+      group.add(q);
+    }
+
     const showLabel = !dim && (
-      this.state.showAllLabels || selected ||
-      this.state.highlightedNodeIds.has(node.id) ||
-      metric >= LABEL_METRIC_THRESHOLD ||
-      ['Problem', 'Fund', 'UnknownEntity'].includes(node.type)
+      fog
+        ? (selected || tier === 'void' || tier === 'disputed' || this.state.highlightedNodeIds.has(node.id))
+        : (this.state.showAllLabels || selected ||
+           this.state.highlightedNodeIds.has(node.id) ||
+           metric >= LABEL_METRIC_THRESHOLD ||
+           ['Problem', 'Fund', 'UnknownEntity'].includes(node.type))
     );
     if (showLabel) {
       const label = node.label.length > 42 ? node.label.slice(0, 40) + '…' : node.label;
@@ -218,6 +313,10 @@ export class Graph3D {
       .linkWidth(this.fg.linkWidth())
       .linkColor(this.fg.linkColor())
       .linkThreeObject(this.fg.linkThreeObject());
+
+    // Fog of War atmosphere: deeper black, dimmer connective tissue.
+    const fog = this.state.mode === 'fog';
+    this.fg.backgroundColor(fog ? '#04060b' : '#10141c').linkOpacity(fog ? 0.35 : 0.55);
 
     const animate = this.state.animateFlows;
     const highlights = this.state.highlightedEdgeIds;

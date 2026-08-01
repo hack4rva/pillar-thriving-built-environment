@@ -16,6 +16,8 @@
         <button role="tab" data-mode="beneficiary" aria-selected="false">Beneficiary</button>
         <button role="tab" data-mode="problem" aria-selected="false">Problem Space</button>
         <button role="tab" data-mode="timeline" aria-selected="false">Timeline</button>
+        <button role="tab" data-mode="fog" aria-selected="false">Fog of War</button>
+        <button role="tab" data-mode="needs" aria-selected="false">Needs vs Money</button>
       </nav>
       <div id="toolbar-actions">
         <input id="search" type="search" placeholder="Search entities, programs, funds…"
@@ -38,6 +40,7 @@
     <main id="graph-container" aria-label="3D knowledge graph">
       <div id="graph3d"></div>
       <div id="graph2d" hidden></div>
+      <div id="needsboard" hidden aria-label="Needs vs Money board"></div>
       <div id="graph-hint"></div>
       <div id="timeline-bar" hidden>
         <button id="timeline-play" aria-label="Play or pause timeline">▶</button>
