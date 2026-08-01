@@ -1,0 +1,59 @@
+[
+  {
+    "id": "r:daniel-klein-affiliation",
+    "itemType": "node",
+    "proposed": "n:person:daniel-klein",
+    "sourceExcerpt": "Departmental champion: Al Wiggins (DCAO Operations), Daniel Klein",
+    "sourceLocation": "README.md lines 340-340",
+    "rationale": "Daniel Klein is listed after the departmental champion with no affiliation. He may be a second champion in DCAO Operations, or belong to another department.",
+    "confidence": "low",
+    "alternatives": [
+      "Klein is DCAO Operations staff (edge ASSOCIATED_WITH dcao-operations, current modeling)",
+      "Klein represents a different City department",
+      "Klein is a hackathon organizer, not City staff"
+    ],
+    "decisionRequested": "Confirm Daniel Klein's role and affiliation with the pillar committee."
+  },
+  {
+    "id": "r:d3-report-anomaly",
+    "itemType": "anomaly",
+    "proposed": "research/D3_data_grant_documentation.md",
+    "sourceExcerpt": "The Digital Data Design (D3) Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty",
+    "sourceLocation": "research/D3_data_grant_documentation.md, document body",
+    "rationale": "The corpus index describes D3 as Richmond grant documentation, but the file content is a Harvard AI-research grant guide. Likely a research-generation error (prompt collision between corpus slot 'D3' and the Harvard 'D³ Institute'). Modeled as a disputed flow so the anomaly stays visible.",
+    "confidence": "high",
+    "alternatives": [
+      "Remove the flow from the graph entirely",
+      "Regenerate the D3 report with the intended Richmond grant-documentation prompt"
+    ],
+    "decisionRequested": "Decide whether to regenerate the D3 report; keep or drop the disputed flow."
+  },
+  {
+    "id": "r:cvta-funder-question",
+    "itemType": "edge",
+    "proposed": "n:agency:cvta ADDRESSES n:need:fall-line-trail-funding-gap",
+    "sourceExcerpt": "coordination is underway with VDOT, DPU Utilities, and CVTA to address the current funding gap while design proceeds",
+    "sourceLocation": "research/COR_CIP_Dashboard_projects.csv row OBJECTID=45",
+    "rationale": "CVTA is a regional transportation funding authority; 'coordination to address the funding gap' plausibly means CVTA money, but the corpus does not say so. A FUNDS edge was deliberately NOT created.",
+    "confidence": "medium",
+    "alternatives": [
+      "Add CVTA FUNDS fall-line-trail as inferred once regional funding is confirmed",
+      "Keep coordination-only modeling (current)"
+    ],
+    "decisionRequested": "Verify whether CVTA is contributing funds to the Fall Line Trail segment."
+  },
+  {
+    "id": "r:city-gis-vs-dpw",
+    "itemType": "node",
+    "proposed": "n:agency:richmond-dpw (alias 'City of Richmond GIS')",
+    "sourceExcerpt": "S001 Richmond GeoHub owner: City of Richmond GIS; 02_targeted: 'CIP Dashboard export provided by DPW GIS Team'",
+    "sourceLocation": "02_data/source_inventory.csv row id=S001; 01_problem_space/02_targeted_problem_statements.md lines 10-10",
+    "rationale": "The inventory attributes GeoHub to 'City of Richmond GIS' while the problem statement credits the 'DPW GIS Team'. These were merged into the DPW node via alias resolution; they may actually be distinct units (citywide GIS office vs. DPW GIS team).",
+    "confidence": "medium",
+    "alternatives": [
+      "Split into a separate citywide GIS office node",
+      "Keep merged under DPW (current)"
+    ],
+    "decisionRequested": "Confirm whether Richmond's GIS function is a DPW team or a separate citywide office."
+  }
+]

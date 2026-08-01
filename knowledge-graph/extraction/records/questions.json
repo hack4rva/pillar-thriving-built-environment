@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q:richmond-300-mapping",
+    "question": "Which Richmond 300 goals does each CIP project implement? Goal tags have not been mapped to individual projects.",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 59-59",
+        "excerpt": "Richmond 300 goal tags have not been mapped to individual CIP projects"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:policy:richmond-300",
+      "n:program:cip"
+    ]
+  },
+  {
+    "id": "q:device-usage",
+    "question": "What is the device usage and digital literacy range of residents in affected neighborhoods?",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 61-61",
+        "excerpt": "Resident device usage and digital literacy range in affected neighborhoods are undocumented"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:population:richmond-residents"
+    ]
+  },
+  {
+    "id": "q:p1p2-geometries",
+    "question": "What are the GIS line geometries for P1 and P2 snow routes? Only street name lists exist in the WMP PDF.",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 124-124",
+        "excerpt": "P1 and P2 route geometries (GIS lines) have not been extracted from the WMP"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:dataset:wmp-2025-2026-pdf"
+    ]
+  },
+  {
+    "id": "q:cleaning-zone-data",
+    "question": "Where are the street cleaning zone boundaries and structured schedule data?",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 125-125",
+        "excerpt": "Street cleaning zone boundaries and schedule data are not yet in the repository"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:service:street-cleaning"
+    ]
+  },
+  {
+    "id": "q:gps-schema",
+    "question": "What data schema will the future DPW GPS system produce?",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 126-126",
+        "excerpt": "GPS data schema that the future system will produce has not been documented"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:dataset:dpw-gps-fleet-data"
+    ]
+  },
+  {
+    "id": "q:inquiry-volume",
+    "question": "What is the exact monthly volume of calls/emails/311 requests about project status? Needed to size MVP impact.",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Gap-by-Gap Assessment table, gap 7",
+        "excerpt": "Exact monthly calls/emails/311 for project status"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:service:rva311"
+    ]
+  },
+  {
+    "id": "q:champion-commitment",
+    "question": "Which DPW sponsor will commit to a post-hackathon review cadence?",
+    "category": "governance",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Gap-by-Gap Assessment table, gap 8",
+        "excerpt": "Specific willing sponsor and review cadence"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:agency:richmond-dpw"
+    ]
+  },
+  {
+    "id": "q:plain-language-standard",
+    "question": "Does the City have an official plain-language vocabulary standard for public works communication?",
+    "category": "missing-data",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Gap-by-Gap Assessment table, gap 6",
+        "excerpt": "Official vocabulary replacements"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:need:plain-language"
+    ]
+  },
+  {
+    "id": "q:arpa-portion",
+    "question": "What dollar amount of the $30,513,000 Southside Community Center cost was covered by ARPA?",
+    "category": "missing-financial-data",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=32",
+        "excerpt": "This project is partially funded through the American Rescue Plan Act (ARPA)"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:legislation:arpa"
+    ]
+  },
+  {
+    "id": "q:cip-funding-mix",
+    "question": "What mix of sources (city bonds, state, federal) funds the CIP budget and each individual project?",
+    "category": "missing-financial-data",
+    "provenance": [
+      {
+        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceLocation": "lines 24-24",
+        "excerpt": "125 funded projects"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:fund:richmond-cip-budget"
+    ]
+  },
+  {
+    "id": "q:fall-line-gap-size",
+    "question": "How large is the Fall Line Trail funding gap, and who will close it?",
+    "category": "missing-financial-data",
+    "provenance": [
+      {
+        "sourceDoc": "research/COR_CIP_Dashboard_projects.csv",
+        "sourceLocation": "row OBJECTID=45",
+        "excerpt": "to address the current funding gap while design proceeds"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:need:fall-line-trail-funding-gap"
+    ]
+  },
+  {
+    "id": "q:raise-tiger-details",
+    "question": "Which RAISE/TIGER awards has the City of Richmond actually received (verify on USASpending.gov)?",
+    "category": "missing-financial-data",
+    "provenance": [
+      {
+        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceLocation": "row id=S006",
+        "excerpt": "Richmond RAISE/TIGER grant data for project context"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:grant:federal-transportation-grants"
+    ]
+  },
+  {
+    "id": "q:daniel-klein-role",
+    "question": "What is Daniel Klein's role and organizational affiliation? He is listed as a champion without an affiliation.",
+    "category": "ambiguous-role",
+    "provenance": [
+      {
+        "sourceDoc": "README.md",
+        "sourceLocation": "lines 340-340",
+        "excerpt": "Al Wiggins (DCAO Operations), Daniel Klein"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:person:daniel-klein"
+    ]
+  },
+  {
+    "id": "q:outcome-measurements",
+    "question": "No outcome measurements exist for any documented funding flow (e.g., inquiry deflection, service satisfaction). Which outcomes will be measured, by whom?",
+    "category": "missing-outcomes",
+    "provenance": [
+      {
+        "sourceDoc": "research/93_missing_information_gaps.md",
+        "sourceLocation": "Demand and Impact Estimation section",
+        "excerpt": "Lightweight instrumentation can size impact in weeks"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:fund:richmond-cip-budget"
+    ]
+  },
+  {
+    "id": "q:d3-report-provenance",
+    "question": "Where is the intended Richmond grant-documentation research for corpus slot D3? The current file covers an unrelated Harvard program.",
+    "category": "data-quality",
+    "provenance": [
+      {
+        "sourceDoc": "research/D3_data_grant_documentation.md",
+        "sourceLocation": "document body",
+        "excerpt": "Associates Program provides approximately $50,000 in funding for one year to Harvard University faculty"
+      }
+    ],
+    "relatedNodeIds": [
+      "n:claim:d3-report-mismatch"
+    ]
+  }
+]
