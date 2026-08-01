@@ -10,14 +10,22 @@ statuses attach to.
 
 | Status | Assigned when | Current count (elements) |
 |--------|---------------|--------------------------|
-| `documented` | The claim is stated in a repository source file; provenance excerpt verified at build time | 756 |
-| `externally_verified` | Additionally confirmed against an official external source recorded in `evidence_log.md` with a Confirmed status | 6 |
+| `documented` | The claim is stated in a repository source file; provenance excerpt verified at build time | 755 |
+| `externally_verified` | Confirmed against an official external source: either an `evidence_log.md` entry with Confirmed status, or an external-research record with an official government URL (`extraction/records/external.json`, ev:W-\*) | 29 |
 | `proposed` | A solution pattern, plan, or idea — something someone suggests should exist (hackathon MVP patterns, Richmond 300 goals) | 16 |
-| `reported_but_unverified` | A source repeats a claim it did not originate and the corpus contains no confirmation (e.g. RAISE/TIGER awards referenced via USASpending) | 23 |
+| `reported_but_unverified` | A source repeats a claim it did not originate and no official confirmation exists (e.g. Fall Line Trail cost/raised figures from the project organization and news) | 25 |
 | `inferred` | A reasonable inference stated nowhere; the inference reasoning is written into the record's note (e.g. ARPA's federal origin; Southside Community Center serving Southside residents) | 5 |
 | `hypothetical` | A scenario used for illustration only | 0 in the live graph (exercised in test fixtures) |
 | `disputed` | Sources conflict, or a source's relevance is contested (the D3 Harvard-report anomaly) | 5 |
-| `unknown` | Explicit unknowns — `UnknownEntity` endpoints and flows whose facts the corpus does not state | 8 |
+| `unknown` | Explicit unknowns — `UnknownEntity` endpoints and flows whose facts neither the corpus nor external research states | 8 |
+
+External research (2026-08-01) upgraded several records: the street-sweeping pause
+and neighborhood-calendar claims are now `externally_verified` against rva.gov, and
+the ARPA community-center allocations carry externally verified amounts. Official
+government sources (rva.gov, transportation.gov) earn `externally_verified`;
+organization/news figures stay `reported_but_unverified`. URL provenance cannot be
+file-verified at build time and is counted separately as `external` in the
+provenance-verification report.
 
 Assignment rules of thumb:
 

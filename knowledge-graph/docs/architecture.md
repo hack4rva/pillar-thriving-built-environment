@@ -58,7 +58,7 @@ Data flows one way: repository corpus → `extract.js` → `data/*.json` (copied
 
 ## Performance strategy
 
-The current graph is 280 nodes / 539 edges — well inside comfortable WebGL territory, validated at interactive frame rates in headless Chromium (SwiftShader, the slowest realistic case). For growth, the app includes:
+The current graph is 296 nodes / 547 edges — well inside comfortable WebGL territory, validated at interactive frame rates in headless Chromium (SwiftShader, the slowest realistic case). For growth, the app includes:
 
 - **Label culling**: sprite labels render only for highlighted/selected nodes or below a node-count threshold; past `LARGE_GRAPH_THRESHOLD` (combined nodes+links) a warning suggests filtering and labels are culled automatically.
 - **Focus neighborhood**: any node can become the center of an N-hop subgraph, cutting rendered objects instead of the whole graph.

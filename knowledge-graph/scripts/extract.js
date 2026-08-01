@@ -37,8 +37,11 @@ function main() {
   const relationshipRecords = readJson('extraction/records/relationships.json');
   const curatedFlows = readJson('extraction/records/flows.json');
   const curatedQuestions = readJson('extraction/records/questions.json');
+  // External research: web-sourced findings that answer/narrow open questions.
+  // Provenance is URL-based (not file-verifiable); counted as "external".
+  const external = readJson('extraction/records/external.json');
 
-  const verification = { exact: 0, moved: 0, unchecked: 0, missing: 0 };
+  const verification = { exact: 0, moved: 0, unchecked: 0, missing: 0, external: 0 };
   const verifyAll = (record, kind, label) => {
     let ok = true;
     for (const prov of record.provenance ?? []) {
@@ -107,10 +110,36 @@ function main() {
     });
   }
 
+  // External research: evidence records + Evidence nodes (mirrors the
+  // evidence-log parser), new entities/relationships/flows, updates to
+  // existing records, and answers to open questions.
+  const evidenceRecords = [...ev.evidenceRecords];
+  for (const rec of external.evidence) {
+    evidenceRecords.push({ ...rec, repo: REPO_ID });
+    const code = rec.id.slice(3); // "ev:W-1" -> "W-1"
+    curatedNodes.push(makeNode({
+      id: `n:evidence:${code.toLowerCase()}`,
+      type: 'Evidence',
+      label: `${code}: ${rec.claim.length > 80 ? rec.claim.slice(0, 77) + '…' : rec.claim}`,
+      description: rec.claim,
+      evidenceStatus: rec.status === 'confirmed' ? 'externally_verified' : 'reported_but_unverified',
+      provenance: rec.provenance,
+      attrs: { evidenceLogStatus: rec.status, url: rec.url ?? null, origin: 'external research' },
+    }));
+  }
+  for (const rec of external.entities) {
+    verifyAll(rec, 'node', rec.id);
+    curatedNodes.push(makeNode(rec));
+  }
+  for (const rec of external.relationships) {
+    verifyAll(rec, 'edge', `${rec.source} ${rec.type} ${rec.target}`);
+    curatedEdges.push(makeEdge(rec));
+  }
+
   // 3. Merge ---------------------------------------------------------------
   let nodes = [...cip.nodes, ...ev.nodes, ...inv.nodes, ...curatedNodes];
   let edges = [...cip.edges, ...inv.edges, ...curatedEdges];
-  const flows = [...cip.flows, ...curatedFlows];
+  const flows = [...cip.flows, ...curatedFlows, ...external.flows];
 
   // Duplicate node IDs: merge provenance, keep first definition.
   const byId = new Map();
@@ -124,6 +153,36 @@ function main() {
     }
   }
   nodes = [...byId.values()];
+
+  // Apply external-research updates to already-extracted records. Updates
+  // never overwrite corpus provenance; they append URL provenance and notes.
+  for (const upd of external.nodeUpdates) {
+    const node = byId.get(upd.id);
+    if (!node) { warnings.push(`[external] nodeUpdate target missing: ${upd.id}`); continue; }
+    Object.assign(node, upd.set ?? {});
+    if (upd.appendNote) node.notes = node.notes ? `${node.notes} ${upd.appendNote}` : upd.appendNote;
+    for (const prov of upd.addProvenance ?? []) {
+      verification.external++;
+      node.provenance.push(prov);
+    }
+  }
+  const flowById = new Map(flows.map((f) => [f.id, f]));
+  for (const upd of external.flowUpdates) {
+    const flow = flowById.get(upd.id);
+    if (!flow) { warnings.push(`[external] flowUpdate target missing: ${upd.id}`); continue; }
+    Object.assign(flow, upd.set ?? {});
+    for (const su of upd.stageUpdates ?? []) {
+      if (!flow.stages[su.index]) { warnings.push(`[external] ${upd.id} has no stage ${su.index}`); continue; }
+      Object.assign(flow.stages[su.index], su.set);
+    }
+    if (upd.rollup) flow.rollup = upd.rollup;
+    if (upd.unknowns) flow.unknowns = upd.unknowns;
+    if (upd.appendNote) flow.notes = flow.notes ? `${flow.notes} ${upd.appendNote}` : upd.appendNote;
+    for (const prov of upd.addProvenance ?? []) {
+      verification.external++;
+      flow.provenance.push(prov);
+    }
+  }
 
   // Duplicate-candidate detection: same normalized label, different IDs.
   const labelIndex = new Map();
@@ -178,6 +237,16 @@ function main() {
     }
   }
 
+  // Attach external-research answers to open questions (status stays visible:
+  // answered questions are annotated, never silently removed).
+  const questionById = new Map(questions.map((q) => [q.id, q]));
+  for (const qa of external.questionAnswers) {
+    const q = questionById.get(qa.id);
+    if (!q) { warnings.push(`[external] questionAnswer target missing: ${qa.id}`); continue; }
+    q.status = qa.status;
+    q.answer = qa.answer;
+  }
+
   // Stamp extraction time (IDs stay deterministic; only timestamps vary).
   for (const n of nodes) n.extractedAt = RUN_TS;
   for (const e of edges) e.extractedAt = RUN_TS;
@@ -189,7 +258,14 @@ function main() {
   flows.sort((a, b) => a.id.localeCompare(b.id));
 
   // 4. Metrics ---------------------------------------------------------------
-  const metrics = computeMetrics(nodes, edges, flows, ev.evidenceRecords, reviewQueue, brokenEdges, verification);
+  const metrics = computeMetrics(nodes, edges, flows, evidenceRecords, reviewQueue, brokenEdges, verification);
+  metrics.externalResearch = {
+    researchedAt: external.researchedAt,
+    evidenceRecords: external.evidence.length,
+    questionsAnswered: external.questionAnswers.filter((q) => q.status === 'answered').length,
+    questionsPartiallyAnswered: external.questionAnswers.filter((q) => q.status === 'partially_answered').length,
+    note: 'Web-sourced findings; official government sources classified externally_verified, organization/news figures reported as likely. See docs/data-methodology.md.',
+  };
 
   // 5. Outputs ---------------------------------------------------------------
   const meta = {
@@ -208,7 +284,7 @@ function main() {
   write('nodes.json', nodes);
   write('edges.json', edges);
   write('financial_flows.json', flows);
-  write('evidence.json', ev.evidenceRecords);
+  write('evidence.json', evidenceRecords);
   write('unanswered_questions.json', questions);
   write('review_queue.json', reviewQueue);
   write('extraction_report.json', {
