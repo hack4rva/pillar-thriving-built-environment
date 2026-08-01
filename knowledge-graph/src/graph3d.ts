@@ -55,7 +55,14 @@ export class Graph3D {
       .warmupTicks(60)
       .cooldownTime(6000);
 
-    this.fg.d3Force('charge')?.strength(-95);
+    // Cap repulsion range so disconnected components stay near the main
+    // cluster instead of drifting to infinity (which makes zoomToFit frame a
+    // mostly empty volume).
+    const charge = this.fg.d3Force('charge') as unknown as {
+      strength: (s: number) => void; distanceMax?: (d: number) => void;
+    } | undefined;
+    charge?.strength(-95);
+    charge?.distanceMax?.(420);
 
     const countFps = () => {
       this.frames++;
@@ -230,9 +237,16 @@ export class Graph3D {
   }
 
   focusOn(id: string): void {
+    // When a subgraph is highlighted (money-flow path, neighborhood), frame the
+    // whole highlight rather than diving into one node — a tight zoom on a hub
+    // node renders an illegible wall of labels.
+    if (this.state.highlightedNodeIds.size > 1) {
+      this.fg.zoomToFit(900, 60, (n: { id?: string | number }) => this.state.highlightedNodeIds.has(String(n.id)));
+      return;
+    }
     const sim = this.simNodes.get(id);
     if (!sim || sim.x == null) return;
-    const dist = 120;
+    const dist = 220;
     const ratio = 1 + dist / Math.hypot(sim.x, sim.y!, sim.z!);
     this.fg.cameraPosition(
       { x: sim.x * ratio, y: sim.y! * ratio, z: sim.z! * ratio },

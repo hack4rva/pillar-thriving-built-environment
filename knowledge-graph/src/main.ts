@@ -282,6 +282,13 @@ async function boot() {
   $('#timeline-bar').hidden = true;
   renderAll();
   graph3d.fitOnceSettled();
+
+  // Automation hook for the Playwright validation script (scripts/screenshot.js):
+  // shift-clicking a specific 3D node is not reliable headlessly.
+  (window as unknown as Record<string, unknown>).__kg = {
+    selectNode: (id: string, shift = false) => handleNodeClick(id, shift),
+    nodeCount: data.graph.nodes.length,
+  };
 }
 
 boot();
