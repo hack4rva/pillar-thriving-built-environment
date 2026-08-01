@@ -141,7 +141,7 @@ export interface ExtractionReport {
   metrics: Record<string, unknown>;
 }
 
-export type Mode = 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline';
+export type Mode = 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline' | 'fog' | 'needs';
 
 export interface Filters {
   repos: Set<string>;

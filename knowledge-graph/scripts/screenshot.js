@@ -114,6 +114,37 @@ await shot('07-timeline.png');
 await page.click('#mode-switch button[data-mode="explore"]');
 await settle(400);
 
+// --------------------------------------------------------------- fog of war
+await page.click('#mode-switch button[data-mode="fog"]');
+await settle(2000);
+const fogHelp = (await page.textContent('#mode-help')) ?? '';
+check('fog mode shows unknown-zone quick picks', /darkest zones/i.test(fogHelp));
+check('fog hint explains the encoding', /fog of war/i.test((await page.textContent('#graph-hint')) ?? ''));
+await shot('13-fog-of-war.png');
+// Zoom to the first "darkest zone" (an UnknownEntity void).
+await page.locator('#mode-help [data-goto-node]').first().click();
+await settle(1600);
+check('fog void selectable', /unknown/i.test((await page.textContent('#detail-content')) ?? ''));
+await shot('13b-fog-void-closeup.png');
+await page.keyboard.press('Escape');
+await settle(400);
+
+// ----------------------------------------------------------- needs vs money
+await page.click('#mode-switch button[data-mode="needs"]');
+await settle(1000);
+check('needs board visible', await page.locator('#needsboard').isVisible());
+const boardText = (await page.textContent('#needsboard')) ?? '';
+check('needs board reports zero connections', /no funding attached/i.test(boardText));
+check('needs board lists all 7 needs', (await page.locator('#needsboard .nb-need').count()) === 7);
+check('needs board lists flows', (await page.locator('#needsboard .nb-flow').count()) > 5);
+await shot('14-needs-vs-money.png');
+await page.locator('#needsboard .nb-need button').first().click();
+await settle(600);
+check('need card click selects the node', /need/i.test((await page.textContent('#detail-content')) ?? ''));
+await page.click('#mode-switch button[data-mode="explore"]');
+await settle(600);
+check('leaving needs mode restores the 3D view', await page.locator('#needsboard').isHidden());
+
 // ---------------------------------------------------------------- path trace
 await page.evaluate(() => {
   window.__kg.selectNode('n:agency:richmond-dpw', false);

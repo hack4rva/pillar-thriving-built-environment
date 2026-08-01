@@ -21,6 +21,13 @@ export const MODE_HELP: Record<string, string> = {
     and open research questions.`,
   timeline: `<strong>Timeline mode.</strong> Scrub the year slider to see CIP projects appear by their
     estimated completion date. Projects with no documented date are dimmed, never hidden silently.`,
+  fog: `<strong>Fog of War mode.</strong> The graph shows the shape of our <em>ignorance</em>:
+    documented knowledge glows, unverified claims recede into haze, disputed items smolder red,
+    and unknown funding endpoints are dark voids that money emerges from. Yellow
+    <b style="color:#ffd76b">?</b> markers sit exactly where an open research question attaches.`,
+  needs: `<strong>Needs vs Money board.</strong> Every documented need on the left; the corpus's
+    funding flows on the right; a line wherever money is connected to a need through a funded
+    intervention. Click any card for details and provenance.`,
 };
 
 /** Beneficiary and problem-space report renderers + money-flow highlighting. */
@@ -211,6 +218,14 @@ export class Modes {
       case 'problem': {
         const problems = d.graph.nodes.filter((n) => n.type === 'Problem');
         return `<hr style="border-color:var(--border)"/><div class="small"><b>Pick a problem:</b>${list(problems)}</div>`;
+      }
+      case 'fog': {
+        const voids = d.graph.nodes.filter((n) => n.type === 'UnknownEntity');
+        const questioned = new Set(d.questions.flatMap((q) => q.relatedNodeIds ?? []));
+        return `<hr style="border-color:var(--border)"/><div class="small">
+          <b>Darkest zones (explicit unknowns):</b>${list(voids)}
+          <p class="muted" style="margin:6px 0 0">${d.questions.length} open questions attach to
+          ${[...questioned].filter((id) => d.nodeById.has(id)).length} nodes — see the Open Questions tab.</p></div>`;
       }
       default: return '';
     }

@@ -6,6 +6,7 @@ import { DetailPanel } from './panels';
 import { Sidebar } from './ui';
 import { Drawer } from './tables';
 import { Modes, MODE_HELP } from './modes';
+import { NeedsBoard } from './needsboard';
 import type { Mode } from './types';
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
@@ -70,6 +71,7 @@ async function boot() {
 
   const graph3d = new Graph3D($('#graph3d'), state, handleNodeClick, handleLinkClick, handleBackground);
   const graph2d = new Graph2D($('#graph2d'), state, handleNodeClick, handleLinkClick);
+  const needsBoard = new NeedsBoard($('#needsboard'), state);
   const sidebar = new Sidebar($('#filters'), $('#legend'), $('#display-controls'), $('#stats'), state,
     (c, dist) => graph3d.setForces(c, dist));
   const drawer = new Drawer($('#drawer-content'), state);
@@ -102,7 +104,12 @@ async function boot() {
   const renderHint = () => {
     const visible = state.visibleNodeIds();
     const hint = $('#graph-hint');
-    if (visible.size === 0) {
+    if (state.mode === 'needs') {
+      const needs = data.graph.nodes.filter((n) => n.type === 'Need').length;
+      hint.textContent = `Needs vs Money board — ${needs} documented needs vs ${data.graph.financialFlows.length} funding flows.`;
+    } else if (state.mode === 'fog') {
+      hint.textContent = 'Fog of War — bright = documented · haze = unverified · red = disputed · dark voids = explicit unknowns · ? = open question.';
+    } else if (visible.size === 0) {
       hint.textContent = 'No nodes match the current filters — relax filters or press Reset.';
     } else if (state.focusNodeId) {
       hint.textContent = `Focused on ${data.nodeById.get(state.focusNodeId)?.label} (${state.focusHops} hop${state.focusHops > 1 ? 's' : ''}). Press Escape to release.`;
@@ -122,8 +129,13 @@ async function boot() {
   };
 
   const renderAll = () => {
+    const boardMode = state.mode === 'needs';
+    ($('#needsboard') as HTMLElement).hidden = !boardMode;
+    $('#graph3d').style.visibility = (state.view2d || boardMode) ? 'hidden' : 'visible';
+    ($('#graph2d') as HTMLElement).hidden = !state.view2d || boardMode;
     graph3d.update();
     graph2d.update();
+    needsBoard.update();
     renderDetail();
     drawer.render();
     renderHint();
@@ -192,9 +204,7 @@ async function boot() {
   btn2d.addEventListener('click', () => {
     state.view2d = !state.view2d;
     btn2d.setAttribute('aria-pressed', String(state.view2d));
-    $('#graph3d').style.visibility = state.view2d ? 'hidden' : 'visible';
-    ($('#graph2d') as HTMLElement).hidden = !state.view2d;
-    state.notify();
+    state.notify(); // renderAll owns view visibility
   });
 
   // Timeline.
