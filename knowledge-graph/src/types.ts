@@ -141,7 +141,9 @@ export interface ExtractionReport {
   metrics: Record<string, unknown>;
 }
 
-export type Mode = 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline';
+// 'explore' is the network-graph mode (labeled "Network" in the UI). 'overview'
+// is the default dashboard landing view.
+export type Mode = 'overview' | 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline';
 
 export interface Filters {
   repos: Set<string>;

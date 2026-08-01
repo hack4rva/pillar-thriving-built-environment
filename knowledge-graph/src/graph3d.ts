@@ -13,6 +13,10 @@ interface Coords { x: number; y: number; z: number }
 const LABEL_METRIC_THRESHOLD = 6.4;
 const LARGE_GRAPH_THRESHOLD = 2500;
 
+// Annotation/provenance nodes carry little structural signal; recede them when
+// the network is idle (nothing selected) so the funded spine reads clearly.
+const CONTEXT_TYPES = new Set(['ResearchQuestion', 'Evidence', 'Claim', 'Person', 'Dataset']);
+
 export class Graph3D {
   private fg: ForceGraph3DInstance<SimNode, SimLink>;
   private simNodes = new Map<string, SimNode>();
@@ -113,6 +117,9 @@ export class Graph3D {
         s.selection.id !== node.id) return true;
     if (s.timelineYear != null && node.type === 'Project' &&
         (node.attrs?.completionSortKey as number | null) == null) return true;
+    // Network mode, nothing engaged: fade context nodes so the spine stands out.
+    if (s.mode === 'explore' && !s.highlightedNodeIds.size && !s.selection.id &&
+        !s.focusNodeId && CONTEXT_TYPES.has(node.type)) return true;
     return false;
   }
 

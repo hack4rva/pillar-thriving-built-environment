@@ -11,11 +11,12 @@
     <header id="toolbar">
       <h1>Built Environment <span class="sub">Knowledge Graph &amp; Funding Explorer</span></h1>
       <nav id="mode-switch" role="tablist" aria-label="Explorer mode">
-        <button role="tab" data-mode="explore" class="active" aria-selected="true">Explore</button>
+        <button role="tab" data-mode="overview" class="active" aria-selected="true">Overview</button>
         <button role="tab" data-mode="money" aria-selected="false">Money Flow</button>
         <button role="tab" data-mode="beneficiary" aria-selected="false">Beneficiary</button>
         <button role="tab" data-mode="problem" aria-selected="false">Problem Space</button>
         <button role="tab" data-mode="timeline" aria-selected="false">Timeline</button>
+        <button role="tab" data-mode="explore" aria-selected="false">Network</button>
       </nav>
       <div id="toolbar-actions">
         <input id="search" type="search" placeholder="Search entities, programs, funds…"
@@ -38,6 +39,7 @@
     <main id="graph-container" aria-label="3D knowledge graph">
       <div id="graph3d"></div>
       <div id="graph2d" hidden></div>
+      <div id="overview" role="region" aria-label="Funding overview dashboard"></div>
       <div id="graph-hint"></div>
       <div id="timeline-bar" hidden>
         <button id="timeline-play" aria-label="Play or pause timeline">▶</button>

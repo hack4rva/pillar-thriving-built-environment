@@ -5,7 +5,7 @@ export type Listener = () => void;
 
 /** Central UI state with naive pub/sub; every mutation triggers re-render. */
 export class AppState {
-  mode: Mode = 'explore';
+  mode: Mode = 'overview';
   filters: Filters;
   selection: Selection = { kind: null, id: null };
   view2d = false;
