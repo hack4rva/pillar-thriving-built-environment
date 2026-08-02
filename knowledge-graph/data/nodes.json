@@ -16,7 +16,7 @@
    "COR",
    "the City"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:cvta",
@@ -36,7 +36,7 @@
    "CVTA"
   ],
   "notes": "Full legal name inferred from the abbreviation; not spelled out anywhere in the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:dcao-operations",
@@ -52,7 +52,7 @@
    }
   ],
   "description": "Office of the Deputy Chief Administrative Officer for Operations; provided the pillar's departmental champion.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:richmond-dpu",
@@ -73,7 +73,7 @@
    "DPU Utilities"
   ],
   "notes": "Only 'DPU Utilities' appears in the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:richmond-dpw",
@@ -95,7 +95,7 @@
    "Richmond DPW",
    "DPW GIS Team"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:us-federal-government",
@@ -111,7 +111,7 @@
    }
   ],
   "description": "Ultimate source of ARPA funds and federal transportation grants. The corpus references ARPA and RAISE/TIGER grants but does not document the federal side; this node exists to anchor those flows.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:agency:vdot",
@@ -131,7 +131,7 @@
    "VDOT",
    "Virginia DOT"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:cip-quarterly",
@@ -147,7 +147,7 @@
    }
   ],
   "description": "Data may not reflect day-of construction status; drives the data-freshness risk.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:d3-report-mismatch",
@@ -163,7 +163,7 @@
    }
   ],
   "description": "research/D3_data_grant_documentation.md, which sits in the corpus slot for Richmond grant documentation, actually describes a Harvard AI-research grant program. Richmond grant documentation is therefore missing from the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:gps-incomplete",
@@ -184,7 +184,7 @@
    }
   ],
   "description": "GPS devices are being installed across the DPW fleet but real-time tracking is not available as of the hackathon date. Central constraint for all fleet MVPs.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:snow-priority-structure",
@@ -199,7 +199,7 @@
     "excerpt": "Snow uses priority routes (P1: 700 lane-mi/28%; P2: 200/8%; local: 64%)"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:sweeping-neighborhood-calendar",
@@ -221,7 +221,7 @@
    }
   ],
   "notes": "Externally verified 2026-08-01: rva.gov street-cleaning page publishes the route/area schedule (updated April 14, 2026) (ev:W-6).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:claim:sweeping-paused-2025",
@@ -244,7 +244,7 @@
   ],
   "description": "Cited in the risk register as evidence of operational volatility.",
   "notes": "Externally verified 2026-08-01: City press release (Dec 12, 2025) confirms the pause, resuming Jan 5, 2026 (ev:W-5).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:candidate-projects-webmap",
@@ -260,7 +260,7 @@
    }
   ],
   "description": "Planning candidate projects aggregated from multiple sources; hosted by Timmons Group. Using it for execution status is a documented misinformation risk.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:capital-projects-featureserver",
@@ -276,7 +276,7 @@
    }
   ],
   "description": "Public ArcGIS Online service with Transportation, Sanitary, Drainage, Water, and Major Non-City layers.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:cip-arcgis-webmap",
@@ -296,7 +296,7 @@
    "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=270285e87d684a95bd1ebd9a078aa6df",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:cip-dashboard-live",
@@ -315,7 +315,7 @@
    "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:cip-pie-featureserver",
@@ -331,7 +331,7 @@
    }
   ],
   "description": "Engineering/CIP points service with current and expired projects.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:cor-cip-dashboard-csv",
@@ -351,7 +351,7 @@
    "path": "research/COR_CIP_Dashboard_projects.csv",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:crash-data",
@@ -367,7 +367,7 @@
    }
   ],
   "description": "Referenced as existing public data for the Safer Streets blue-sky idea; no specific dataset, owner, or URL is documented in the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:dpw-gps-fleet-data",
@@ -393,7 +393,7 @@
    "keyFields": "vehicle_id, route_id, lat, lng, timestamp, completion_pct",
    "available": false
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:dpw-program-pages",
@@ -419,7 +419,7 @@
    "keyFields": "project_name, description, status, contact",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:grtc-gtfs-feed",
@@ -445,7 +445,7 @@
    "keyFields": "stop_id, stop_lat, stop_lon, route_id",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:richmond-311-data",
@@ -471,7 +471,7 @@
    "keyFields": "request_type, address, status, date",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:richmond-geohub",
@@ -497,7 +497,7 @@
    "keyFields": "project_name, status, geometry, description",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:richmond-open-data-portal",
@@ -523,7 +523,7 @@
    "keyFields": "dataset varies by table; filter by department",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:snow-removal-zone-data",
@@ -549,7 +549,7 @@
    "keyFields": "zone_id, zone_name, geometry",
    "available": false
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:street-cleaning-schedule-page",
@@ -568,7 +568,7 @@
    "url": "https://www.rva.gov/public-works/street-cleaning",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:street-cleaning-schedules",
@@ -594,7 +594,7 @@
    "keyFields": "zone_id, schedule_day, frequency",
    "available": false
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:usaspending-gov",
@@ -620,7 +620,7 @@
    "keyFields": "award_id, recipient, description, amount, place_of_performance",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:vdot-plow-map",
@@ -637,7 +637,7 @@
    }
   ],
   "description": "VDOT's statewide public snow plow tracking map: 7,000+ plows, two-minute updates, activated above two inches of snowfall. A working precedent for the public fleet visibility Richmond's corpus asks for — but it covers state-maintained roads, not Richmond city streets (plowed by DPW).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:vdot-project-tracker",
@@ -663,7 +663,7 @@
    "keyFields": "project_name, route, status, funding",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:dataset:wmp-2025-2026-pdf",
@@ -683,7 +683,7 @@
    "path": "research/WMP 2025-2026.pdf",
    "available": true
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:decision:vdot-authorization",
@@ -699,7 +699,7 @@
    }
   ],
   "description": "Some CIP projects cannot go to bid until VDOT authorizes advertising — an administrative gate on the money reaching contractors.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-001",
@@ -721,7 +721,7 @@
    "url": "https://richmond-geo-hub-cor.hub.arcgis.com/",
    "source": "City of Richmond GIS"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-002",
@@ -743,7 +743,7 @@
    "url": "https://data.richmondgov.com/",
    "source": "City of Richmond"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-003",
@@ -765,7 +765,7 @@
    "url": null,
    "source": "Hack RVA"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-004",
@@ -787,7 +787,7 @@
    "url": null,
    "source": "Working session notes (Feb 26, 2026)"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-010",
@@ -809,7 +809,7 @@
    "url": null,
    "source": "Known City GIS practice"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-011",
@@ -831,7 +831,7 @@
    "url": null,
    "source": "Common Socrata pattern"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-012",
@@ -853,7 +853,7 @@
    "url": null,
    "source": "Known DPW structure"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-013",
@@ -875,7 +875,7 @@
    "url": null,
    "source": "Working session notes inference"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-014",
@@ -897,7 +897,7 @@
    "url": null,
    "source": "Standard operational practice"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-020",
@@ -919,7 +919,7 @@
    "url": null,
    "source": "Working session inference"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-021",
@@ -941,7 +941,7 @@
    "url": null,
    "source": "Synthetic schema design assumption"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-022",
@@ -963,7 +963,7 @@
    "url": null,
    "source": "Assumed from other city examples"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:e-023",
@@ -985,7 +985,7 @@
    "url": null,
    "source": "Known VDOT practice"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-1",
@@ -1007,7 +1007,7 @@
    "url": "https://www.rva.gov/arp",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-10",
@@ -1029,7 +1029,7 @@
    "url": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-11",
@@ -1051,7 +1051,7 @@
    "url": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-2",
@@ -1073,7 +1073,7 @@
    "url": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-3",
@@ -1095,7 +1095,7 @@
    "url": "https://www.rva.gov/arp",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-4",
@@ -1117,7 +1117,7 @@
    "url": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-5",
@@ -1139,7 +1139,7 @@
    "url": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-6",
@@ -1161,7 +1161,7 @@
    "url": "http://rva.gov/index.php/public-works/street-cleaning",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-7",
@@ -1183,7 +1183,7 @@
    "url": "https://procurement.opengov.com/portal/rva/projects/100739/document",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-8",
@@ -1211,7 +1211,7 @@
    "url": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:evidence:w-9",
@@ -1239,7 +1239,7 @@
    "url": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
    "origin": "external research"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:fund:fed-state-regional-transport-funds",
@@ -1256,7 +1256,7 @@
    }
   ],
   "description": "Federal, state, and regional transportation funding flowing into the City's capital budget: $257.8M / 28% of the FY2025–FY2029 proposed CIP.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:fund:richmond-arpa-slfrf",
@@ -1273,7 +1273,7 @@
    }
   ],
   "description": "Richmond's total American Rescue Plan Act (State and Local Fiscal Recovery Funds) allocation: two $77M federal payments totaling $154M, allocated by a published spending plan ($78M of it to community centers).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:fund:richmond-cip-budget",
@@ -1289,7 +1289,7 @@
    }
   ],
   "description": "The pool of capital funding behind the 125 funded projects in the CIP Dashboard. The mix of underlying sources (bonds, state, federal) is not documented in the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:fund:richmond-go-bonds",
@@ -1306,7 +1306,7 @@
    }
   ],
   "description": "General obligation bond proceeds, the largest source of the City's capital budget: $575M / 64% of the FY2025–FY2029 proposed CIP.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:fund:richmond-paygo-cash",
@@ -1323,7 +1323,7 @@
    }
   ],
   "description": "Cash funding of the City's capital budget: $63.3M / 7% of the FY2025–FY2029 proposed CIP (plus $7.9M / 1% prior-year appropriations).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:grant:federal-transportation-grants",
@@ -1339,7 +1339,7 @@
    }
   ],
   "description": "The source inventory points to USASpending.gov for Richmond RAISE/TIGER grant data, but no specific award, amount, or recipient is documented in the corpus.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:group:advocates-planners",
@@ -1354,7 +1354,7 @@
     "excerpt": "Clear user (resident, advocate, planner)"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:group:dpw-comms-staff",
@@ -1370,7 +1370,7 @@
    }
   ],
   "description": "Staff who compile public updates and answer resident status inquiries.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:group:dpw-supervisors",
@@ -1385,7 +1385,7 @@
     "excerpt": "DPW supervisors who need route completion visibility"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:group:harvard-faculty",
@@ -1401,7 +1401,7 @@
    }
   ],
   "description": "Recipients of the D3 Associates Program grants described in the disputed D3 report.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:group:residents-accessibility-needs",
@@ -1420,7 +1420,7 @@
     "sourceLocation": "report title (B5 users report)"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:legislation:arpa",
@@ -1439,7 +1439,7 @@
   "aliases": [
    "ARPA"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:equitable-access",
@@ -1455,7 +1455,7 @@
    }
   ],
   "description": "Access matters most for residents with fewer workaround options.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:fall-line-trail-funding-gap",
@@ -1478,7 +1478,7 @@
   ],
   "description": "The Fall Line Trail (Walmsley Boulevard to Bellemeade Road) has a documented current funding gap; coordination with VDOT, DPU Utilities, and CVTA is underway to address it. The gap size is not documented.",
   "notes": "Sized by external research 2026-08-01 (reported figures): total cost anticipated >$400M (Apr 2024) vs ~$280M raised (Oct 2024) implies a gap on the order of $120M+; CVTA is the largest funder at $124.5M; the City's $40M RAISE application was not found among FY2024 awards (ev:W-8, ev:W-9).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:find-project-info",
@@ -1494,7 +1494,7 @@
    }
   ],
   "description": "A resident who sees construction cones has no reliable way to find what the project is, who is responsible, how long it will last, or where to get updates.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:plain-language",
@@ -1509,7 +1509,7 @@
     "excerpt": "Technical descriptions are translated into plain language"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:resident-service-timing",
@@ -1524,7 +1524,7 @@
     "excerpt": "Residents who want to know when their street will be cleaned or plowed"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:staff-inquiry-deflection",
@@ -1539,7 +1539,7 @@
     "excerpt": "DPW staff spend time answering questions that a clear public resource could deflect"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:need:supervisor-route-visibility",
@@ -1554,7 +1554,7 @@
     "excerpt": "DPW supervisors who need route completion visibility without calling every driver"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:nonprofit:groundwork-rva",
@@ -1570,7 +1570,7 @@
    }
   ],
   "description": "Nonprofit partner on the Built Environment pillar committee.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:nonprofit:james-river-association",
@@ -1589,7 +1589,7 @@
   "aliases": [
    "JRA"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:nonprofit:partnership-for-smarter-growth",
@@ -1608,7 +1608,7 @@
   "aliases": [
    "PSG"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:org:d3-institute",
@@ -1625,7 +1625,7 @@
   ],
   "description": "Appears only in research/D3_data_grant_documentation.md, which describes a Harvard AI-research grant program instead of Richmond grant documentation. Relevance to this problem space is disputed.",
   "notes": "The report filename suggests Richmond DPW grant documentation, but the content is about an unrelated Harvard program — almost certainly a research-generation error.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:org:grtc",
@@ -1644,7 +1644,7 @@
   "aliases": [
    "GRTC"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:org:hack-rva",
@@ -1660,7 +1660,7 @@
    }
   ],
   "description": "Organizer of the Richmond Civic Hackathon.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:org:timmons-group",
@@ -1676,7 +1676,7 @@
    }
   ],
   "description": "Hosts the Candidate Projects Web Map on its ArcGIS organization (planning-stage projects, not DPW-committed).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:adel-edward",
@@ -1696,7 +1696,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:afshin-famili",
@@ -1716,7 +1716,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:al-wiggins",
@@ -1735,7 +1735,7 @@
   "attrs": {
    "role": "Departmental champion, DCAO Operations"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:allen-mccown",
@@ -1755,7 +1755,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:chad-phillips",
@@ -1774,7 +1774,7 @@
   "attrs": {
    "role": "DPW GIS Team"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:daniel-hazlett",
@@ -1794,7 +1794,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:daniel-klein",
@@ -1814,7 +1814,7 @@
    "role": "Departmental champion (affiliation undocumented)"
   },
   "notes": "Affiliation ambiguous — flagged in the review queue.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:daniel-wagner",
@@ -1833,7 +1833,7 @@
   "attrs": {
    "role": "DPW staff"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:dexter-goode",
@@ -1853,7 +1853,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:heywood-harrison",
@@ -1873,7 +1873,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:jeannie-welliver-martin-west",
@@ -1893,7 +1893,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:jerry-allen",
@@ -1913,7 +1913,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:john-kim",
@@ -1933,7 +1933,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:justin-doyle",
@@ -1951,7 +1951,7 @@
   "attrs": {
    "role": "Nonprofit partner representative, James River Association"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:kenny-horak",
@@ -1971,7 +1971,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:loren-brown",
@@ -1991,7 +1991,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:lynne-lancaster",
@@ -2011,7 +2011,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:merrick-malone",
@@ -2031,7 +2031,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:mohamed-benomar",
@@ -2051,7 +2051,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:monica-kinsey",
@@ -2071,7 +2071,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:nathan-burrell",
@@ -2089,7 +2089,7 @@
   "attrs": {
    "role": "Nonprofit partner representative, Groundwork RVA"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:nissa-richardson",
@@ -2109,7 +2109,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:olayinka-bruce",
@@ -2129,7 +2129,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:payenda-anwari",
@@ -2149,7 +2149,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:rhonda-johnson",
@@ -2169,7 +2169,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:richard-hankins",
@@ -2187,7 +2187,7 @@
   "attrs": {
    "role": "Nonprofit partner representative, Partnership for Smarter Growth"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:ricky-hatfield",
@@ -2207,7 +2207,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:robert-stone",
@@ -2227,7 +2227,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:ryan-rinn",
@@ -2247,7 +2247,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:shannon-orcutt",
@@ -2265,7 +2265,7 @@
   "attrs": {
    "role": "Nonprofit partner representative, James River Association"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:tbd",
@@ -2285,7 +2285,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:thomas-moore",
@@ -2305,7 +2305,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:thomas-westbrook",
@@ -2325,7 +2325,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:timothy-lewis",
@@ -2345,7 +2345,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:william-boston",
@@ -2365,7 +2365,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:winston-phillips",
@@ -2385,7 +2385,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:person:yongping-wang",
@@ -2405,7 +2405,7 @@
    "role": "DPW Project Manager",
    "organization": "Richmond Department of Public Works"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:policy:richmond-300",
@@ -2424,7 +2424,7 @@
   "attrs": {
    "url": "https://www.rva.gov/planning-development-review/master-plan"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:policy:wmp-2025-2026",
@@ -2443,7 +2443,7 @@
   "aliases": [
    "WMP"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:population:richmond-residents",
@@ -2462,7 +2462,7 @@
    "Richmonders",
    "residents"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:problem:fleet-operations-visibility",
@@ -2482,7 +2482,7 @@
    "rubricScore": "22/32 Needs work (D3=2)",
    "statementNumber": 2
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:problem:living-city-map",
@@ -2501,7 +2501,7 @@
   "attrs": {
    "rubricScore": "17/27 Needs work (blue sky)"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:problem:safer-streets",
@@ -2520,7 +2520,7 @@
   "attrs": {
    "rubricScore": "22/27 Strong (blue sky)"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:problem:sustainability-integration",
@@ -2536,7 +2536,7 @@
    }
   ],
   "description": "Sustainable Design Standards theme: strategically important but requires internal City workflow coordination; explicitly not hackable this weekend.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:problem:transportation-project-visibility",
@@ -2556,7 +2556,7 @@
    "rubricScore": "25/32 Strong",
    "statementNumber": 1
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:program:cip",
@@ -2575,7 +2575,7 @@
   "aliases": [
    "CIP"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:program:richmond-civic-hackathon",
@@ -2590,7 +2590,7 @@
     "excerpt": "at VCU Snead Hall"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:program:richmond-connects",
@@ -2606,7 +2606,7 @@
    }
   ],
   "description": "City transportation planning program; its public page is a known official URL for source-linking.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:arthur-ashe-boulevard-bridge-replacement",
@@ -2634,7 +2634,7 @@
    "objectId": "114",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:biotech-research-park-roadway-improvements",
@@ -2662,7 +2662,7 @@
    "objectId": "61",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:blanton-avenue-garrett-street-and-park-drive-pedestrian-vehicular-safety-improve",
@@ -2690,7 +2690,7 @@
    "objectId": "167",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:broad-street-streetscape-phase-ii-w-brt-expansion",
@@ -2718,7 +2718,7 @@
    "objectId": "228",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:brown-s-island-improvements",
@@ -2746,7 +2746,7 @@
    "objectId": "171",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:byrd-park-reservoir-rehabilitation-project",
@@ -2774,7 +2774,7 @@
    "objectId": "65",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:capital-trail-canal-walk-connector-to-brown-s-island",
@@ -2802,7 +2802,7 @@
    "objectId": "24",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:carnation-street-sidewalks-phase-ii",
@@ -2830,7 +2830,7 @@
    "objectId": "232",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:cary-street-safety-curb-extensions",
@@ -2858,7 +2858,7 @@
    "objectId": "115",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:cary-street-sidewalk-improvements",
@@ -2886,7 +2886,7 @@
    "objectId": "229",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:cherokee-road-roadside-safety-improvements",
@@ -2914,7 +2914,7 @@
    "objectId": "179",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:chimborazo-drop-shaft-and-interceptor-sewer-replacement",
@@ -2942,7 +2942,7 @@
    "objectId": "25",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:chimborazo-park-sidewalk-installations",
@@ -2970,7 +2970,7 @@
    "objectId": "173",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:clay-street-streetscape",
@@ -2998,7 +2998,7 @@
    "objectId": "230",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:combined-sewer-overflow-improvement-williamsburg-avenue",
@@ -3026,7 +3026,7 @@
    "objectId": "111",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:commerce-road-improvement-project",
@@ -3054,7 +3054,7 @@
    "objectId": "26",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:creighton-court-redevelopment",
@@ -3082,7 +3082,7 @@
    "objectId": "172",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:deepwater-terminal-road-connector-to-goodes-street",
@@ -3110,7 +3110,7 @@
    "objectId": "46",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:east-broad-street-ravine-bridge-replacement",
@@ -3138,7 +3138,7 @@
    "objectId": "37",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fall-line-trail-bryan-park-segment",
@@ -3166,7 +3166,7 @@
    "objectId": "168",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fall-line-trail-commerce-road-phase-i",
@@ -3194,7 +3194,7 @@
    "objectId": "116",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fall-line-trail-kanawha-plaza-multi-use-trail",
@@ -3222,7 +3222,7 @@
    "objectId": "263",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fall-line-trail-transit-improvements-over-manchester-bridge",
@@ -3250,7 +3250,7 @@
    "objectId": "184",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fall-line-trail-walmsley-boulevard-to-bellemeade-road",
@@ -3278,7 +3278,7 @@
    "objectId": "45",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:fire-station-21-replacement",
@@ -3306,7 +3306,7 @@
    "objectId": "118",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:first-police-precinct-replacement",
@@ -3334,7 +3334,7 @@
    "objectId": "119",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:forest-hill-avenue-pedestrian-safety-improvements",
@@ -3362,7 +3362,7 @@
    "objectId": "120",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:gillies-creek-greenway-phase-i",
@@ -3390,7 +3390,7 @@
    "objectId": "231",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:government-road-slope-repair",
@@ -3418,7 +3418,7 @@
    "objectId": "143",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hey-road-improvements",
@@ -3446,7 +3446,7 @@
    "objectId": "27",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:highland-grove-dove-street-redevelopment",
@@ -3474,7 +3474,7 @@
    "objectId": "140",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hotchkiss-community-center-enhancements",
@@ -3502,7 +3502,7 @@
    "objectId": "62",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-at-29th-street-pedestrian-hybrid-beacon-installation",
@@ -3530,7 +3530,7 @@
    "objectId": "146",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-improvements-phase-i-hey-road-to-warwick-road",
@@ -3558,7 +3558,7 @@
    "objectId": "29",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-improvements-phase-ii-chippenham-parkway-to-hey-road",
@@ -3586,7 +3586,7 @@
    "objectId": "121",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-improvements-phase-iii-warwick-road-to-arizona-drive",
@@ -3614,7 +3614,7 @@
    "objectId": "122",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-over-manchester-canal-bridge-replacement",
@@ -3642,7 +3642,7 @@
    "objectId": "51",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:hull-street-streetscape-mayo-bridge-to-9th-street",
@@ -3670,7 +3670,7 @@
    "objectId": "48",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:jahnke-road-improvements",
@@ -3698,7 +3698,7 @@
    "objectId": "34",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:james-river-branch-trail",
@@ -3726,7 +3726,7 @@
    "objectId": "33",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:jefferson-avenue-improvements",
@@ -3754,7 +3754,7 @@
    "objectId": "141",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:kanawha-plaza-pedestrian-safety-improvements",
@@ -3782,7 +3782,7 @@
    "objectId": "64",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:leigh-street-streetscape",
@@ -3810,7 +3810,7 @@
    "objectId": "40",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:lombardy-street-csx-bridge-replacement",
@@ -3838,7 +3838,7 @@
    "objectId": "52",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:lucks-field-community-center",
@@ -3866,7 +3866,7 @@
    "objectId": "112",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:lynhaven-avenue-over-broad-rock-creek-bridge-replacement",
@@ -3894,7 +3894,7 @@
    "objectId": "148",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:main-street-safety-curb-extensions",
@@ -3922,7 +3922,7 @@
    "objectId": "139",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:manchester-connection-to-james-river-pedestrian-bike",
@@ -3950,7 +3950,7 @@
    "objectId": "221",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:maury-street-streetscape",
@@ -3978,7 +3978,7 @@
    "objectId": "47",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:maymont-neighborhood-sidewalks-phase-ii",
@@ -4006,7 +4006,7 @@
    "objectId": "9",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:mayo-bridge-replacement",
@@ -4034,7 +4034,7 @@
    "objectId": "53",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:mayo-island-redevelopment",
@@ -4062,7 +4062,7 @@
    "objectId": "233",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:mcguire-chapel-drive-drainage-improvements",
@@ -4090,7 +4090,7 @@
    "objectId": "14",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:nicholson-street-streetscape",
@@ -4118,7 +4118,7 @@
    "objectId": "137",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-broad-rock",
@@ -4146,7 +4146,7 @@
    "objectId": "222",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-bryan-park",
@@ -4174,7 +4174,7 @@
    "objectId": "162",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-fonticello-park",
@@ -4202,7 +4202,7 @@
    "objectId": "163",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-humphrey-calder-community-center",
@@ -4230,7 +4230,7 @@
    "objectId": "164",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-james-river-park-system",
@@ -4258,7 +4258,7 @@
    "objectId": "223",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-maymont-park",
@@ -4286,7 +4286,7 @@
    "objectId": "224",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-smith-peters-park",
@@ -4314,7 +4314,7 @@
    "objectId": "165",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-westover-hills-community-center",
@@ -4342,7 +4342,7 @@
    "objectId": "166",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:parks-improvement-projects-whitcomb-court",
@@ -4370,7 +4370,7 @@
    "objectId": "169",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-alice-fitz-community-garden",
@@ -4398,7 +4398,7 @@
    "objectId": "104",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-charles-s-gilpen-community-garden",
@@ -4426,7 +4426,7 @@
    "objectId": "106",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-fire-station-12",
@@ -4454,7 +4454,7 @@
    "objectId": "107",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-hillside-court-playground",
@@ -4482,7 +4482,7 @@
    "objectId": "108",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-southside-community-center",
@@ -4510,7 +4510,7 @@
    "objectId": "110",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-southside-community-center-skatepark",
@@ -4538,7 +4538,7 @@
    "objectId": "109",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:percent-for-art-trailhead-at-ancarrow-s-landing",
@@ -4566,7 +4566,7 @@
    "objectId": "226",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:pine-camp-facility-improvements",
@@ -4594,7 +4594,7 @@
    "objectId": "234",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:richmond-henrico-turnpike-improvements",
@@ -4622,7 +4622,7 @@
    "objectId": "180",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:richmond-highway-improvements",
@@ -4650,7 +4650,7 @@
    "objectId": "50",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:richmond-highway-improvements-phase-ii",
@@ -4678,7 +4678,7 @@
    "objectId": "49",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:riverfront-orleans-brt-streetscape-improvements",
@@ -4706,7 +4706,7 @@
    "objectId": "2",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:route-5-williamsburg-road-intersection-improvement",
@@ -4734,7 +4734,7 @@
    "objectId": "63",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:science-museum-brt-shared-use-path",
@@ -4762,7 +4762,7 @@
    "objectId": "103",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:scott-s-addition-brt-streetscape-improvements",
@@ -4790,7 +4790,7 @@
    "objectId": "3",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:scott-s-addition-green-space",
@@ -4818,7 +4818,7 @@
    "objectId": "170",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:semmes-avenue-forest-hill-avenue-and-dundee-avenue-pedestrian-safety-improvement",
@@ -4846,7 +4846,7 @@
    "objectId": "58",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:shockoe-bottom-brt-streetscape-improvements",
@@ -4874,7 +4874,7 @@
    "objectId": "6",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:shockoe-valley-street-improvements-i-95-broad-street-area-improvements",
@@ -4902,7 +4902,7 @@
    "objectId": "38",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:southside-community-center",
@@ -4930,7 +4930,7 @@
    "objectId": "32",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:state-route-161-bicycle-infrastructure",
@@ -4958,7 +4958,7 @@
    "objectId": "35",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-18th-street",
@@ -4986,7 +4986,7 @@
    "objectId": "190",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-8th-street",
@@ -5014,7 +5014,7 @@
    "objectId": "241",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-bellemeade-road",
@@ -5042,7 +5042,7 @@
    "objectId": "235",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-belt-blvd",
@@ -5070,7 +5070,7 @@
    "objectId": "198",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-berrington-court",
@@ -5098,7 +5098,7 @@
    "objectId": "236",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-cary-street-road",
@@ -5126,7 +5126,7 @@
    "objectId": "237",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-chimborazo-area",
@@ -5154,7 +5154,7 @@
    "objectId": "242",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-church-hill-north",
@@ -5182,7 +5182,7 @@
    "objectId": "244",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-colonial-place-area",
@@ -5210,7 +5210,7 @@
    "objectId": "93",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-commerce-road",
@@ -5238,7 +5238,7 @@
    "objectId": "238",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-deepwater-terminal-road",
@@ -5266,7 +5266,7 @@
    "objectId": "217",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-diamond-area",
@@ -5294,7 +5294,7 @@
    "objectId": "210",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-e-broad-rock-rd",
@@ -5322,7 +5322,7 @@
    "objectId": "194",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-e-clopton-street",
@@ -5350,7 +5350,7 @@
    "objectId": "195",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-e-marshall-st",
@@ -5378,7 +5378,7 @@
    "objectId": "245",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-e-richmond-rd",
@@ -5406,7 +5406,7 @@
    "objectId": "246",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-floyd-avenue",
@@ -5434,7 +5434,7 @@
    "objectId": "247",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-hull-street-cowardin-to-belt",
@@ -5462,7 +5462,7 @@
    "objectId": "254",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-hull-street-richmond-to-commerce",
@@ -5490,7 +5490,7 @@
    "objectId": "188",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-jeff-davis-neighborhood",
@@ -5518,7 +5518,7 @@
    "objectId": "212",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-n-11th-street",
@@ -5546,7 +5546,7 @@
    "objectId": "255",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-n-28th-street",
@@ -5574,7 +5574,7 @@
    "objectId": "256",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-n-31st-street",
@@ -5602,7 +5602,7 @@
    "objectId": "257",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-n-barton-heights",
@@ -5630,7 +5630,7 @@
    "objectId": "213",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-oliver-hill-way",
@@ -5658,7 +5658,7 @@
    "objectId": "189",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-pineway-drive",
@@ -5686,7 +5686,7 @@
    "objectId": "239",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-river-road",
@@ -5714,7 +5714,7 @@
    "objectId": "252",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-riverside-drive",
@@ -5742,7 +5742,7 @@
    "objectId": "253",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-s-thompson-street",
@@ -5770,7 +5770,7 @@
    "objectId": "240",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-south-gardens",
@@ -5798,7 +5798,7 @@
    "objectId": "259",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-swansboro-area",
@@ -5826,7 +5826,7 @@
    "objectId": "249",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-u-street",
@@ -5854,7 +5854,7 @@
    "objectId": "248",
    "financialStatus": "completed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-warwick-area",
@@ -5882,7 +5882,7 @@
    "objectId": "250",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-westlake-hills",
@@ -5910,7 +5910,7 @@
    "objectId": "251",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-westmoreland-place",
@@ -5938,7 +5938,7 @@
    "objectId": "185",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-westmoreland-place-area",
@@ -5966,7 +5966,7 @@
    "objectId": "260",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:street-paving-williamsburg-avenue",
@@ -5994,7 +5994,7 @@
    "objectId": "136",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:the-shockoe-project",
@@ -6022,7 +6022,7 @@
    "objectId": "102",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:tredegar-brown-s-island-accessible-walk-improvements",
@@ -6050,7 +6050,7 @@
    "objectId": "36",
    "financialStatus": "partially_disbursed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:virginia-capital-trail-connector-to-brown-s-island",
@@ -6078,7 +6078,7 @@
    "objectId": "54",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:project:westhampton-area-improvements-phase-iii",
@@ -6106,7 +6106,7 @@
    "objectId": "181",
    "financialStatus": "committed"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:fleet-progress-dashboard",
@@ -6122,7 +6122,7 @@
    }
   ],
   "description": "Mock GPS schema dashboard showing what supervisors would see when GPS is live. Must never claim real-time vehicle locations.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:notification-system",
@@ -6137,7 +6137,7 @@
     "excerpt": "Opt-in notification system"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:project-explorer-map",
@@ -6153,7 +6153,7 @@
    }
   ],
   "description": "Address/neighborhood search that surfaces nearby CIP projects on a map with status.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:safer-streets-map",
@@ -6169,7 +6169,7 @@
    }
   ],
   "description": "Overlays public crash data with existing project locations to find corridors with no planned project. Exploratory only; never guides official resource allocation.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:snow-priority-lookup",
@@ -6185,7 +6185,7 @@
    }
   ],
   "description": "Resident enters address, sees P1/P2/P3 priority tier and what it means in plain language.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:street-cleaning-lookup",
@@ -6200,7 +6200,7 @@
     "excerpt": "Street Cleaning Zone Lookup using the public schedule page"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:proposal:whats-happening-here",
@@ -6216,7 +6216,7 @@
    }
   ],
   "description": "Mobile address lookup with plain-language project cards.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:arpa-portion",
@@ -6235,7 +6235,7 @@
   "attrs": {
    "category": "missing-financial-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:champion-commitment",
@@ -6254,7 +6254,7 @@
   "attrs": {
    "category": "governance"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:cip-funding-mix",
@@ -6273,7 +6273,7 @@
   "attrs": {
    "category": "missing-financial-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:cleaning-zone-data",
@@ -6292,7 +6292,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:d3-report-provenance",
@@ -6311,7 +6311,7 @@
   "attrs": {
    "category": "data-quality"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:daniel-klein-role",
@@ -6330,7 +6330,7 @@
   "attrs": {
    "category": "ambiguous-role"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:device-usage",
@@ -6349,7 +6349,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:e-030",
@@ -6370,7 +6370,7 @@
    "impact": "Blocks Shape A and B build",
    "howToGet": "Browse GeoHub; use \"Explore Data\" on each candidate layer"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:e-031",
@@ -6391,7 +6391,7 @@
    "impact": "Blocks Fleet MVP schema accuracy",
    "howToGet": "Request from DPW IT or Al Wiggins"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:e-032",
@@ -6412,7 +6412,7 @@
    "impact": "Blocks Shape D build",
    "howToGet": "Request from DPW; or use council districts as proxy"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:e-033",
@@ -6433,7 +6433,7 @@
    "impact": "Blocks schedule-based display",
    "howToGet": "Request from DPW; may exist as PDF"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:e-034",
@@ -6454,7 +6454,7 @@
    "impact": "Affects opportunity mapping",
    "howToGet": "Check Open Data Portal"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:fall-line-gap-size",
@@ -6473,7 +6473,7 @@
   "attrs": {
    "category": "missing-financial-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:gps-schema",
@@ -6492,7 +6492,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:inquiry-volume",
@@ -6511,7 +6511,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:outcome-measurements",
@@ -6530,7 +6530,7 @@
   "attrs": {
    "category": "missing-outcomes"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:p1p2-geometries",
@@ -6549,7 +6549,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:plain-language-standard",
@@ -6568,7 +6568,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:raise-tiger-details",
@@ -6587,7 +6587,7 @@
   "attrs": {
    "category": "missing-financial-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:question:richmond-300-mapping",
@@ -6606,7 +6606,7 @@
   "attrs": {
    "category": "missing-data"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:region:city-of-richmond",
@@ -6621,7 +6621,7 @@
     "excerpt": "helping Richmonders understand and navigate the physical infrastructure"
    }
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:region:southside-richmond",
@@ -6637,7 +6637,7 @@
    }
   ],
   "description": "Service area of the Southside Regional Park and Community Center (region inferred from the project name).",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:risk:r-001",
@@ -6658,7 +6658,7 @@
    "severity": "High",
    "mitigation": "Verify before building; have static fallback"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:risk:r-002",
@@ -6679,7 +6679,7 @@
    "severity": "High",
    "mitigation": "Label synthetic data clearly everywhere; address in demo"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:risk:r-003",
@@ -6700,7 +6700,7 @@
    "severity": "Medium",
    "mitigation": "Show \"last updated\" timestamp; link to official source"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:risk:r-004",
@@ -6721,7 +6721,7 @@
    "severity": "Medium",
    "mitigation": "Show original alongside; label as AI-generated; review sample translations"
   },
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:service:rva311",
@@ -6740,7 +6740,7 @@
   "aliases": [
    "311"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:service:snow-removal",
@@ -6756,7 +6756,7 @@
    }
   ],
   "description": "DPW winter operation organized by priority routes (P1/P2/P3), not geographic zones.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:service:street-cleaning",
@@ -6772,7 +6772,7 @@
    }
   ],
   "description": "Separate operation from snow removal; neighborhood-based calendar schedule.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:university:vcu",
@@ -6791,7 +6791,7 @@
   "aliases": [
    "VCU"
   ],
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:unknown:cip-funding-sources",
@@ -6815,7 +6815,7 @@
   ],
   "description": "The corpus documents that 125 projects are funded but not where the capital comes from (city bonds, state programs, federal grants). Explicit unknown: the upstream side of the CIP money is not documented.",
   "notes": "Partially resolved by external research 2026-08-01: the aggregate FY2025–29 source mix is externally verified (64% G.O. bonds, 28% federal/state/regional transportation funds, 7% cash, 1% prior-year — see flow f:cip-sources-fy25-29 and ev:W-4). Still unknown: which sources fund each individual project.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  },
  {
   "id": "n:unknown:gps-vendor",
@@ -6838,6 +6838,6 @@
   ],
   "description": "GPS devices are being installed across the DPW fleet, but the vendor and data schema are not documented (evidence gap E-031).",
   "notes": "Narrowed by external research 2026-08-01: the City's procurement solicitation (OpenGov project 100739) documents the required capabilities — real-time + logged tracking, nearest-vehicle dispatch, plow up/down and sander on/off via PTO — but no awarded vendor is publicly identified (ev:W-7). RPD separately uses Verizon Connect for police vehicles; that is a different fleet and system.",
-  "extractedAt": "2026-08-02T10:48:48.015Z"
+  "extractedAt": "2026-08-02T14:50:44.465Z"
  }
 ]
