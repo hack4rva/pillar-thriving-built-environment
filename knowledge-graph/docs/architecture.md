@@ -46,7 +46,8 @@ src/
   panels.ts          detail panel: node/edge/flow inspectors, Sankey, path view
   ui.ts              sidebar: filters, legend, force sliders, stats
   tables.ts          bottom drawer: summary, entities, flows, questions, quality, review
-  modes.ts           Money Flow / Beneficiary / Problem-Space / Timeline logic
+  modes.ts           Money Flow / Beneficiary / Problem-Space / Timeline / Fog of War logic
+  needsboard.ts      Needs vs Money orphan board (HTML/SVG, replaces the 3D canvas in that mode)
   visual.ts          the visual language (shape/color/dash per type and evidence status)
 data/                generated outputs (committed for reproducibility)
 tests/               Vitest suites + fixtures/scenarios.json
