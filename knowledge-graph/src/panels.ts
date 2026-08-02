@@ -92,10 +92,7 @@ export class DetailPanel {
 
     const questions = this.state.data.questions
       .filter((q) => q.relatedNodeIds?.some((rid) => rid === node.id))
-      .map((q) => `<li class="small muted">${esc(q.question)}
-        ${q.status === 'answered' ? '<span class="badge status-externally_verified">answered</span>'
-          : q.status === 'partially_answered' ? '<span class="badge status-proposed">partial</span>' : ''}
-        ${q.answer ? `<div style="margin-top:2px"><b>Answer:</b> ${esc(q.answer)}</div>` : ''}</li>`).join('');
+      .map((q) => `<li class="small muted">${esc(q.question)}</li>`).join('');
 
     return `
       <h2>${esc(node.label)}</h2>

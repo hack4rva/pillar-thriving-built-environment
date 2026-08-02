@@ -32,24 +32,6 @@ every record carries provenance (`sourceDoc`, `sourceLocation`, `excerpt`), and 
 build time `verifyProvenance()` re-reads the source file and confirms the quoted
 excerpt actually exists there.
 
-### 3. External research records (`extraction/records/external.json`)
-
-Targeted web research (performed 2026-08-01) against the corpus's open questions,
-recorded as curated JSON with **URL provenance**: every finding carries the source
-URL, a verbatim excerpt from the retrieved page, and an access date. Classification
-is source-based:
-
-- Official government sources (rva.gov pages and PDFs, transportation.gov award
-  lists) → `externally_verified`, evidence status `confirmed`.
-- Project-organization and news figures (falllinetrail.org, Richmond BizSense, WTVR)
-  → evidence status `likely`; graph elements stay `reported_but_unverified`.
-
-External records can add nodes/edges/flows, attach evidence to existing claims
-(`HAS_EVIDENCE`), upgrade a claim's evidence status, enrich flow stages with verified
-amounts, and attach answers to open questions (`status: answered | partially_answered`
-plus an `answer` string — questions are annotated, never removed). Updates append
-URL provenance; they never overwrite corpus provenance.
-
 Verification outcomes (from `extraction_report.json`):
 
 - `exact` (190): excerpt found at the cited location.
@@ -58,13 +40,9 @@ Verification outcomes (from `extraction_report.json`):
   never added to the graph.
 - `unchecked` (2): records whose provenance points at a whole file/dataset rather than
   quotable text (e.g. the CSV itself).
-- `external` (23): URL provenance from external research — not file-verifiable at
-  build time; the excerpt and access date are recorded for human re-verification.
 
 This means curated content cannot silently drift from its sources: editing a research
-file breaks verification loudly at the next extract. External findings are the one
-exception (a web page can change after the access date), which is why they are
-counted separately and carry access dates.
+file breaks verification loudly at the next extract.
 
 ## Normalization
 
@@ -92,12 +70,10 @@ they appear nowhere in `data/`. No other personal information exists in the corp
   `data/schema/graph.schema.json`, referential integrity (every edge endpoint and flow
   stage endpoint must exist), and financial sanity rules (documented and proposed
   totals never mixed; rollups marked `isEstimate` must carry a methodology string).
-- `make test`: 54 Vitest tests covering ID determinism, money/date parsing, provenance
+- `make test`: 45 Vitest tests covering ID determinism, money/date parsing, provenance
   verification behavior, parser outputs against ground truths in the raw files, the
-  generated graph, external-research integration (classification, anti-double-counting,
-  question annotation), and fixture scenarios (complete path, proposed path, disputed
-  flow, unknown destination, multi-intermediary, partial disbursement, conflicting
-  amounts).
+  generated graph, and fixture scenarios (complete path, proposed path, disputed flow,
+  unknown destination, multi-intermediary, partial disbursement, conflicting amounts).
 
 ## Known limitations
 
@@ -106,8 +82,6 @@ they appear nowhere in `data/`. No other personal information exists in the corp
   the problem statements, evidence log, stakeholder lists, and every financial mention.
 - `sourceLocation` granularity for markdown is line ranges, which can shift if research
   files are edited; provenance verification catches this (`moved`/`missing`).
-- Nothing is fetched from the live web **at extract time**; external findings were
-  gathered once (2026-08-01), recorded with URLs, excerpts, and access dates in
-  `extraction/records/external.json`, and are replayed deterministically by the
-  pipeline. Web pages can change after their access date; re-verification is a human
-  step.
+- The corpus itself is the boundary: nothing was fetched from the live web at extract
+  time, so externally verifiable facts (e.g. USASpending awards) remain
+  `reported_but_unverified` until checked by a human.

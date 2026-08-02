@@ -95,12 +95,12 @@ function normalizeWs(s) {
  *  - ok=true,  level="moved"   excerpt found in the file but outside the range
  *  - ok=false, level="missing" excerpt not found (or file missing)
  * Only applies to repo files with "lines A-B" locations and an excerpt;
- * URLs are marked "external"; excerpt-less entries are marked "unchecked".
+ * other provenance kinds (URLs, PDF pages, CSV rows) are marked "unchecked".
  */
 export function verifyProvenance(prov) {
   const { sourceDoc, sourceLocation, excerpt } = prov;
-  if (/^https?:/.test(sourceDoc)) return { ok: true, level: 'external', message: 'external URL (not file-verifiable)' };
   if (!excerpt) return { ok: true, level: 'unchecked', message: 'no excerpt to verify' };
+  if (/^https?:/.test(sourceDoc)) return { ok: true, level: 'unchecked', message: 'external URL' };
   if (!repoFileExists(sourceDoc)) {
     return { ok: false, level: 'missing', message: `source file not found: ${sourceDoc}` };
   }
