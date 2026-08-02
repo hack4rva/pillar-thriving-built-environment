@@ -5,8 +5,10 @@
   "sources": {
     "evidenceLog": "admin/evidence_log.md",
     "sourceInventory": "data/source_inventory.csv",
-    "projectsCsv": "research/COR_CIP_Dashboard_projects.csv"
+    "projectsCsv": "research/COR_CIP_Dashboard_projects.csv",
+    "postEventResearch": null
   },
+  "_postEventResearchNote": "This pillar's post-event research is hand-written prose, not the schema-mirrored format the parser reads, so it contributes nothing. The curated records already cover this ground.",
   "ownerNodes": {
     "City of Richmond GIS": "n:agency:richmond-dpw",
     "City of Richmond": "n:agency:city-of-richmond",
