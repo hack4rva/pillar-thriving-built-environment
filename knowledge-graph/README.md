@@ -30,8 +30,12 @@ make screenshots # headless Chrome validation (24 checks) + screenshots
 
 ## Using the explorer
 
-- **Explore**: orbit/zoom/pan; click a node or edge for details, evidence, and funding
-  paths; shift-click a second node to trace a path; `/` focuses search; Escape clears.
+- **Overview** (default): the capital program at a glance — a treemap of spending by
+  category, the biggest projects, how far along the pipeline is, and the documented needs
+  with no funding attached. Click any block, bar, or need to jump into the detail.
+- **Network**: the full 3D knowledge graph. Orbit/zoom/pan; click a node or edge for
+  details, evidence, and funding paths; shift-click a second node to trace a path; `/`
+  focuses search; Escape clears. Low-signal context nodes are dimmed until you engage.
 - **Money Flow**: pick a fund/project → every downstream hop highlights, with amounts,
   restrictions, unknown endpoints, a step-through, and a Sankey diagram.
 - **Beneficiary**: pick a population → programs serving it, who administers and funds

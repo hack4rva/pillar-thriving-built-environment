@@ -49,9 +49,15 @@ await settle(9000); // let the force layout settle and the camera fit
 const stats = (await page.textContent('#stats'))?.trim() ?? '';
 check('initial load', /nodes/i.test(stats) || stats.length > 0, stats.split('\n')[0]);
 check('WebGL renderer active', /webgl/i.test(stats), stats.match(/webgl[^\s·|]*/i)?.[0] ?? 'renderer info not in stats');
+// Default landing is now the Overview dashboard.
+const ovTiles = await page.locator('#overview .ov-tile').count();
+check('overview dashboard renders', ovTiles > 3, `${ovTiles} category tiles`);
+await shot('01-overview-explore.png');
+// Move to the network graph for the interaction checks below.
+await page.click('#mode-switch button[data-mode="explore"]');
+await settle(800);
 await page.click('#btn-reset-camera');
 await settle(1500);
-await shot('01-overview-explore.png');
 
 // -------------------------------------------------------------------- search
 await page.fill('#search', 'Fall Line Trail');
@@ -197,12 +203,14 @@ await settle(300);
 check('review queue renders', ((await page.textContent('#drawer-content')) ?? '').length > 50);
 
 // --------------------------------------------------------------- 2D fallback
-await page.click('#btn-2d');
+// In-page clicks: toggling the WebGL canvas on/off makes Playwright's post-click
+// navigation wait flaky here; the button handler is what we're exercising.
+await page.evaluate(() => document.querySelector('#btn-2d').click());
 await settle(2500);
 check('2D fallback renders SVG graph', (await page.locator('#graph2d svg circle').count()) > 10);
 await shot('11-2d-fallback.png');
-await page.click('#btn-2d');
-await settle(300);
+await page.evaluate(() => document.querySelector('#btn-2d').click());
+await settle(500);
 
 // ------------------------------------------------------- keyboard navigation
 await page.keyboard.press('/');

@@ -7,9 +7,12 @@ const nodeBtn = (n: GraphNode) => `<button class="linkish" data-goto-node="${n.i
 const statusBadge = (s: string) => `<span class="badge status-${s}">${esc(s.replace(/_/g, ' '))}</span>`;
 
 export const MODE_HELP: Record<string, string> = {
-  explore: `<strong>Explore mode.</strong> Orbit (drag), zoom (scroll), pan (right-drag).
-    Click a node or edge for details and provenance. Shift-click a second node to trace a path.
-    Use the filters to narrow by type, evidence status, or dollar amount.`,
+  overview: `<strong>Overview.</strong> The capital program at a glance — where the money goes by
+    category, the biggest projects, how far along the pipeline is, and which documented needs have
+    no funding. Click any block, bar, or need to dig in. Switch to <b>Network</b> for the full graph.`,
+  explore: `<strong>Network mode.</strong> The full knowledge graph. Orbit (drag), zoom (scroll),
+    pan (right-drag). Click a node or edge for details and provenance; shift-click a second node to
+    trace a path. Context nodes are dimmed until selected — use filters to bring them forward.`,
   money: `<strong>Money Flow mode.</strong> Click any fund, budget, grant, program, or project to
     highlight every downstream financial path: intermediaries, amounts at each stage, restrictions,
     and unknown endpoints. Money direction is animated; step through stages in the panel.`,

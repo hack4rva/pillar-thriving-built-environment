@@ -7,6 +7,7 @@ import { Sidebar } from './ui';
 import { Drawer } from './tables';
 import { Modes, MODE_HELP } from './modes';
 import { NeedsBoard } from './needsboard';
+import { Overview } from './overview';
 import type { Mode } from './types';
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
@@ -32,6 +33,8 @@ async function boot() {
   let pathStart: string | null = null;
 
   const handleNodeClick = (id: string, shift: boolean) => {
+    // Selecting from the dashboard has nowhere to render — move to the network.
+    if (state.mode === 'overview') setMode('explore');
     if (shift && (pathStart ?? state.selection.id)) {
       const from = pathStart ?? state.selection.id!;
       const path = data.shortestPath(from, id);
@@ -75,6 +78,34 @@ async function boot() {
   const sidebar = new Sidebar($('#filters'), $('#legend'), $('#display-controls'), $('#stats'), state,
     (c, dist) => graph3d.setForces(c, dist));
   const drawer = new Drawer($('#drawer-content'), state);
+  const overview = new Overview($('#overview'), state,
+    (id) => handleNodeClick(id, false),
+    (mode) => setMode(mode as Mode));
+
+  // The dashboard is an opaque overlay over the graph area. We deliberately keep
+  // the 3D graph rendering underneath (rather than hiding it) so switching modes
+  // never has to re-reveal a stalled WebGL canvas.
+  const applyModeLayout = () => {
+    const boardMode = state.mode === 'needs';
+    ($('#overview') as HTMLElement).hidden = state.mode !== 'overview';
+    ($('#needsboard') as HTMLElement).hidden = !boardMode;
+    $('#graph3d').style.visibility = (state.view2d || boardMode) ? 'hidden' : 'visible';
+    ($('#graph2d') as HTMLElement).hidden = !state.view2d || boardMode;
+    $('#timeline-bar').hidden = state.mode !== 'timeline';
+  };
+
+  const setMode = (mode: Mode) => {
+    state.mode = mode;
+    document.querySelectorAll<HTMLButtonElement>('#mode-switch button').forEach((b) => {
+      const active = b.dataset.mode === mode;
+      b.classList.toggle('active', active);
+      b.setAttribute('aria-selected', String(active));
+    });
+    if (mode !== 'timeline') state.timelineYear = null;
+    state.clearHighlights();
+    applyModeLayout();
+    state.notify();
+  };
 
   sidebar.buildFilters();
   sidebar.buildLegend();
@@ -129,13 +160,11 @@ async function boot() {
   };
 
   const renderAll = () => {
-    const boardMode = state.mode === 'needs';
-    ($('#needsboard') as HTMLElement).hidden = !boardMode;
-    $('#graph3d').style.visibility = (state.view2d || boardMode) ? 'hidden' : 'visible';
-    ($('#graph2d') as HTMLElement).hidden = !state.view2d || boardMode;
+    applyModeLayout();
     graph3d.update();
     graph2d.update();
     needsBoard.update();
+    if (state.mode === 'overview') overview.render();
     renderDetail();
     drawer.render();
     renderHint();
@@ -147,16 +176,7 @@ async function boot() {
 
   // ------------------------------------------------------------ toolbar ----
   document.querySelectorAll<HTMLButtonElement>('#mode-switch button').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('#mode-switch button').forEach((b) => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-      state.mode = btn.dataset.mode as Mode;
-      $('#timeline-bar').hidden = state.mode !== 'timeline';
-      if (state.mode !== 'timeline') state.timelineYear = null;
-      state.clearHighlights();
-      state.notify();
-    });
+    btn.addEventListener('click', () => setMode(btn.dataset.mode as Mode));
   });
 
   document.querySelectorAll<HTMLButtonElement>('#drawer-tabs button').forEach((btn) => {
@@ -204,7 +224,7 @@ async function boot() {
   btn2d.addEventListener('click', () => {
     state.view2d = !state.view2d;
     btn2d.setAttribute('aria-pressed', String(state.view2d));
-    state.notify(); // renderAll owns view visibility
+    state.notify(); // renderAll applies view visibility via applyModeLayout
   });
 
   // Timeline.
@@ -289,7 +309,10 @@ async function boot() {
     }
   });
 
-  $('#timeline-bar').hidden = true;
+  // Treemap tiling depends on the panel width; re-tile when it changes.
+  window.addEventListener('resize', () => { if (state.mode === 'overview') overview.render(); });
+
+  applyModeLayout();
   renderAll();
   graph3d.fitOnceSettled();
 
