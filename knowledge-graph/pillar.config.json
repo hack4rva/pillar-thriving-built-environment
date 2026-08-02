@@ -1,0 +1,23 @@
+{
+  "repoId": "pillar-thriving-built-environment",
+  "pillarName": "A Thriving and Sustainable Built Environment",
+  "shortName": "Built Environment",
+  "sources": {
+    "evidenceLog": "admin/evidence_log.md",
+    "sourceInventory": "data/source_inventory.csv",
+    "projectsCsv": "research/COR_CIP_Dashboard_projects.csv"
+  },
+  "ownerNodes": {
+    "City of Richmond GIS": "n:agency:richmond-dpw",
+    "City of Richmond": "n:agency:city-of-richmond",
+    "City of Richmond DPW": "n:agency:richmond-dpw",
+    "Virginia DOT": "n:agency:vdot",
+    "GRTC Transit": "n:org:grtc",
+    "Federal agencies": "n:agency:us-federal-government"
+  },
+  "relevanceNodes": {
+    "Transportation Project Visibility": "n:problem:transportation-project-visibility",
+    "Fleet Operations": "n:problem:fleet-operations-visibility"
+  },
+  "description": "Research corpus on Richmond infrastructure project transparency and DPW fleet operations visibility. The graph traces two documented problems, the people they affect, the institutions involved, and roughly $1B of documented capital funding across 125 CIP projects — including where the money's origins and destinations are not documented."
+}

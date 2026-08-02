@@ -94,6 +94,52 @@ async function boot() {
     $('#timeline-bar').hidden = state.mode !== 'timeline';
   };
 
+  /**
+   * Not every pillar has the data a view needs. Only the Built Environment
+   * corpus contains a capital-projects export, so its costs, phases, and
+   * funding flows exist nowhere else. Rather than render empty dashboards,
+   * hide the views whose source data is absent.
+   */
+  const applyCapabilities = () => {
+    const hasFundedProjects = data.graph.nodes.some(
+      (n) => n.type === 'Project' && ((n.attrs?.costUSD as number) ?? 0) > 0,
+    );
+    const hasFlows = (data.graph.financialFlows?.length ?? 0) > 0;
+
+    const shortName = data.graph.meta?.shortName;
+    if (shortName) {
+      $('#pillar-name').textContent = shortName;
+      document.title = `${shortName} Knowledge Graph`;
+    }
+    // "Funding Explorer" would be a false promise without a money layer.
+    $('#app-subtitle').textContent = hasFlows
+      ? 'Knowledge Graph & Funding Explorer'
+      : 'Knowledge Graph & Evidence Explorer';
+    if (!hasFlows) {
+      const flowsTab = document.querySelector<HTMLElement>('[role="tab"][data-tab="flows"]');
+      if (flowsTab) flowsTab.hidden = true;
+    }
+
+    const hasType = (...types: string[]) =>
+      data.graph.nodes.some((n) => types.includes(n.type));
+    const supported: Partial<Record<Mode, boolean>> = {
+      overview: hasFundedProjects,
+      timeline: hasFundedProjects,
+      money: hasFlows,
+      needs: hasFlows && hasType('Need'),
+      problem: hasType('Problem'),
+      beneficiary: hasType('Population', 'ConstituentGroup'),
+    };
+    document.querySelectorAll<HTMLButtonElement>('#mode-switch button').forEach((b) => {
+      const mode = b.dataset.mode as Mode;
+      if (supported[mode] === false) b.hidden = true;
+    });
+    if (supported[state.mode] === false) {
+      const first = document.querySelector<HTMLButtonElement>('#mode-switch button:not([hidden])');
+      state.mode = (first?.dataset.mode as Mode) ?? 'explore';
+    }
+  };
+
   const setMode = (mode: Mode) => {
     state.mode = mode;
     document.querySelectorAll<HTMLButtonElement>('#mode-switch button').forEach((b) => {
@@ -312,7 +358,8 @@ async function boot() {
   // Treemap tiling depends on the panel width; re-tile when it changes.
   window.addEventListener('resize', () => { if (state.mode === 'overview') overview.render(); });
 
-  applyModeLayout();
+  applyCapabilities();
+  setMode(state.mode);
   renderAll();
   graph3d.fitOnceSettled();
 

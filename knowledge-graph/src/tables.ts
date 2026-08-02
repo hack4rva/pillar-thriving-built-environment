@@ -48,27 +48,34 @@ export class Drawer {
     const m = this.state.data.report.metrics as Record<string, unknown>;
     const chip = (label: string, value: string, cls = '') =>
       `<span class="badge ${cls}" style="font-size:12px;padding:4px 12px">${esc(label)}: <b>${esc(value)}</b></span>`;
-    return `
-      <h3 style="margin:2px 0 6px">Repository: pillar-thriving-built-environment (Richmond Civic Hackathon — Built Environment pillar)</h3>
-      <p class="small muted" style="max-width:900px">Research corpus on Richmond infrastructure project transparency and DPW fleet
-      operations visibility. The graph traces two documented problems, the people they affect, the institutions involved,
-      and roughly $1B of documented capital funding across 125 CIP projects — including where the money's origins and
-      destinations are <em>not</em> documented.</p>
-      <div>
-        ${chip('Nodes', String(m.totalNodes))}
-        ${chip('Edges', String(m.totalEdges))}
+    // Money chips describe a layer only some pillars have; showing "$0" where
+    // no financial corpus exists would read as a finding rather than an absence.
+    const meta = this.state.data.graph.meta;
+    const hasMoney = (m.financialFlows as number) > 0;
+    const moneyChips = hasMoney ? `
         ${chip('Funding flows', String(m.financialFlows))}
         ${chip('Documented funding', fmtUSD(m.totalDocumentedFundingUSD as number), 'status-documented')}
         ${chip('Proposed funding', fmtUSD(m.totalProposedFundingUSD as number), 'status-proposed')}
         ${chip('Disbursed (estimate)', fmtUSD(m.totalDisbursedUSDEstimate as number), 'status-inferred')}
         ${chip('Flows w/ unknown source', String(m.flowsWithUnknownSource), 'status-unknown')}
-        ${chip('Needs with no funding', String((m.needsWithNoFunding as string[]).length), 'status-disputed')}
-        ${chip('Provenance coverage', `${m.provenanceCoverage}%`, 'status-documented')}
-      </div>
+        ${chip('Needs with no funding', String((m.needsWithNoFunding as string[]).length), 'status-disputed')}` : '';
+    const moneyNotes = hasMoney ? `
       <p class="small muted">Documented, proposed, and disbursed totals are deliberately separate categories — never summed together.
       Disbursed is an estimate (completed-phase projects assumed fully spent; no expenditure ledger exists in the corpus).</p>
       <p class="small">Try: switch to <b>Money Flow</b> mode and click the <b>Richmond CIP capital budget</b> node,
-      or open the <b>Funding Flows</b> tab and follow the ARPA flow to the Southside Community Center.</p>
+      or open the <b>Funding Flows</b> tab and follow the ARPA flow to the Southside Community Center.</p>` : `
+      <p class="small muted">This pillar's corpus contains no financial dataset, so the graph has no funding layer and the
+      money-based views are hidden. Everything shown is drawn from the evidence log and source inventory.</p>`;
+
+    return `
+      <h3 style="margin:2px 0 6px">Repository: ${esc(meta.repos[0] ?? '')}${
+        meta.pillarName ? ` (Richmond Civic Hackathon — ${esc(meta.pillarName)} pillar)` : ''}</h3>
+      ${meta.description ? `<p class="small muted" style="max-width:900px">${esc(meta.description)}</p>` : ''}
+      <div>
+        ${chip('Nodes', String(m.totalNodes))}
+        ${chip('Edges', String(m.totalEdges))}${moneyChips}
+        ${chip('Provenance coverage', `${m.provenanceCoverage}%`, 'status-documented')}
+      </div>${moneyNotes}
     `;
   }
 

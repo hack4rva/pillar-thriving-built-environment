@@ -62,7 +62,40 @@ curl -s -o /dev/null -w "%{http_code}\n" http://localhost:5173/   # expect 200
 - **Long-running**: `make dev` and `make preview` do not exit. Start them in the
   background and leave them running; stop with Ctrl-C.
 
-## Reusing this skill in another pillar repo
-Copy `skills/run_knowledge_graph/` into the target repo's `skills/` directory.
-The only assumption is a `knowledge-graph/` app at the repo root exposing the
-`make` targets above (thin wrappers over the `package.json` npm scripts).
+## Porting the app to another pillar repo
+
+The app is identical in every pillar; only `pillar.config.json` and the
+generated `data/` differ. From the Built Environment repo's `knowledge-graph/`:
+
+```bash
+./scripts/build-pillar.sh <target-repo-dir> "<Short Name>" "<Pillar Name>" [port]
+```
+
+That ports the source, installs dependencies, extracts, validates, builds, and
+runs a headless smoke check that reports which views survived capability
+gating. To port without building, use `./scripts/port-to-pillar.sh` directly.
+
+### What each pillar gets
+Extraction is deterministic and reads two files every pillar has:
+`admin/evidence_log.md` and `data/source_inventory.csv`. Table dialects differ
+between repos (heading levels, column names and order, bullet lists instead of
+tables), so the parsers match columns by meaning rather than position.
+
+Claims, gaps, and risks become Evidence, ResearchQuestion, and Risk nodes.
+Inventoried sources become Dataset nodes. With `"derive": true`, publishers
+named in the corpus become Organization nodes, and claims link to sources when
+they share a URL, name the source, or cite the same distinctive domain.
+
+### Views are gated on data, not assumed
+Only the Built Environment corpus contains a capital-projects export
+(`research/COR_CIP_Dashboard_projects.csv`), which is the sole origin of costs,
+phases, and every financial flow. Pillars without one hide Overview, Timeline,
+Money Flow, and Needs vs Money rather than render empty dashboards, and the
+subtitle reads "Evidence Explorer" instead of "Funding Explorer". Problem Space
+and Beneficiary are likewise hidden unless the graph has Problem or population
+nodes.
+
+### Curated records stay per-pillar
+`extraction/records/*.json` are hand-authored research with excerpt-level
+provenance verified at build time. A ported pillar starts with empty records
+and builds its graph from the parsers alone; never copy another pillar's.

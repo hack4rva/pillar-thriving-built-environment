@@ -94,7 +94,12 @@ export interface FinancialFlow {
 }
 
 export interface GraphData {
-  meta: { schemaVersion: string; generatedAt: string; repos: string[]; counts: Record<string, number> };
+  meta: {
+    schemaVersion: string; generatedAt: string; repos: string[];
+    counts: Record<string, number>;
+    /** Present in graphs built after the pipeline became multi-pillar. */
+    pillarName?: string; shortName?: string; description?: string;
+  };
   nodes: GraphNode[];
   edges: GraphEdge[];
   financialFlows: FinancialFlow[];

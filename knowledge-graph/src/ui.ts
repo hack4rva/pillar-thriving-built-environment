@@ -68,6 +68,7 @@ export class Sidebar {
         <div class="ft">Evidence status ${groupToggle('evidenceStatuses')}</div>
         ${checkboxes('evidenceStatuses', [...statusCounts.entries()].sort(), this.state.filters.evidenceStatuses)}
       </div>
+      ${d.graph.edges.some((e) => e.financial) ? `
       <div class="filter-group">
         <div class="ft">Financial status</div>
         ${checkboxes('financialStatuses', Object.keys(FINANCIAL_STATUS_LABELS).map((s) => {
@@ -81,7 +82,7 @@ export class Sidebar {
         <div class="ft">Amount range (USD)</div>
         <label>min <input type="number" data-amount="min" placeholder="0" min="0" step="100000"/></label>
         <label>max <input type="number" data-amount="max" placeholder="∞" min="0" step="100000"/></label>
-      </div>
+      </div>` : ''}
     `;
 
     this.filtersEl.addEventListener('change', (ev) => {

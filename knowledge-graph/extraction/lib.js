@@ -1,10 +1,9 @@
 import { createHash } from 'node:crypto';
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { REPO_ROOT, REPO_ID } from './config.js';
 
-/** Root of the research repository (parent of knowledge-graph/). */
-export const REPO_ROOT = resolve(import.meta.dirname, '..', '..');
-export const REPO_ID = 'pillar-thriving-built-environment';
+export { REPO_ROOT, REPO_ID };
 
 export function slug(text) {
   return String(text)

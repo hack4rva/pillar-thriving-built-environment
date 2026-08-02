@@ -13,6 +13,7 @@ import { parseCipCsv } from '../extraction/parsers/cip_csv.js';
 import { parseEvidenceLog } from '../extraction/parsers/evidence_log.js';
 import { parseSourceInventory } from '../extraction/parsers/source_inventory.js';
 import { makeNode, makeEdge, verifyProvenance, REPO_ID, slug } from '../extraction/lib.js';
+import { config } from '../extraction/config.js';
 import { computeMetrics } from '../extraction/metrics.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -21,25 +22,101 @@ const PUBLIC_DATA_DIR = resolve(ROOT, 'public', 'data');
 
 const readJson = (p) => JSON.parse(readFileSync(resolve(ROOT, p), 'utf8'));
 
+/**
+ * Curated records are hand-authored per pillar. A pillar that hasn't curated
+ * any yet still gets a graph from its deterministic parsers, so read these
+ * defensively rather than requiring the files to exist.
+ */
+const readRecords = (p, fallback) => {
+  try {
+    return readJson(p);
+  } catch {
+    return fallback;
+  }
+};
+
 const RUN_TS = new Date().toISOString();
+
+/**
+ * Link a claim to a dataset when the corpus itself connects them — the claim
+ * names the dataset, or both point at the same URL. Nothing is inferred beyond
+ * a literal match, so every edge can be checked by reading the two rows.
+ */
+function deriveCitations(ev, inv) {
+  if (!config.derive) return [];
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return null; } };
+
+  const edges = [];
+  const datasets = inv.nodes.filter((n) => n.type === 'Dataset');
+  // A domain shared by many sources (an open-data portal) says little about any
+  // one of them, so only treat a domain as a link when it is distinctive.
+  const perHost = new Map();
+  for (const ds of datasets) {
+    const h = host(ds.attrs?.url);
+    if (h) perHost.set(h, (perHost.get(h) ?? 0) + 1);
+  }
+
+  for (const evNode of ev.nodes.filter((n) => n.type === 'Evidence')) {
+    const claim = (evNode.description ?? '').toLowerCase();
+    const evUrl = evNode.attrs?.url ?? null;
+    const evHost = host(evUrl);
+    for (const ds of datasets) {
+      const name = ds.label.toLowerCase();
+      const sameUrl = evUrl && ds.attrs?.url && evUrl === ds.attrs.url;
+      const named = name.length >= 10 && claim.includes(name);
+      const dsHost = host(ds.attrs?.url);
+      const sameHost = !sameUrl && evHost && dsHost === evHost && (perHost.get(evHost) ?? 0) <= 3;
+      if (!sameUrl && !named && !sameHost) continue;
+
+      let description;
+      if (sameUrl) description = `Claim and inventoried source share the URL ${evUrl}`;
+      else if (named) description = `Claim names the inventoried source "${ds.label}"`;
+      else description = `Claim cites ${evHost}, the same publisher domain as this inventoried source`;
+
+      edges.push(makeEdge({
+        source: evNode.id,
+        target: ds.id,
+        // A shared domain is an association; only an exact URL or a named
+        // source is strong enough to call the claim supported by it.
+        type: sameHost ? 'ASSOCIATED_WITH' : 'SUPPORTED_BY',
+        description,
+        evidenceStatus: 'documented',
+        confidence: sameUrl ? 'high' : named ? 'medium' : 'low',
+        provenance: evNode.provenance,
+      }));
+    }
+  }
+  return edges;
+}
 
 function main() {
   const warnings = [];
-  const reviewQueue = readJson('extraction/records/review.json');
+  const reviewQueue = readRecords('extraction/records/review.json', []);
 
   // 1. Deterministic parsers ------------------------------------------------
-  const cip = parseCipCsv();
+  // The projects CSV is the only origin of costs, phases, and financial flows.
+  // Pillars without one produce a graph with no money layer, by design.
+  const cip = config.sources.projectsCsv
+    ? parseCipCsv()
+    : { nodes: [], edges: [], flows: [], filesExamined: [] };
   const ev = parseEvidenceLog();
   const inv = parseSourceInventory();
 
   // 2. Curated records ------------------------------------------------------
-  const entityRecords = readJson('extraction/records/entities.json');
-  const relationshipRecords = readJson('extraction/records/relationships.json');
-  const curatedFlows = readJson('extraction/records/flows.json');
-  const curatedQuestions = readJson('extraction/records/questions.json');
+  const entityRecords = readRecords('extraction/records/entities.json', []);
+  const relationshipRecords = readRecords('extraction/records/relationships.json', []);
+  const curatedFlows = readRecords('extraction/records/flows.json', []);
+  const curatedQuestions = readRecords('extraction/records/questions.json', []);
   // External research: web-sourced findings that answer/narrow open questions.
   // Provenance is URL-based (not file-verifiable); counted as "external".
-  const external = readJson('extraction/records/external.json');
+  // Normalize rather than trust the file: a pillar with no external research
+  // yet should still iterate cleanly over every collection below.
+  const external = {
+    researchedAt: null,
+    evidence: [], entities: [], relationships: [], flows: [],
+    nodeUpdates: [], flowUpdates: [], questionAnswers: [],
+    ...readRecords('extraction/records/external.json', {}),
+  };
 
   const verification = { exact: 0, moved: 0, unchecked: 0, missing: 0, external: 0 };
   const verifyAll = (record, kind, label) => {
@@ -138,7 +215,8 @@ function main() {
 
   // 3. Merge ---------------------------------------------------------------
   let nodes = [...cip.nodes, ...ev.nodes, ...inv.nodes, ...curatedNodes];
-  let edges = [...cip.edges, ...inv.edges, ...curatedEdges];
+  let edges = [...cip.edges, ...(ev.edges ?? []), ...inv.edges, ...curatedEdges,
+    ...deriveCitations(ev, inv)];
   const flows = [...cip.flows, ...curatedFlows, ...external.flows];
 
   // Duplicate node IDs: merge provenance, keep first definition.
@@ -272,6 +350,10 @@ function main() {
     schemaVersion: '1.0.0',
     generatedAt: RUN_TS,
     repos: [REPO_ID],
+    // Lets one identical index.html title itself correctly in every pillar repo.
+    pillarName: config.pillarName,
+    shortName: config.shortName,
+    description: config.description,
     counts: { nodes: nodes.length, edges: edges.length, financialFlows: flows.length },
   };
   const graph = { meta, nodes, edges, financialFlows: flows };
