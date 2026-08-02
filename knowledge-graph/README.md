@@ -77,6 +77,7 @@ reduced motion). Full legend in the sidebar.
 | [docs/data-methodology.md](docs/data-methodology.md) | Extraction pipeline, automated vs curated, provenance verification, privacy |
 | [docs/financial-flow-methodology.md](docs/financial-flow-methodology.md) | Flow model, computed figures, every assumption behind every estimate |
 | [docs/problem-space-summary.md](docs/problem-space-summary.md) | Plain-language summary: the problem, the people, the money |
+| [docs/findings.md](docs/findings.md) | What this dataset uniquely shows: five provenance-backed findings about where public money becomes untraceable |
 | [docs/research-gaps.md](docs/research-gaps.md) | What the graph cannot answer and what data would close each gap |
 
 ## Data outputs (`data/`)
