@@ -493,6 +493,45 @@
     },
 
     {
+      "id": "skill/run_knowledge_graph",
+      "path": "skills/run_knowledge_graph/SKILL.md",
+      "type": "skill",
+      "title": "Skill: run_knowledge_graph",
+      "pillar": "thriving-built-environment",
+      "summary": "Installs and runs the knowledge-graph/ app (evidence-backed knowledge graph and 3D funding explorer) locally, with the full make command set and troubleshooting.",
+      "tags": ["skill", "knowledge-graph", "visualization", "funding-explorer"],
+      "recommended_audience": ["AI agents", "teams demoing the funding explorer"],
+      "read_after": [],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/knowledge_graph_rebuild",
+      "path": "skills/knowledge_graph_rebuild/SKILL.md",
+      "type": "skill",
+      "title": "Skill: knowledge_graph_rebuild",
+      "pillar": "thriving-built-environment",
+      "summary": "Phase-by-phase recipe to recreate the knowledge graph and 3D funding explorer from scratch, or port it to a different pillar repo: ontology, extraction pipeline, financial-flow rules, visualization modes, tests, and a porting checklist.",
+      "tags": ["skill", "knowledge-graph", "rebuild", "porting", "extraction-pipeline"],
+      "recommended_audience": ["AI agents", "maintainers", "other pillar teams"],
+      "read_after": ["knowledge-graph/docs/ontology.md", "knowledge-graph/docs/architecture.md"],
+      "source_of_truth": true
+    },
+
+    {
+      "id": "skill/external_research_gap_fill",
+      "path": "skills/external_research_gap_fill/SKILL.md",
+      "type": "skill",
+      "title": "Skill: external_research_gap_fill",
+      "pillar": "thriving-built-environment",
+      "summary": "Protocol for answering the knowledge graph's open questions with targeted web research and integrating findings via extraction/records/external.json, with source-hierarchy status caps and anti-double-counting rules.",
+      "tags": ["skill", "knowledge-graph", "external-research", "provenance", "gap-fill"],
+      "recommended_audience": ["AI agents", "corpus maintainers"],
+      "read_after": ["skills/knowledge_graph_rebuild/SKILL.md"],
+      "source_of_truth": true
+    },
+
+    {
       "id": "template/decision_memo",
       "path": "99_templates/decision_memo.md",
       "type": "template",

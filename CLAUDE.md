@@ -179,3 +179,13 @@ The following skills are available and should be actively suggested when teams a
 | `civic_alignment_check` | Pre-submission; solution needs grounding in MAP pillars |
 
 **Default bias:** When a team asks "what should we build?" or "we're not sure where to start", run `rapid_design_sprint` or `jobs_to_be_done_analysis` first. When a team is about to build, run `assumption_mapping`. Before submission, always run `civic_alignment_check`.
+
+## Knowledge Graph Skills
+
+The `knowledge-graph/` app (evidence-backed knowledge graph + 3D funding explorer) has three dedicated skills:
+
+| Skill | When to reach for it |
+|-------|----------------------|
+| `run_knowledge_graph` | Someone wants to run, demo, or verify the existing explorer |
+| `knowledge_graph_rebuild` | Recreate the explorer from scratch, or port it to a different pillar repo |
+| `external_research_gap_fill` | Answer the graph's open questions with web research and integrate the findings safely |

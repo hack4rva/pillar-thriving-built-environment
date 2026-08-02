@@ -79,6 +79,11 @@ reduced motion). Full legend in the sidebar.
 | [docs/problem-space-summary.md](docs/problem-space-summary.md) | Plain-language summary: the problem, the people, the money |
 | [docs/research-gaps.md](docs/research-gaps.md) | What the graph cannot answer and what data would close each gap |
 
+To recreate this app from scratch or port it to another pillar repo, follow
+[skills/knowledge_graph_rebuild/SKILL.md](../skills/knowledge_graph_rebuild/SKILL.md);
+to extend the graph with web research, follow
+[skills/external_research_gap_fill/SKILL.md](../skills/external_research_gap_fill/SKILL.md).
+
 ## Data outputs (`data/`)
 
 `graph.json` (nodes + edges), `nodes.json`, `edges.json`, `financial_flows.json`,
