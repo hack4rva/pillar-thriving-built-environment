@@ -8,7 +8,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 19-19",
     "excerpt": "Richmond GeoHub exists as a public ArcGIS hub"
    }
@@ -23,7 +23,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 20-20",
     "excerpt": "Richmond Open Data Portal exists on Socrata"
    }
@@ -38,7 +38,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 21-21",
     "excerpt": "Richmond Civic Hackathon is March 27–29, 2026 at VCU Snead Hall"
    }
@@ -53,7 +53,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 22-22",
     "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
    }
@@ -68,7 +68,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 30-30",
     "excerpt": "GeoHub contains public layers for DPW transportation projects"
    }
@@ -83,7 +83,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 31-31",
     "excerpt": "Richmond Open Data Portal contains capital improvement or 311 datasets"
    }
@@ -98,7 +98,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 32-32",
     "excerpt": "DPW program pages describe active projects including streetscape and safety programs"
    }
@@ -113,7 +113,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 33-33",
     "excerpt": "DPW communications staff receive repetitive resident inquiries about project status"
    }
@@ -128,7 +128,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 34-34",
     "excerpt": "Zone-level street cleaning schedules exist internally at DPW"
    }
@@ -143,7 +143,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 42-42",
     "excerpt": "Snow removal routes are assigned by geographic zone"
    }
@@ -158,7 +158,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 43-43",
     "excerpt": "GPS data schema will include route_id, completion_pct, and timestamp fields"
    }
@@ -173,7 +173,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 44-44",
     "excerpt": "Project descriptions in GeoHub contain enough fields to build a useful project card"
    }
@@ -188,7 +188,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 45-45",
     "excerpt": "VDOT maintains a separate project tracker for state-maintained roads in Richmond"
    }
@@ -203,7 +203,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 53-53",
     "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
    }
@@ -219,7 +219,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 54-54",
     "excerpt": "Current GPS system vendor and data schema being installed"
    }
@@ -235,7 +235,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 55-55",
     "excerpt": "Zone boundary data for snow removal and street cleaning"
    }
@@ -251,7 +251,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 56-56",
     "excerpt": "Historical street cleaning schedules by zone or district"
    }
@@ -267,7 +267,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 57-57",
     "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
    }
@@ -283,7 +283,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 65-65",
     "excerpt": "Richmond GeoHub transportation layers"
    }
@@ -299,7 +299,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 66-66",
     "excerpt": "Richmond Open Data Portal"
    }
@@ -315,7 +315,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 67-67",
     "excerpt": "VDOT project tracker"
    }
@@ -331,7 +331,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 68-68",
     "excerpt": "GRTC GTFS"
    }
@@ -347,7 +347,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 76-76",
     "excerpt": "GeoHub layers are not public or field names differ from assumed"
    }
@@ -363,7 +363,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 77-77",
     "excerpt": "Fleet tool implies live GPS when none exists"
    }
@@ -379,7 +379,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 78-78",
     "excerpt": "Project timeline claims are inaccurate"
    }
@@ -395,11 +395,199 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 79-79",
     "excerpt": "Plain-language AI translations contain errors"
    }
   ],
   "notes": "Severity: Medium. Mitigation: Show original alongside; label as AI-generated; review sample translations"
+ },
+ {
+  "id": "ev:W-1",
+  "claim": "The City of Richmond received $154 million in ARPA funds (two $77 million federal payments a year apart).",
+  "status": "confirmed",
+  "source": "City of Richmond — American Rescue Plan page",
+  "url": "https://www.rva.gov/arp",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.rva.gov/arp",
+    "sourceLocation": "web page",
+    "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+    "note": "accessed 2026-08-01 via web search"
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-2",
+  "claim": "The City's ARPA spending plan allocates $16,000,000 to the Southside Community Center ($8M in year 1, $8M in year 2).",
+  "status": "confirmed",
+  "source": "City of Richmond — ARPA Spending Plan By Priority Area (PDF)",
+  "url": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
+    "sourceLocation": "spending plan table",
+    "excerpt": "Southside Community Center | $16,000,000 | $8,000,000 $8,000,000",
+    "note": "accessed 2026-08-01; the rva.gov/arp summary table shows the same figure. WTVR (Oct 2023) adds that construction funding is 'mostly ARPA' with roughly $6M from City Council appropriations."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-3",
+  "claim": "The City's ARPA spending plan allocates $20,000,000 to the Lucks Field Community Center ($1M year 1, $19M year 2), within $78M for community centers.",
+  "status": "confirmed",
+  "source": "City of Richmond — American Rescue Plan page",
+  "url": "https://www.rva.gov/arp",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.rva.gov/arp",
+    "sourceLocation": "ARPA allocation table",
+    "excerpt": "Lucks Field Community Center | 20 M | 1 M | 19 M",
+    "note": "accessed 2026-08-01; same table: '$78 million for funding community centers including: T.B. Smith Community Center, Southside Community Center, Calhoun Center and a new center on the current site of Lucks Field.'"
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-4",
+  "claim": "The FY2025–FY2029 proposed Richmond CIP is funded 64% by general obligation bonds ($575,000,000), 28% by federal/state/regional transportation funds ($257,827,914), 7% pay-as-you-go cash ($63,280,533), and 1% prior-year appropriations ($7,904,212).",
+  "status": "confirmed",
+  "source": "City of Richmond — FY2025 Proposed CIP Budget Council Presentation (PDF)",
+  "url": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+  "provenance": [
+   {
+    "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+    "sourceLocation": "SOURCES OF FUNDING slide",
+    "excerpt": "General Obligation Bonds 575,000,000 64% Pay-As-You-Go (Cash) 63,280,533 7%",
+    "note": "accessed 2026-08-01; same slide lists Federal/State/Regional Transportation Funds 257,827,914 (28%) and Prior Year Appropriations 7,904,212 (1%). The FY2025 Adopted Annual Fiscal Plan confirms a $460,243,826 FY2025 capital budget."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-5",
+  "claim": "DPW paused street sweeping for the remainder of 2025 (announced December 12, 2025), resuming January 5, 2026, weather permitting.",
+  "status": "confirmed",
+  "source": "City of Richmond press release, Dec 12, 2025",
+  "url": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+    "sourceLocation": "press release",
+    "excerpt": "the city will pause street sweeping operation until January 5, 2026, weather permitting",
+    "note": "accessed 2026-08-01"
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-6",
+  "claim": "DPW publishes a residential street sweeping schedule by route and neighborhood area with date windows (schedule updated April 14, 2026; 12+ named routes).",
+  "status": "confirmed",
+  "source": "City of Richmond — Street Cleaning page",
+  "url": "http://rva.gov/index.php/public-works/street-cleaning",
+  "provenance": [
+   {
+    "sourceDoc": "http://rva.gov/index.php/public-works/street-cleaning",
+    "sourceLocation": "Residential Street Sweeping Schedule table",
+    "excerpt": "Schedule Updated April 14, 2026",
+    "note": "accessed 2026-08-01; routes include Fulton/35th Street, Church Hill, Highland Park, Northside/Ginter Park, The Fan, Museum District, each with a map link and date window."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-7",
+  "claim": "The City of Richmond issued a procurement solicitation (OpenGov project 100739, 'GPS Telematics Tracking') for wireless vehicle tracking across the DPW fleet, requiring real-time and logged tracking, nearest-vehicle dispatch, and monitoring of plow up/down and sander on/off via PTO connections. No awarded vendor is publicly identified.",
+  "status": "confirmed",
+  "source": "City of Richmond procurement portal (OpenGov)",
+  "url": "https://procurement.opengov.com/portal/rva/projects/100739/document",
+  "provenance": [
+   {
+    "sourceDoc": "https://procurement.opengov.com/portal/rva/projects/100739/document",
+    "sourceLocation": "solicitation document",
+    "excerpt": "Ability to track certain vehicle operations such as plow up/down, sander on/off, etc. (Power Take Off (PTO) Connections)",
+    "note": "accessed 2026-08-01; fleet quantities listed include 100 dump trucks, 200 heavy duty vehicles, 1,250 light duty vehicles. The Richmond Police Department separately uses Verizon Connect (since 2009) for its own fleet — a different system."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-8",
+  "claim": "The Fall Line Trail is anticipated to cost more than $400 million (April 2024); about $280 million had been raised as of October 2024, with CVTA the largest single funder at $124.5 million — implying a remaining gap on the order of $120 million or more.",
+  "status": "likely",
+  "source": "Fall Line Trail quarterly meetings; Richmond BizSense",
+  "url": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
+    "sourceLocation": "meeting transcript",
+    "excerpt": "we we've raised about $280 million from many many sources",
+    "note": "accessed 2026-08-01; same transcript: CVTA total raised 'from 123 million to 124.5'."
+   },
+   {
+    "sourceDoc": "https://richmondbizsense.com/2024/04/24/fall-line-trail-project-breaks-ground-on-5-mile-hanover-segment/",
+    "sourceLocation": "news article",
+    "excerpt": "The entire Fall Line project is currently anticipated to cost more than $400 million to build",
+    "note": "accessed 2026-08-01; classified 'likely' because figures come from the project organization and news, not an adopted government budget document, and evolve with inflation."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-9",
+  "claim": "The City of Richmond submitted a $40 million RAISE grant application for the Fall Line Trail (2024); no City of Richmond award appears in USDOT's FY2024 RAISE grant agreements list; Senators Warner and Kaine provided a $2 million earmark to the trail.",
+  "status": "likely",
+  "source": "Fall Line Trail April 2024 meeting; USDOT FY2024 RAISE grant agreements (PDF)",
+  "url": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.falllinetrail.org/friends-of-the-fall-line-april-3-2024/",
+    "sourceLocation": "meeting transcript",
+    "excerpt": "the city of Richmond put in a $40 million raise Grant application",
+    "note": "accessed 2026-08-01"
+   },
+   {
+    "sourceDoc": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
+    "sourceLocation": "Virginia awards section",
+    "excerpt": "FHWA VA: Virginia City of Suffolk Suffolk Seaboard Coastline Trail - Segment 3C $ 5,319,360 Capital Pending",
+    "note": "accessed 2026-08-01; Virginia FY2024 RAISE entries (Rocky Mount, West Piedmont PDC, Suffolk) include no City of Richmond award. Absence of an award in this list is negative evidence, hence 'likely' rather than 'confirmed'."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-10",
+  "claim": "VDOT operates a public snow plow tracking map ('VDOT Plows'), activated when snowfall exceeds two inches, showing 7,000+ plows statewide with two-minute updates — a working precedent for public fleet visibility (state-maintained roads only; Richmond city streets are plowed by DPW).",
+  "status": "confirmed",
+  "source": "WTVR CBS 6 describing VDOT's official tool",
+  "url": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+    "sourceLocation": "news article",
+    "excerpt": "VDOT Plows, activated when it snows more than two inches, monitors the location of over 7,000 snow plows across the Commonwealth. The map is updated every two minutes.",
+    "note": "accessed 2026-08-01"
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
+ },
+ {
+  "id": "ev:W-11",
+  "claim": "Richmond DPW snow operations use about 240 employees and 75 trucks to treat and plow roughly 1,800 lane miles, in 12-hour shifts (January 2026, per DPW via CBS 6).",
+  "status": "likely",
+  "source": "WTVR CBS 6 quoting DPW",
+  "url": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026",
+  "provenance": [
+   {
+    "sourceDoc": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026",
+    "sourceLocation": "news article",
+    "excerpt": "the city has about 240 employees, using 75 trucks to treat and plow roughly 1,800 lane miles of roadway, with crews working in 12‑hour shifts day and night",
+    "note": "accessed 2026-08-01; news quoting a DPW official, hence 'likely'."
+   }
+  ],
+  "repo": "pillar-thriving-built-environment"
  }
 ]

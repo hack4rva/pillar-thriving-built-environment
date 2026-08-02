@@ -30,7 +30,7 @@ types actually **used** for this repository, and what they mean here, are:
 | `Service` | A delivered public service | Snow removal service, street cleaning service, 311 |
 | `GeographicRegion` | Places | City of Richmond, named neighborhoods/corridors when load-bearing |
 | `Outcome` | A measured or claimed result | (rare in this corpus; most outcomes are *missing*, which is itself recorded) |
-| `Evidence` | An entry in `evidence_log.md` | E-001 … E-034, D-00x, R-00x |
+| `Evidence` | An entry in `admin/evidence_log.md` | E-001 … E-034, D-00x, R-00x |
 | `Claim` | A material claim made in the corpus that is not yet an evidence-log entry | "GPS fleet infrastructure is incomplete" |
 | `ResearchQuestion` | An open question | From `research/93_missing_information_gaps.md` and evidence-log "Missing" entries |
 | `Risk` | A documented risk | R-001 … R-004, G-section risks |

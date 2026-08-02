@@ -8,7 +8,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 18-22",
         "excerpt": "A resident who sees orange construction cones on their street may have no reliable way to find"
       }
@@ -23,7 +23,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 99-99",
         "excerpt": "Residents who want to know when their street will be cleaned or plowed"
       }
@@ -38,7 +38,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 98-98",
         "excerpt": "DPW supervisors who need route completion visibility"
       }
@@ -53,7 +53,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 34-35",
         "excerpt": "identify and prioritize locations for transportation safety improvements"
       }
@@ -68,7 +68,7 @@
     "confidence": "medium",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 34-35",
         "excerpt": "help Richmond residents, advocates, and City planners"
       }
@@ -83,7 +83,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 18-22",
         "excerpt": "may have no reliable way to find"
       }
@@ -98,7 +98,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "the data is technical and not designed for residents"
       }
@@ -113,7 +113,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 99-99",
         "excerpt": "Residents who want to know when their street will be cleaned or plowed"
       }
@@ -128,7 +128,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "residents with fewer workaround options"
       }
@@ -143,7 +143,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 98-98",
         "excerpt": "route completion visibility without calling every driver"
       }
@@ -158,7 +158,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 19-19",
         "excerpt": "DPW staff spend time answering questions that a clear public resource could deflect"
       }
@@ -173,7 +173,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 12-22",
         "excerpt": "find and understand transportation and infrastructure projects"
       }
@@ -188,7 +188,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 45-45",
         "excerpt": "Technical descriptions are translated into plain language"
       }
@@ -203,7 +203,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 47-47",
         "excerpt": "Staff receive fewer repetitive information requests"
       }
@@ -218,7 +218,7 @@
     "confidence": "medium",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "equitable access to infrastructure information"
       }
@@ -233,7 +233,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 77-78",
         "excerpt": "track the progress of services like snow removal and street cleaning"
       }
@@ -248,7 +248,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 98-98",
         "excerpt": "route completion visibility"
       }
@@ -323,7 +323,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "The Department of Public Works (DPW) manages transportation projects across Richmond",
         "note": "Departmental relationship inferred from standard municipal structure and consistent corpus usage."
@@ -355,7 +355,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "Dashboard is the authoritative public source for funded projects"
       }
@@ -370,7 +370,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "The Department of Public Works (DPW) manages transportation projects across Richmond"
       }
@@ -385,7 +385,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 81-81",
         "excerpt": "DPW manages highly visible operational services: snow removal and street cleaning"
       }
@@ -400,7 +400,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 81-81",
         "excerpt": "DPW manages highly visible operational services: snow removal and street cleaning"
       }
@@ -431,7 +431,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 85-85",
         "excerpt": "defines the snow route priority system beginning on page 67"
       }
@@ -446,7 +446,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 34-34",
         "excerpt": "directly implement goals from Richmond"
       }
@@ -461,7 +461,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 24-24",
         "excerpt": "125 funded projects"
       }
@@ -476,7 +476,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 81-81",
         "excerpt": "residents seek information about when their street will be serviced"
       }
@@ -596,7 +596,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 115-115",
         "excerpt": "Snow Route Priority Lookup"
       }
@@ -611,7 +611,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 117-117",
         "excerpt": "Fleet Route Progress Dashboard"
       }
@@ -626,7 +626,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 118-118",
         "excerpt": "Street Cleaning Zone Lookup"
       }
@@ -641,7 +641,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 50-50",
         "excerpt": "overlays publicly available crash data with existing transportation project locations"
       }
@@ -656,7 +656,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 56-56",
         "excerpt": "The CIP dataset is verified and in the repository"
       }
@@ -671,7 +671,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 56-56",
         "excerpt": "returns **polygon geometry** for all projects"
       }
@@ -686,7 +686,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 64-64",
         "excerpt": "125 projects, provided by DPW GIS Team"
       }
@@ -701,7 +701,7 @@
     "confidence": "medium",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 53-53",
         "excerpt": "Opt-in notification when a nearby project changes phase"
       }
@@ -716,7 +716,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 121-121",
         "excerpt": "Teams can extract those route names/segments and build a lookup against them"
       }
@@ -731,7 +731,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 105-105",
         "excerpt": "must use WMP route data or synthetic mock data"
       }
@@ -746,7 +746,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 118-118",
         "excerpt": "Street Cleaning Zone Lookup using the public schedule page"
       }
@@ -761,7 +761,7 @@
     "confidence": "medium",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 39-39",
         "excerpt": "Public data exists (crash data, road network, project data on GeoHub)"
       }
@@ -776,7 +776,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "Hack RVA"
       }
@@ -791,7 +791,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "at VCU Snead Hall"
       }
@@ -806,7 +806,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "at VCU Snead Hall"
       }
@@ -971,7 +971,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 10-10",
         "excerpt": "provided by DPW GIS Team (Chad Phillips"
       }
@@ -986,7 +986,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 75-75",
         "excerpt": "provided by DPW (Daniel Wagner / Chad Phillips)"
       }
@@ -1001,7 +1001,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 10-10",
         "excerpt": "CIP Dashboard export provided by DPW GIS Team (Chad Phillips"
       }
@@ -1016,7 +1016,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 75-75",
         "excerpt": "WMP 2025-2026 provided by DPW (Daniel Wagner / Chad Phillips)"
       }
@@ -1031,7 +1031,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 75-75",
         "excerpt": "WMP 2025-2026 provided by DPW (Daniel Wagner / Chad Phillips)"
       }
@@ -1046,7 +1046,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
       }
@@ -1061,7 +1061,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 102-102",
         "excerpt": "GPS infrastructure is still being implemented"
       }
@@ -1076,7 +1076,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 105-105",
         "excerpt": "must use WMP route data or synthetic mock data"
       }
@@ -1106,7 +1106,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 85-91",
         "excerpt": "defines the snow route priority system beginning on page 67"
       }
@@ -1121,7 +1121,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 37-37",
         "excerpt": "The live CIP ArcGIS dashboard is updated quarterly"
       }
@@ -1181,7 +1181,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 19-19",
         "excerpt": "Richmond GeoHub exists as a public ArcGIS hub"
       }
@@ -1196,7 +1196,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 20-20",
         "excerpt": "Richmond Open Data Portal exists on Socrata"
       }
@@ -1211,7 +1211,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "at VCU Snead Hall"
       }
@@ -1226,7 +1226,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "GPS devices are being installed across the DPW fleet"
       }
@@ -1241,7 +1241,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 54-54",
         "excerpt": "Current GPS system vendor and data schema being installed"
       }
@@ -1256,7 +1256,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 76-76",
         "excerpt": "GeoHub layers are not public or field names differ from assumed"
       }
@@ -1271,7 +1271,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 77-77",
         "excerpt": "Fleet tool implies live GPS when none exists"
       }
@@ -1286,7 +1286,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 78-78",
         "excerpt": "Project timeline claims are inaccurate"
       }
@@ -1301,7 +1301,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 79-79",
         "excerpt": "Plain-language AI translations contain errors"
       }
@@ -1331,7 +1331,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 10-10",
         "excerpt": "CIP Dashboard export provided by DPW GIS Team"
       }
@@ -1361,7 +1361,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 135-135",
         "excerpt": "provided by DPW (Daniel Wagner, Chad Phillips)"
       }
@@ -1391,7 +1391,7 @@
     "confidence": "high",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 24-24",
         "excerpt": "125 funded projects",
         "note": "Documents that projects are funded, not by what mix of sources."
@@ -1417,7 +1417,7 @@
     "confidence": "medium",
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S006",
         "excerpt": "Richmond RAISE/TIGER grant data for project context"
       }
@@ -1442,7 +1442,7 @@
     "confidence": "low",
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S006",
         "excerpt": "Richmond RAISE/TIGER grant data for project context"
       }

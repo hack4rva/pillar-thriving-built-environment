@@ -47,7 +47,7 @@
     "itemType": "node",
     "proposed": "n:agency:richmond-dpw (alias 'City of Richmond GIS')",
     "sourceExcerpt": "S001 Richmond GeoHub owner: City of Richmond GIS; 02_targeted: 'CIP Dashboard export provided by DPW GIS Team'",
-    "sourceLocation": "02_data/source_inventory.csv row id=S001; 01_problem_space/02_targeted_problem_statements.md lines 10-10",
+    "sourceLocation": "data/source_inventory.csv row id=S001; docs/problem_space/targeted_problem_statements.md lines 10-10",
     "rationale": "The inventory attributes GeoHub to 'City of Richmond GIS' while the problem statement credits the 'DPW GIS Team'. These were merged into the DPW node via alias resolution; they may actually be distinct units (citywide GIS office vs. DPW GIS team).",
     "confidence": "medium",
     "alternatives": [

@@ -143,17 +143,29 @@ export class Drawer {
   }
 
   private questionsHtml(): string {
-    const byCat = new Map<string, typeof this.state.data.questions>();
-    for (const q of this.state.data.questions) {
+    const all = this.state.data.questions;
+    const answered = all.filter((q) => q.status === 'answered').length;
+    const partial = all.filter((q) => q.status === 'partially_answered').length;
+    const byCat = new Map<string, typeof all>();
+    for (const q of all) {
       if (!byCat.has(q.category)) byCat.set(q.category, []);
       byCat.get(q.category)!.push(q);
     }
-    return [...byCat.entries()].map(([cat, qs]) => `
+    const statusBadge = (q: (typeof all)[number]) =>
+      q.status === 'answered' ? '<span class="badge status-externally_verified">answered</span>'
+      : q.status === 'partially_answered' ? '<span class="badge status-proposed">partial</span>'
+      : '<span class="badge status-unknown">open</span>';
+    const header = (answered + partial) > 0
+      ? `<p class="small muted" style="margin:4px 0 8px">External research (see the data-quality tab) answered
+         ${answered} and narrowed ${partial} of these ${all.length} questions. Answered questions stay listed
+         with their answers — they document what was unknown in the corpus itself.</p>` : '';
+    return header + [...byCat.entries()].map(([cat, qs]) => `
       <h3 style="margin:8px 0 4px">${esc(cat)} (${qs.length})</h3>
       <table class="data"><tbody>
       ${qs.map((q) => `
         <tr>
-          <td style="width:55%">${esc(q.question)}</td>
+          <td style="width:55%">${esc(q.question)} ${statusBadge(q)}
+            ${q.answer ? `<div class="small" style="margin-top:4px;color:var(--text-muted)"><b>Answer:</b> ${esc(q.answer)}</div>` : ''}</td>
           <td class="small muted">${esc(q.provenance[0]?.sourceDoc ?? '')} · ${esc(q.provenance[0]?.sourceLocation ?? '')}</td>
           <td>${(q.relatedNodeIds ?? []).filter((id) => this.state.data.nodeById.has(id)).map((id) =>
             `<button class="linkish small" data-goto-node="${id}">${esc(this.state.data.nodeById.get(id)!.label)}</button>`).join(' · ')}</td>
@@ -191,7 +203,11 @@ export class Drawer {
         ${row('Broken references', m.brokenReferences)}
         ${row('Duplicate candidates', m.duplicateCandidates)}
         ${row('Provenance coverage', `${m.provenanceCoverage}%`, 'records with at least one source citation')}
-        ${row('Provenance verification', JSON.stringify(m.provenanceVerification), 'excerpts checked against source files at extraction time')}
+        ${row('Provenance verification', JSON.stringify(m.provenanceVerification), 'excerpts checked against source files at extraction time; "external" = URL sources from web research')}
+        ${m.externalResearch ? row(
+          'External research',
+          `${(m.externalResearch as Record<string, unknown>).questionsAnswered} answered, ${(m.externalResearch as Record<string, unknown>).questionsPartiallyAnswered} narrowed, ${(m.externalResearch as Record<string, unknown>).evidenceRecords} evidence records (${(m.externalResearch as Record<string, unknown>).researchedAt})`,
+          String((m.externalResearch as Record<string, unknown>).note ?? '')) : ''}
         ${row('Files examined', r.filesExamined.length, r.filesExamined.join(', '))}
       </tbody></table>
       ${r.warnings.length ? `<h3>Warnings</h3><ul>${r.warnings.map((w) => `<li class="small muted">${esc(w)}</li>`).join('')}</ul>` : ''}

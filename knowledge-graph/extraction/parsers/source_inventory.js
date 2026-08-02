@@ -1,7 +1,7 @@
 import { parse } from 'csv-parse/sync';
 import { readRepoFile, makeNode, makeEdge, nodeId, slug } from '../lib.js';
 
-const CSV_PATH = '02_data/source_inventory.csv';
+const CSV_PATH = 'data/source_inventory.csv';
 
 /** Map inventory owner strings to canonical publisher node IDs (aliases.json holds the rest). */
 const OWNER_TO_NODE = {
@@ -26,7 +26,7 @@ function statusToEvidence(status) {
   return 'reported_but_unverified';
 }
 
-/** Parse 02_data/source_inventory.csv into Dataset nodes + PUBLISHES/ASSOCIATED_WITH edges. */
+/** Parse data/source_inventory.csv into Dataset nodes + PUBLISHES/ASSOCIATED_WITH edges. */
 export function parseSourceInventory() {
   const rows = parse(readRepoFile(CSV_PATH), { columns: true, skip_empty_lines: true, bom: true });
   const nodes = [];

@@ -5,7 +5,7 @@
     "category": "missing-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 59-59",
         "excerpt": "Richmond 300 goal tags have not been mapped to individual CIP projects"
       }
@@ -21,7 +21,7 @@
     "category": "missing-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 61-61",
         "excerpt": "Resident device usage and digital literacy range in affected neighborhoods are undocumented"
       }
@@ -36,7 +36,7 @@
     "category": "missing-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 124-124",
         "excerpt": "P1 and P2 route geometries (GIS lines) have not been extracted from the WMP"
       }
@@ -51,7 +51,7 @@
     "category": "missing-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 125-125",
         "excerpt": "Street cleaning zone boundaries and schedule data are not yet in the repository"
       }
@@ -66,7 +66,7 @@
     "category": "missing-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 126-126",
         "excerpt": "GPS data schema that the future system will produce has not been documented"
       }
@@ -141,7 +141,7 @@
     "category": "missing-financial-data",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 24-24",
         "excerpt": "125 funded projects"
       }
@@ -171,7 +171,7 @@
     "category": "missing-financial-data",
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S006",
         "excerpt": "Richmond RAISE/TIGER grant data for project context"
       }

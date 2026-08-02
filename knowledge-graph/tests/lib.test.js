@@ -54,7 +54,7 @@ describe('parseLooseDate', () => {
 describe('verifyProvenance', () => {
   it('verifies an excerpt at the stated line range', () => {
     const result = verifyProvenance({
-      sourceDoc: '01_problem_space/02_targeted_problem_statements.md',
+      sourceDoc: 'docs/problem_space/targeted_problem_statements.md',
       sourceLocation: 'lines 12-13',
       excerpt: 'How might we use technology to improve how Richmond residents find and understand',
     });
@@ -63,7 +63,7 @@ describe('verifyProvenance', () => {
   });
   it('flags excerpts that do not exist in the source', () => {
     const result = verifyProvenance({
-      sourceDoc: '01_problem_space/02_targeted_problem_statements.md',
+      sourceDoc: 'docs/problem_space/targeted_problem_statements.md',
       sourceLocation: 'lines 12-13',
       excerpt: 'this text was never written in the corpus at all',
     });
@@ -72,7 +72,7 @@ describe('verifyProvenance', () => {
   });
   it('reports moved excerpts that exist elsewhere in the file', () => {
     const result = verifyProvenance({
-      sourceDoc: '01_problem_space/02_targeted_problem_statements.md',
+      sourceDoc: 'docs/problem_space/targeted_problem_statements.md',
       sourceLocation: 'lines 1-1',
       excerpt: 'Street Cleaning Zone Lookup using the public schedule page',
     });

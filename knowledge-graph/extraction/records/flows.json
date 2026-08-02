@@ -24,7 +24,7 @@
     "evidenceStatus": "unknown",
     "confidence": "high",
     "provenance": [{
-      "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+      "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
       "sourceLocation": "lines 24-24",
       "excerpt": "125 funded projects",
       "note": "The corpus states the projects are funded; the sources are undocumented."
@@ -75,7 +75,7 @@
     "evidenceStatus": "reported_but_unverified",
     "confidence": "low",
     "provenance": [{
-      "sourceDoc": "02_data/source_inventory.csv",
+      "sourceDoc": "data/source_inventory.csv",
       "sourceLocation": "row id=S006",
       "excerpt": "Richmond RAISE/TIGER grant data for project context"
     }],

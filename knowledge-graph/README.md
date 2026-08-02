@@ -4,8 +4,15 @@
 
 An evidence-backed knowledge graph of the Richmond Built Environment pillar research
 corpus, with an interactive 3D explorer for tracing problems, stakeholders, and
-funding flows — 280 entities, 539 relationships, 131 financial flows, every material
+funding flows — 296 entities, 547 relationships, 133 financial flows, every material
 claim carrying file-level provenance verified at build time.
+
+External research (2026-08-01, `extraction/records/external.json`) answered 2 and
+narrowed 7 of the corpus's 20 open questions against official sources — including
+the ARPA allocations ($16M Southside / $20M Lucks Field of a $154M city total) and
+the CIP funding mix (64% G.O. bonds / 28% federal-state-regional / 8% cash). Answers
+appear inline in the Open Questions tab; see
+[docs/research-gaps.md](docs/research-gaps.md) for what was closed and what remains.
 
 ![Explorer overview](docs/screenshots/01-overview-explore.png)
 
@@ -22,10 +29,10 @@ Full command set:
 ```bash
 make extract     # regenerate data/ from the repository corpus (deterministic)
 make validate    # JSON Schema + referential integrity + financial sanity checks
-make test        # 45 vitest tests
+make test        # 54 vitest tests
 make build       # production build (runs extract first)
 make preview     # serve the production build
-make screenshots # headless Chrome validation (24 checks) + screenshots
+make screenshots # headless Chrome validation (36 checks) + screenshots
 ```
 
 ## Using the explorer

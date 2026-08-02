@@ -9,11 +9,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 53-53",
     "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "Richmond GeoHub (richmond-geo-hub-cor.hub.arcgis.com) exposes datasets with ArcGIS REST FeatureServer endpoints (e.g. services2.arcgis.com/V2PQwgZMTFfgM0Xu — RichmondCityRoads). A dedicated DPW transportation-projects layer was not identified by name; the CIP dashboard remains the project-level source."
  },
  {
   "id": "q:e-031",
@@ -25,11 +27,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 54-54",
     "excerpt": "Current GPS system vendor and data schema being installed"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "No awarded DPW fleet GPS vendor is publicly identified. The DPW solicitation (OpenGov project 100739) defines requirements including plow/sander status via PTO (ev:W-7). The Richmond Police Department separately uses Verizon Connect (since 2009) — a different fleet and system, not evidence of the DPW choice."
  },
  {
   "id": "q:e-032",
@@ -41,7 +45,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 55-55",
     "excerpt": "Zone boundary data for snow removal and street cleaning"
    }
@@ -57,11 +61,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 56-56",
     "excerpt": "Historical street cleaning schedules by zone or district"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "The current-year schedule is published on the rva.gov street-cleaning page (ev:W-6); a historical archive of past schedules was not found. The Dec 2025 pause press release (ev:W-5) is one documented schedule disruption."
  },
  {
   "id": "q:e-034",
@@ -73,7 +79,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 57-57",
     "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
    }
@@ -91,7 +97,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 59-59",
     "excerpt": "Richmond 300 goal tags have not been mapped to individual CIP projects"
    }
@@ -108,7 +114,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 61-61",
     "excerpt": "Resident device usage and digital literacy range in affected neighborhoods are undocumented"
    }
@@ -125,7 +131,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 124-124",
     "excerpt": "P1 and P2 route geometries (GIS lines) have not been extracted from the WMP"
    }
@@ -142,11 +148,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 125-125",
     "excerpt": "Street cleaning zone boundaries and schedule data are not yet in the repository"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "A structured residential sweeping schedule is published on rva.gov (12+ named routes with area names, date windows, and per-route map links; updated April 14, 2026) — ev:W-6. Machine-readable zone boundary GIS data was still not found."
  },
  {
   "id": "q:gps-schema",
@@ -159,11 +167,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 126-126",
     "excerpt": "GPS data schema that the future system will produce has not been documented"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "The vendor and final schema are still not public, but the City's procurement solicitation (OpenGov project 100739, 'GPS Telematics Tracking') documents the required capabilities: real-time and logged tracking, nearest-vehicle dispatch, portable devices, and monitoring of plow up/down and sander on/off via PTO connections (ev:W-7). Any prototype schema should model those fields."
  },
  {
   "id": "q:inquiry-volume",
@@ -231,7 +241,9 @@
     "sourceLocation": "row OBJECTID=32",
     "excerpt": "This project is partially funded through the American Rescue Plan Act (ARPA)"
    }
-  ]
+  ],
+  "status": "answered",
+  "answer": "$16,000,000. The City's ARPA spending plan allocates $16M to the Southside Community Center ($8M in each of two fiscal years) — externally verified from rva.gov/arp and the ARPA Spending Plan PDF (ev:W-2). News coverage (Oct 2023) describes construction funding as 'mostly ARPA' plus roughly $6M in Council appropriations. Note: allocation, not final expenditure."
  },
  {
   "id": "q:cip-funding-mix",
@@ -244,11 +256,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 24-24",
     "excerpt": "125 funded projects"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "Aggregate mix externally verified (FY2025–29 proposed CIP): 64% general obligation bonds ($575M), 28% federal/state/regional transportation funds ($257.8M), 7% pay-as-you-go cash ($63.3M), 1% prior-year appropriations ($7.9M) — ev:W-4, flow f:cip-sources-fy25-29. Still unknown: which sources fund each individual project."
  },
  {
   "id": "q:fall-line-gap-size",
@@ -265,7 +279,9 @@
     "sourceLocation": "row OBJECTID=45",
     "excerpt": "to address the current funding gap while design proceeds"
    }
-  ]
+  ],
+  "status": "partially_answered",
+  "answer": "On the order of $120M+ as of late 2024 (reported, not an official budget figure): total cost anticipated >$400M (Apr 2024, CVTA via Richmond BizSense) versus ~$280M raised (Oct 2024, Fall Line quarterly meeting); CVTA is the largest funder at $124.5M (ev:W-8). No single official gap number was found; figures evolve with inflation."
  },
  {
   "id": "q:raise-tiger-details",
@@ -278,11 +294,13 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "02_data/source_inventory.csv",
+    "sourceDoc": "data/source_inventory.csv",
     "sourceLocation": "row id=S006",
     "excerpt": "Richmond RAISE/TIGER grant data for project context"
    }
-  ]
+  ],
+  "status": "answered",
+  "answer": "No City of Richmond RAISE/TIGER award was found. The City submitted a $40M RAISE application for the Fall Line Trail (2024), and USDOT's FY2024 RAISE grant agreements list contains Virginia awards (Rocky Mount, West Piedmont PDC, Suffolk) but none to Richmond (ev:W-9). Senators Warner and Kaine provided a $2M earmark to the trail. The corpus's RAISE/TIGER reference should be treated as an application/aspiration, not an award."
  },
  {
   "id": "q:daniel-klein-role",

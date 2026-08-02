@@ -102,9 +102,9 @@ describe('evidence log parser', () => {
     expect(risks.map((r) => r.attrs.evidenceLogId)).toContain('R-002');
   });
 
-  it('every record carries line-level provenance into evidence_log.md', () => {
+  it('every record carries line-level provenance into admin/evidence_log.md', () => {
     for (const rec of [...result.evidenceRecords, ...result.nodes]) {
-      expect(rec.provenance[0].sourceDoc).toBe('evidence_log.md');
+      expect(rec.provenance[0].sourceDoc).toBe('admin/evidence_log.md');
       expect(rec.provenance[0].sourceLocation).toMatch(/^lines \d+-\d+$/);
     }
   });

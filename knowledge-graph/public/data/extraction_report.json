@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-08-01T21:57:53.211Z",
+ "generatedAt": "2026-08-02T00:33:40.462Z",
  "repo": "pillar-thriving-built-environment",
  "filesExamined": [
-  "00_core/00_pillar_overview.md",
-  "01_problem_space/01_bluesky_problem_statements.md",
-  "01_problem_space/02_targeted_problem_statements.md",
-  "02_data/source_inventory.csv",
   "README.md",
-  "evidence_log.md",
+  "admin/evidence_log.md",
+  "data/source_inventory.csv",
+  "docs/pillar_overview.md",
+  "docs/problem_space/bluesky_problem_statements.md",
+  "docs/problem_space/targeted_problem_statements.md",
   "research/93_missing_information_gaps.md",
   "research/B3_users_dpw_comms.md",
   "research/B5_users_accessibility.md",
@@ -18,14 +18,15 @@
   "exact": 190,
   "moved": 0,
   "unchecked": 2,
-  "missing": 0
+  "missing": 0,
+  "external": 23
  },
  "warnings": [],
  "metrics": {
-  "totalNodes": 280,
-  "totalEdges": 539,
-  "financialFlows": 131,
-  "financialEdges": 132,
+  "totalNodes": 296,
+  "totalEdges": 547,
+  "financialFlows": 133,
+  "financialEdges": 136,
   "totalDocumentedFundingUSD": 982322153,
   "totalProposedFundingUSD": 0,
   "totalDisbursedUSDEstimate": 78468766,
@@ -44,15 +45,13 @@
    "n:need:staff-inquiry-deflection",
    "n:need:supervisor-route-visibility"
   ],
-  "fundingFlowsWithNoDocumentedOutcome": 131,
+  "fundingFlowsWithNoDocumentedOutcome": 133,
   "outcomeNote": "No outcome measurements are documented anywhere in the corpus (see q:outcome-measurements).",
   "claimsTotal": 6,
   "claimsLackingPrimaryEvidence": [
    "n:claim:cip-quarterly",
    "n:claim:d3-report-mismatch",
-   "n:claim:snow-priority-structure",
-   "n:claim:sweeping-neighborhood-calendar",
-   "n:claim:sweeping-paused-2025"
+   "n:claim:snow-priority-structure"
   ],
   "inferredRelationships": 3,
   "disputedRelationships": 2,
@@ -60,13 +59,21 @@
   "brokenReferences": 0,
   "duplicateCandidates": 0,
   "reviewQueueSize": 4,
-  "evidenceRecords": 26,
+  "evidenceRecords": 37,
   "provenanceCoverage": 100,
   "provenanceVerification": {
    "exact": 190,
    "moved": 0,
    "unchecked": 2,
-   "missing": 0
+   "missing": 0,
+   "external": 23
+  },
+  "externalResearch": {
+   "researchedAt": "2026-08-01",
+   "evidenceRecords": 11,
+   "questionsAnswered": 2,
+   "questionsPartiallyAnswered": 7,
+   "note": "Web-sourced findings; official government sources classified externally_verified, organization/news figures reported as likely. See docs/data-methodology.md."
   }
  }
 }
