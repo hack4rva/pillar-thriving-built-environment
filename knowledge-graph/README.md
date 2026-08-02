@@ -43,6 +43,13 @@ make screenshots # headless Chrome validation (24 checks) + screenshots
 - **Problem Space**: pick a problem → affected groups, interventions, evidence, risks,
   and open questions.
 - **Timeline**: scrub across CIP project phases and completion dates.
+- **Fog of War**: the graph of our ignorance — documented knowledge glows, unverified
+  claims recede into haze, disputed items smolder red, unknown funding endpoints are
+  dark voids, and yellow `?` markers sit where the 20 open research questions attach.
+- **Needs vs Money**: the orphan board — every documented need on the left, the
+  funding flows on the right, a line wherever money reaches a need through a funded
+  intervention. Current corpus: **0 of 7 needs have any funding attached**, and the
+  board says so in large type.
 - Bottom drawer: entity and funding-flow tables (searchable, CSV/JSON export), open
   questions, the data-quality report, and the human review queue. The **2D** button
   switches to an SVG fallback; a plain-text summary of the selection is maintained for

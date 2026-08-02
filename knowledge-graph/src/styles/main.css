@@ -170,7 +170,63 @@ body {
   color: var(--warn); border-radius: var(--radius); padding: 8px 12px; font-size: 13px;
 }
 
-#timeline-bar[hidden], #graph2d[hidden], #perf-warning[hidden], #overview[hidden] { display: none; }
+#timeline-bar[hidden], #graph2d[hidden], #perf-warning[hidden], #overview[hidden], #needsboard[hidden] { display: none; }
+
+#needsboard {
+  position: absolute; inset: 0;
+  overflow-y: auto;
+  background: var(--bg);
+  padding: 34px 18px 18px;
+}
+#needsboard .nb-head h2 { margin: 0 0 4px; font-size: 16px; }
+#needsboard .nb-head { margin-bottom: 12px; }
+.nb-columns {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 0;
+  align-items: start;
+}
+.nb-col h3 {
+  font-size: 12px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--text-muted); margin: 0 0 8px;
+}
+.nb-card {
+  background: var(--bg-box);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 9px 11px;
+  margin-bottom: 8px;
+}
+.nb-card .nb-title { font-size: 13px; margin-bottom: 3px; }
+.nb-card .nb-desc { font-size: 11.5px; color: var(--text-muted); margin-bottom: 4px; }
+.nb-card .nb-meta { font-size: 11.5px; color: var(--text-muted); }
+.nb-card .nb-tag { margin-top: 5px; }
+.nb-need.nb-orphan { border-left: 3px solid var(--danger); }
+.nb-need.nb-funded { border-left: 3px solid var(--accent-2); }
+.nb-flow { border-left: 3px solid var(--accent-2); }
+.nb-flow.nb-rest { border-left-color: var(--border); }
+.nb-gap { position: relative; align-self: stretch; }
+.nb-gap svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.nb-banner {
+  position: sticky; top: 40px;
+  margin: 40px 12px 0;
+  text-align: center;
+  border: 1px dashed var(--danger);
+  border-radius: var(--radius);
+  background: rgba(224,102,102,.06);
+  padding: 14px 12px;
+}
+.nb-banner .nb-zero {
+  font-size: 52px; font-weight: 700; color: var(--danger); line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.nb-banner p { margin: 8px 0 0; }
+.nb-banner code { font-size: 10.5px; color: var(--accent); }
+
+@media (max-width: 1000px) {
+  .nb-columns { grid-template-columns: 1fr; }
+  .nb-gap { min-height: 140px; }
+}
 #timeline-bar {
   position: absolute; left: 12px; right: 12px; bottom: 10px;
   display: flex; align-items: center; gap: 10px;

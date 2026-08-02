@@ -143,7 +143,7 @@ export interface ExtractionReport {
 
 // 'explore' is the network-graph mode (labeled "Network" in the UI). 'overview'
 // is the default dashboard landing view.
-export type Mode = 'overview' | 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline';
+export type Mode = 'overview' | 'explore' | 'money' | 'beneficiary' | 'problem' | 'timeline' | 'fog' | 'needs';
 
 export interface Filters {
   repos: Set<string>;
