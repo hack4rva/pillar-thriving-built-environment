@@ -32,7 +32,7 @@ make validate    # JSON Schema + referential integrity + financial sanity checks
 make test        # 54 vitest tests
 make build       # production build (runs extract first)
 make preview     # serve the production build
-make screenshots # headless Chrome validation (35 checks) + screenshots
+make screenshots # headless Chrome validation (27 checks) + screenshots
 ```
 
 ## Using the explorer

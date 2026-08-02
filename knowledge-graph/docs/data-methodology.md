@@ -20,8 +20,8 @@ Structured files are parsed mechanically; re-running always yields the same outp
 | Parser | Source file | Produces |
 |--------|-------------|----------|
 | `cip_csv.js` | `research/COR_CIP_Dashboard_projects.csv` | 125 `Project` nodes with costs/phases/completion dates, `Person` (project manager) nodes, `FUNDS`/`MANAGES`/`LOCATED_IN` edges, one financial flow per project, ARPA flows where the description mentions ARPA |
-| `evidence_log.js` | `evidence_log.md` | `Evidence` records for E-/D-/R- entries, `ResearchQuestion` and `Risk` nodes |
-| `source_inventory.js` | `02_data/source_inventory.csv` | `Dataset` nodes and `PUBLISHES`/`ASSOCIATED_WITH` edges |
+| `evidence_log.js` | `admin/evidence_log.md` | `Evidence` records for E-/D-/R- entries, `ResearchQuestion` and `Risk` nodes |
+| `source_inventory.js` | `data/source_inventory.csv` | `Dataset` nodes and `PUBLISHES`/`ASSOCIATED_WITH` edges |
 
 ### 2. Curated extraction records (`extraction/records/`)
 

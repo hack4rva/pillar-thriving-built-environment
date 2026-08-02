@@ -9,7 +9,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 53-53",
     "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
    }
@@ -27,7 +27,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 54-54",
     "excerpt": "Current GPS system vendor and data schema being installed"
    }
@@ -45,7 +45,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 55-55",
     "excerpt": "Zone boundary data for snow removal and street cleaning"
    }
@@ -61,7 +61,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 56-56",
     "excerpt": "Historical street cleaning schedules by zone or district"
    }
@@ -79,7 +79,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 57-57",
     "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
    }
@@ -97,7 +97,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 59-59",
     "excerpt": "Richmond 300 goal tags have not been mapped to individual CIP projects"
    }
@@ -114,7 +114,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 61-61",
     "excerpt": "Resident device usage and digital literacy range in affected neighborhoods are undocumented"
    }
@@ -131,7 +131,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 124-124",
     "excerpt": "P1 and P2 route geometries (GIS lines) have not been extracted from the WMP"
    }
@@ -148,7 +148,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 125-125",
     "excerpt": "Street cleaning zone boundaries and schedule data are not yet in the repository"
    }
@@ -167,7 +167,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 126-126",
     "excerpt": "GPS data schema that the future system will produce has not been documented"
    }
@@ -256,7 +256,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+    "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
     "sourceLocation": "lines 24-24",
     "excerpt": "125 funded projects"
    }
@@ -294,7 +294,7 @@
   ],
   "provenance": [
    {
-    "sourceDoc": "02_data/source_inventory.csv",
+    "sourceDoc": "data/source_inventory.csv",
     "sourceLocation": "row id=S006",
     "excerpt": "Richmond RAISE/TIGER grant data for project context"
    }

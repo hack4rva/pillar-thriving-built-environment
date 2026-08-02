@@ -8,7 +8,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 19-19",
     "excerpt": "Richmond GeoHub exists as a public ArcGIS hub"
    }
@@ -23,7 +23,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 20-20",
     "excerpt": "Richmond Open Data Portal exists on Socrata"
    }
@@ -38,7 +38,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 21-21",
     "excerpt": "Richmond Civic Hackathon is March 27–29, 2026 at VCU Snead Hall"
    }
@@ -53,7 +53,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 22-22",
     "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
    }
@@ -68,7 +68,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 30-30",
     "excerpt": "GeoHub contains public layers for DPW transportation projects"
    }
@@ -83,7 +83,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 31-31",
     "excerpt": "Richmond Open Data Portal contains capital improvement or 311 datasets"
    }
@@ -98,7 +98,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 32-32",
     "excerpt": "DPW program pages describe active projects including streetscape and safety programs"
    }
@@ -113,7 +113,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 33-33",
     "excerpt": "DPW communications staff receive repetitive resident inquiries about project status"
    }
@@ -128,7 +128,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 34-34",
     "excerpt": "Zone-level street cleaning schedules exist internally at DPW"
    }
@@ -143,7 +143,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 42-42",
     "excerpt": "Snow removal routes are assigned by geographic zone"
    }
@@ -158,7 +158,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 43-43",
     "excerpt": "GPS data schema will include route_id, completion_pct, and timestamp fields"
    }
@@ -173,7 +173,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 44-44",
     "excerpt": "Project descriptions in GeoHub contain enough fields to build a useful project card"
    }
@@ -188,7 +188,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 45-45",
     "excerpt": "VDOT maintains a separate project tracker for state-maintained roads in Richmond"
    }
@@ -203,7 +203,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 53-53",
     "excerpt": "Specific GeoHub layer names and REST endpoint URLs for DPW transportation projects"
    }
@@ -219,7 +219,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 54-54",
     "excerpt": "Current GPS system vendor and data schema being installed"
    }
@@ -235,7 +235,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 55-55",
     "excerpt": "Zone boundary data for snow removal and street cleaning"
    }
@@ -251,7 +251,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 56-56",
     "excerpt": "Historical street cleaning schedules by zone or district"
    }
@@ -267,7 +267,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 57-57",
     "excerpt": "Sample or anonymized 311 request data related to construction or road issues"
    }
@@ -283,7 +283,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 65-65",
     "excerpt": "Richmond GeoHub transportation layers"
    }
@@ -299,7 +299,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 66-66",
     "excerpt": "Richmond Open Data Portal"
    }
@@ -315,7 +315,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 67-67",
     "excerpt": "VDOT project tracker"
    }
@@ -331,7 +331,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 68-68",
     "excerpt": "GRTC GTFS"
    }
@@ -347,7 +347,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 76-76",
     "excerpt": "GeoHub layers are not public or field names differ from assumed"
    }
@@ -363,7 +363,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 77-77",
     "excerpt": "Fleet tool implies live GPS when none exists"
    }
@@ -379,7 +379,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 78-78",
     "excerpt": "Project timeline claims are inaccurate"
    }
@@ -395,7 +395,7 @@
   "repo": "pillar-thriving-built-environment",
   "provenance": [
    {
-    "sourceDoc": "evidence_log.md",
+    "sourceDoc": "admin/evidence_log.md",
     "sourceLocation": "lines 79-79",
     "excerpt": "Plain-language AI translations contain errors"
    }

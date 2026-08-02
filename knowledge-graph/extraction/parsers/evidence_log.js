@@ -1,6 +1,6 @@
 import { readRepoFile, makeNode, REPO_ID } from '../lib.js';
 
-const LOG_PATH = 'evidence_log.md';
+const LOG_PATH = 'admin/evidence_log.md';
 
 const SECTION_STATUS = [
   [/^##\s+Confirmed/i, 'confirmed'],
@@ -22,10 +22,10 @@ function splitRow(line) {
 }
 
 /**
- * Parse evidence_log.md tables into evidence records plus graph nodes:
+ * Parse admin/evidence_log.md tables into evidence records plus graph nodes:
  * E-xxx entries -> Evidence nodes, Missing entries -> ResearchQuestion nodes,
  * R-xxx entries -> Risk nodes. D-xxx dataset rows become evidence records only
- * (datasets themselves come from 02_data/source_inventory.csv).
+ * (datasets themselves come from data/source_inventory.csv).
  */
 export function parseEvidenceLog() {
   const lines = readRepoFile(LOG_PATH).split('\n');

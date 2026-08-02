@@ -11,7 +11,7 @@ statuses attach to.
 | Status | Assigned when | Current count (elements) |
 |--------|---------------|--------------------------|
 | `documented` | The claim is stated in a repository source file; provenance excerpt verified at build time | 755 |
-| `externally_verified` | Confirmed against an official external source: either an `evidence_log.md` entry with Confirmed status, or an external-research record with an official government URL (`extraction/records/external.json`, ev:W-\*) | 29 |
+| `externally_verified` | Confirmed against an official external source: either an `admin/evidence_log.md` entry with Confirmed status, or an external-research record with an official government URL (`extraction/records/external.json`, ev:W-\*) | 29 |
 | `proposed` | A solution pattern, plan, or idea — something someone suggests should exist (hackathon MVP patterns, Richmond 300 goals) | 16 |
 | `reported_but_unverified` | A source repeats a claim it did not originate and no official confirmation exists (e.g. Fall Line Trail cost/raised figures from the project organization and news) | 25 |
 | `inferred` | A reasonable inference stated nowhere; the inference reasoning is written into the record's note (e.g. ARPA's federal origin; Southside Community Center serving Southside residents) | 5 |

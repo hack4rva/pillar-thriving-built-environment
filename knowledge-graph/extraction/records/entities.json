@@ -11,7 +11,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 12-13",
         "excerpt": "How might we use technology to improve how Richmond residents find and understand transportation and infrastructure projects happening in their neighborhoods"
       }
@@ -29,7 +29,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 77-78",
         "excerpt": "how Richmond residents and DPW staff track the progress of services like snow removal and street cleaning"
       }
@@ -46,7 +46,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 34-35",
         "excerpt": "identify and prioritize locations for transportation safety improvements"
       }
@@ -63,7 +63,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 13-14",
         "excerpt": "create a unified, real-time digital view"
       }
@@ -77,7 +77,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 33-34",
         "excerpt": "The Sustainable Design Standards problem is strategically important"
       }
@@ -91,7 +91,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 18-22",
         "excerpt": "A resident who sees orange construction cones on their street may have no reliable way to find"
       }
@@ -104,7 +104,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 45-45",
         "excerpt": "Technical descriptions are translated into plain language"
       }
@@ -117,7 +117,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 98-98",
         "excerpt": "DPW supervisors who need route completion visibility without calling every driver"
       }
@@ -130,7 +130,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 99-99",
         "excerpt": "Residents who want to know when their street will be cleaned or plowed"
       }
@@ -143,7 +143,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 19-19",
         "excerpt": "DPW staff spend time answering questions that a clear public resource could deflect"
       }
@@ -157,7 +157,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "equitable access to infrastructure information matters most for residents with fewer workaround options"
       }
@@ -188,7 +188,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 9-9",
         "excerpt": "helping Richmonders understand and navigate the physical infrastructure"
       }
@@ -201,7 +201,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 98-98",
         "excerpt": "DPW supervisors who need route completion visibility"
       }
@@ -228,7 +228,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "residents with fewer workaround options"
       },
@@ -245,7 +245,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 38-38",
         "excerpt": "Clear user (resident, advocate, planner)"
       }
@@ -265,7 +265,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "The Department of Public Works (DPW) manages transportation projects across Richmond"
       }
@@ -282,7 +282,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 20-20",
         "excerpt": "City of Richmond"
       }
@@ -314,7 +314,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 45-45",
         "excerpt": "VDOT maintains a separate project tracker for state-maintained roads in Richmond"
       }
@@ -365,7 +365,7 @@
     "evidenceStatus": "inferred",
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S006",
         "excerpt": "Richmond RAISE/TIGER grant data for project context"
       }
@@ -399,7 +399,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S005",
         "excerpt": "GRTC GTFS Feed"
       }
@@ -416,7 +416,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "at VCU Snead Hall"
       }
@@ -430,7 +430,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "Hack RVA"
       }
@@ -443,7 +443,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 21-21",
         "excerpt": "at VCU Snead Hall"
       }
@@ -650,7 +650,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 10-10",
         "excerpt": "CIP Dashboard export provided by DPW GIS Team (Chad Phillips"
       }
@@ -667,7 +667,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 75-75",
         "excerpt": "WMP 2025-2026 provided by DPW (Daniel Wagner / Chad Phillips)"
       }
@@ -684,7 +684,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 16-16",
         "excerpt": "Dashboard is the authoritative public source for funded projects"
       }
@@ -698,7 +698,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 81-81",
         "excerpt": "DPW manages highly visible operational services: snow removal and street cleaning"
       }
@@ -712,7 +712,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 93-93",
         "excerpt": "is a separate operation from snow removal"
       }
@@ -746,7 +746,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 34-34",
         "excerpt": "directly implement goals from Richmond"
       }
@@ -763,7 +763,7 @@
     ],
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 85-85",
         "excerpt": "defines the snow route priority system beginning on page 67"
       }
@@ -832,7 +832,7 @@
     "evidenceStatus": "proposed",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 115-115",
         "excerpt": "Snow Route Priority Lookup: resident enters address, sees priority tier"
       }
@@ -846,7 +846,7 @@
     "evidenceStatus": "proposed",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 117-117",
         "excerpt": "Fleet Route Progress Dashboard: mock GPS schema to show what supervisors would see when GPS is live"
       }
@@ -859,7 +859,7 @@
     "evidenceStatus": "proposed",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 118-118",
         "excerpt": "Street Cleaning Zone Lookup using the public schedule page"
       }
@@ -873,7 +873,7 @@
     "evidenceStatus": "proposed",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 50-50",
         "excerpt": "overlays publicly available crash data with existing transportation project locations"
       }
@@ -887,7 +887,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 24-24",
         "excerpt": "125 funded projects"
       }
@@ -901,7 +901,7 @@
     "evidenceStatus": "reported_but_unverified",
     "provenance": [
       {
-        "sourceDoc": "02_data/source_inventory.csv",
+        "sourceDoc": "data/source_inventory.csv",
         "sourceLocation": "row id=S006",
         "excerpt": "Richmond RAISE/TIGER grant data for project context"
       }
@@ -914,7 +914,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "00_core/00_pillar_overview.md",
+        "sourceDoc": "docs/pillar_overview.md",
         "sourceLocation": "lines 9-9",
         "excerpt": "helping Richmonders understand and navigate the physical infrastructure"
       }
@@ -942,12 +942,12 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 102-102",
         "excerpt": "GPS infrastructure is still being implemented"
       },
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 22-22",
         "excerpt": "GPS devices are being installed across the DPW fleet (not yet complete)"
       }
@@ -974,7 +974,7 @@
     "evidenceStatus": "documented",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 37-37",
         "excerpt": "The live CIP ArcGIS dashboard is updated quarterly"
       }
@@ -1047,7 +1047,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 64-64",
         "excerpt": "125 projects, provided by DPW GIS Team"
       }
@@ -1064,7 +1064,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 65-65",
         "excerpt": "experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745"
       }
@@ -1082,7 +1082,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 66-66",
         "excerpt": "arcgis.com/apps/mapviewer/index.html?webmap=270285e87d684a95bd1ebd9a078aa6df"
       }
@@ -1100,7 +1100,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 135-135",
         "excerpt": "snow route priority classification begins pg. 67"
       }
@@ -1117,7 +1117,7 @@
     },
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 136-136",
         "excerpt": "rva.gov/public-works/street-cleaning"
       }
@@ -1173,7 +1173,7 @@
     "evidenceStatus": "reported_but_unverified",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/01_bluesky_problem_statements.md",
+        "sourceDoc": "docs/problem_space/bluesky_problem_statements.md",
         "sourceLocation": "lines 39-39",
         "excerpt": "Public data exists (crash data, road network, project data on GeoHub)"
       }
@@ -1187,7 +1187,7 @@
     "evidenceStatus": "unknown",
     "provenance": [
       {
-        "sourceDoc": "01_problem_space/02_targeted_problem_statements.md",
+        "sourceDoc": "docs/problem_space/targeted_problem_statements.md",
         "sourceLocation": "lines 24-24",
         "excerpt": "125 funded projects",
         "note": "The statement documents that projects are funded; it does not document by what."
@@ -1202,7 +1202,7 @@
     "evidenceStatus": "unknown",
     "provenance": [
       {
-        "sourceDoc": "evidence_log.md",
+        "sourceDoc": "admin/evidence_log.md",
         "sourceLocation": "lines 54-54",
         "excerpt": "Current GPS system vendor and data schema being installed"
       }

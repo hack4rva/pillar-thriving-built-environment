@@ -91,7 +91,7 @@ Growth) who hold community relationships rather than money.
 
 The graph separates these by `evidenceStatus`: 755 graph elements are `documented`,
 29 `externally_verified` (corpus claims confirmed against official external sources —
-rva.gov, transportation.gov — via `evidence_log.md` or the 2026-08-01 external
+rva.gov, transportation.gov — via `admin/evidence_log.md` or the 2026-08-01 external
 research), 16 `proposed` (hackathon solution patterns, not funded programs),
 25 `reported_but_unverified`, 5 `inferred` (each with the inference stated),
 5 `disputed`, 8 explicitly `unknown`. The notable disputed item:
