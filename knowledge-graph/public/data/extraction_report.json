@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-02T23:12:17.238Z",
+ "generatedAt": "2026-08-03T01:24:02.009Z",
  "repo": "pillar-thriving-built-environment",
  "filesExamined": [
   "README.md",
@@ -206,8 +206,8 @@
   "disputedRelationships": 2,
   "reportedButUnverifiedRelationships": 513,
   "brokenReferences": 0,
-  "duplicateCandidates": 41,
-  "reviewQueueSize": 45,
+  "duplicateCandidates": 37,
+  "reviewQueueSize": 41,
   "evidenceRecords": 903,
   "provenanceCoverage": 100,
   "provenanceVerification": {

@@ -60,8 +60,11 @@ describe('generated graph', () => {
 
   it.skipIf(!hasProjectsCsv)('models known ground truths from the corpus', () => {
     const byId = new Map(graph.nodes.map((n) => [n.id, n]));
-    // 125 CIP projects at ~$982M documented.
-    const projects = graph.nodes.filter((n) => n.type === 'Project');
+    // 125 CIP projects at ~$982M documented. Scoped to the CIP export: the
+    // research corpus also names projects, and counting every Project node
+    // made this assertion drift every time a report mentioned a new one.
+    const projects = graph.nodes.filter((n) => n.type === 'Project'
+      && n.provenance.some((p) => p.sourceDoc.endsWith('COR_CIP_Dashboard_projects.csv')));
     expect(projects.length).toBe(125);
     // Unknown funding source is explicit, not omitted.
     expect(byId.get('n:unknown:cip-funding-sources')?.type).toBe('UnknownEntity');

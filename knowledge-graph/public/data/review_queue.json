@@ -57,62 +57,6 @@
   "decisionRequested": "Confirm whether Richmond's GIS function is a DPW team or a separate citywide office."
  },
  {
-  "id": "r:dup-services1-arcgis-com",
-  "itemType": "node",
-  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-f1a50ced",
-  "sourceExcerpt": "services1.arcgis.com",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-services1-arcgis-com",
-  "itemType": "node",
-  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-6c072752",
-  "sourceExcerpt": "services1.arcgis.com",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-services1-arcgis-com",
-  "itemType": "node",
-  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-34ce808f",
-  "sourceExcerpt": "services1.arcgis.com",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-services1-arcgis-com",
-  "itemType": "node",
-  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-788fad44",
-  "sourceExcerpt": "services1.arcgis.com",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
   "id": "r:dup-cip-richmond",
   "itemType": "node",
   "proposed": "n:source:rva-gov-beb58936 vs n:source:rva-gov-4dd53df4",
