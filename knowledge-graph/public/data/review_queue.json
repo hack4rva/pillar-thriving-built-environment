@@ -57,10 +57,10 @@
   "decisionRequested": "Confirm whether Richmond's GIS function is a DPW team or a separate citywide office."
  },
  {
-  "id": "r:dup-cip-richmond",
+  "id": "r:dup-cip-richmond-budget-and-strategic-planning-cip",
   "itemType": "node",
   "proposed": "n:source:rva-gov-beb58936 vs n:source:rva-gov-4dd53df4",
-  "sourceExcerpt": "CIP | Richmond",
+  "sourceExcerpt": "CIP | Richmond (/budget-and-strategic-planning/cip)",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -71,38 +71,10 @@
   "decisionRequested": "Decide whether these are the same entity."
  },
  {
-  "id": "r:dup-capital-projects",
-  "itemType": "node",
-  "proposed": "n:source:apps-boston-gov-1c61a1cb vs n:source:apps-boston-gov-40e9aff6",
-  "sourceExcerpt": "Capital Projects",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-crashdata-basic-dataset-virginia-open-data-portal",
-  "itemType": "node",
-  "proposed": "n:source:data-virginia-gov-c3ae4255 vs n:source:data-virginia-gov-6fb20a92",
-  "sourceExcerpt": "CrashData Basic - Dataset - Virginia Open Data Portal",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-highways-virginia-department-of-transportation",
+  "id": "r:dup-highways-virginia-department-of-transportation-about-our-system-highways",
   "itemType": "node",
   "proposed": "n:source:vdot-virginia-gov-e69200f6 vs n:source:vdot-virginia-gov-e4a259f0",
-  "sourceExcerpt": "Highways | Virginia Department of Transportation",
+  "sourceExcerpt": "Highways | Virginia Department of Transportation (/about/our-system/highways)",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -127,10 +99,10 @@
   "decisionRequested": "Decide whether these are the same entity."
  },
  {
-  "id": "r:dup-clearstreets-chicago-plow-tracker",
+  "id": "r:dup-clearstreets-chicago-plow-tracker-clearstreets-org",
   "itemType": "node",
   "proposed": "n:source:clearstreets-org-a6639cca vs n:source:clearstreets-org-099a6474",
-  "sourceExcerpt": "ClearStreets - Chicago Plow Tracker",
+  "sourceExcerpt": "ClearStreets - Chicago Plow Tracker (clearstreets.org)",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -141,52 +113,10 @@
   "decisionRequested": "Decide whether these are the same entity."
  },
  {
-  "id": "r:dup-domino-s-turned-a-customer-complaint-into-one-of-its",
-  "itemType": "node",
-  "proposed": "n:source:facebook-com-98a2e881 vs n:source:instagram-com-0e9ea773",
-  "sourceExcerpt": "Domino's turned a customer complaint into one of its",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-forecasting-hurricane-induced-power-outage-durations",
-  "itemType": "node",
-  "proposed": "n:source:ideas-repec-org-f7893698 vs n:source:researchgate-net-74003cd6",
-  "sourceExcerpt": "Forecasting hurricane-induced power outage durations",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-forecasting-hurricane-induced-power-outage-durations",
-  "itemType": "node",
-  "proposed": "n:source:ideas-repec-org-f7893698 vs n:source:semanticscholar-org-f0ac10f7",
-  "sourceExcerpt": "Forecasting hurricane-induced power outage durations",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-do-311-systems-shape-citizen-satisfaction-with-local-government",
+  "id": "r:dup-do-311-systems-shape-citizen-satisfaction-with-local-government-izen-satisfactio",
   "itemType": "node",
   "proposed": "n:source:csuohio-elsevierpure-com-b76ccc28 vs n:source:researchgate-net-bd2c7663",
-  "sourceExcerpt": "Do 311 Systems Shape Citizen Satisfaction with Local Government?",
+  "sourceExcerpt": "Do 311 Systems Shape Citizen Satisfaction with Local Government? (…izen_Satisfaction_with_Local_Government)",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -197,24 +127,10 @@
   "decisionRequested": "Decide whether these are the same entity."
  },
  {
-  "id": "r:dup-predicting-estimated-times-of-restoration-for-electrical-outages",
-  "itemType": "node",
-  "proposed": "n:source:arxiv-org-4eb41cad vs n:source:arxiv-org-a3e4a8e0",
-  "sourceExcerpt": "Predicting Estimated Times of Restoration for Electrical Outages",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-add-relationships-to-assets-cityworks-gis-management",
+  "id": "r:dup-add-relationships-to-assets-cityworks-gis-management-ontent-gis-addrelationships",
   "itemType": "node",
   "proposed": "n:source:help-cityworks-com-b328ca12 vs n:source:help-cityworks-com-d72d5b26",
-  "sourceExcerpt": "Add Relationships to Assets - Cityworks GIS Management",
+  "sourceExcerpt": "Add Relationships to Assets - Cityworks GIS Management (…ontent/GIS/AddRelationshipstoAssets.htm)",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -229,20 +145,6 @@
   "itemType": "node",
   "proposed": "n:source:help-lucity-com-5885e2b8 vs n:source:help-lucity-com-e9ada777",
   "sourceExcerpt": "Lucity REST API",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-touch-target-size-android-accessibility-help",
-  "itemType": "node",
-  "proposed": "n:source:support-google-com-a2821659 vs n:source:support-google-com-bde5640d",
-  "sourceExcerpt": "Touch target size - Android Accessibility Help",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",
@@ -467,20 +369,6 @@
   "itemType": "node",
   "proposed": "n:person:olayinka-bruce vs n:constituentgroup:olayinka-bruce",
   "sourceExcerpt": "Olayinka Bruce",
-  "sourceLocation": "label comparison across extraction sources",
-  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
-  "confidence": "medium",
-  "alternatives": [
-   "Merge via extraction/aliases.json",
-   "Keep separate"
-  ],
-  "decisionRequested": "Decide whether these are the same entity."
- },
- {
-  "id": "r:dup-predicting-estimated-times-of-restoration-for-electrical-outages",
-  "itemType": "node",
-  "proposed": "n:source:arxiv-org-4eb41cad vs n:project:predicting-estimated-times-of-restoration-for-electrical-outages",
-  "sourceExcerpt": "Predicting Estimated Times of Restoration for Electrical Outages",
   "sourceLocation": "label comparison across extraction sources",
   "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
   "confidence": "medium",

@@ -179,3 +179,16 @@ The following skills are available and should be actively suggested when teams a
 | `civic_alignment_check` | Pre-submission; solution needs grounding in MAP pillars |
 
 **Default bias:** When a team asks "what should we build?" or "we're not sure where to start", run `rapid_design_sprint` or `jobs_to_be_done_analysis` first. When a team is about to build, run `assumption_mapping`. Before submission, always run `civic_alignment_check`.
+
+## Knowledge Graph Skills
+
+| Skill | When to reach for it |
+|-------|----------------------|
+| `run_knowledge_graph` | Run or demo the explorer locally; port it to a pillar |
+| `knowledge_graph_pipeline` | Change the extractor, regenerate data, or publish to rvahacks.org |
+| `graph_entity_naming` | Write or review a parser; a graph shows unusable node titles |
+
+The extractor is shared byte-for-byte across all seven pillar repos and feeds
+the merged Richmond graph on rvahacks.org, so a parser change is never a
+one-repo change. Read `knowledge_graph_pipeline` before touching
+`knowledge-graph/extraction/`.

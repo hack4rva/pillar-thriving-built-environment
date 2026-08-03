@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-03T01:24:02.009Z",
+ "generatedAt": "2026-08-03T02:19:50.147Z",
  "repo": "pillar-thriving-built-environment",
  "filesExamined": [
   "README.md",
@@ -160,7 +160,7 @@
   "external": 23
  },
  "warnings": [
-  "[corpus] dropped 0 stale-anchor, 123 unresolved-endpoint, 2 not-an-organization and 159 not-a-name records",
+  "[corpus] dropped 0 stale-anchor, 123 unresolved-endpoint, 2 not-an-organization and 160 not-a-name records",
   "[merge] duplicate node id n:dataset:richmond-geohub: provenance merged",
   "[merge] duplicate node id n:problem:transportation-project-visibility: provenance merged",
   "[merge] duplicate node id n:problem:fleet-operations-visibility: provenance merged",
@@ -169,8 +169,8 @@
   "[merge] duplicate node id n:program:richmond-connects: provenance merged"
  ],
  "metrics": {
-  "totalNodes": 1598,
-  "totalEdges": 3443,
+  "totalNodes": 1596,
+  "totalEdges": 3439,
   "financialFlows": 133,
   "financialEdges": 136,
   "totalDocumentedFundingUSD": 982322153,
@@ -206,8 +206,8 @@
   "disputedRelationships": 2,
   "reportedButUnverifiedRelationships": 513,
   "brokenReferences": 0,
-  "duplicateCandidates": 37,
-  "reviewQueueSize": 41,
+  "duplicateCandidates": 29,
+  "reviewQueueSize": 33,
   "evidenceRecords": 903,
   "provenanceCoverage": 100,
   "provenanceVerification": {

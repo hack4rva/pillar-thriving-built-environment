@@ -204,6 +204,11 @@ Research corpus skills:
 • assumption_mapping
 • civic_alignment_check
 
+Knowledge graph skills:
+• run_knowledge_graph
+• knowledge_graph_pipeline
+• graph_entity_naming
+
 ```
 
 ---
