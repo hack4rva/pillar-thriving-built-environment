@@ -13,6 +13,8 @@ import { parseCipCsv } from '../extraction/parsers/cip_csv.js';
 import { parseEvidenceLog } from '../extraction/parsers/evidence_log.js';
 import { parseSourceInventory } from '../extraction/parsers/source_inventory.js';
 import { parsePostEventResearch } from '../extraction/parsers/post_event_research.js';
+import { parseResearchCorpus } from '../extraction/parsers/research_corpus.js';
+import { readOrganizations } from '../extraction/parsers/organizations.js';
 import { makeNode, makeEdge, verifyProvenance, REPO_ID, slug } from '../extraction/lib.js';
 import { config } from '../extraction/config.js';
 import { computeMetrics } from '../extraction/metrics.js';
@@ -90,6 +92,278 @@ function deriveCitations(ev, inv) {
   return edges;
 }
 
+/**
+ * Tie a cited source to an inventoried dataset when they are literally the same
+ * thing: identical URL, or the same host where that host backs only a handful of
+ * sources. A shared host like rva.gov says nothing, so it is not enough on its own.
+ */
+function linkSourcesToInventory(rc, inv) {
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return null; } };
+  const datasets = inv.nodes.filter((n) => n.type === 'Dataset' && n.attrs?.url);
+
+  const perHost = new Map();
+  for (const ds of datasets) {
+    const h = host(ds.attrs.url);
+    if (h) perHost.set(h, (perHost.get(h) ?? 0) + 1);
+  }
+
+  const edges = [];
+  for (const src of rc.nodes) {
+    const url = src.attrs.url;
+    const h = src.attrs.host;
+    for (const ds of datasets) {
+      const sameUrl = ds.attrs.url === url;
+      const sameHost = !sameUrl && host(ds.attrs.url) === h && (perHost.get(h) ?? 0) <= 2;
+      if (!sameUrl && !sameHost) continue;
+      edges.push(makeEdge({
+        source: src.id,
+        target: ds.id,
+        type: sameUrl ? 'SUPPORTED_BY' : 'ASSOCIATED_WITH',
+        description: sameUrl
+          ? `Research cites this inventoried source directly (${url})`
+          : `Research cites ${h}, the publisher of this inventoried source`,
+        evidenceStatus: 'documented',
+        confidence: sameUrl ? 'high' : 'low',
+        provenance: src.provenance,
+      }));
+    }
+  }
+  return edges;
+}
+
+/**
+ * Turn the reviewed corpus-entity record into nodes and edges.
+ *
+ * The record is produced offline by extraction/enrich/extract_entities.mjs. Its
+ * anchors are re-checked here rather than trusted: a claim id that no longer
+ * exists means the corpus moved under the record, and the element is dropped
+ * instead of being given provenance that does not resolve. That keeps this
+ * script's output a pure function of the repository, model output included.
+ */
+/**
+ * Reduce the open-question list to questions that are open, and to one entry
+ * each. Mutates in place; returns what it removed, for the report.
+ *
+ * Two sources feed this list — the evidence log's "Missing" section and the
+ * per-project gap lists in post-event research — and they overlap, so the same
+ * gap can be written twice under different ids. The graph deduplicates by id
+ * and so never showed it; the published count came from the list and did.
+ *
+ * A question the corpus has since struck through and marked resolved is also
+ * not open. It is dropped here rather than in the source file, because the
+ * strikethrough is the record of it having been answered.
+ */
+const RESOLVED = /~~.*~~|\b(RESOLVED|ANSWERED)\b/;
+
+function tidyQuestions(questions) {
+  const seen = new Map(); // normalized text -> kept question
+  const removed = { duplicates: 0, resolved: 0, resolvedTexts: [] };
+  const kept = [];
+  for (const q of questions) {
+    if (RESOLVED.test(q.question)) {
+      removed.resolved++;
+      removed.resolvedTexts.push(q.question);
+      continue;
+    }
+    // Identity follows the graph's: a question is the one its node is. Two
+    // sections of the same project can ask one thing in two wordings, which
+    // reads as two entries in the list and has always been one node. Falls back
+    // to the text where a question has no node of its own.
+    const qNode = (q.relatedNodeIds ?? []).find((id) => id.startsWith('n:question:'));
+    const norm = qNode ?? q.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const prior = seen.get(norm);
+    if (prior) {
+      // The duplicate can name related entities the first one did not.
+      prior.relatedNodeIds = [...new Set([...(prior.relatedNodeIds ?? []), ...(q.relatedNodeIds ?? [])])];
+      removed.duplicates++;
+      continue;
+    }
+    seen.set(norm, q);
+    kept.push(q);
+  }
+  questions.length = 0;
+  questions.push(...kept);
+  return removed;
+}
+
+/** Entity types whose names have to read like the name of a body. */
+const ORG_TYPES = new Set(['Organization', 'GovernmentAgency', 'Nonprofit', 'Foundation',
+  'University', 'Employer', 'Vendor', 'TrainingProvider', 'LegislativeBody']);
+
+/**
+ * Whether a name is the name of something, rather than a word for a kind of
+ * thing. The model is asked for durable nameable entities and mostly obliges,
+ * but roughly one in six of what it returns is a concept lifted from the
+ * sentence — "asset_id", "geometry types", "diagnostic fields", "equipment",
+ * "existing 311 datasets". Those are what a claim is *about*; as nodes they
+ * accumulate edges while identifying nothing.
+ *
+ * English capitalizes proper names, which separates them cleanly, with two
+ * exceptions worth keeping: brands that begin on a lowercase letter (eVA, iCal,
+ * mRelief) and bare hostnames (data.census.gov, richmondva.legistar.com).
+ */
+const isProperName = (name) => /^[^a-z]/.test(name)
+  || /^[a-z][A-Z]/.test(name)
+  || /^[a-z0-9-]+(\.[a-z0-9-]+)+(\/|$|\s)/i.test(name);
+
+function buildCorpusGraph(record, rc, warnings) {
+  const claimById = new Map(rc.claims.map((c) => [c.id, c]));
+  const nodes = [];
+  const edges = [];
+  const dropped = { staleClaim: 0, unknownEndpoint: 0, notAnOrg: 0, notAName: 0 };
+
+  // Provenance for anything derived from claims: the report line that said it,
+  // plus the primary source that line cites. Two hops, both checkable.
+  const provFor = (claimIds) => {
+    const out = [];
+    for (const id of claimIds.slice(0, 4)) {
+      const c = claimById.get(id);
+      if (!c) continue;
+      const primary = c._sources[0];
+      out.push({
+        sourceDoc: c._report,
+        sourceLocation: `lines ${c._line}-${c._line}`,
+        // Verbatim, so the excerpt can be found at the line it names.
+        excerpt: (c._raw ?? c.claim).slice(0, 400),
+        claimId: c.id,
+        ...(primary?.url ? { url: primary.url } : {}),
+        ...(primary?.title ? { sourceTitle: primary.title } : {}),
+      });
+    }
+    return out;
+  };
+
+  // The model names the same place several ways across batches. Only variants
+  // of one entity are folded here — "City of Richmond" stays a separate
+  // GovernmentAgency, because the municipal government and the place are not
+  // interchangeable in a graph about who does what.
+  const canonical = (name) => name.replace(/^Richmond,\s*(Virginia|VA)$/i, 'Richmond');
+
+  const idFor = (name, type) => `n:${type.toLowerCase()}:${slug(canonical(name))}`;
+  const byNorm = new Map(); // normalized name -> node id
+
+  const skipped = new Set();
+  const skip = (name) => skipped.add(name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim());
+  for (const e of record.entities) {
+    const live = e.claimIds.filter((id) => claimById.has(id));
+    if (!live.length) { dropped.staleClaim++; continue; }
+    if (!isProperName(e.name)) { skip(e.name); dropped.notAName++; continue; }
+    // The model occasionally lifts a contact address or a URL out of a claim
+    // and types it as an organization. An inbox is a way to reach a body, not
+    // the body itself, so it does not get to be a node.
+    if (ORG_TYPES.has(e.type) && !readOrganizations(e.name).length) {
+      skip(e.name);
+      dropped.notAnOrg++;
+      continue;
+    }
+    const id = idFor(e.name, e.type);
+    byNorm.set(e.name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(), id);
+    // Status follows the strongest source behind its claims, never the model.
+    const verified = live.some((cid) => claimById.get(cid)._evidenceStatus === 'externally_verified');
+    nodes.push(makeNode({
+      id,
+      type: e.type,
+      label: canonical(e.name).length > 90 ? `${canonical(e.name).slice(0, 87)}…` : canonical(e.name),
+      description: e.description || '',
+      evidenceStatus: verified ? 'externally_verified' : 'reported_but_unverified',
+      aliases: e.aliases,
+      attrs: { claimCount: live.length, origin: 'research corpus' },
+      provenance: provFor(live),
+    }));
+  }
+
+  for (const r of record.relations) {
+    const live = r.claimIds.filter((id) => claimById.has(id));
+    if (!live.length) { dropped.staleClaim++; continue; }
+    const source = byNorm.get(r.source);
+    const target = byNorm.get(r.target);
+    if (!source || !target || source === target) { dropped.unknownEndpoint++; continue; }
+    edges.push(makeEdge({
+      source,
+      target,
+      type: r.type,
+      description: r.description || `Stated in ${live.length} cited claim${live.length === 1 ? '' : 's'}`,
+      evidenceStatus: 'reported_but_unverified',
+      confidence: live.length >= 3 ? 'high' : live.length === 2 ? 'medium' : 'low',
+      provenance: provFor(live),
+    }));
+  }
+
+  // Attach each entity to the sources its claims cite. This is what stops the
+  // cited-source nodes being an unreachable bibliography off to one side.
+  const sourceNodeByUrl = new Map(rc.nodes.map((n) => [n.attrs.url, n]));
+  const seen = new Set();
+  for (const e of record.entities) {
+    if (skipped.has(e.name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim())) continue;
+    const entityId = idFor(e.name, e.type);
+    for (const cid of e.claimIds) {
+      const claim = claimById.get(cid);
+      if (!claim) continue;
+      for (const s of claim._sources) {
+        const src = sourceNodeByUrl.get(s.url);
+        if (!src) continue;
+        const key = `${entityId}|${src.id}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        edges.push(makeEdge({
+          source: entityId,
+          target: src.id,
+          type: 'SUPPORTED_BY',
+          description: `A claim naming this entity cites ${s.title ?? s.url}`,
+          evidenceStatus: 'documented',
+          confidence: 'high',
+          provenance: provFor([cid]),
+        }));
+      }
+    }
+  }
+
+  if (Object.values(dropped).some(Boolean)) {
+    warnings.push(`[corpus] dropped ${dropped.staleClaim} stale-anchor, `
+      + `${dropped.unknownEndpoint} unresolved-endpoint, ${dropped.notAnOrg} not-an-organization `
+      + `and ${dropped.notAName} not-a-name records`);
+  }
+  return { nodes, edges };
+}
+
+/**
+ * Move sentence-shaped Problem/Need nodes into the evidence layer.
+ *
+ * The post-event research parser names these nodes with the sentence it found
+ * them in, so each one is unique to a single document and connects to nothing
+ * else — they were the bulk of the graph's degree-1 tail. As claims they are
+ * still readable and still cited; they just stop pretending to be entities.
+ *
+ * Evidence and ResearchQuestion nodes are also sentence-shaped and are left
+ * alone: a claim and an open question are supposed to read as statements.
+ */
+function demoteSentenceNodes(per, warnings) {
+  const isSentence = (n) => n.label.split(/\s+/).length > 8 || n.label.endsWith('…');
+  const demotable = (n) => ['Problem', 'Need'].includes(n.type) && isSentence(n);
+
+  const demoted = per.nodes.filter(demotable);
+  const ids = new Set(demoted.map((n) => n.id));
+  if (!demoted.length) return { nodes: per.nodes, edges: per.edges, claims: [] };
+
+  const claims = demoted.map((n, i) => ({
+    id: `ev:P-${i + 1}`,
+    claim: (n.description || n.label).slice(0, 900),
+    status: 'unverified',
+    source: 'post-event research',
+    url: null,
+    repo: REPO_ID,
+    provenance: n.provenance,
+    notes: `Recorded as a ${n.type.toLowerCase()} statement in post-event research. Held as a claim rather than an entity because it is phrased as a finding.`,
+  }));
+
+  warnings.push(`[demote] ${demoted.length} sentence-shaped Problem/Need nodes moved to the evidence layer`);
+  return {
+    nodes: per.nodes.filter((n) => !ids.has(n.id)),
+    edges: per.edges.filter((e) => !ids.has(e.source) && !ids.has(e.target)),
+    claims,
+  };
+}
+
 function main() {
   const warnings = [];
   const reviewQueue = readRecords('extraction/records/review.json', []);
@@ -102,7 +376,13 @@ function main() {
     : { nodes: [], edges: [], flows: [], filesExamined: [] };
   const ev = parseEvidenceLog();
   const inv = parseSourceInventory();
-  const per = parsePostEventResearch();
+  const perRaw = parsePostEventResearch();
+  // The research corpus is prose, so only its citations are machine-readable.
+  // This yields the claim index and one node per cited primary source; the
+  // entities those claims are *about* are resolved separately.
+  const rc = parseResearchCorpus();
+  const demoted = demoteSentenceNodes(perRaw, warnings);
+  const per = { ...perRaw, nodes: demoted.nodes, edges: demoted.edges };
 
   // 2. Curated records ------------------------------------------------------
   const entityRecords = readRecords('extraction/records/entities.json', []);
@@ -189,10 +469,19 @@ function main() {
     });
   }
 
+  const questionStats = tidyQuestions(questions);
+
   // External research: evidence records + Evidence nodes (mirrors the
   // evidence-log parser), new entities/relationships/flows, updates to
   // existing records, and answers to open questions.
-  const evidenceRecords = [...ev.evidenceRecords];
+  // Claims carry scratch fields (prefixed _) used to wire them to source nodes
+  // and to the entity pass; they are not part of the evidenceRecord schema.
+  // Dropped by prefix rather than by name so adding one cannot break the
+  // schema — which is exactly what happened when _raw was introduced.
+  const claimRecords = rc.claims.map((c) => Object.fromEntries(
+    Object.entries(c).filter(([k]) => !k.startsWith('_')),
+  ));
+  const evidenceRecords = [...ev.evidenceRecords, ...claimRecords, ...demoted.claims];
   for (const rec of external.evidence) {
     evidenceRecords.push({ ...rec, repo: REPO_ID });
     const code = rec.id.slice(3); // "ev:W-1" -> "W-1"
@@ -216,9 +505,12 @@ function main() {
   }
 
   // 3. Merge ---------------------------------------------------------------
-  let nodes = [...cip.nodes, ...ev.nodes, ...inv.nodes, ...per.nodes, ...curatedNodes];
+  const corpusRecord = readRecords('extraction/records/corpus_entities.json', { entities: [], relations: [] });
+  const corpus = buildCorpusGraph(corpusRecord, rc, warnings);
+
+  let nodes = [...cip.nodes, ...ev.nodes, ...inv.nodes, ...per.nodes, ...rc.nodes, ...corpus.nodes, ...curatedNodes];
   let edges = [...cip.edges, ...(ev.edges ?? []), ...inv.edges, ...per.edges, ...curatedEdges,
-    ...deriveCitations(ev, inv)];
+    ...deriveCitations(ev, inv), ...linkSourcesToInventory(rc, inv), ...corpus.edges];
   const flows = [...cip.flows, ...curatedFlows, ...external.flows];
 
   // Duplicate node IDs: merge provenance, keep first definition.
@@ -327,6 +619,24 @@ function main() {
     q.answer = qa.answer;
   }
 
+  // A question the corpus struck through is no longer open, so its node goes
+  // with its list entry. Matched on text because the node id is derived from
+  // the source section rather than from the question.
+  if (questionStats.resolvedTexts.length) {
+    const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const resolved = questionStats.resolvedTexts.map(norm);
+    const gone = new Set(nodes
+      .filter((n) => n.type === 'ResearchQuestion'
+        && resolved.some((r) => r.startsWith(norm(n.description || n.label).slice(0, 60))))
+      .map((n) => n.id));
+    if (gone.size) {
+      for (let i = nodes.length - 1; i >= 0; i--) if (gone.has(nodes[i].id)) nodes.splice(i, 1);
+      for (let i = edges.length - 1; i >= 0; i--) {
+        if (gone.has(edges[i].source) || gone.has(edges[i].target)) edges.splice(i, 1);
+      }
+    }
+  }
+
   // Stamp extraction time (IDs stay deterministic; only timestamps vary).
   for (const n of nodes) n.extractedAt = RUN_TS;
   for (const e of edges) e.extractedAt = RUN_TS;
@@ -339,6 +649,8 @@ function main() {
 
   // 4. Metrics ---------------------------------------------------------------
   const metrics = computeMetrics(nodes, edges, flows, evidenceRecords, reviewQueue, brokenEdges, verification);
+  metrics.questionsDeduplicated = questionStats.duplicates;
+  metrics.questionsResolvedSinceLogged = questionStats.resolved;
   metrics.externalResearch = {
     researchedAt: external.researchedAt,
     evidenceRecords: external.evidence.length,
@@ -374,7 +686,21 @@ function main() {
   write('extraction_report.json', {
     generatedAt: RUN_TS,
     repo: REPO_ID,
-    filesExamined: collectFilesExamined(cip, ev, inv, per.nodes, entityRecords, relationshipRecords, curatedFlows, curatedQuestions),
+    // The research reports are named individually rather than counted, because
+    // the corpus is the largest input by far and which of it was read — and
+    // which was set aside as off brief — is the first thing anyone auditing
+    // this graph needs to know.
+    filesExamined: [
+      ...collectFilesExamined(cip, ev, inv, per.nodes, entityRecords, relationshipRecords, curatedFlows, curatedQuestions),
+      ...rc.stats.reportsRead,
+    ],
+    researchCorpus: {
+      reportsRead: rc.stats.reportsRead.length,
+      reportsOffBrief: rc.stats.offTopic,
+      reportsWithoutReferences: rc.stats.skipped,
+      claimsIndexed: rc.claims.length,
+      primarySourcesCited: rc.nodes.length,
+    },
     provenanceVerification: verification,
     warnings,
     metrics,

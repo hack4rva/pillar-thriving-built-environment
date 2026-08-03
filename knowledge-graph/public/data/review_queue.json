@@ -55,5 +55,579 @@
    "Keep merged under DPW (current)"
   ],
   "decisionRequested": "Confirm whether Richmond's GIS function is a DPW team or a separate citywide office."
+ },
+ {
+  "id": "r:dup-services1-arcgis-com",
+  "itemType": "node",
+  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-f1a50ced",
+  "sourceExcerpt": "services1.arcgis.com",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-services1-arcgis-com",
+  "itemType": "node",
+  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-6c072752",
+  "sourceExcerpt": "services1.arcgis.com",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-services1-arcgis-com",
+  "itemType": "node",
+  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-34ce808f",
+  "sourceExcerpt": "services1.arcgis.com",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-services1-arcgis-com",
+  "itemType": "node",
+  "proposed": "n:source:services1-arcgis-com-9d5e9c07 vs n:source:services1-arcgis-com-788fad44",
+  "sourceExcerpt": "services1.arcgis.com",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-cip-richmond",
+  "itemType": "node",
+  "proposed": "n:source:rva-gov-beb58936 vs n:source:rva-gov-4dd53df4",
+  "sourceExcerpt": "CIP | Richmond",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-capital-projects",
+  "itemType": "node",
+  "proposed": "n:source:apps-boston-gov-1c61a1cb vs n:source:apps-boston-gov-40e9aff6",
+  "sourceExcerpt": "Capital Projects",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-crashdata-basic-dataset-virginia-open-data-portal",
+  "itemType": "node",
+  "proposed": "n:source:data-virginia-gov-c3ae4255 vs n:source:data-virginia-gov-6fb20a92",
+  "sourceExcerpt": "CrashData Basic - Dataset - Virginia Open Data Portal",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-highways-virginia-department-of-transportation",
+  "itemType": "node",
+  "proposed": "n:source:vdot-virginia-gov-e69200f6 vs n:source:vdot-virginia-gov-e4a259f0",
+  "sourceExcerpt": "Highways | Virginia Department of Transportation",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-richmond-geohub",
+  "itemType": "node",
+  "proposed": "n:dataset:richmond-geohub vs n:source:richmond-geo-hub-cor-hub-arcgis-com-9886ad7f",
+  "sourceExcerpt": "Richmond GeoHub",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-clearstreets-chicago-plow-tracker",
+  "itemType": "node",
+  "proposed": "n:source:clearstreets-org-a6639cca vs n:source:clearstreets-org-099a6474",
+  "sourceExcerpt": "ClearStreets - Chicago Plow Tracker",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-domino-s-turned-a-customer-complaint-into-one-of-its",
+  "itemType": "node",
+  "proposed": "n:source:facebook-com-98a2e881 vs n:source:instagram-com-0e9ea773",
+  "sourceExcerpt": "Domino's turned a customer complaint into one of its",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-forecasting-hurricane-induced-power-outage-durations",
+  "itemType": "node",
+  "proposed": "n:source:ideas-repec-org-f7893698 vs n:source:researchgate-net-74003cd6",
+  "sourceExcerpt": "Forecasting hurricane-induced power outage durations",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-forecasting-hurricane-induced-power-outage-durations",
+  "itemType": "node",
+  "proposed": "n:source:ideas-repec-org-f7893698 vs n:source:semanticscholar-org-f0ac10f7",
+  "sourceExcerpt": "Forecasting hurricane-induced power outage durations",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-do-311-systems-shape-citizen-satisfaction-with-local-government",
+  "itemType": "node",
+  "proposed": "n:source:csuohio-elsevierpure-com-b76ccc28 vs n:source:researchgate-net-bd2c7663",
+  "sourceExcerpt": "Do 311 Systems Shape Citizen Satisfaction with Local Government?",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-predicting-estimated-times-of-restoration-for-electrical-outages",
+  "itemType": "node",
+  "proposed": "n:source:arxiv-org-4eb41cad vs n:source:arxiv-org-a3e4a8e0",
+  "sourceExcerpt": "Predicting Estimated Times of Restoration for Electrical Outages",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-add-relationships-to-assets-cityworks-gis-management",
+  "itemType": "node",
+  "proposed": "n:source:help-cityworks-com-b328ca12 vs n:source:help-cityworks-com-d72d5b26",
+  "sourceExcerpt": "Add Relationships to Assets - Cityworks GIS Management",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-lucity-rest-api",
+  "itemType": "node",
+  "proposed": "n:source:help-lucity-com-5885e2b8 vs n:source:help-lucity-com-e9ada777",
+  "sourceExcerpt": "Lucity REST API",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-touch-target-size-android-accessibility-help",
+  "itemType": "node",
+  "proposed": "n:source:support-google-com-a2821659 vs n:source:support-google-com-bde5640d",
+  "sourceExcerpt": "Touch target size - Android Accessibility Help",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-neighborhood-traffic-management-program",
+  "itemType": "node",
+  "proposed": "n:source:rva-gov-c501ddcf vs n:program:neighborhood-traffic-management-program",
+  "sourceExcerpt": "Neighborhood Traffic Management Program",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-richmond-open-data-portal",
+  "itemType": "node",
+  "proposed": "n:dataset:richmond-open-data-portal vs n:program:richmond-open-data-portal",
+  "sourceExcerpt": "Richmond Open Data Portal",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-open311",
+  "itemType": "node",
+  "proposed": "n:source:open311-org-f8429d3d vs n:organization:open311",
+  "sourceExcerpt": "Open311",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-server-sent-events",
+  "itemType": "node",
+  "proposed": "n:source:en-wikipedia-org-06b5f354 vs n:service:server-sent-events",
+  "sourceExcerpt": "Server-Sent Events",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-open-contracting-data-standard",
+  "itemType": "node",
+  "proposed": "n:source:open-contracting-org-577145b4 vs n:policy:open-contracting-data-standard",
+  "sourceExcerpt": "Open Contracting Data Standard",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-plownyc",
+  "itemType": "node",
+  "proposed": "n:source:plownyc-cityofnewyork-us-81199e73 vs n:dataset:plownyc",
+  "sourceExcerpt": "PlowNYC",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-virginia-work-area-protection-manual",
+  "itemType": "node",
+  "proposed": "n:source:vastim-vdot-virginia-gov-23b765e7 vs n:policy:virginia-work-area-protection-manual",
+  "sourceExcerpt": "Virginia Work Area Protection Manual",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-fiscal-year-2025-paving-plan",
+  "itemType": "node",
+  "proposed": "n:source:rva-gov-a0dbd26a vs n:project:fiscal-year-2025-paving-plan",
+  "sourceExcerpt": "Fiscal Year 2025 Paving Plan",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-sweepnyc",
+  "itemType": "node",
+  "proposed": "n:source:sweepnyc-nyc-gov-a90a39b7 vs n:program:sweepnyc",
+  "sourceExcerpt": "SweepNYC",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-bicycle-infrastructure-completed",
+  "itemType": "node",
+  "proposed": "n:source:richmond-geo-hub-cor-hub-arcgis-com-0d0ccd9d vs n:dataset:bicycle-infrastructure-completed",
+  "sourceExcerpt": "Bicycle Infrastructure, Completed",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-equitynyc",
+  "itemType": "node",
+  "proposed": "n:source:equity-nyc-gov-71aff13f vs n:dataset:equitynyc",
+  "sourceExcerpt": "EquityNYC",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-georeport-bulk-data-specification",
+  "itemType": "node",
+  "proposed": "n:source:wiki-open311-org-606685c2 vs n:dataset:georeport-bulk-data-specification",
+  "sourceExcerpt": "GeoReport Bulk data specification",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-georeport-v2",
+  "itemType": "node",
+  "proposed": "n:source:wiki-open311-org-fc1f0491 vs n:dataset:georeport-v2",
+  "sourceExcerpt": "GeoReport V2",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-investigating-the-relationship-between-public-governance",
+  "itemType": "node",
+  "proposed": "n:source:tandfonline-com-8a801fae vs n:dataset:investigating-the-relationship-between-public-governance",
+  "sourceExcerpt": "Investigating the Relationship between Public Governance...",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-m-m-c-queue",
+  "itemType": "node",
+  "proposed": "n:source:en-wikipedia-org-db8e45ab vs n:program:m-m-c-queue",
+  "sourceExcerpt": "M/M/c queue",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-olayinka-bruce",
+  "itemType": "node",
+  "proposed": "n:person:olayinka-bruce vs n:constituentgroup:olayinka-bruce",
+  "sourceExcerpt": "Olayinka Bruce",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-predicting-estimated-times-of-restoration-for-electrical-outages",
+  "itemType": "node",
+  "proposed": "n:source:arxiv-org-4eb41cad vs n:project:predicting-estimated-times-of-restoration-for-electrical-outages",
+  "sourceExcerpt": "Predicting Estimated Times of Restoration for Electrical Outages",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-responsibility-master-route",
+  "itemType": "node",
+  "proposed": "n:source:virginiaroads-org-642d98dc vs n:dataset:responsibility-master-route",
+  "sourceExcerpt": "Responsibility Master Route",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-richmond-parcel-map",
+  "itemType": "node",
+  "proposed": "n:source:richmond-geo-hub-cor-hub-arcgis-com-45da5795 vs n:program:richmond-parcel-map",
+  "sourceExcerpt": "Richmond Parcel Map",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-scheduled-proposed-street-resurfacing-projects",
+  "itemType": "node",
+  "proposed": "n:source:geohub-lacity-org-6fd8cd6e vs n:dataset:scheduled-proposed-street-resurfacing-projects",
+  "sourceExcerpt": "Scheduled Proposed Street Resurfacing Projects",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-thomas-westbrook",
+  "itemType": "node",
+  "proposed": "n:person:thomas-westbrook vs n:constituentgroup:thomas-westbrook",
+  "sourceExcerpt": "Thomas Westbrook",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-vision-zero-action-plan",
+  "itemType": "node",
+  "proposed": "n:source:rva-gov-c8c3f965 vs n:policy:vision-zero-action-plan",
+  "sourceExcerpt": "Vision Zero Action Plan",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
+ },
+ {
+  "id": "r:dup-city-of-richmond",
+  "itemType": "node",
+  "proposed": "n:governmentagency:city-of-richmond vs n:agency:city-of-richmond",
+  "sourceExcerpt": "City of Richmond",
+  "sourceLocation": "label comparison across extraction sources",
+  "rationale": "Two nodes share the same normalized label; they may be the same entity and need alias resolution.",
+  "confidence": "medium",
+  "alternatives": [
+   "Merge via extraction/aliases.json",
+   "Keep separate"
+  ],
+  "decisionRequested": "Decide whether these are the same entity."
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-02T21:03:14.685Z",
+ "generatedAt": "2026-08-02T23:12:17.238Z",
  "repo": "pillar-thriving-built-environment",
  "filesExamined": [
   "README.md",
@@ -12,8 +12,146 @@
   "research/B3_users_dpw_comms.md",
   "research/B5_users_accessibility.md",
   "research/COR_CIP_Dashboard_projects.csv",
-  "research/D3_data_grant_documentation.md"
+  "research/D3_data_grant_documentation.md",
+  "research/00_pillar_summary_context.md",
+  "research/90_top_10_research_questions.md",
+  "research/91_top_10_hypotheses_to_test.md",
+  "research/92_red_flags.md",
+  "research/93_missing_information_gaps.md",
+  "research/A2_problem_landscape_fleet_operations.md",
+  "research/A3_problem_landscape_compare_statements.md",
+  "research/A4_problem_landscape_public_works_transparency.md",
+  "research/A5_problem_landscape_infrastructure_data_fragmentation.md",
+  "research/B1_users_concerned_resident.md",
+  "research/B5_users_accessibility.md",
+  "research/C1_services_dpw_landscape.md",
+  "research/C2_services_arcgis_landscape.md",
+  "research/C3_services_project_tracking_systems.md",
+  "research/C4_services_gaps.md",
+  "research/D1_data_arcgis_dpw.md",
+  "research/D2_data_open_data_portal.md",
+  "research/D4_data_gps_fleet.md",
+  "research/E1_prior_art_project_trackers.md",
+  "research/E2_prior_art_service_status.md",
+  "research/E3_prior_art_311_integration.md",
+  "research/E4_prior_art_failures.md",
+  "research/E5_prior_art_weekend_viable.md",
+  "research/F1_opportunities_ranked.md",
+  "research/G3_risks_accessibility.md",
+  "research/G5_risks_guardrails.md",
+  "research/H1_mvp_48hr_framework.md",
+  "research/H2_mvp_project_visibility.md",
+  "research/H4_mvp_mock_data.md",
+  "research/H5_mvp_scope_boundaries.md",
+  "research/I1_demo_archetypes.md",
+  "research/I2_demo_project_visibility_pitch.md",
+  "research/I3_demo_fleet_ops_pitch.md",
+  "research/I4_demo_credibility.md",
+  "research/J1_transparency_academic_frameworks.md",
+  "research/J2_information_asymmetry_government_services.md",
+  "research/J3_private_sector_transparency_paradigms.md",
+  "research/K1_academic_research_utility_outage_tracking.md",
+  "research/K2_municipal_work_order_tracking.md",
+  "research/K3_smart_city_gis_urban_sensing.md",
+  "research/K4_predictive_models_service_restoration.md",
+  "research/L1_data_model_work_orders_service_requests.md",
+  "research/L2_data_model_assets_infrastructure_fleet.md",
+  "research/L3_data_model_workforce_events_historical.md",
+  "research/L4_data_model_external_context.md",
+  "research/M1_simulation_probabilistic_eta_queue_modeling.md",
+  "research/M2_simulation_route_optimization_outage_prediction.md",
+  "research/N1_data_sources_municipal_open_data_311.md",
+  "research/N2_data_sources_utility_weather_geospatial.md",
+  "research/O1_architecture_gis_platforms_work_order_integration.md",
+  "research/O2_architecture_realtime_pipelines_digital_twins.md",
+  "research/P1_ux_consumer_grade_civic_tracking.md",
+  "research/Q1_gaps_failures_innovation_opportunities.md"
  ],
+ "researchCorpus": {
+  "reportsRead": 53,
+  "reportsOffBrief": [
+   {
+    "file": "research/A1_problem_landscape_infrastructure_visibility.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/B2_users_dpw_supervisor.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/B3_users_dpw_comms.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/B4_users_stakeholders_map.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/C5_services_notification_systems.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/D3_data_grant_documentation.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/D5_data_quality.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/F2_opportunities_project_visibility.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/F3_opportunities_fleet_ops.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/F4_opportunities_where_software.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/F5_opportunities_do_not_build.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/G1_risks_inaccurate_project_info.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/G2_risks_gps_dependency.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/G4_risks_data_freshness.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/H3_mvp_fleet_ops.md",
+    "localMentionsPerKWord": 0
+   },
+   {
+    "file": "research/I5_demo_framing.md",
+    "localMentionsPerKWord": 0
+   }
+  ],
+  "reportsWithoutReferences": [
+   {
+    "file": "research/01_master_research_prompt.md",
+    "reason": "corpus scaffolding, not findings"
+   },
+   {
+    "file": "research/INDEX.md",
+    "reason": "corpus scaffolding, not findings"
+   },
+   {
+    "file": "research/validation_report.md",
+    "reason": "corpus scaffolding, not findings"
+   }
+  ],
+  "claimsIndexed": 866,
+  "primarySourcesCited": 609
+ },
  "provenanceVerification": {
   "exact": 190,
   "moved": 0,
@@ -21,10 +159,18 @@
   "missing": 0,
   "external": 23
  },
- "warnings": [],
+ "warnings": [
+  "[corpus] dropped 0 stale-anchor, 123 unresolved-endpoint, 2 not-an-organization and 159 not-a-name records",
+  "[merge] duplicate node id n:dataset:richmond-geohub: provenance merged",
+  "[merge] duplicate node id n:problem:transportation-project-visibility: provenance merged",
+  "[merge] duplicate node id n:problem:fleet-operations-visibility: provenance merged",
+  "[merge] duplicate node id n:population:richmond-residents: provenance merged",
+  "[merge] duplicate node id n:service:rva311: provenance merged",
+  "[merge] duplicate node id n:program:richmond-connects: provenance merged"
+ ],
  "metrics": {
-  "totalNodes": 296,
-  "totalEdges": 547,
+  "totalNodes": 1598,
+  "totalEdges": 3443,
   "financialFlows": 133,
   "financialEdges": 136,
   "totalDocumentedFundingUSD": 982322153,
@@ -34,13 +180,16 @@
   "flowsWithUnknownDestination": 1,
   "flowsWithUnknownSource": 1,
   "fundingWithUnknownDestinationUSD": 0,
-  "intendedBeneficiaryNodes": 6,
-  "needsTotal": 7,
+  "intendedBeneficiaryNodes": 14,
+  "needsTotal": 10,
   "needsWithNoFunding": [
+   "n:need:daytime-extended-hours",
+   "n:need:daytime-hours",
    "n:need:equitable-access",
    "n:need:fall-line-trail-funding-gap",
    "n:need:find-project-info",
    "n:need:plain-language",
+   "n:need:priority-1-2-and-3-lane-mile-targets",
    "n:need:resident-service-timing",
    "n:need:staff-inquiry-deflection",
    "n:need:supervisor-route-visibility"
@@ -55,11 +204,11 @@
   ],
   "inferredRelationships": 3,
   "disputedRelationships": 2,
-  "reportedButUnverifiedRelationships": 8,
+  "reportedButUnverifiedRelationships": 513,
   "brokenReferences": 0,
-  "duplicateCandidates": 0,
-  "reviewQueueSize": 4,
-  "evidenceRecords": 37,
+  "duplicateCandidates": 41,
+  "reviewQueueSize": 45,
+  "evidenceRecords": 903,
   "provenanceCoverage": 100,
   "provenanceVerification": {
    "exact": 190,
@@ -68,6 +217,8 @@
    "missing": 0,
    "external": 23
   },
+  "questionsDeduplicated": 0,
+  "questionsResolvedSinceLogged": 0,
   "externalResearch": {
    "researchedAt": "2026-08-01",
    "evidenceRecords": 11,
