@@ -1,0 +1,25 @@
+Data Inventory D2 — Richmond Open Data Portal DPW Datasets
+
+Inventory the datasets on Richmond's Open Data Portal (data.richmondgov.com) that are relevant to DPW and transportation.
+
+For each dataset category, research:
+- Whether such datasets exist on the portal (verified or inferred)
+- Dataset name or likely dataset name
+- Key fields and data types
+- Update frequency
+- Access method (Socrata API, CSV download)
+- Data quality considerations
+
+Dataset categories to investigate:
+- Capital improvement projects
+- 311 service requests (filter for construction/road/public works categories)
+- Road maintenance and resurfacing records
+- Street cleaning schedules or completion records
+- Permit activity for construction
+- Traffic incident data adjacent to construction zones
+
+Output:
+- Verified datasets (with source titles)
+- Inferences about dataset existence (labeled)
+- Unknowns to verify on the portal before building
+- Recommended datasets for the hackathon with rationale

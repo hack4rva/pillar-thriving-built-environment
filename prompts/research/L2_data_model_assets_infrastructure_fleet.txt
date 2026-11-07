@@ -1,0 +1,60 @@
+Data Model L2 — Assets, Infrastructure, and Fleet Telemetry
+
+Define a comprehensive data model for the asset/infrastructure layer and fleet/vehicle telemetry layer of a public service tracking system.
+
+Requirements:
+
+1. Asset / Infrastructure Entity
+   - asset_id (unique identifier)
+   - asset_type (enum: road_segment, bridge, transformer, water_main, sewer_line, fire_hydrant, streetlight, traffic_signal, stormwater_drain, sidewalk_segment, park_facility, public_building)
+   - location (GIS geometry — point, line, or polygon depending on asset type)
+   - address or nearest_address
+   - neighborhood, council_district, census_tract
+   - installation_date
+   - last_inspection_date
+   - condition_rating (1-5 or A-F)
+   - material (relevant for pipes, roads)
+   - capacity / specifications
+   - failure_history (array of past incidents with dates and types)
+   - mean_time_between_failures (calculated)
+   - maintenance_schedule
+   - owning_department
+   - related_assets (array — e.g., transformer serves these addresses)
+
+2. Fleet / Vehicle Telemetry Entity
+   - vehicle_id
+   - vehicle_type (enum: plow_truck, street_sweeper, garbage_truck, utility_truck, inspection_vehicle, emergency_vehicle, supervisor_vehicle)
+   - assigned_crew_id
+   - current_location (lat/lng, timestamp)
+   - heading, speed
+   - route_id (currently assigned route)
+   - route_completion_pct
+   - breadcrumb_trail (array of timestamped lat/lng points)
+   - status (enum: idle, en_route, on_site, returning, out_of_service, refueling)
+   - shift_start, shift_end
+   - fuel_level (if available)
+   - equipment_mounted (plow, spreader, broom, etc.)
+
+3. Route Entity
+   - route_id
+   - route_name
+   - service_type (snow_removal, street_cleaning, trash_collection)
+   - priority_level
+   - geometry (GIS linestring or polygon)
+   - scheduled_start, scheduled_end
+   - actual_start, actual_end
+   - completion_status (not_started, in_progress, completed, skipped)
+   - segments (ordered array of road segments)
+
+4. Telemetry Data Stream Schema
+   - Define the real-time telemetry message format (vehicle_id, timestamp, lat, lng, speed, heading, event_type)
+   - Expected frequency (every 10s, 30s, 60s?)
+   - Data volume estimates for a city the size of Richmond (~100 fleet vehicles)
+   - Storage and retention requirements
+
+Output:
+- Complete entity schemas with field types, constraints, and example values
+- Entity-relationship diagram showing asset ↔ work_order ↔ fleet ↔ route relationships
+- Telemetry message schema (JSON) with 5 example messages
+- Data volume estimates for 1 day, 1 week, 1 month of fleet telemetry
+- Mapping to common fleet management system outputs (Verizon Connect, Geotab, Samsara)

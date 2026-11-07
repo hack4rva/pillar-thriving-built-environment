@@ -1,0 +1,27 @@
+Prior Art E1 — City Infrastructure Project Tracker Tools Nationally
+
+Research the best examples of public-facing city infrastructure and transportation project tracker tools in the United States.
+
+For each example, describe:
+- City and tool name
+- What it does (project types covered, search capability, status display)
+- Data source (ArcGIS, open data portal, custom API)
+- Key UX features (address search, map view, status filter, notification)
+- Whether it has plain-language descriptions
+- Known strengths and limitations
+- Relevance to Richmond's problem
+
+Cities to investigate specifically:
+- NYC Department of Transportation capital projects
+- Portland Bureau of Transportation projects
+- Boston street improvements
+- Chicago infrastructure viewer
+- Louisville Metro public works
+- Philadelphia Streets Department
+- Any Virginia peer cities (Arlington, Alexandria, Norfolk)
+
+Output:
+- Comparison table: city, tool name, key features, data source, strengths, limitations
+- Top 2–3 models most relevant to Richmond
+- Key UX patterns to adopt
+- Key mistakes to avoid

@@ -1,0 +1,19 @@
+Opportunities F4 — Where Software Adds the Most Value
+
+Research and reason about where software intervention adds the most value in the infrastructure transparency and fleet operations problem spaces, vs. where the bottleneck is organizational or data-based.
+
+Specifically:
+- Where is the primary bottleneck: data availability, data comprehensibility, or data discoverability?
+- Which user pain points are best addressed by software vs. organizational change?
+- What is the minimum software intervention that would produce the maximum value for residents?
+- Are there simple non-software solutions (better printed schedules, physical signage) that are being overlooked in favor of tech?
+- Where does AI add value vs. where is it unnecessary complexity?
+
+Apply specifically to:
+1. Infrastructure project visibility: Is the primary problem finding the data or understanding it?
+2. Fleet operations: Is the primary problem data availability, data communication, or organizational coordination?
+
+Output:
+- Analysis of each problem through a "where does software help?" lens
+- Minimum viable interventions ranked by value/effort
+- Warning: areas where a software solution would be outperformed by a simpler non-software fix

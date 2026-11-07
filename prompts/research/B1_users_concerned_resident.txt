@@ -1,0 +1,16 @@
+User Research B1 — The Concerned Resident
+
+Build a detailed user persona for a Richmond resident who wants to understand infrastructure projects happening in their neighborhood. Research:
+
+- What motivates residents to seek out project information (curiosity, disruption, parking, access, safety)?
+- What are the typical digital literacy levels and device preferences for this user group across Richmond's diverse neighborhoods?
+- How do residents currently discover that a project is happening (physical signs, word of mouth, social media, news)?
+- What specific questions do residents most commonly ask about construction projects (how long, who is responsible, can I park here, will my water be off)?
+- Are there equity considerations — do residents in lower-income neighborhoods or non-English-speaking households face additional barriers to finding project information?
+- What would "good enough" look like for this user — what is the minimum information that answers their question?
+
+Output:
+- Persona sketch with motivations, barriers, and key questions
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Equity considerations specific to Richmond's demographics

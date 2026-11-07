@@ -1,0 +1,27 @@
+MVP Feasibility H3 — Fleet Operations MVP Without Complete GPS Infrastructure
+
+Research how a hackathon team can build a useful and credible fleet operations visibility tool when Richmond's GPS fleet data infrastructure is explicitly incomplete. The problem statement scores only 22/32 and one of its core weaknesses is that the GPS system rollout is still underway, meaning no live vehicle telemetry feed can be assumed available. The goal here is to identify what can be built now — and what would activate automatically when GPS data arrives — so the prototype has lasting value beyond the weekend.
+
+Investigate what cities have successfully built route-completion or service status tools without full real-time GPS coverage:
+- What minimum data schema does a useful fleet operations status display require (zone ID, vehicle ID, route completion percentage, timestamp, status flag)?
+- What is the difference in user value between "scheduled completion" (we expect this zone to be cleaned by 4pm") versus "confirmed completion" ("GPS confirms route finished at 3:47pm") — and which version is achievable in 48 hours?
+- What examples exist of cities that launched useful public-facing service trackers before their GPS or telematics data was fully operational (e.g., Boston's Snow Removal Tracker, Chicago's Plow Tracker early versions)?
+- How did those cities handle the communication of "estimated" versus "confirmed" statuses without undermining public trust?
+
+Investigate what mock data schemas would support a demo-ready prototype:
+- What fields would Richmond DPW likely expose once GPS is operational: vehicle ID, route ID, zone, timestamp, completion status, operator ID?
+- What synthetic data can be constructed from Richmond's known public works zone structure (council districts, service zones, street grid) to stand in for live GPS output?
+- What historical street cleaning or snow removal schedule data might exist in Richmond's Open Data Portal, 311 records, or City Council budget documents that could serve as a realistic schedule baseline?
+- How should the synthetic data be structured so that wiring in real GPS output requires only a data source swap, not an architecture rebuild?
+
+Investigate what the minimum viable demo looks like for this problem:
+- What is the smallest demo that proves the concept without live GPS: a zone status board showing mock route completion updates that a supervisor can manually advance?
+- What demo interaction — clicking a zone to see status, or entering an address to see "your street's cleaning status" — is most intuitive for judges?
+- How should teams communicate during the demo that the tool uses mock data while still showing the architecture is GPS-ready?
+- What is the judge's minimum threshold for finding this demo compelling: showing the user journey is clear, or showing that real data would slot directly in?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Recommended mock GPS data schema with field definitions and example values that a team could seed into a demo database in under 2 hours

@@ -1,0 +1,18 @@
+Prior Art E4 — Civic Infrastructure Transparency Failures
+
+Research civic tech projects in the infrastructure transparency space that did not succeed — either they were built and not maintained, not adopted, or did not reach the residents they were designed for.
+
+Investigate:
+- What are the most common reasons civic infrastructure transparency tools fail after launch?
+- Are there documented examples of city project maps or service status tools that went stale or were abandoned?
+- What organizational or political factors lead to civic tech tools being discontinued?
+- What data maintenance requirements are most commonly underestimated?
+- Are there specific technology choices (scraping, manual updates, single-vendor APIs) that create fragility?
+
+Apply to Richmond context: what failure modes are most likely for a tool built in this hackathon, given the known constraints (GPS not ready, no continuation pathway named, limited staff capacity for updates)?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Top 3 failure modes most relevant to this pillar
+- Design and handoff recommendations to mitigate each failure mode

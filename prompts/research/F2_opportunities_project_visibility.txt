@@ -1,0 +1,26 @@
+Opportunities F2 — Project Visibility Solution Space
+
+Deeply explore the solution opportunity space for the Transportation Project Visibility problem statement.
+
+For each solution direction, analyze:
+- Exact user workflow it addresses
+- Data sources required (and their availability)
+- Technical complexity (1=simple, 5=complex)
+- Value delivered to the resident user
+- Value delivered to DPW staff (reduced inquiry burden)
+- Demo path (what would judges see?)
+- Post-hackathon continuation path
+
+Solution directions to analyze:
+1. Address search → nearby projects list (text-based)
+2. Map with project pins → project card popup
+3. Neighborhood filter → project list
+4. Plain-language translation of specific project descriptions
+5. Email/SMS notification for project status changes near an address
+6. Combination: map + address search + plain-language description
+
+Output:
+- Analysis table for each direction
+- Recommended direction for a team of 3–4 with mixed skills
+- Recommended direction for a team of 2 with strong frontend skills
+- What to explicitly exclude from scope

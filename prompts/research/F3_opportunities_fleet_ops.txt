@@ -1,0 +1,26 @@
+Opportunities F3 — Fleet Operations Solution Space
+
+Deeply explore the solution opportunity space for the Fleet Operations Visibility problem statement, given the GPS data constraint.
+
+For each solution direction, analyze:
+- Exact user workflow it addresses (supervisor vs. resident vs. comms staff)
+- Whether GPS data is required or whether it works with synthetic/schedule data
+- Technical complexity
+- Value delivered
+- Demo path
+- What the tool would look like when GPS is eventually available
+
+Solution directions to analyze:
+1. Zone-based cleaning schedule display (resident-facing, schedule data only)
+2. Supervisor route completion dashboard (mock GPS schema)
+3. Manual status update tool (supervisor marks routes complete; no GPS required)
+4. Integrated supervisor + resident tool (supervisor updates status; resident sees it)
+5. Notification prototype (alert when zone transitions to "completed")
+
+For each direction: be explicit about what data is required and whether it exists today.
+
+Output:
+- Analysis per direction with GPS requirement clearly stated
+- Recommendation for which direction is most achievable in 48 hours
+- Schema requirements for each direction
+- How to frame the GPS gap positively for judges

@@ -1,0 +1,22 @@
+MVP Feasibility H1 — 48-Hour Build Framework for This Pillar
+
+Research and design a practical 48-hour build framework for the most feasible MVP in this pillar (address-based infrastructure project lookup or equivalent).
+
+Framework components to address:
+- Hour 0–4 (Friday evening): What must be verified and decided before a single line of code is written?
+- Hour 4–12 (Friday night / Saturday morning): What is the minimum buildable core?
+- Hour 12–24 (Saturday): What is the "working demo" checkpoint?
+- Hour 24–36 (Saturday night / Sunday morning): What polish, testing, and content work happens?
+- Hour 36–48 (Sunday): Demo prep, rehearsal, and final risk review.
+
+For each phase, specify:
+- Specific tasks and owners (for a 3-person team with developer, researcher, and product roles)
+- Decision gates (what must be decided before proceeding)
+- Risk checkpoints (what could derail the build at each stage)
+- Fallback positions (if the primary build fails, what is the demo-ready minimum?)
+
+Output:
+- Hour-by-hour task breakdown for a 3-person team
+- Critical path: which tasks block everything else?
+- Fallback plan if GeoHub API is unavailable
+- Definition of "demo-ready" for this pillar's MVP

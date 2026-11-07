@@ -1,0 +1,37 @@
+Existing Research K3 — Smart City, GIS, and Urban Infrastructure Sensing Research
+
+Survey the smart city and urban informatics literature on infrastructure monitoring, GIS-based service management, and sensor networks relevant to real-time public service visibility.
+
+Focus areas:
+
+1. Smart City Infrastructure Monitoring
+   - What are the leading smart city platforms for infrastructure management? (IBM Intelligent Operations Center, Cisco Kinetic, Microsoft CityNext, Siemens MindSphere)
+   - How do smart city initiatives integrate data across utilities, transportation, and public works?
+   - What is the current state of "digital twin" technology for city infrastructure?
+   - Case studies: Barcelona, Singapore, Columbus OH Smart City Challenge, Kansas City
+
+2. GIS-Centric Service Management
+   - How do cities use ArcGIS, QGIS, or similar platforms as the backbone for service delivery management?
+   - Esri's ArcGIS Urban and ArcGIS Hub — what do they enable for public-facing transparency?
+   - How do GIS layers for infrastructure (roads, pipes, utility lines) connect to work order systems?
+   - Role of open geospatial standards (OGC, WFS, WMS) in enabling data sharing
+
+3. Urban Sensing and IoT
+   - What sensor networks are deployed in US cities for infrastructure monitoring?
+   - Smart water meters, leak detection sensors, flood sensors
+   - Road condition sensors (pothole detection via accelerometer, LiDAR road scanning)
+   - Air quality, noise, and environmental monitoring as infrastructure signals
+   - How does sensor data flow from field devices to dashboards to public-facing apps?
+
+4. Data Integration Challenges
+   - How do researchers describe the problem of data silos in municipal government?
+   - What middleware, data lakes, or API gateway approaches have been proposed or implemented?
+   - Research on interoperability standards for municipal data (NIEM, Open311, GTFS for transit)
+   - How do cities handle the real-time vs. batch data tension?
+
+Output:
+- Landscape map of smart city platforms and their infrastructure monitoring capabilities
+- Digital twin case studies: what has been built, what data is required, what results were achieved
+- Urban sensing technology inventory: sensor type, infrastructure domain, data format, deployment examples
+- Data integration architecture patterns from academic and practitioner literature
+- Assessment of readiness: what is production-ready vs. still experimental

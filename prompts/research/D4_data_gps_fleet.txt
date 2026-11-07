@@ -1,0 +1,16 @@
+Data Inventory D4 — GPS Fleet Data: Schema Design for When the System Is Complete
+
+Research what GPS fleet management data will look like when Richmond DPW's installation is complete, and how to build a prototype against a synthetic version of that schema.
+
+Investigate:
+- What GPS fleet management systems are commonly used by city DPW departments (Verizon Connect, Samsara, Geotab, Trimble, etc.)?
+- What is the standard data schema produced by fleet GPS systems (vehicle_id, route_id, lat/lng, timestamp, speed, heading, completion_pct)?
+- How do cities typically structure their snow removal and street cleaning route data (route polygons, named segments, zone assignments)?
+- What is the minimum data schema needed to build a useful public-facing service status display?
+- What is the minimum data schema needed to build a useful internal supervisor dashboard?
+
+Output:
+- Standard GPS data schema with field names and types (labeled as Inference based on common fleet systems)
+- Recommended synthetic data schema for hackathon use
+- Example mock data records (5–10) using the recommended schema
+- Notes on how to document the schema so a real GPS system can be connected later

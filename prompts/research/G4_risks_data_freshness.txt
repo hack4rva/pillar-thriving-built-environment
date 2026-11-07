@@ -1,0 +1,21 @@
+Risk G4 — Data Freshness and Staleness Risks
+
+Research the risk of stale or infrequently-updated project data undermining the value and credibility of an infrastructure visibility tool.
+
+Investigate:
+- How frequently do ArcGIS layers maintained by city GIS departments typically update?
+- What is the typical lag between a project status change in an internal DPW system and a GeoHub layer update?
+- How do the best civic infrastructure tools communicate data freshness to users (last updated dates, staleness warnings)?
+- What happens to resident trust when a tool shows a project as "active" when it has actually been completed for months?
+- How should a prototype handle a situation where the data source hasn't updated in 30+ days?
+
+Specific to this pillar:
+- What update frequency should a team design against for GeoHub project data?
+- What is the right threshold for displaying a "data may be outdated" warning?
+- How should the tool handle projects that are no longer in the data source (completed and removed) vs. projects with no recent updates?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Data freshness UX recommendations
+- Recommended cache strategy for a weekend-built prototype

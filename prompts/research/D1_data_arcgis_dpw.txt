@@ -1,0 +1,24 @@
+Data Inventory D1 — Richmond ArcGIS Layers Relevant to DPW
+
+Inventory the ArcGIS data layers on Richmond GeoHub that are relevant to DPW transportation and infrastructure projects.
+
+For each candidate layer type, research:
+- Likely layer name(s) or categories on Richmond GeoHub
+- Expected fields (project_name, status, geometry type, start_date, end_date, description)
+- Access method (public REST API, download only, requires login)
+- Update frequency expectations
+- Known data quality issues or coverage gaps
+
+Layer types to investigate:
+- Transportation improvement projects
+- Capital improvement projects
+- Road network and street centerlines
+- Construction permit activity
+- Traffic safety improvements
+- Streetscape and mobility programs
+
+Output:
+- Verified layer information (with source titles)
+- Inferences about layer availability (labeled)
+- Unknown fields that need direct verification on GeoHub
+- Recommended layer(s) to target for the address lookup or explorer map MVP

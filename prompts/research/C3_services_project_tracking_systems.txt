@@ -1,0 +1,16 @@
+Services Landscape C3 — DPW Project Tracking Systems
+
+Research what systems Richmond DPW likely uses internally for project tracking and how this affects public data availability.
+
+- What project management or tracking systems do mid-size city DPW departments typically use (Accela, ProjectDox, ESRI, Excel, etc.)?
+- How do internal tracking systems typically relate to public-facing ArcGIS layers — is data pushed manually, automated, or not pushed at all?
+- What is the typical lag between an internal project status change and a public ArcGIS layer update?
+- What barriers exist to making internal project data more available publicly in real time?
+- Are there examples of cities that have successfully bridged internal DPW tracking and public-facing project maps?
+
+Apply to Richmond context: what does the working session's reference to "multiple platforms — ArcGIS maps, program pages, grant documentation, and internal tracking tools" imply about the current data architecture?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Implications for a hackathon team's data strategy

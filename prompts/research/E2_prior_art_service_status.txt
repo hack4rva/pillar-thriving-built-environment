@@ -1,0 +1,27 @@
+Prior Art E2 — Street Service Status Tools (Snow Removal and Street Cleaning)
+
+Research the best examples of public-facing city tools for communicating snow removal and street cleaning status to residents.
+
+For each example, describe:
+- City and tool name
+- What it does (live tracking vs. zone status vs. schedule display)
+- Data source (GPS required or not? zone data?)
+- Key UX features
+- Known strengths and limitations
+- Whether the tool works without real-time GPS
+
+Tools to investigate specifically:
+- Chicago Plow Tracker
+- NYC Sanitation street cleaning map
+- Boston Winter Ready / SnowWatch
+- Montgomery County MD SnowWatch
+- Denver snow plow tracker
+- Pittsburgh snow removal status
+- Any Virginia examples
+
+Emphasize: which of these tools can be replicated WITHOUT live GPS data? Which require GPS? What is the minimum viable version of each?
+
+Output:
+- Comparison table: city, tool, GPS required, zone-based?, schedule-based?, resident value
+- Recommendation for which model is achievable in 48 hours without live GPS
+- Key design patterns for zone-based status display

@@ -1,0 +1,56 @@
+UX Design P1 — Translating Infrastructure Data into Consumer-Grade Service Tracking
+
+Research how to design a citizen-facing service tracking experience that transforms raw infrastructure and operational data into a clear, trustworthy, consumer-grade interface — the "Domino's tracker for city services."
+
+Focus areas:
+
+1. Status Stage Design
+   - What are the optimal status stages for different service types?
+     - Pothole: Reported → Assessed → Scheduled → Crew Dispatched → Repair In Progress → Completed → Verified
+     - Power outage: Outage Detected → Cause Identified → Crew Assigned → Crew En Route → Repair In Progress → Power Restored → Confirmed
+     - Snow removal: Storm Declared → Routes Prioritized → Priority 1 In Progress → Priority 1 Complete → Priority 2 In Progress → Priority 2 Complete → All Clear
+     - Street cleaning: Scheduled → Starting Soon → Zone Active → Zone Complete
+   - How many stages are optimal? (Too few = no information, too many = confusing)
+   - How to handle "stuck" states (job dispatched 6 hours ago, no update)
+   - Visual design: linear progress bar, timeline, checklist, or map-based
+
+2. ETA Communication
+   - How to display estimated time remaining when confidence is low
+   - Range-based ETAs ("2-4 hours") vs. point estimates ("by 3pm") vs. relative ("you're 15th in queue")
+   - Research on the psychology of wait times: perceived vs. actual, occupied vs. unoccupied time
+   - How the "IKEA effect" applies — does showing work-in-progress make people more patient?
+   - Updating ETAs: how to communicate delays without destroying trust (Uber's ETA handling)
+
+3. Map-Based Visualization
+   - When does a map help citizens understand service status? When does it confuse?
+   - Color coding: what conventions work for service status on a map? (red/yellow/green problems, coloring completeness)
+   - Density: how to handle overlapping service areas, clustered incidents, or citywide events
+   - Mobile-first map UX: touch targets, zoom levels, current location centering
+   - Accessibility: how to make map information available to screen readers
+
+4. Notification Design
+   - What triggers a push notification? (Status change, ETA change, service complete, new incident nearby)
+   - Frequency: too many = ignored, too few = useless
+   - Channel selection: push notification, SMS, email, in-app banner
+   - Opt-in vs. opt-out patterns for service area notifications
+   - Research on notification effectiveness for civic apps
+
+5. Trust and Credibility
+   - How to display data source and freshness ("Data from City CIP Dashboard, last updated March 15")
+   - How to present synthetic or estimated data without misleading (clear labeling)
+   - How to handle errors gracefully (outage map shows area as restored when it isn't)
+   - The role of transparency about the tool itself: "This is a prototype built with public data"
+
+6. Comparison: Domino's → City Services
+   - Side-by-side UX comparison: Domino's pizza tracker vs. a hypothetical city service tracker
+   - What transfers directly, what needs adaptation, and what doesn't work at all
+   - The key difference: Domino's controls the entire pipeline; city services aggregate across agencies and contractors
+   - How to handle multi-agency services (DPW + utility company + contractor all involved in one project)
+
+Output:
+- Status stage templates for 4 service types (pothole, outage, snow, street cleaning)
+- ETA communication decision tree: when to show what type of estimate
+- Wireframe descriptions (text-based) for: map view, list view, detail view, notification
+- UX pattern catalog: 10 transferable patterns from consumer tracking apps to civic services
+- Anti-patterns: 5 things that work for Domino's/Uber but fail for city services
+- Recommended MVP UX for a hackathon demo (simplest credible experience)

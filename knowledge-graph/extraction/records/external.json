@@ -1,0 +1,714 @@
+{
+  "_comment": "External research records: findings from targeted web research (2026-08-01) that answer or narrow open questions in the corpus. Official government sources (rva.gov, transportation.gov) are classified externally_verified; project-organization and news figures are classified reported_but_unverified. URL provenance is not file-verifiable and is counted as 'external' by the pipeline.",
+  "researchedAt": "2026-08-01",
+  "method": "Targeted web searches against the open questions in data/unanswered_questions.json; official sources preferred; excerpts quoted verbatim from retrieved pages.",
+
+  "evidence": [
+    {
+      "id": "ev:W-1",
+      "claim": "The City of Richmond received $154 million in ARPA funds (two $77 million federal payments a year apart).",
+      "status": "confirmed",
+      "source": "City of Richmond — American Rescue Plan page",
+      "url": "https://www.rva.gov/arp",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "web page",
+        "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+        "note": "accessed 2026-08-01 via web search"
+      }]
+    },
+    {
+      "id": "ev:W-2",
+      "claim": "The City's ARPA spending plan allocates $16,000,000 to the Southside Community Center ($8M in year 1, $8M in year 2).",
+      "status": "confirmed",
+      "source": "City of Richmond — ARPA Spending Plan By Priority Area (PDF)",
+      "url": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
+        "sourceLocation": "spending plan table",
+        "excerpt": "Southside Community Center | $16,000,000 | $8,000,000 $8,000,000",
+        "note": "accessed 2026-08-01; the rva.gov/arp summary table shows the same figure. WTVR (Oct 2023) adds that construction funding is 'mostly ARPA' with roughly $6M from City Council appropriations."
+      }]
+    },
+    {
+      "id": "ev:W-3",
+      "claim": "The City's ARPA spending plan allocates $20,000,000 to the Lucks Field Community Center ($1M year 1, $19M year 2), within $78M for community centers.",
+      "status": "confirmed",
+      "source": "City of Richmond — American Rescue Plan page",
+      "url": "https://www.rva.gov/arp",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "ARPA allocation table",
+        "excerpt": "Lucks Field Community Center | 20 M | 1 M | 19 M",
+        "note": "accessed 2026-08-01; same table: '$78 million for funding community centers including: T.B. Smith Community Center, Southside Community Center, Calhoun Center and a new center on the current site of Lucks Field.'"
+      }]
+    },
+    {
+      "id": "ev:W-4",
+      "claim": "The FY2025–FY2029 proposed Richmond CIP is funded 64% by general obligation bonds ($575,000,000), 28% by federal/state/regional transportation funds ($257,827,914), 7% pay-as-you-go cash ($63,280,533), and 1% prior-year appropriations ($7,904,212).",
+      "status": "confirmed",
+      "source": "City of Richmond — FY2025 Proposed CIP Budget Council Presentation (PDF)",
+      "url": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64% Pay-As-You-Go (Cash) 63,280,533 7%",
+        "note": "accessed 2026-08-01; same slide lists Federal/State/Regional Transportation Funds 257,827,914 (28%) and Prior Year Appropriations 7,904,212 (1%). The FY2025 Adopted Annual Fiscal Plan confirms a $460,243,826 FY2025 capital budget."
+      }]
+    },
+    {
+      "id": "ev:W-5",
+      "claim": "DPW paused street sweeping for the remainder of 2025 (announced December 12, 2025), resuming January 5, 2026, weather permitting.",
+      "status": "confirmed",
+      "source": "City of Richmond press release, Dec 12, 2025",
+      "url": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+        "sourceLocation": "press release",
+        "excerpt": "the city will pause street sweeping operation until January 5, 2026, weather permitting",
+        "note": "accessed 2026-08-01"
+      }]
+    },
+    {
+      "id": "ev:W-6",
+      "claim": "DPW publishes a residential street sweeping schedule by route and neighborhood area with date windows (schedule updated April 14, 2026; 12+ named routes).",
+      "status": "confirmed",
+      "source": "City of Richmond — Street Cleaning page",
+      "url": "http://rva.gov/index.php/public-works/street-cleaning",
+      "provenance": [{
+        "sourceDoc": "http://rva.gov/index.php/public-works/street-cleaning",
+        "sourceLocation": "Residential Street Sweeping Schedule table",
+        "excerpt": "Schedule Updated April 14, 2026",
+        "note": "accessed 2026-08-01; routes include Fulton/35th Street, Church Hill, Highland Park, Northside/Ginter Park, The Fan, Museum District, each with a map link and date window."
+      }]
+    },
+    {
+      "id": "ev:W-7",
+      "claim": "The City of Richmond issued a procurement solicitation (OpenGov project 100739, 'GPS Telematics Tracking') for wireless vehicle tracking across the DPW fleet, requiring real-time and logged tracking, nearest-vehicle dispatch, and monitoring of plow up/down and sander on/off via PTO connections. No awarded vendor is publicly identified.",
+      "status": "confirmed",
+      "source": "City of Richmond procurement portal (OpenGov)",
+      "url": "https://procurement.opengov.com/portal/rva/projects/100739/document",
+      "provenance": [{
+        "sourceDoc": "https://procurement.opengov.com/portal/rva/projects/100739/document",
+        "sourceLocation": "solicitation document",
+        "excerpt": "Ability to track certain vehicle operations such as plow up/down, sander on/off, etc. (Power Take Off (PTO) Connections)",
+        "note": "accessed 2026-08-01; fleet quantities listed include 100 dump trucks, 200 heavy duty vehicles, 1,250 light duty vehicles. The Richmond Police Department separately uses Verizon Connect (since 2009) for its own fleet — a different system."
+      }]
+    },
+    {
+      "id": "ev:W-8",
+      "claim": "The Fall Line Trail is anticipated to cost more than $400 million (April 2024); about $280 million had been raised as of October 2024, with CVTA the largest single funder at $124.5 million — implying a remaining gap on the order of $120 million or more.",
+      "status": "likely",
+      "source": "Fall Line Trail quarterly meetings; Richmond BizSense",
+      "url": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
+      "provenance": [
+        {
+          "sourceDoc": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
+          "sourceLocation": "meeting transcript",
+          "excerpt": "we we've raised about $280 million from many many sources",
+          "note": "accessed 2026-08-01; same transcript: CVTA total raised 'from 123 million to 124.5'."
+        },
+        {
+          "sourceDoc": "https://richmondbizsense.com/2024/04/24/fall-line-trail-project-breaks-ground-on-5-mile-hanover-segment/",
+          "sourceLocation": "news article",
+          "excerpt": "The entire Fall Line project is currently anticipated to cost more than $400 million to build",
+          "note": "accessed 2026-08-01; classified 'likely' because figures come from the project organization and news, not an adopted government budget document, and evolve with inflation."
+        }
+      ]
+    },
+    {
+      "id": "ev:W-9",
+      "claim": "The City of Richmond submitted a $40 million RAISE grant application for the Fall Line Trail (2024); no City of Richmond award appears in USDOT's FY2024 RAISE grant agreements list; Senators Warner and Kaine provided a $2 million earmark to the trail.",
+      "status": "likely",
+      "source": "Fall Line Trail April 2024 meeting; USDOT FY2024 RAISE grant agreements (PDF)",
+      "url": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
+      "provenance": [
+        {
+          "sourceDoc": "https://www.falllinetrail.org/friends-of-the-fall-line-april-3-2024/",
+          "sourceLocation": "meeting transcript",
+          "excerpt": "the city of Richmond put in a $40 million raise Grant application",
+          "note": "accessed 2026-08-01"
+        },
+        {
+          "sourceDoc": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
+          "sourceLocation": "Virginia awards section",
+          "excerpt": "FHWA VA: Virginia City of Suffolk Suffolk Seaboard Coastline Trail - Segment 3C $ 5,319,360 Capital Pending",
+          "note": "accessed 2026-08-01; Virginia FY2024 RAISE entries (Rocky Mount, West Piedmont PDC, Suffolk) include no City of Richmond award. Absence of an award in this list is negative evidence, hence 'likely' rather than 'confirmed'."
+        }
+      ]
+    },
+    {
+      "id": "ev:W-10",
+      "claim": "VDOT operates a public snow plow tracking map ('VDOT Plows'), activated when snowfall exceeds two inches, showing 7,000+ plows statewide with two-minute updates — a working precedent for public fleet visibility (state-maintained roads only; Richmond city streets are plowed by DPW).",
+      "status": "confirmed",
+      "source": "WTVR CBS 6 describing VDOT's official tool",
+      "url": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+      "provenance": [{
+        "sourceDoc": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+        "sourceLocation": "news article",
+        "excerpt": "VDOT Plows, activated when it snows more than two inches, monitors the location of over 7,000 snow plows across the Commonwealth. The map is updated every two minutes.",
+        "note": "accessed 2026-08-01"
+      }]
+    },
+    {
+      "id": "ev:W-11",
+      "claim": "Richmond DPW snow operations use about 240 employees and 75 trucks to treat and plow roughly 1,800 lane miles, in 12-hour shifts (January 2026, per DPW via CBS 6).",
+      "status": "likely",
+      "source": "WTVR CBS 6 quoting DPW",
+      "url": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026",
+      "provenance": [{
+        "sourceDoc": "https://www.wtvr.com/news/local-news/richmond-snow-plow-update-jan-26-2026",
+        "sourceLocation": "news article",
+        "excerpt": "the city has about 240 employees, using 75 trucks to treat and plow roughly 1,800 lane miles of roadway, with crews working in 12‑hour shifts day and night",
+        "note": "accessed 2026-08-01; news quoting a DPW official, hence 'likely'."
+      }]
+    }
+  ],
+
+  "entities": [
+    {
+      "id": "n:fund:richmond-arpa-slfrf",
+      "type": "Fund",
+      "label": "City of Richmond ARPA allocation ($154M)",
+      "description": "Richmond's total American Rescue Plan Act (State and Local Fiscal Recovery Funds) allocation: two $77M federal payments totaling $154M, allocated by a published spending plan ($78M of it to community centers).",
+      "evidenceStatus": "externally_verified",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "web page",
+        "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+        "note": "external research 2026-08-01; see ev:W-1"
+      }]
+    },
+    {
+      "id": "n:fund:richmond-go-bonds",
+      "type": "Fund",
+      "label": "Richmond general obligation bonds (CIP)",
+      "description": "General obligation bond proceeds, the largest source of the City's capital budget: $575M / 64% of the FY2025–FY2029 proposed CIP.",
+      "evidenceStatus": "externally_verified",
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "id": "n:fund:fed-state-regional-transport-funds",
+      "type": "Fund",
+      "label": "Federal/State/Regional transportation funds (CIP)",
+      "description": "Federal, state, and regional transportation funding flowing into the City's capital budget: $257.8M / 28% of the FY2025–FY2029 proposed CIP.",
+      "evidenceStatus": "externally_verified",
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "Federal/State/Regional Transportation Funds 257,827,914 28%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "id": "n:fund:richmond-paygo-cash",
+      "type": "Fund",
+      "label": "Pay-as-you-go cash (CIP)",
+      "description": "Cash funding of the City's capital budget: $63.3M / 7% of the FY2025–FY2029 proposed CIP (plus $7.9M / 1% prior-year appropriations).",
+      "evidenceStatus": "externally_verified",
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "Pay-As-You-Go (Cash) 63,280,533 7%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "id": "n:dataset:vdot-plow-map",
+      "type": "Dataset",
+      "label": "VDOT Plows public tracking map",
+      "description": "VDOT's statewide public snow plow tracking map: 7,000+ plows, two-minute updates, activated above two inches of snowfall. A working precedent for the public fleet visibility Richmond's corpus asks for — but it covers state-maintained roads, not Richmond city streets (plowed by DPW).",
+      "evidenceStatus": "externally_verified",
+      "provenance": [{
+        "sourceDoc": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+        "sourceLocation": "news article",
+        "excerpt": "VDOT Plows, activated when it snows more than two inches, monitors the location of over 7,000 snow plows across the Commonwealth. The map is updated every two minutes.",
+        "note": "external research 2026-08-01; see ev:W-10"
+      }]
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "n:legislation:arpa",
+      "target": "n:fund:richmond-arpa-slfrf",
+      "type": "APPROPRIATES_TO",
+      "description": "ARPA State and Local Fiscal Recovery Funds appropriated $154M to the City of Richmond (two $77M payments). Amount recorded on flow f:arpa-slfrf-to-richmond, not this edge, to keep edge-level sums strictly project-level.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "flowId": "f:arpa-slfrf-to-richmond",
+      "financial": {
+        "amountUSD": null,
+        "currency": "USD",
+        "mechanism": "federal fiscal recovery funds (SLFRF)",
+        "status": "disbursed",
+        "restricted": true,
+        "restrictions": "Federal ARPA/SLFRF eligibility and reporting rules."
+      },
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "web page",
+        "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+        "note": "external research 2026-08-01; see ev:W-1"
+      }]
+    },
+    {
+      "source": "n:fund:richmond-go-bonds",
+      "target": "n:fund:richmond-cip-budget",
+      "type": "APPROPRIATES_TO",
+      "description": "G.O. bonds fund 64% ($575M) of the FY2025–FY2029 proposed CIP. Amount recorded on flow f:cip-sources-fy25-29, not this edge, to avoid double counting downstream project costs.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "flowId": "f:cip-sources-fy25-29",
+      "financial": {
+        "amountUSD": null,
+        "currency": "USD",
+        "mechanism": "general obligation bonds",
+        "status": "approved",
+        "restricted": false
+      },
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "source": "n:fund:fed-state-regional-transport-funds",
+      "target": "n:fund:richmond-cip-budget",
+      "type": "APPROPRIATES_TO",
+      "description": "Federal/state/regional transportation funds cover 28% ($257.8M) of the FY2025–FY2029 proposed CIP. Amount recorded on flow f:cip-sources-fy25-29.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "flowId": "f:cip-sources-fy25-29",
+      "financial": {
+        "amountUSD": null,
+        "currency": "USD",
+        "mechanism": "intergovernmental transportation funding",
+        "status": "approved",
+        "restricted": true,
+        "restrictions": "Transportation-purpose funding tied to specific projects/programs."
+      },
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "Federal/State/Regional Transportation Funds 257,827,914 28%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "source": "n:fund:richmond-paygo-cash",
+      "target": "n:fund:richmond-cip-budget",
+      "type": "APPROPRIATES_TO",
+      "description": "Pay-as-you-go cash covers 7% ($63.3M) of the FY2025–FY2029 proposed CIP (plus 1% prior-year appropriations). Amount recorded on flow f:cip-sources-fy25-29.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "flowId": "f:cip-sources-fy25-29",
+      "financial": {
+        "amountUSD": null,
+        "currency": "USD",
+        "mechanism": "cash appropriation",
+        "status": "approved",
+        "restricted": false
+      },
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "Pay-As-You-Go (Cash) 63,280,533 7%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "source": "n:agency:vdot",
+      "target": "n:dataset:vdot-plow-map",
+      "type": "PUBLISHES",
+      "description": "VDOT publishes the statewide 'VDOT Plows' public tracking map.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+        "sourceLocation": "news article",
+        "excerpt": "VDOT Plows, activated when it snows more than two inches, monitors the location of over 7,000 snow plows across the Commonwealth.",
+        "note": "external research 2026-08-01; see ev:W-10"
+      }]
+    },
+    {
+      "source": "n:dataset:vdot-plow-map",
+      "target": "n:problem:fleet-operations-visibility",
+      "type": "ASSOCIATED_WITH",
+      "description": "External precedent: a state-level public plow-tracking map already exists for VDOT-maintained roads; Richmond city streets are outside its coverage, which sharpens (not solves) the city fleet-visibility problem.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "https://www.wtvr.com/news/local-news/track-vdot-snow-plows-jan-26-2026",
+        "sourceLocation": "news article",
+        "excerpt": "The map is updated every two minutes.",
+        "note": "external research 2026-08-01; see ev:W-10"
+      }]
+    },
+    {
+      "source": "n:claim:sweeping-paused-2025",
+      "target": "n:evidence:w-5",
+      "type": "HAS_EVIDENCE",
+      "description": "The street-sweeping pause is confirmed by the City's December 12, 2025 press release.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+        "sourceLocation": "press release",
+        "excerpt": "the city will pause street sweeping operation until January 5, 2026, weather permitting",
+        "note": "external research 2026-08-01; see ev:W-5"
+      }]
+    },
+    {
+      "source": "n:claim:sweeping-neighborhood-calendar",
+      "target": "n:evidence:w-6",
+      "type": "HAS_EVIDENCE",
+      "description": "The neighborhood sweeping calendar is confirmed by the City's street-cleaning page (route/area schedule updated April 14, 2026).",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "http://rva.gov/index.php/public-works/street-cleaning",
+        "sourceLocation": "Residential Street Sweeping Schedule table",
+        "excerpt": "Schedule Updated April 14, 2026",
+        "note": "external research 2026-08-01; see ev:W-6"
+      }]
+    }
+  ],
+
+  "flows": [
+    {
+      "id": "f:arpa-slfrf-to-richmond",
+      "label": "U.S. federal government → ARPA → City of Richmond ($154M)",
+      "repo": "pillar-thriving-built-environment",
+      "purpose": "Richmond's total ARPA State and Local Fiscal Recovery Funds allocation, distributed by the City's published spending plan ($78M to community centers).",
+      "stages": [
+        {
+          "from": "n:agency:us-federal-government",
+          "to": "n:legislation:arpa",
+          "mechanism": "federal legislation/appropriation",
+          "amountUSD": null,
+          "evidenceStatus": "externally_verified",
+          "note": "ARPA is federal COVID-19 recovery legislation."
+        },
+        {
+          "from": "n:legislation:arpa",
+          "to": "n:fund:richmond-arpa-slfrf",
+          "mechanism": "State and Local Fiscal Recovery Funds",
+          "amountUSD": 154000000,
+          "evidenceStatus": "externally_verified",
+          "note": "Two $77M payments a year apart (rva.gov/arp)."
+        },
+        {
+          "from": "n:fund:richmond-arpa-slfrf",
+          "to": "n:agency:city-of-richmond",
+          "mechanism": "city ARPA spending plan",
+          "amountUSD": 154000000,
+          "evidenceStatus": "externally_verified",
+          "note": "Allocated by the published ARPA spending plan; $78M for community centers (T.B. Smith $20M, Lucks Field $20M, Southside $16M, Calhoun $8M, plus others)."
+        }
+      ],
+      "amountUSD": 154000000,
+      "currency": "USD",
+      "status": "disbursed",
+      "fundingPeriod": "2021–2026",
+      "mechanism": "federal ARPA/SLFRF pass-through",
+      "restricted": true,
+      "restrictions": "Federal ARPA/SLFRF eligibility and reporting requirements.",
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "web page",
+        "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+        "note": "external research 2026-08-01; see ev:W-1"
+      }],
+      "rollup": {
+        "originatingUSD": 154000000,
+        "committedUSD": 154000000,
+        "disbursedUSD": null,
+        "reachingFinalUSD": null,
+        "pctReachingFinal": null,
+        "isEstimate": true,
+        "methodology": "Total allocation externally verified from rva.gov/arp. Actual expenditure to date is not published on that page, so disbursed and reaching-final amounts stay null. Portions of this money fund CIP projects already counted in project-level totals; this flow is upstream context, not additive."
+      },
+      "unknowns": [
+        "Actual ARPA expenditures to date versus allocation.",
+        "How much ARPA money outside the community-center line items reached built-environment projects."
+      ]
+    },
+    {
+      "id": "f:cip-sources-fy25-29",
+      "label": "G.O. bonds + federal/state/regional + cash → Richmond CIP (FY2025–29 proposed)",
+      "repo": "pillar-thriving-built-environment",
+      "purpose": "The externally verified aggregate source mix behind the City's capital budget — resolving, at the aggregate level, the corpus's 'undocumented CIP funding sources' unknown. Per-project source attribution remains undocumented.",
+      "stages": [
+        {
+          "from": "n:fund:richmond-go-bonds",
+          "to": "n:fund:richmond-cip-budget",
+          "mechanism": "general obligation bonds",
+          "amountUSD": 575000000,
+          "evidenceStatus": "externally_verified",
+          "note": "64% of FY2025–FY2029 proposed CIP sources."
+        },
+        {
+          "from": "n:fund:fed-state-regional-transport-funds",
+          "to": "n:fund:richmond-cip-budget",
+          "mechanism": "intergovernmental transportation funding",
+          "amountUSD": 257827914,
+          "evidenceStatus": "externally_verified",
+          "note": "28% of FY2025–FY2029 proposed CIP sources."
+        },
+        {
+          "from": "n:fund:richmond-paygo-cash",
+          "to": "n:fund:richmond-cip-budget",
+          "mechanism": "pay-as-you-go cash + prior-year appropriations",
+          "amountUSD": 71184745,
+          "evidenceStatus": "externally_verified",
+          "note": "Cash $63,280,533 (7%) plus prior-year appropriations $7,904,212 (1%)."
+        }
+      ],
+      "amountUSD": 904012659,
+      "currency": "USD",
+      "status": "approved",
+      "fundingPeriod": "FY2025–FY2029",
+      "mechanism": "capital budget sources",
+      "restricted": false,
+      "evidenceStatus": "externally_verified",
+      "confidence": "high",
+      "provenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64% Pay-As-You-Go (Cash) 63,280,533 7%",
+        "note": "external research 2026-08-01; see ev:W-4. Figures are the FY2025–FY2029 proposed five-year plan; the adopted FY2025 fiscal plan confirms a $460.2M FY2025 capital budget."
+      }],
+      "rollup": {
+        "originatingUSD": 904012659,
+        "committedUSD": null,
+        "disbursedUSD": null,
+        "reachingFinalUSD": null,
+        "pctReachingFinal": null,
+        "isEstimate": true,
+        "methodology": "Sum of the four proposed FY2025–29 source lines. These dollars fund the same CIP projects already counted in project-level documented totals; this flow documents where that money comes from and is not added to project-level sums."
+      },
+      "unknowns": [
+        "Per-project funding-source attribution (which projects are bond- vs grant- vs cash-funded).",
+        "Adopted (vs proposed) five-year source mix."
+      ]
+    }
+  ],
+
+  "nodeUpdates": [
+    {
+      "id": "n:claim:sweeping-paused-2025",
+      "set": { "evidenceStatus": "externally_verified" },
+      "appendNote": "Externally verified 2026-08-01: City press release (Dec 12, 2025) confirms the pause, resuming Jan 5, 2026 (ev:W-5).",
+      "addProvenance": [{
+        "sourceDoc": "https://www.rva.gov/press-releases-and-announcements/news/city-announces-temporary-pause-street-sweeping-services-2025",
+        "sourceLocation": "press release",
+        "excerpt": "the city will pause street sweeping operation until January 5, 2026, weather permitting",
+        "note": "external research 2026-08-01; see ev:W-5"
+      }]
+    },
+    {
+      "id": "n:claim:sweeping-neighborhood-calendar",
+      "set": { "evidenceStatus": "externally_verified" },
+      "appendNote": "Externally verified 2026-08-01: rva.gov street-cleaning page publishes the route/area schedule (updated April 14, 2026) (ev:W-6).",
+      "addProvenance": [{
+        "sourceDoc": "http://rva.gov/index.php/public-works/street-cleaning",
+        "sourceLocation": "Residential Street Sweeping Schedule table",
+        "excerpt": "Schedule Updated April 14, 2026",
+        "note": "external research 2026-08-01; see ev:W-6"
+      }]
+    },
+    {
+      "id": "n:unknown:cip-funding-sources",
+      "set": {},
+      "appendNote": "Partially resolved by external research 2026-08-01: the aggregate FY2025–29 source mix is externally verified (64% G.O. bonds, 28% federal/state/regional transportation funds, 7% cash, 1% prior-year — see flow f:cip-sources-fy25-29 and ev:W-4). Still unknown: which sources fund each individual project.",
+      "addProvenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "id": "n:unknown:gps-vendor",
+      "set": {},
+      "appendNote": "Narrowed by external research 2026-08-01: the City's procurement solicitation (OpenGov project 100739) documents the required capabilities — real-time + logged tracking, nearest-vehicle dispatch, plow up/down and sander on/off via PTO — but no awarded vendor is publicly identified (ev:W-7). RPD separately uses Verizon Connect for police vehicles; that is a different fleet and system.",
+      "addProvenance": [{
+        "sourceDoc": "https://procurement.opengov.com/portal/rva/projects/100739/document",
+        "sourceLocation": "solicitation document",
+        "excerpt": "Ability to track certain vehicle operations such as plow up/down, sander on/off, etc. (Power Take Off (PTO) Connections)",
+        "note": "external research 2026-08-01; see ev:W-7"
+      }]
+    },
+    {
+      "id": "n:need:fall-line-trail-funding-gap",
+      "set": {},
+      "appendNote": "Sized by external research 2026-08-01 (reported figures): total cost anticipated >$400M (Apr 2024) vs ~$280M raised (Oct 2024) implies a gap on the order of $120M+; CVTA is the largest funder at $124.5M; the City's $40M RAISE application was not found among FY2024 awards (ev:W-8, ev:W-9).",
+      "addProvenance": [{
+        "sourceDoc": "https://www.falllinetrail.org/friends-of-the-fall-line-quarterly-meeting-october-2024/",
+        "sourceLocation": "meeting transcript",
+        "excerpt": "we we've raised about $280 million from many many sources",
+        "note": "external research 2026-08-01; see ev:W-8"
+      }]
+    }
+  ],
+
+  "flowUpdates": [
+    {
+      "id": "f:arpa-southside-community-center",
+      "set": { "amountUSD": 16000000, "evidenceStatus": "externally_verified" },
+      "stageUpdates": [
+        { "index": 1, "set": { "amountUSD": 154000000, "evidenceStatus": "externally_verified", "note": "Richmond's total ARPA allocation is $154M (two $77M payments) — externally verified from rva.gov/arp (ev:W-1)." } },
+        { "index": 2, "set": { "amountUSD": 16000000, "evidenceStatus": "externally_verified", "note": "The City's ARPA spending plan allocates $16M to the Southside Community Center ($8M + $8M across two fiscal years) — ev:W-2. News coverage (Oct 2023) describes construction as 'mostly ARPA' plus ~$6M Council appropriations. Total CSV project cost $30,513,000 includes non-ARPA sources." } }
+      ],
+      "rollup": {
+        "originatingUSD": 16000000,
+        "committedUSD": 16000000,
+        "disbursedUSD": null,
+        "reachingFinalUSD": null,
+        "pctReachingFinal": null,
+        "isEstimate": true,
+        "methodology": "ARPA allocation externally verified ($16M, City ARPA spending plan). Actual expenditure and the amount reaching final beneficiaries remain undocumented. The $16M is a component of the project's total cost already counted in project-level totals; it is not added to edge-level sums."
+      },
+      "unknowns": [
+        "Actual ARPA expenditure to date versus the $16M allocation.",
+        "Final split between ARPA and CIP/Council sources at project completion."
+      ],
+      "addProvenance": [{
+        "sourceDoc": "https://www.rva.gov/sites/default/files/2021-10/Consensus%20ARP%20Proposal%20with%20FY%20Breakdowns_FINAL.pdf",
+        "sourceLocation": "spending plan table",
+        "excerpt": "Southside Community Center | $16,000,000 | $8,000,000 $8,000,000",
+        "note": "external research 2026-08-01; see ev:W-2"
+      }]
+    },
+    {
+      "id": "f:arpa-lucks-field-community-center",
+      "set": { "amountUSD": 20000000, "evidenceStatus": "externally_verified" },
+      "stageUpdates": [
+        { "index": 1, "set": { "amountUSD": 154000000, "evidenceStatus": "externally_verified", "note": "Richmond's total ARPA allocation is $154M (two $77M payments) — externally verified from rva.gov/arp (ev:W-1)." } },
+        { "index": 2, "set": { "amountUSD": 20000000, "evidenceStatus": "externally_verified", "note": "The City's ARPA spending plan allocates $20M to the Lucks Field Community Center ($1M year 1, $19M year 2) — ev:W-3." } }
+      ],
+      "rollup": {
+        "originatingUSD": 20000000,
+        "committedUSD": 20000000,
+        "disbursedUSD": null,
+        "reachingFinalUSD": null,
+        "pctReachingFinal": null,
+        "isEstimate": true,
+        "methodology": "ARPA allocation externally verified ($20M, City ARPA spending plan). Actual expenditure remains undocumented. Component of project cost already counted in project-level totals."
+      },
+      "unknowns": [
+        "Actual ARPA expenditure to date versus the $20M allocation."
+      ],
+      "addProvenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "ARPA allocation table",
+        "excerpt": "Lucks Field Community Center | 20 M | 1 M | 19 M",
+        "note": "external research 2026-08-01; see ev:W-3"
+      }]
+    },
+    {
+      "id": "f:arpa-combined-sewer-overflow-improvement-williamsburg-avenue",
+      "set": {},
+      "stageUpdates": [
+        { "index": 1, "set": { "note": "Richmond's total ARPA allocation is $154M (rva.gov/arp, ev:W-1), but the published spending-plan tables reviewed do not itemize an amount for this CSO project — its ARPA portion remains unknown." } }
+      ],
+      "addProvenance": [{
+        "sourceDoc": "https://www.rva.gov/arp",
+        "sourceLocation": "web page",
+        "excerpt": "The City of Richmond will receive two $77 million payments from the federal government, a year apart, totaling $154 million.",
+        "note": "external research 2026-08-01; see ev:W-1 — no line item found for this project."
+      }]
+    },
+    {
+      "id": "f:cip-budget-sources",
+      "set": {},
+      "unknowns": [
+        "Per-project funding-source attribution: which of the 125 projects are bond-, grant-, or cash-funded.",
+        "Whether any of the 125 projects are backed by RAISE/TIGER or Smart Scale awards (no FY2024 RAISE award to Richmond was found — ev:W-9)."
+      ],
+      "appendNote": "Partially resolved 2026-08-01: the aggregate FY2025–29 source mix is now externally verified (see flow f:cip-sources-fy25-29 and ev:W-4). This flow remains to represent what is still unknown — per-project source attribution.",
+      "addProvenance": [{
+        "sourceDoc": "https://rva.gov/sites/default/files/2024-04/FY%202025%20Proposed%20CIP%20Budget%20Council%20Presentation_0.pdf",
+        "sourceLocation": "SOURCES OF FUNDING slide",
+        "excerpt": "General Obligation Bonds 575,000,000 64%",
+        "note": "external research 2026-08-01; see ev:W-4"
+      }]
+    },
+    {
+      "id": "f:federal-grants-city",
+      "set": {},
+      "stageUpdates": [
+        { "index": 1, "set": { "note": "External check 2026-08-01: USDOT's FY2024 RAISE agreements list contains no City of Richmond award; the City submitted a $40M RAISE application for the Fall Line Trail (ev:W-9). Earlier award years were not exhaustively checked, so the flow stays reported_but_unverified rather than confirmed-absent." } }
+      ],
+      "unknowns": [
+        "Whether Richmond received RAISE/TIGER awards in years other than FY2024 (only FY2024 agreements were checked).",
+        "Outcome of the City's pending $40M RAISE application for the Fall Line Trail."
+      ],
+      "appendNote": "External research 2026-08-01: no FY2024 RAISE award to Richmond found; $40M application documented (ev:W-9).",
+      "addProvenance": [{
+        "sourceDoc": "https://www.transportation.gov/sites/dot.gov/files/2024-12/FY%202024%20RAISE%20Grant%20Agreements%20-%20November%202024.pdf",
+        "sourceLocation": "Virginia awards section",
+        "excerpt": "FHWA VA: Virginia City of Suffolk Suffolk Seaboard Coastline Trail - Segment 3C $ 5,319,360 Capital Pending",
+        "note": "external research 2026-08-01; see ev:W-9 — no City of Richmond entry."
+      }]
+    }
+  ],
+
+  "questionAnswers": [
+    {
+      "id": "q:arpa-portion",
+      "status": "answered",
+      "answer": "$16,000,000. The City's ARPA spending plan allocates $16M to the Southside Community Center ($8M in each of two fiscal years) — externally verified from rva.gov/arp and the ARPA Spending Plan PDF (ev:W-2). News coverage (Oct 2023) describes construction funding as 'mostly ARPA' plus roughly $6M in Council appropriations. Note: allocation, not final expenditure."
+    },
+    {
+      "id": "q:cip-funding-mix",
+      "status": "partially_answered",
+      "answer": "Aggregate mix externally verified (FY2025–29 proposed CIP): 64% general obligation bonds ($575M), 28% federal/state/regional transportation funds ($257.8M), 7% pay-as-you-go cash ($63.3M), 1% prior-year appropriations ($7.9M) — ev:W-4, flow f:cip-sources-fy25-29. Still unknown: which sources fund each individual project."
+    },
+    {
+      "id": "q:raise-tiger-details",
+      "status": "answered",
+      "answer": "No City of Richmond RAISE/TIGER award was found. The City submitted a $40M RAISE application for the Fall Line Trail (2024), and USDOT's FY2024 RAISE grant agreements list contains Virginia awards (Rocky Mount, West Piedmont PDC, Suffolk) but none to Richmond (ev:W-9). Senators Warner and Kaine provided a $2M earmark to the trail. The corpus's RAISE/TIGER reference should be treated as an application/aspiration, not an award."
+    },
+    {
+      "id": "q:fall-line-gap-size",
+      "status": "partially_answered",
+      "answer": "On the order of $120M+ as of late 2024 (reported, not an official budget figure): total cost anticipated >$400M (Apr 2024, CVTA via Richmond BizSense) versus ~$280M raised (Oct 2024, Fall Line quarterly meeting); CVTA is the largest funder at $124.5M (ev:W-8). No single official gap number was found; figures evolve with inflation."
+    },
+    {
+      "id": "q:gps-schema",
+      "status": "partially_answered",
+      "answer": "The vendor and final schema are still not public, but the City's procurement solicitation (OpenGov project 100739, 'GPS Telematics Tracking') documents the required capabilities: real-time and logged tracking, nearest-vehicle dispatch, portable devices, and monitoring of plow up/down and sander on/off via PTO connections (ev:W-7). Any prototype schema should model those fields."
+    },
+    {
+      "id": "q:e-031",
+      "status": "partially_answered",
+      "answer": "No awarded DPW fleet GPS vendor is publicly identified. The DPW solicitation (OpenGov project 100739) defines requirements including plow/sander status via PTO (ev:W-7). The Richmond Police Department separately uses Verizon Connect (since 2009) — a different fleet and system, not evidence of the DPW choice."
+    },
+    {
+      "id": "q:cleaning-zone-data",
+      "status": "partially_answered",
+      "answer": "A structured residential sweeping schedule is published on rva.gov (12+ named routes with area names, date windows, and per-route map links; updated April 14, 2026) — ev:W-6. Machine-readable zone boundary GIS data was still not found."
+    },
+    {
+      "id": "q:e-033",
+      "status": "partially_answered",
+      "answer": "The current-year schedule is published on the rva.gov street-cleaning page (ev:W-6); a historical archive of past schedules was not found. The Dec 2025 pause press release (ev:W-5) is one documented schedule disruption."
+    },
+    {
+      "id": "q:e-030",
+      "status": "partially_answered",
+      "answer": "Richmond GeoHub (richmond-geo-hub-cor.hub.arcgis.com) exposes datasets with ArcGIS REST FeatureServer endpoints (e.g. services2.arcgis.com/V2PQwgZMTFfgM0Xu — RichmondCityRoads). A dedicated DPW transportation-projects layer was not identified by name; the CIP dashboard remains the project-level source."
+    }
+  ]
+}

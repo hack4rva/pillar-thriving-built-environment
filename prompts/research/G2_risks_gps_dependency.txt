@@ -1,0 +1,21 @@
+Risk G2 — Building on GPS Infrastructure That Doesn't Fully Exist Yet
+
+Research the specific risk of building a fleet operations tool that is designed around GPS data that is not yet available.
+
+Investigate:
+- What happens when a tool is built against a synthetic data schema and the real data arrives in a different format?
+- How should a hackathon team document their synthetic schema to maximize compatibility with future real data?
+- What is the reputational risk if a fleet tracking demo is presented without clear "mock data" labeling?
+- How do judges and City officials typically react to prototypes built on synthetic data when disclosed clearly?
+- Are there successful examples of civic tech tools that used synthetic data in their prototype phase and later connected to real data?
+
+Specific to this pillar:
+- What are the exact phrases a team should use when describing their fleet tool to judges?
+- What documentation should be created during the hackathon to make the tool ready for real GPS data?
+- If the GPS schema turns out to be different from the synthetic schema, what is the rework effort?
+
+Output:
+- Risk assessment with likelihood and severity
+- Documentation strategy for synthetic GPS schema
+- Exact demo language recommended for disclosing synthetic data clearly
+- Schema design recommendations that maximize forward compatibility

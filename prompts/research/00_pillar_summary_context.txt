@@ -1,0 +1,34 @@
+Pillar Summary Context — A Thriving and Sustainable Built Environment
+
+This is the context file for research prompts in the Richmond Civic Hackathon, Pillar 6: A Thriving and Sustainable Built Environment.
+
+Pillar focus: Infrastructure project transparency, fleet operations visibility, and resident awareness of neighborhood public works activity in Richmond, Virginia.
+
+Two targeted problem statements:
+
+1. Transportation Project Visibility & Discoverability (25/32 — Strong)
+Residents struggle to find and understand transportation and infrastructure projects in their neighborhoods. Project information is fragmented across ArcGIS maps, DPW program pages, and grant documentation. Technical descriptions are inaccessible to general residents.
+
+2. Fleet Operations Visibility & Public Communication (22/32 — Needs work, D3=2)
+DPW supervisors lack real-time visibility into snow removal and street cleaning route completion. Residents lack timely information about when their street will be serviced. GPS devices are being installed on the fleet but the infrastructure is not yet complete as of March 2026.
+
+Key constraints:
+- GPS fleet data is not available; any fleet tool must use synthetic/mock data
+- Sustainability Design Standards are out of scope for hackathon
+- No integration with DPW internal project management systems
+- Project timelines may not match official records; label all timeline claims clearly
+
+Key data sources:
+- Richmond GeoHub: https://richmond-geo-hub-cor.hub.arcgis.com/
+- Richmond Open Data Portal: https://data.richmondgov.com/
+- DPW program pages: rva.gov/public-works (verify URL)
+- VDOT project tracker for state-maintained roads
+
+Champions: Al Wiggins (DCAO Operations), Daniel Klein
+Nonprofit partners: Nathan Burrell (Groundwork RVA), Justin Doyle/Shannon Orcutt (James River Association), Richard Hankins (Partnership for Smarter Growth)
+
+Output format for all research prompts:
+- Facts (with source titles — do not include URLs in text)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Risks or caveats specific to Richmond

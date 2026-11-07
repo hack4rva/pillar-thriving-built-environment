@@ -1,0 +1,23 @@
+MVP Feasibility H2 — Building the Project Visibility Tool in 48 Hours
+
+Research and design the specific technical approach for building a Transportation Project Visibility tool without a complete ArcGIS API understanding, in 48 hours.
+
+Address:
+- What is the minimum viable data fetch from Richmond GeoHub that would support a working demo?
+- What geocoding approach is most reliable and free for a hackathon (Nominatim, OpenCage, ESRI free tier)?
+- What is the simplest map rendering library appropriate for this use case (Leaflet vs. Mapbox)?
+- How should plain-language descriptions be handled (pre-written for 5–10 sample projects, or AI-generated with labeling)?
+- What is the technical architecture for the address-to-nearby-projects pipeline?
+- What is the fallback if the GeoHub REST API returns no results or errors?
+
+Design the minimum viable version:
+- What does the user see when they type an address?
+- What happens if there are no projects within 0.5 miles?
+- What project card fields are required for a useful display?
+- What is the demo-ready threshold: 3 projects with real data, or a working UI with cached data?
+
+Output:
+- Step-by-step technical build plan
+- Code sketch for the core data pipeline (pseudocode acceptable)
+- Fallback strategy if live API fails
+- Definition of done for this MVP

@@ -1,0 +1,17 @@
+User Research B2 — The DPW Operations Supervisor
+
+Build a detailed user persona for a DPW operations supervisor managing snow removal or street cleaning routes. Research:
+
+- What does a DPW supervisor's workday look like during a storm event or street cleaning cycle?
+- What information do supervisors need most urgently and how do they currently get it?
+- What are the pain points of manual check-in and radio-based route tracking?
+- How do supervisors currently communicate completion status to City leadership and communications staff?
+- What would a supervisor actually use vs. what would they ignore from a digital tool?
+- What are the technical literacy constraints for a tool designed for operations supervisors?
+- What resistance or adoption barriers might exist for a new tracking tool?
+
+Output:
+- Persona sketch with workflow, pain points, and tool requirements
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Design implications for a supervisor-facing dashboard

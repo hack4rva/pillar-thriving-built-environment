@@ -1,0 +1,15 @@
+Services Landscape C4 — Where Public Information Is Missing or Hard to Find
+
+Research the specific gaps in public-facing DPW information for Richmond. Focus on what a resident or journalist cannot find using existing public channels.
+
+- What project information is explicitly missing from Richmond's public-facing DPW communications?
+- Where does a typical resident search path break down (too many clicks, 404 errors, stale data, technical language)?
+- What is the difference between what DPW legally must disclose and what would be genuinely useful to residents?
+- Are there any documented complaints or news coverage about Richmond DPW communication gaps?
+- How do Richmond's communication gaps compare to documented gaps in peer Virginia cities (Norfolk, Roanoke, Charlottesville, Alexandria)?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Specific gap categories: missing data, inaccessible data, stale data, incomprehensible data
+- Prioritized list of gaps most impactful for residents

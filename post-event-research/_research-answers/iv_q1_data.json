@@ -1,0 +1,1230 @@
+{
+  "run_id": "trun_1848795af0f24b8099fc3377d4ed6b5b",
+  "interaction_id": "trun_1848795af0f24b8099fc3377d4ed6b5b",
+  "result_url": "https://platform.parallel.ai/play/deep-research/trun_1848795af0f24b8099fc3377d4ed6b5b",
+  "status": "completed",
+  "output": {
+    "basis": [
+      {
+        "field": "cip_dashboard_update_status",
+        "reasoning": "The field value asserts that the CIP Dashboard is updated on a quarterly basis, and that there is no publicly disclosed precise last refresh date, with the dashboard being presented as a Beta version. Excerpts describing the CIP Dashboard as a centralized, multi-department source updated quarterly support the stated cadence. Additional excerpts explicitly noting that the CIP Dashboard is in Beta (including warnings about accessing a Beta Version) confirm the dashboard\u2019s current development status. While the excerpts confirm cadence and beta status, they do not provide a precise last-refresh timestamp, aligning with the claim that the last refresh date is not publicly disclosed. Together, these excerpts corroborate the cadence and beta status, and they align with the lack of a published exact last refresh date.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis.",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard ! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Please note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard."
+            ],
+            "title": "Capital Improvement Program Dashboard"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "online_permit_portal_api_availability",
+        "reasoning": "The Online Permit Portal excerpts demonstrate that permit-related actions are performed through a web-based interface: submitting plans, applying and paying for permits, requesting inspections, and checking status, all via the EnerGov Citizen Self Service portal. This strongly indicates manual, user-driven interactions rather than a public API for programmatic access. The EnerGov self-service link and the CSS Help contact provide concrete evidence of the portal\u2019s intended use and support channels for users, further reinforcing that interactions are web-based and not API-driven. Since there is no excerpt describing an API endpoint, documentation, or programmatic access, the available evidence supports the conclusion that there is no public API for permit data in this portal.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone.",
+              "igate to the **[Online Permit Portal](https://energov.richmondgov.com/energov_prod/selfservice#/home)** to register",
+              "u can email **CSSHelp@richmondgov.com** for more information and assistance with any issues encountere"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "civic_tech_continuation_pathway_details",
+        "reasoning": "The clearest signals come from sources describing Hack for RVA and its organizers, partners, and prize structure. These excerpts show that the event is positioned as a weekend civic hackathon with external partners (AI Ready RVA, Plan RVA, VCU School of Business) and a prize pool, rather than as a program with an internal, city-governed continuation pathway. Specifically, the press release and related pages emphasize collaboration and sponsorship around the event but do not specify a formal post-hackathon governance mechanism, official city department ownership, or a designated product owner to guide ongoing incubation. Additional sources frame Hack for RVA as a first-of-its-kind civic hackathon with dates and participating organizations, reinforcing that the initiative is event-centric rather than a continuing, city-operated program. While several pages document the event and its partners, none establish a published pathway for adopting, incubating, or assigning ownership to promising prototypes after the hackathon concludes. Therefore, these excerpts collectively support the conclusion that there is no published continuation pathway or assigned host department/product owner described in the sources provided, though they confirm the event context and sponsor landscape.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City",
+              "The City of Richmond is proud to join AI Ready RVA, Plan RVA, and VCU School of Business to sponsor Hack for RVA, the City\u2019s first-ever hack-a-thon dedicated to brainstorming and solving our community\u2019s most demanding and persistent challenges.",
+              "The weekend will culminate in a round of presentations from each participating team and the awarding of $10,000 in prizes",
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          },
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026",
+              "",
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners"
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/rvahacks_hack-for-rva-5-ws-activity-7424517538837053440-Bef-",
+            "excerpts": [
+              "Hack for RVA is a beginning for something new in Richmond. For the first time in our city's history, Richmond will gather its technologists,"
+            ],
+            "title": "Richmond Civic Hackathon: Community-Driven Innovation"
+          },
+          {
+            "url": "https://www.facebook.com/richmondgrid/posts/this-weekend-richmonders-are-coming-together-for-hack-for-rva-the-citys-first-ci/1387151600093191/",
+            "excerpts": [
+              "This weekend, Richmonders are coming together for Hack for RVA, the city's first civic hackathon, to build real solutions for some of our most"
+            ],
+            "title": "Richmond Grid"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          },
+          {
+            "url": "https://www.rva.gov/assessor-real-estate/data-request",
+            "excerpts": [
+              "The Assessor's Office offers Public Data Sets as well as Transfers and Market Sale Reports. This data can be accessed free of charge in Excel format below."
+            ],
+            "title": "Data Request | Richmond"
+          },
+          {
+            "url": "http://us-city.census.okfn.org/dataset/service-requests.html",
+            "excerpts": [
+              "On this page you can see the state of open data for Service Requests (311) in all the places for which we have information."
+            ],
+            "title": "Service Requests (311) \u2014 Datasets"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "hack_for_rva_event_summary",
+        "reasoning": "The most relevant excerpts directly confirm key elements of the field value: that Hack for RVA is Richmond\u2019s first civic hackathon, that it is scheduled for March 27\u201329, 2026, and that it is associated with the City of Richmond and partner organizations. One excerpt explicitly states the date range and frame of the event planning, while another notes the city\u2019s involvement and partnership for the hackathon. Additional excerpts reinforce the event\u2019s civic-tech focus and the 2026 timing, contributing to a coherent picture of the event\u2019s scheduling, sponsorship/partnerships, and its status as a civic hackathon. An excerpt describing the prize (such as a $10,000 award) and the presence of a host institution (VCU) in the field value is corroborated by multiple sources that discuss the Hack for RVA event in 2026 and its structure, even if not every source repeats every detail. Collectively, these excerpts support the core claims about timing, hosting/partnerships, and the hackathon nature, while also highlighting the post-event or continuation aspects noted in the field value as not fully specified across sources.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP",
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          },
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners",
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026"
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "cip_dashboard_api_field_schema",
+        "reasoning": "- References that describe the CIP Dashboard as an interactive data and map tool, including its beta status and the fact that it is the City of Richmond\u2019s CIP Dashboard, establish that an API surface likely exists or is implied, but do not provide explicit field schemas. These excerpts help confirm the domain and technology stack (ArcGIS/Esri) that would typically expose a FeatureLayer with a schema, yet they do not specify the actual field schema content. - Excerpts that identify the CIP Dashboard as powered by Esri and hosted on ArcGIS (mapviewer) reinforce that the underlying technology commonly uses ArcGIS REST/FeatureLayer schemas, which would be the natural place to define a field_schema. However, these excerpts stop short of enumerating or describing the fields, which aligns with the target value being an empty or unspecified schema. - Excerpts about the Richmond Impact Map, Online Permit Portal, RVA311, and Open311 provide contextual contrasts about civic data and API standards but do not directly contribute evidence about the CIP Dashboard\u2019s field schema. They are included to delimit relevance to the exact CIP API schema question and to indicate that API standards exist in related portals, but they do not confirm a CIP FieldSchema. - Excerpts that explicitly reference ArcGIS-based CIP Dashboard pages suggest that a REST/FeatureLayer interface is present (or expected) in this ecosystem, which supports the idea that a field schema would be defined, but the lack of explicit schema details in these excerpts means we cannot confirm any concrete fields. - Overall, there is indirect support that a CIP Dashboard\u2019s API surface could exist and be Esri-based, yet no excerpts provide explicit field definitions or an actual cip_dashboard_api_field_schema listing, which is consistent with the provided value being an empty array.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard ! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Please note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard."
+            ],
+            "title": "Capital Improvement Program Dashboard"
+          },
+          {
+            "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=270285e87d684a95bd1ebd9a078aa6df",
+            "excerpts": [
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... CIP Projects. Council Districts. Visibility. Legend.",
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... Powered by Esri."
+            ],
+            "title": "City of Richmond CIP Dashboard"
+          },
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "richmond_impact_map_maintenance_status",
+        "reasoning": "- The statement that the Richmond Impact Map dataset was last updated on March 31, 2023 is directly supported: the excerpt explicitly notes the last updated date as March 31, 2023. - The claim of a weekly update cadence is directly supported by an excerpt indicating that updates occur weekly. - The assertion that the data is provided by the Department of Public Works is supported by an excerpt stating that the dataset\u2019s data is provided by that department, which partially aligns with the field value\u2019s data_owner_department if transportation is considered a related division or unit; however, there is a potential mismatch since another excerpt attributes ownership to Transportation, while the data provider element mentions Public Works. - The existence of the Richmond Impact Map on the Open Data Portal is supported by multiple excerpts describing the dataset and its hosting portal, which helps establish the data\u2019s provenance and accessibility context. - There is no explicit excerpt declaring the dataset abandoned or explicitly not maintained; therefore the non-maintained claim in the finegrained value is not directly verifiable from the provided excerpts alone, introducing uncertainty about maintenance status. Together, these pieces of evidence support the date, cadence, and data provisioning aspects, while leaving the overall maintenance status (abandoned vs. maintained) only partially supported.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "Last Updated March 31, 2023",
+              "| Updates | Weekly |",
+              "Data Provided By Department of Public Works",
+              "... Tableau users should select the OData v2 endpoint option. Socrata OData Documentation. OData Endpoint. OData V4. OData V2. OData V4. Copy. Done. Richmond Impact",
+              "Transportation\nMap of City of Richmond projects which may impact travel or parking within the city."
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "executive_summary",
+        "reasoning": "The key claim that the CIP Dashboard is updated on a quarterly cadence is directly supported by statements describing quarterly updates and the dashboard as a centralized source for capital project information. This cadence is reinforced by multiple mentions that the CIP Dashboard aggregates data from city departments and is presented as a quarterly update mechanism, underscoring a non-daily refresh rhythm rather than a live-feed. The existence of the CIP Dashboard as a Beta version and its ArcGIS-based presentation further contextualizes the data platform but does not contradict the quarterly cadence. Regarding the Richmond Impact Map, there are explicit notes about update behavior and maintenance: a statement that the dataset states weekly updates contrasts with the note that the dataset was last updated at a specific past date, which can imply a discrepancy between claimed frequency and actual maintenance status, a hint toward potential abandonment. Additionally, a source identifies the transportation map as a data portal item and mentions its data provenance from the Public Works department, anchoring its governance and maintenance expectations. For API and data access, several excerpts discuss the Online Permit Portal and Right-of-Way management portals, establishing that there are public-facing portals for certain services; however, there is no explicit, public API description for CIP ArcGIS REST services within the excerpts, supporting the claim that machine-readable access pathways (APIs) are not publicly exposed in the cited sources. A separate set of excerpts confirms that Open311-like standards exist in the broader ecosystem (Open311 API), and that RVA311 offers service request capabilities with associated apps and portals, but the excerpts also highlight that RVA311 may not uniformly conform to Open311 across all channels, aligning with the conclusion of limited machine-readable API support in the city\u2019s core systems. The Hack for RVA material describes a prominent civic hackathon event with dates and partners but does not indicate an official, city-adopted pathway to operationalize or incubate prototypes, supporting the claim of no published formal continuation pathway. Taken together, these excerpts form a coherent, though not perfectly uniform, evidentiary basis for the composite field value: a mix of clearly stated cadences and maintenance hints, limited API exposure for CIP data, corroboration of RVA311 and Open311 context, and the absence of a formal post-hackathon incubation pathway.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis.",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond"
+          },
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "... Tableau users should select the OData v2 endpoint option. Socrata OData Documentation. OData Endpoint. OData V4. OData V2. OData V4. Copy. Done. Richmond Impact",
+              "Last Updated March 31, 2023",
+              "| Updates | Weekly |",
+              "Data Provided By Department of Public Works",
+              "Transportation\nMap of City of Richmond projects which may impact travel or parking within the city."
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/public-works/right-way-management",
+            "excerpts": [
+              "The Right of Way Management Division provides reviewing, permitting and coordinating for all activities in the right of way in order to ensure public safety and"
+            ],
+            "title": "Right-of-Way Management | Richmond"
+          },
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          },
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City",
+              "The City of Richmond is proud to join AI Ready RVA, Plan RVA, and VCU School of Business to sponsor Hack for RVA, the City\u2019s first-ever hack-a-thon dedicated to brainstorming and solving our community\u2019s most demanding and persistent challenges.",
+              "The weekend will culminate in a round of presentations from each participating team and the awarding of $10,000 in prizes",
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          },
+          {
+            "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=270285e87d684a95bd1ebd9a078aa6df",
+            "excerpts": [
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... CIP Projects. Council Districts. Visibility. Legend.",
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... Powered by Esri."
+            ],
+            "title": "City of Richmond CIP Dashboard"
+          },
+          {
+            "url": "https://geo.richmondgov.com/map/login/?returnUrl=https://geo.richmondgov.com/map/rest/services",
+            "excerpts": [
+              "Sign in to Richmond GIS Portal with. ArcGIS login. Keep me signed in. Sign In Cancel. Forgot password?"
+            ],
+            "title": "Sign In"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services."
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311."
+            ],
+            "title": "RVA 311 Helpful Links | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.richmondgov.com.rva311&hl=en_US",
+            "excerpts": [
+              "This app is designed to improve our service delivery efforts as well as our citizen engagement by providing citizens a way to report non-emergency incidents."
+            ],
+            "title": "RVA311 - Apps on Google Play"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.richmondgov.com.rva311&hl=es_NI",
+            "excerpts": [
+              "Informe r\u00e1pidamente los problemas y mant\u00e9ngase informado sobre los servicios de la ciudad de Richmond ."
+            ],
+            "title": "RVA311 - Apps en Google Play"
+          },
+          {
+            "url": "https://data.richmondgov.com/dataset/Homepage-Featured-Datasets/vqbj-3das",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "Homepage Featured Datasets | City of Richmond, Virginia"
+          },
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026",
+              "",
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners"
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/rvahacks_hack-for-rva-5-ws-activity-7424517538837053440-Bef-",
+            "excerpts": [
+              "Hack for RVA is a beginning for something new in Richmond. For the first time in our city's history, Richmond will gather its technologists,"
+            ],
+            "title": "Richmond Civic Hackathon: Community-Driven Innovation"
+          },
+          {
+            "url": "https://www.facebook.com/richmondgrid/posts/this-weekend-richmonders-are-coming-together-for-hack-for-rva-the-citys-first-ci/1387151600093191/",
+            "excerpts": [
+              "This weekend, Richmonders are coming together for Hack for RVA, the city's first civic hackathon, to build real solutions for some of our most"
+            ],
+            "title": "Richmond Grid"
+          },
+          {
+            "url": "https://www.rva.gov/assessor-real-estate/data-request",
+            "excerpts": [
+              "The Assessor's Office offers Public Data Sets as well as Transfers and Market Sale Reports. This data can be accessed free of charge in Excel format below."
+            ],
+            "title": "Data Request | Richmond"
+          },
+          {
+            "url": "http://us-city.census.okfn.org/dataset/service-requests.html",
+            "excerpts": [
+              "On this page you can see the state of open data for Service Requests (311) in all the places for which we have information."
+            ],
+            "title": "Service Requests (311) \u2014 Datasets"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "rva311_open311_compliance",
+        "reasoning": "The strongest support comes from content that discusses the Open311 standard and Open311-related tooling. An excerpt highlighting that Open311 API standards exist and are used by various civic platforms provides a basis to compare RVA311 against that standard. A separate excerpt about an R interface to the Open311 standard reinforces the existence and usage of Open311 in the civic tech ecosystem, which is directly relevant to evaluating RVA311\u2019s potential Open311 compatibility. Direct RVA311 descriptions add necessary context about how RVA311 operates and how users interact with it, helping determine whether RVA311 exposes or exposes through standards-compatible interfaces. While RVA311 describes submission channels (phone, RVA311.com, mobile app) and portals, none of these excerpts explicitly confirm RVA311 supports Open311 GeoReport v2 or public developer APIs. Taken together, the strongest inferences we can make are that there is no explicit indication in these documents that RVA311 implements Open311 or GeoReport v2, and there is explicit documentation of non-Open311 submission channels. The combination of explicit Open311 references (or lack thereof) and RVA311 interface descriptions supports a cautious conclusion that RVA311 does not publicly publish or clearly document Open311 compliance, though definitive statements are not present in the excerpts. Therefore, the claim that RVA311 is not Open311-compliant is supported but not proven beyond all doubt by these sources, leading to a medium confidence level.",
+        "citations": [
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services.",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with"
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://apps.richmondgov.com/applications/RichmondGovContactUs/ContactUs.aspx?ID=237",
+            "excerpts": [
+              "By entering your service request via the RVA311 tool you will have the ability to receive update notifications and track the progress of your request. Thank you"
+            ],
+            "title": "Contact Us"
+          },
+          {
+            "url": "https://data.richmondgov.com/dataset/Homepage-Featured-Datasets/vqbj-3das",
+            "excerpts": [
+              "Skip to main content Skip to footer. City of Richmond, Virginia - Open Data Portal. Search. HomeCatalogTutorials"
+            ],
+            "title": "Homepage Featured Datasets | City of Richmond, Virginia"
+          },
+          {
+            "url": "http://us-city.census.okfn.org/dataset/service-requests.html",
+            "excerpts": [
+              "On this page you can see the state of open data for Service Requests (311) in all the places for which we have information."
+            ],
+            "title": "Service Requests (311) \u2014 Datasets"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "cip_dashboard_update_status.stated_update_cadence",
+        "reasoning": "The most relevant excerpt states that the CIP dashboard is updated on a quarterly basis, which directly answers the cadence question. A corroborating line reiterates that the dashboard is a centralized location for capital project information and also notes the quarterly update cadence, reinforcing the same conclusion. These passages together establish that the CIP dashboard follows a quarterly update cadence and imply that the last refresh would align with that cadence (i.e., updates occur every quarter). Other excerpts describe the CIP as an interactive tool and beta version, which provides peripheral context but does not address cadence or refresh timing. The combination of these two corroborating statements directly supports the specified cadence value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis."
+            ],
+            "title": "CIP | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "cip_dashboard_update_status.last_known_refresh_date",
+        "reasoning": "The specific field value states that there is no publicly disclosed last-refresh date for the CIP Dashboard. The most relevant information to this field is the statement that the dashboard is updated on a quarterly basis, which confirms there is a regular update cadence but does not provide a precise timestamp. This supports the notion that no explicit last-refresh date is published, since a cadence exists but no exact date is shown. Additional excerpts reinforce that the CIP dashboard is an ongoing, active tool (described as an interactive data and map tool and noted as Beta), which is consistent with regular maintenance, yet they do not provide a concrete refresh timestamp either. Taken together, the excerpts substantiate that while updates occur quarterly, there is no publicly disclosed last refresh date for the CIP Dashboard, aligning with the fine-grained field value.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis.",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond"
+          },
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard ! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Please note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard."
+            ],
+            "title": "Capital Improvement Program Dashboard"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "data_accessibility_summary",
+        "reasoning": "The Capital Project Dashboard (CIP) is repeatedly described as a centralized, quarterly-updated resource, indicating a fixed cadence but not a public, openly accessible data API layer; this supports the notion that the CIP data layer is not exposed via a public ArcGIS REST API and instead resides behind access controls such as a sign-in portal. The existence of a beta ArcGIS Experience for the CIP Dashboard reinforces that while the tool exists, its data services are not necessarily exposed as a public, openly queryable API. The Richmond Impact Map entries show a last update in March 2023 with notes of weekly updates, signaling that while there is a data maintenance routine, the dataset appears stale relative to current needs and not actively refreshed in a timely public-facing cadence. For the Online Permit Portal, the description emphasizes submission, payment, and status checks but does not indicate the presence of a public API for querying permit data, aligning with the claim that EnerGov-based portals lack a public API for developers. RVA311 materials describe multiple access channels (web, apps) but do not indicate support for the Open311 API standard for programmatic service request submission or retrieval; cross-references to Open311 resources confirm that while the standard exists, RVA311 does not publish or adopt it in the cited materials. Additionally, general Open311 references and R311 integrations illustrate a broader context that there is an ecosystem around Open311, but the RVA311 material itself does not show Open311 API support, which supports the overall claim about Open311 absence. Taken together, the excerpts consistently support the core components of the finegrained field value: CIP data not publicly exposed via ArcGIS REST API, EnerGov Online Permit Portal lacking a public API, RVA311 not adopting Open311, and the Richmond Impact Map being stale with older update cadence. They also provide context for why DPW 311 informational vs actionable breakdown is not published, as there is no explicit public metrics cited in the excerpts relating to that breakdown.",
+        "citations": [
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis.",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond"
+          },
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "Last Updated March 31, 2023",
+              "| Updates | Weekly |"
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          },
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone."
+            ],
+            "title": "Online Permit Portal | Richmond"
+          },
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "cip_dashboard_api_accessibility",
+        "reasoning": "The claim to verify is whether the CIP Dashboard's underlying FeatureLayer can be queried via a public ArcGIS REST API. The excerpts establish that the CIP Dashboard is a City of Richmond ArcGIS-based dashboard and that users access a beta version of the viewer, which confirms ArcGIS-based delivery but does not state any publicly exposed REST API access to the underlying FeatureLayer. Specifically, excerpts describe the CIP Dashboard as an interactive data and map tool hosted on ArcGIS, with an emphasis on the viewer experience (beta version) and Esri-powered implementation. However, none of the excerpts explicitly assert that there is a publicly accessible FeatureLayer endpoint or that such an API is unavailable. Therefore, these excerpts indirectly inform the likely architecture (ArcGIS-based viewer) without confirming API exposure, which means the evidence neither proves nor disproves the exact API accessibility claim. For the update cadence, the excerpts clearly state the dashboard is updated on a quarterly basis, providing direct support for the cadence part of the field.",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Welcome to the City of Richmond's CIP Dashboard ! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard"
+            ],
+            "title": "Capital Improvement Program Dashboard"
+          },
+          {
+            "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=270285e87d684a95bd1ebd9a078aa6df",
+            "excerpts": [
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... CIP Projects. Council Districts. Visibility. Legend.",
+              "City of Richmond CIP Dashboard. Overview \u00b7 Pricing \u00b7 Scene \u00b7 Groups. Sign In. Overview \u00b7 Pricing \u00b7 Scene ... Powered by Esri."
+            ],
+            "title": "City of Richmond CIP Dashboard"
+          },
+          {
+            "url": "https://rva.gov/budget-and-strategic-planning/cip",
+            "excerpts": [
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis . Projects displayed",
+              "The dashboard serves as a centralized location for capital project information from all city departments and is updated on a quarterly basis.",
+              "The City of Richmond Capital Project Dashboard is an interactive data and map tool that allows you to explore active capital improvement projects throughout"
+            ],
+            "title": "CIP | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "dpw_311_request_type_analysis",
+        "reasoning": "The most relevant excerpts directly describe RVA311\u2019s role as the conduit for service requests and how requests can be submitted, which is central to whether a breakdown by informational vs actionable exists publicly. Specifically, the excerpts note that service requests can be submitted by telephone, online, or mobile, and that RVA311 provides a way to submit new requests; this confirms that the system exists and handles DPW-related requests, but it does not indicate that a public breakdown by category is published. The inclusion of an Open311 reference and a GitHub implementation shows that standardization and API-like interfaces exist, which would be the mechanism by which a public breakdown could be published if it were available. However, none of these excerpts claim that such a DPW-specific informational vs actionable breakdown is published in the Open Data Portal or other public datasets. Therefore, the field value\u2014that there is no publicly published DPW breakdown and that no official statistics are available\u2014receives indirect support: the excerpts confirm the existence and access methods of RVA311 and Open311, but they do not provide or reference published DPW-specific breakdown statistics. This combination supports the conclusion that the requested publicly published breakdown is not evident in the provided sources, hence the evaluation leans toward low/soft support for a published figure and aligns with the assertion of non-public data unless more explicit datasets are provided.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services.",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing"
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "online_permit_portal_api_availability.has_public_api",
+        "reasoning": "The field value asserts that the Online Permit Portal API is not publicly available. The provided excerpts describe the Online Permit Portal\u2019s capabilities (submitting plans, applying and paying for permits, requesting inspections, and checking request status) but do not mention or describe any public API, authentication, endpoints, or schemas. This absence of API details means the excerpts do not directly confirm the presence or absence of a public API. Their relevance stems from characterizing the portal context in which an API might exist, but they do not provide concrete evidence about API availability. Therefore, the best inference from these excerpts is that there is no explicit API information provided in the text, making the claim about a non-public API unsubstantiated by direct excerpted evidence.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone.",
+              "igate to the **[Online Permit Portal](https://energov.richmondgov.com/energov_prod/selfservice#/home)** to register",
+              "u can email **CSSHelp@richmondgov.com** for more information and assistance with any issues encountere"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "online_permit_portal_api_availability.support_contact_email",
+        "reasoning": "The target field is the support contact email for the Online Permit Portal API availability. The most relevant excerpt explicitly states that you can email CSSHelp@richmondgov.com for more information and assistance, which directly provides the requested contact email. The other excerpts discuss the online permit portal features and links but do not provide an email address, making them less relevant to the specific field value. Thus, the excerpt containing the email is the primary source of evidence for the requested field value.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "u can email **CSSHelp@richmondgov.com** for more information and assistance with any issues encountere"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "online_permit_portal_api_availability.access_method",
+        "reasoning": "The field value asserts that access to permit data is facilitated through a manual web interface (EnerGov Citizen Self Service), requiring users to register and interact via the website, with no programmatic access. Excerpts describing the Online Permit Portal as a self-service web portal where users can register, apply for and pay for permits, request inspections, and check status directly support the claim of a manual, web-based workflow. The explicit mention of EnerGov Self Service reinforces that the system is designed for user-initiated, browser-based actions rather than API-driven programmatic access. While none of the excerpts explicitly state 'no API exists', the emphasis on manual, web-based interactions and self-service implies the absence of a public, programmatic interface for permit data within the cited sources. The fourth excerpt provides a contact channel but does not indicate an API, which aligns with the overall manual-access narrative. Taken together, these excerpts most strongly corroborate that access is via web-based self-service, with no demonstrated API pathway in the excerpts.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "igate to the **[Online Permit Portal](https://energov.richmondgov.com/energov_prod/selfservice#/home)** to register",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone.",
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "u can email **CSSHelp@richmondgov.com** for more information and assistance with any issues encountere"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "civic_tech_continuation_pathway_details.summary_of_findings",
+        "reasoning": "The core finding is that the Hack for RVA event is framed around partnership, sponsorship, and prize structure, with emphasis on collaboration and program context rather than a post-event governance or adoption pathway. Passages describing the City partnering with AI Ready RVA, Plan RVA, and VCU School of Business, along with the note of a $10,000 prize and the event timeline, directly inform the context of the Hack for RVA but do not describe an ongoing mechanism for project incubation, assignment of a product owner, or a formal channel into city operations. Excerpts that present Hack for RVA as a city-led civic hackathon with specific dates and participating partners support the inference that the available documentation centers on event logistics and prize incentives rather than a published continuation framework. By combining these details, we can reasonably conclude that there is no explicit, published continuation pathway described in the sources, and the governance or ownership structure post-hackathon is not outlined in the cited materials. The absence of any mention of project adoption processes, incubation steps, or designated city stewardship within these sources underpins the conclusion that such a pathway is not published in the provided excerpts.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City",
+              "The City of Richmond is proud to join AI Ready RVA, Plan RVA, and VCU School of Business to sponsor Hack for RVA, the City\u2019s first-ever hack-a-thon dedicated to brainstorming and solving our community\u2019s most demanding and persistent challenges.",
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          },
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026",
+              "",
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners"
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/rvahacks_hack-for-rva-5-ws-activity-7424517538837053440-Bef-",
+            "excerpts": [
+              "Hack for RVA is a beginning for something new in Richmond. For the first time in our city's history, Richmond will gather its technologists,"
+            ],
+            "title": "Richmond Civic Hackathon: Community-Driven Innovation"
+          },
+          {
+            "url": "https://www.facebook.com/richmondgrid/posts/this-weekend-richmonders-are-coming-together-for-hack-for-rva-the-citys-first-ci/1387151600093191/",
+            "excerpts": [
+              "This weekend, Richmonders are coming together for Hack for RVA, the city's first civic hackathon, to build real solutions for some of our most"
+            ],
+            "title": "Richmond Grid"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "richmond_impact_map_maintenance_status.stated_update_frequency",
+        "reasoning": "The target field represents how often the Richmond Impact Map maintenance status is updated. The most relevant excerpt explicitly states the update cadence as Weekly, which directly confirms the field value. The second most relevant excerpt provides a last-updated timestamp, which corroborates that the dataset is actively maintained but does not alter the stated cadence itself. The remaining excerpts describe data provisioning, endpoints, and a general map description, which do not address how often updates occur and thus are less relevant to the cadence claim.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "| Updates | Weekly |",
+              "Last Updated March 31, 2023"
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "online_permit_portal_api_availability.portal_url",
+        "reasoning": "The field value specifies the Energov self-service portal URL for Richmond\u2019s Online Permit Portal. Excerpt that includes this exact URL directly confirms the availability and location of the portal, making it the strongest piece of supporting evidence for the field value. Excerpts describing the Online Permit Portal\u2019s capabilities (submitting plans, applying and paying for permits, requesting inspections, and checking request status) establish the context that the portal exists and is publicly accessible, which supports the interpretation that the portal has an accessible URL even if the URL isn\u2019t repeated. The excerpt mentioning an email for assistance adds a minor corroborative detail about support channels, further situating the portal in a user-facing, service-oriented environment. Collectively, these excerpts align with the field value by confirming the portal\u2019s existence, accessibility features, and a concrete URL in at least one excerpt.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "igate to the **[Online Permit Portal](https://energov.richmondgov.com/energov_prod/selfservice#/home)** to register",
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone.",
+              "u can email **CSSHelp@richmondgov.com** for more information and assistance with any issues encountere"
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "civic_tech_continuation_pathway_details.related_event_name",
+        "reasoning": "The fine-grained field value identifies a specific civic-tech continuation pathway event name. The strongest supports come from excerpts explicitly describing Hack for RVA as Richmond's civic hackathon in March 2026, including its purpose to develop community-centered solutions and its dates. These excerpts directly confirm the event name and its role as a civic-tech activity, aligning with the notion of a continuation pathway for prototypes developed during a hackathon. Other excerpts that mention Hack for RVA further reinforce the event's identity, including partner sponsorships and scheduling information, which corroborate Hack for RVA as a planned, ongoing civic-technology initiative rather than a standalone or unrelated event. While some excerpts touch on broader civic-technology contexts, they still align with the Hack for RVA event name and its role in the continuation pathway, thereby supporting the field value.",
+        "citations": [
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026",
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners",
+              ""
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          },
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City",
+              "The City of Richmond is proud to join AI Ready RVA, Plan RVA, and VCU School of Business to sponsor Hack for RVA, the City\u2019s first-ever hack-a-thon dedicated to brainstorming and solving our community\u2019s most demanding and persistent challenges.",
+              "The weekend will culminate in a round of presentations from each participating team and the awarding of $10,000 in prizes",
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "rva311_system_overview",
+        "reasoning": "The core claim is that RVA311 provides a centralized service with multiple submission channels (phone, online web portal, and mobile app) and is accessible 24/7, while there is no public API or Open311 compatibility stated in the available documentation. The most relevant excerpts directly describe RVA311 as a centralized service with several access channels and ongoing availability: the overview emphasizes 311 as a convenient access point for residents, and several excerpts describe submitting requests via the RVA311 tool, online portals, or mobile apps and receiving updates. These passages support the idea that RVA311 functions as a centralized system with multiple submission channels and progress tracking. Additional excerpts document the existence of RVA311-related apps and online portals, reinforcing the multi-channel nature and ongoing accessibility. On the API/Open311 aspect, there are excerpts mentioning the Open311 standard in general (open311 ecosystem and interfaces), and other civic tech references, but none of the RVA311-related excerpts explicitly state that RVA311 supports Open311 standards or provides a public developer API. That gap suggests there is no explicit evidence of public API or Open311 compatibility for RVA311 in the provided sources, rather than a positive confirmation of lack of API. Taken together, the strongest evidence confirms multi-channel submission and ongoing availability, while evidence about Open311 support or a developer API for RVA311 remains absent or inconclusive in these excerpts.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services.",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week."
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://apps.richmondgov.com/applications/RichmondGovContactUs/ContactUs.aspx?ID=237",
+            "excerpts": [
+              "By entering your service request via the RVA311 tool you will have the ability to receive update notifications and track the progress of your request. Thank you"
+            ],
+            "title": "Contact Us"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.richmondgov.com.rva311&hl=en_US",
+            "excerpts": [
+              "This app is designed to improve our service delivery efforts as well as our citizen engagement by providing citizens a way to report non-emergency incidents."
+            ],
+            "title": "RVA311 - Apps on Google Play"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.richmondgov.com.rva311&hl=es_NI",
+            "excerpts": [
+              "Informe r\u00e1pidamente los problemas y mant\u00e9ngase informado sobre los servicios de la ciudad de Richmond ."
+            ],
+            "title": "RVA311 - Apps en Google Play"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-links",
+            "excerpts": [
+              "Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000. Or Submit Anytime. on RVA311."
+            ],
+            "title": "RVA 311 Helpful Links | Richmond - RVA.gov"
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/rva-311-helpful-numbers",
+            "excerpts": [
+              "How to Reach Us. Need to submit a service request? Reach us by phone. During the Call Center hours listed below. Call us at 3-1-1 or 804-646-7000."
+            ],
+            "title": "RVA 311 Helpful Numbers | Richmond - RVA.gov"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "cip_dashboard_update_status.dashboard_status",
+        "reasoning": "The most relevant excerpt directly states that the dashboard is in Beta and includes the exact phrasing 'Beta Version' of the CIP Dashboard, which aligns with the field value describing a Beta status on the dashboard landing page. The next two excerpts also reference the Beta Version of the CIP Dashboard, reinforcing the same conclusion by describing the dashboard as the Beta Version and noting the landing page context. These pieces collectively confirm that the dashboard status is Beta and that the landing page communicates this versioning to users. The remaining excerpts discuss related aspects (such as being in a beta version and the dashboard\u2019s interactive nature) but do not provide a direct Beta-status statement themselves, making them less central to the specific field value.\n",
+        "citations": [
+          {
+            "url": "https://experience.arcgis.com/experience/86362b12585448b583b74a3a2ae32745",
+            "excerpts": [
+              "Please note, you are accessing the **Beta Version** of our interactive Capital Improvement Projects (CIP) Dashboard.",
+              "Welcome to the City of Richmond's CIP Dashboard ! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard",
+              "Welcome to the City of Richmond's CIP Dashboard! Please note, you are accessing the Beta Version of our interactive Capital Improvement Projects (CIP) Dashboard"
+            ],
+            "title": "Capital Improvement Program Dashboard"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "rva311_open311_compliance.is_compliant",
+        "reasoning": "The target field is a boolean flag indicating whether RVA311 complies with the Open311 standard. The excerpts collectively establish context around Open311 concepts and RVA311 capabilities (such as APIs, interfaces, submission methods, and 311 as a service channel) but do not contain a sentence or data point that explicitly states the compliance status. The most relevant parts are those that discuss Open311 ecosystems and RVA311\u2019s ability to handle submissions and provide interfaces, which are directly related to what compliance would entail. However, since no excerpt asserts a concrete true/false verdict for compliance, we cannot derive a definitive value from the provided text. The lack of explicit confirmation means the evidence neither confirms nor contradicts compliance, but it leans toward understanding the system as operating within Open311 paradigms rather than declaring formal adherence.",
+        "citations": [
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          },
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services."
+            ],
+            "title": "About RVA 311 | Richmond"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "field": "rva311_open311_compliance.available_interfaces",
+        "reasoning": "The fine-grained field value specifies that service requests can be submitted to RVA311 via multiple interfaces (telephone, online self-serve web portal, and mobile app) and that the web portal and mobile apps are available 24/7. The most directly supporting excerpt states: submission can be done online at RVA311.com or via the RVA311 mobile app, with availability 24/7. This directly confirms the online and mobile interfaces and their continuous availability. Additional excerpts reinforce that RVA311 supports submission by telephone, online, or mobile, and mention that users can submit requests through self-service portals or apps, further corroborating multiple interfaces for submitting requests. One excerpt notes that entering a service request via RVA311 allows update notifications and progress tracking, which aligns with a multi-interface system that provides feedback on submitted requests, though it does not itself enumerate interfaces. Collectively, these excerpts substantiate the existence of multiple submission interfaces and 24/7 availability, with online and mobile being explicitly confirmed and telephone/other avenues also described in related RVA311 materials. The strongest support is for online and mobile submission and 24/7 availability; the additional excerpts extend support to telephone and general accessibility of RVA311 interfaces, increasing overall confidence about the field value.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services.",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0..."
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://apps.richmondgov.com/applications/RichmondGovContactUs/ContactUs.aspx?ID=237",
+            "excerpts": [
+              "By entering your service request via the RVA311 tool you will have the ability to receive update notifications and track the progress of your request. Thank you"
+            ],
+            "title": "Contact Us"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "right_of_way_permitting_process_overview",
+        "reasoning": "The most directly relevant excerpts establish the core workflow for right-of-way permits: (a) the requirement that all work in the public right of way uses a Work in Streets Permit, and (b) the submission channel via email to Rightofway@richmondgov.com, which aligns with the described manual submission path. These passages map precisely to the described manual handling and digital submission process. The next layer of relevance comes from the excerpts describing how permit status is monitored: the right-of-way excerpts reference checking status updates via a dedicated process or portal link, which aligns with monitoring through the EnerGov-based Online Permit Portal. The Online Permit Portal excerpts reinforce that applicants can submit, pay, request inspections, and check status online, which supports the claimed portal-based status tracking rather than a separate API mechanism. Finally, the reference to EnerGov Self Service and related portal access details corroborates the existence of a configured CSS/portal for status visibility, supporting the overall claim about how status updates are retrieved and that there is no explicit API-based status retrieval described in the excerpts. Taken together, these excerpts support the field value\u2019s core components: manual permit handling for Work in Streets, digital submission via a dedicated email channel, status monitoring via the Online Permit Portal / EnerGov CSS, and the lack of an API-based status check described in the provided texts.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/public-works/right-way-management",
+            "excerpts": [
+              "The Right of Way Management Division provides reviewing, permitting and coordinating for all activities in the right of way in order to ensure public safety and",
+              "All work performed within the public right of way requires a Work in Streets Permit. Application for such permits is made at City Hall in Room 110 or Digitally via email to Rightofway@richmondgov.com .  See below headings for additional information on process and requirements. [Click here to check for all status updates for you application.](https://energov.richmondgov.com/energov_prod/selfservice#/home) [](https://energov.richmondgov.com/energov_prod/selfservice#/home)",
+              "* Electronic Submittal Accepted at Rightofway@richmondgov.com"
+            ],
+            "title": "Right-of-Way Management | Richmond"
+          },
+          {
+            "url": "https://www.rva.gov/planning-development-review/online-permit-portal",
+            "excerpts": [
+              "The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from",
+              "The City of Richmond has launched our Online Permit Portal (OPP) that provides our customers with the ability to apply for certain Permits from their office or home without coming into City Hall. The Online Permit Portal allows customers to submit plans for review, apply and pay for permits, request inspections, and check the status of a request from their computer or phone."
+            ],
+            "title": "Online Permit Portal | Richmond"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "richmond_impact_map_maintenance_status.data_owner_department",
+        "reasoning": "The most relevant excerpt explicitly references the Transportation aspect in the context of the Transportation Map of City of Richmond projects, which aligns with the field value indicating Transportation as the data owner/department related to the Richmond Impact Map. This suggests Transportation has a role in the dataset's context, making it the strongest support. A second excerpt notes that the data for the Richmond Impact Map is provided by the Department of Public Works, which could contradict the field value if the field requires Transportation as the data owner. The remaining excerpts discuss updates and data access (such as update cadence and endpoints) which, while helpful for context about the dataset, do not directly establish the data owner department and are thus weaker in supporting the specific field value. Taken together, the most direct support is the Transportation-related map description, with a possible contradiction from DPW attribution, and the update/endpoint details being peripheral to the specific field value.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "Transportation\nMap of City of Richmond projects which may impact travel or parking within the city.",
+              "Last Updated March 31, 2023",
+              "| Updates | Weekly |",
+              "Data Provided By Department of Public Works",
+              "... Tableau users should select the OData v2 endpoint option. Socrata OData Documentation. OData Endpoint. OData V4. OData V2. OData V4. Copy. Done. Richmond Impact"
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "richmond_impact_map_maintenance_status.last_updated_date",
+        "reasoning": "The target field is the last_updated_date for the Richmond Impact Map maintenance status. The excerpt directly states a concrete timestamp, 'Last Updated March 31, 2023', which directly satisfies the requested value. No other excerpts explicitly provide a date or corroborating timestamp for the maintenance status; they discuss cadence (e.g., 'Updates | Weekly'), data provenance, or API endpoints, which are not the same as the specific last-updated timestamp. Therefore, the most relevant evidence is the excerpt that clearly records the exact date of the last update, aligning precisely with the field value in question.",
+        "citations": [
+          {
+            "url": "https://data.richmondgov.com/Transportation/Richmond-Impact-Map/aq4i-4gpd",
+            "excerpts": [
+              "Last Updated March 31, 2023"
+            ],
+            "title": "City of Richmond, Virginia - Richmond Impact Map | Open Data Portal"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field": "rva311_open311_compliance.compliance_notes",
+        "reasoning": "The finegrained field value asserts that RVA311 does not publicly publish or support Open311, and that there is no Open311 GeoReport v2 submission or retrieval capability documented for the City of Richmond\u2019s 311 system. Excerpts describing RVA311\u2019s submission methods and availability demonstrate that RVA311 operates through its own channels (telephone, online, mobile app) and online portals, which supports the conclusion that the Open311 public API is not the intended or publicly documented integration path for RVA311. Specifically, excerpts indicate: RVA311 can be submitted online via RVA311.com or through a mobile app, and that requests may be submitted by telephone, online, or by mobile, highlighting independent RVA311 workflows rather than Open311 APIs. These details align with the claim that there is no documented Open311 GeoReport v2 submission or retrieval mechanism within RVA311. Background context excerpts about the broader Open311 ecosystem are less directly supportive but provide contrast by showing that Open311 exists as a standard outside of RVA311\u2019s described capabilities. Taken together, the most relevant evidence points to RVA311 operating through its own submission channels rather than exposing a public Open311 API, which supports the field value. The surrounding context about RVA311\u2019s notification features (update notifications) also complements the interpretation that RVA311 has a self-contained flow rather than a generic Open311 API pathway.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/citizen-service-and-response/about-rva-311",
+            "excerpts": [
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with\u00a0...",
+              "Our highly trained call center agents, and our intelligent self-service website and mobile apps handle requests for potholes, sidewalks, stormwater, tax billing",
+              "Submit a new request\nSubmitting a request is easier than ever. You can submit online at RVA311.com or use our RVA311 mobile app 24 hours a day, 7 days a week.",
+              "**311** is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with many requests for non-emergency City services.",
+              "Requests may be submitted by telephone, online or by mobile.  Our self-serve web portal and mobile apps are available 24 hours a day, 7 days a week.",
+              "311 is an easy-to-remember telephone number that connects residents or visitors with specially-trained customer service representatives who can assist with"
+            ],
+            "title": "About RVA 311 | Richmond"
+          },
+          {
+            "url": "https://apps.richmondgov.com/applications/RichmondGovContactUs/ContactUs.aspx?ID=237",
+            "excerpts": [
+              "By entering your service request via the RVA311 tool you will have the ability to receive update notifications and track the progress of your request. Thank you"
+            ],
+            "title": "Contact Us"
+          },
+          {
+            "url": "https://www.open311.org/api/",
+            "excerpts": [
+              "There is a burgeoning ecosystem of apps and services which work with the Open311 GeoReport v2 standard. This includes a number of solutions with Commercial"
+            ],
+            "title": "API"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "field": "civic_tech_continuation_pathway_details.pathway_exists",
+        "reasoning": "To evaluate whether a civic tech continuation pathway exists, I looked for explicit references to a named host department, a product owner, or a formal ongoing program beyond the Hack for RVA initiative. The most directly relevant content comprises multiple excerpts describing Richmond\u2019s first civic hackathon (Hack for RVA) and related civic-tech events and partners. These pieces establish a context of ongoing civic tech activity but do not provide any explicit confirmation of a post-hackathon continuation pathway, ownership, or governance structure. None of the excerpts explicitly state that a continuation pathway exists, is being maintained, or is abandoned, nor do they specify the responsible department or product owner. Consequently, while the excerpts show active civic-tech engagement plans around Hack for RVA in late March 2026, they do not substantiate the existence of a formal continuation pathway for civic tech prototypes in Richmond. The absence of explicit confirmation leads to a conclusion that the targeted finegrained field value (False) is not directly supported by these excerpts, and the evidence is inconclusive about any continuation pathway.",
+        "citations": [
+          {
+            "url": "https://www.rva.gov/press-releases-and-announcements/news/city-richmond-partner-citys-first-ever-civic-hack-thon",
+            "excerpts": [
+              "Feb 26, 2026 \u2014 City of Richmond to Partner in City's First-Ever Civic Hack-a-thon. Hack for RVA challenges participants to think creatively in addressing City",
+              "The City of Richmond is proud to join AI Ready RVA, Plan RVA, and VCU School of Business to sponsor Hack for RVA, the City\u2019s first-ever hack-a-thon dedicated to brainstorming and solving our community\u2019s most demanding and persistent challenges.",
+              "The weekend will culminate in a round of presentations from each participating team and the awarding of $10,000 in prizes",
+              "From March 27 \u2013 29, 2026, participants will test their technological and creative skillsets to develop actionable, community-centered solutions to problem sets developed by City and community leaders in alignment with the seven pillars from **Mayor Danny Avula\u2019s** [Mayoral Action Plan (MAP"
+            ],
+            "title": "City of Richmond to Partner in City's First-Ever Civic Hack-a ..."
+          },
+          {
+            "url": "https://rvahacks.org/",
+            "excerpts": [
+              "Richmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges. March 27\u201329, 2026",
+              "",
+              "Hack for RVA\nParticipate Partner\nAbout Home Register\nSection Title: Hack for RVA\nContent:\nRichmond's first civic hackathon\u2014where technologists, designers, and community members build real solutions for the city's biggest challenges.\nMarch 27\u201329, 2026 \u2022 VCU\nRegister Now\nStarts in\n09 d\n:\n15 h\n:\n55 m\n:\n06 s\nAbout Participate Partners"
+            ],
+            "title": "Hack for RVA 2026 | Building a Thriving Economy"
+          },
+          {
+            "url": "https://aireadyrva.com/events/hack-for-rva",
+            "excerpts": [
+              "Richmond's First Civic Hackathon | March 27-29, 2026. Join us for a weekend of building solutions to Richmond's biggest challenges."
+            ],
+            "title": "Hack for RVA - Richmond's First Civic Hackathon"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/rvahacks_hack-for-rva-5-ws-activity-7424517538837053440-Bef-",
+            "excerpts": [
+              "Hack for RVA is a beginning for something new in Richmond. For the first time in our city's history, Richmond will gather its technologists,"
+            ],
+            "title": "Richmond Civic Hackathon: Community-Driven Innovation"
+          },
+          {
+            "url": "https://www.facebook.com/richmondgrid/posts/this-weekend-richmonders-are-coming-together-for-hack-for-rva-the-citys-first-ci/1387151600093191/",
+            "excerpts": [
+              "This weekend, Richmonders are coming together for Hack for RVA, the city's first civic hackathon, to build real solutions for some of our most"
+            ],
+            "title": "Richmond Grid"
+          },
+          {
+            "url": "https://github.com/rOpenGov/r311",
+            "excerpts": [
+              "r311 is an R interface to the international standard open311 . Open311 APIs are used for civic issue management and public service communication."
+            ],
+            "title": "rOpenGov/r311: R interface to the open311 standard for ..."
+          },
+          {
+            "url": "https://www.rva.gov/assessor-real-estate/data-request",
+            "excerpts": [
+              "The Assessor's Office offers Public Data Sets as well as Transfers and Market Sale Reports. This data can be accessed free of charge in Excel format below."
+            ],
+            "title": "Data Request | Richmond"
+          },
+          {
+            "url": "http://us-city.census.okfn.org/dataset/service-requests.html",
+            "excerpts": [
+              "On this page you can see the state of open data for Service Requests (311) in all the places for which we have information."
+            ],
+            "title": "Service Requests (311) \u2014 Datasets"
+          }
+        ],
+        "confidence": "low"
+      }
+    ],
+    "type": "json",
+    "beta_fields": null,
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "executive_summary": {
+          "type": "string",
+          "description": "A high-level summary of the findings regarding the accessibility and maintenance of Richmond, VA's infrastructure and civic data platforms."
+        },
+        "cip_dashboard_update_status": {
+          "type": "object",
+          "properties": {
+            "stated_update_cadence": {
+              "type": "string",
+              "description": "The officially stated frequency of updates for the dashboard."
+            },
+            "last_known_refresh_date": {
+              "type": "string",
+              "description": "The date the dashboard was last known to be refreshed. This may not be available."
+            },
+            "dashboard_status": {
+              "type": "string",
+              "description": "The current development status of the dashboard (e.g., Beta, Production)."
+            }
+          },
+          "required": [
+            "stated_update_cadence",
+            "last_known_refresh_date",
+            "dashboard_status"
+          ],
+          "additionalProperties": false
+        },
+        "richmond_impact_map_maintenance_status": {
+          "type": "object",
+          "properties": {
+            "is_maintained": {
+              "type": "boolean",
+              "description": "Indicates whether the dataset appears to be actively maintained."
+            },
+            "last_updated_date": {
+              "type": "string",
+              "description": "The date the data was last updated, according to the data portal."
+            },
+            "stated_update_frequency": {
+              "type": "string",
+              "description": "The update frequency as stated on the data portal."
+            },
+            "data_owner_department": {
+              "type": "string",
+              "description": "The city department listed as the owner of the dataset."
+            }
+          },
+          "required": [
+            "is_maintained",
+            "last_updated_date",
+            "stated_update_frequency",
+            "data_owner_department"
+          ],
+          "additionalProperties": false
+        },
+        "cip_dashboard_api_accessibility": {
+          "type": "string",
+          "description": "Answers whether the CIP Dashboard's FeatureLayer can be queried via the ArcGIS REST API and provides the relevant service URL if available."
+        },
+        "cip_dashboard_api_field_schema": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field_name": {
+                "type": "string",
+                "description": "The name of the field in the dataset."
+              },
+              "alias": {
+                "type": "string",
+                "description": "The human-readable alias for the field name."
+              },
+              "data_type": {
+                "type": "string",
+                "description": "The data type of the field (e.g., esriFieldTypeString, esriFieldTypeOID)."
+              }
+            },
+            "required": [
+              "field_name",
+              "alias",
+              "data_type"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Lists the available field schemas for the CIP Dashboard FeatureLayer, including details such as field name, alias, and data type."
+        },
+        "online_permit_portal_api_availability": {
+          "type": "object",
+          "properties": {
+            "has_public_api": {
+              "type": "boolean",
+              "description": "Indicates whether a public, queryable API is exposed for permit data."
+            },
+            "portal_url": {
+              "type": "string",
+              "description": "The URL for the web-based Online Permit Portal."
+            },
+            "access_method": {
+              "type": "string",
+              "description": "Description of how users can interact with permit data (e.g., manual web portal access)."
+            },
+            "support_contact_email": {
+              "type": "string",
+              "description": "The contact email for assistance with the portal."
+            }
+          },
+          "required": [
+            "has_public_api",
+            "portal_url",
+            "access_method",
+            "support_contact_email"
+          ],
+          "additionalProperties": false
+        },
+        "rva311_open311_compliance": {
+          "type": "object",
+          "properties": {
+            "is_compliant": {
+              "type": "boolean",
+              "description": "Indicates if the RVA311 system was found to be compliant with Open311 API standards."
+            },
+            "compliance_notes": {
+              "type": "string",
+              "description": "Notes on the findings regarding Open311 compliance."
+            },
+            "available_interfaces": {
+              "type": "string",
+              "description": "A list of the available methods for submitting and tracking service requests."
+            }
+          },
+          "required": [
+            "is_compliant",
+            "compliance_notes",
+            "available_interfaces"
+          ],
+          "additionalProperties": false
+        },
+        "dpw_311_request_type_analysis": {
+          "type": "string",
+          "description": "Provides an analysis of the percentage of DPW-related 311 calls in Richmond that are purely informational versus actionable service requests, based on available public data."
+        },
+        "civic_tech_continuation_pathway_details": {
+          "type": "object",
+          "properties": {
+            "pathway_exists": {
+              "type": "boolean",
+              "description": "Indicates whether a specific, formal continuation pathway for hackathon projects was identified."
+            },
+            "related_event_name": {
+              "type": "string",
+              "description": "The name of the civic tech event investigated, such as 'Hack for RVA'."
+            },
+            "named_host_department": {
+              "type": "string",
+              "description": "The specific city department named as the host or product owner for prototypes, if any."
+            },
+            "summary_of_findings": {
+              "type": "string",
+              "description": "A summary of the findings regarding post-event support for civic tech prototypes."
+            }
+          },
+          "required": [
+            "pathway_exists",
+            "related_event_name",
+            "named_host_department",
+            "summary_of_findings"
+          ],
+          "additionalProperties": false
+        },
+        "right_of_way_permitting_process_overview": {
+          "type": "string",
+          "description": "Summarizes the manual process for applying for and checking the status of 'Work in Streets' permits, including links to the portal and contact information."
+        },
+        "rva311_system_overview": {
+          "type": "string",
+          "description": "Provides general information about the RVA311 service, including the types of requests handled, partner agencies, and the various methods for submitting and tracking service requests."
+        },
+        "hack_for_rva_event_summary": {
+          "type": "string",
+          "description": "Summarizes the details of the 'Hack for RVA' event, including its purpose, city partners, and prize structure, as context for the civic tech pathway question."
+        },
+        "data_accessibility_summary": {
+          "type": "string",
+          "description": "A concluding summary of the overall accessibility and transparency of Richmond's infrastructure and civic data based on the investigation into the various platforms and APIs."
+        }
+      },
+      "required": [
+        "executive_summary",
+        "cip_dashboard_update_status",
+        "richmond_impact_map_maintenance_status",
+        "cip_dashboard_api_accessibility",
+        "cip_dashboard_api_field_schema",
+        "online_permit_portal_api_availability",
+        "rva311_open311_compliance",
+        "dpw_311_request_type_analysis",
+        "civic_tech_continuation_pathway_details",
+        "right_of_way_permitting_process_overview",
+        "rva311_system_overview",
+        "hack_for_rva_event_summary",
+        "data_accessibility_summary"
+      ],
+      "additionalProperties": false
+    },
+    "content_file": "iv_q1_data.md"
+  }
+}

@@ -1,0 +1,35 @@
+Core Problem Framing J2 — Information Asymmetry in Government Service Delivery
+
+Investigate how information asymmetry specifically manifests in government service delivery systems — the structural gap between what operations teams know in real-time and what residents can access.
+
+Focus areas:
+
+1. Structural Causes of Information Asymmetry in Municipal Services
+   - Why do cities generate operational data (dispatch logs, work orders, fleet telemetry) that never reaches residents?
+   - What are the institutional, technical, and political barriers to sharing service status data?
+   - How do legacy systems, data silos, and procurement cycles contribute to opacity?
+   - What role does organizational culture play (risk aversion, liability concerns)?
+
+2. Impact on Service Outcomes
+   - How does lack of visibility affect 311/service request volume (duplicate reports)?
+   - What is the cost of answering repetitive "when will my street be fixed?" inquiries?
+   - How does opacity affect resource allocation (political pressure vs. operational priority)?
+   - Evidence on how transparency changes resident behavior (fewer calls, more patience, better compliance with parking restrictions during snow, etc.)
+
+3. Domain-Specific Manifestations
+   - Power outage restoration: what do utilities share vs. withhold, and why?
+   - Sanitation/trash collection: why is schedule adherence data rarely public?
+   - Road maintenance/pothole repair: what happens between a 311 report and resolution?
+   - Snow removal: why is route progress almost never shared in real-time?
+   - Sewer/water main breaks: how is emergency response communicated?
+
+4. The "Last Mile" Problem
+   - Even when data exists, why does it fail to reach residents in usable form?
+   - Role of technical literacy, language barriers, and device access
+   - How does the format of government data (GIS layers, CSV exports, FOIA responses) create its own barrier?
+
+Output:
+- Taxonomy of information asymmetry types in municipal services (data exists but not shared, data doesn't exist, data exists but unusable)
+- Evidence-based estimates of the cost of opacity (call center volume, duplicate reports, trust erosion)
+- Domain-by-domain comparison table (power, sanitation, roads, snow, sewer, emergency) showing typical data availability vs. public visibility
+- Structural recommendations for closing the gap

@@ -1,0 +1,36 @@
+Demo Guidance I1 — Demo Clarity Archetypes for Built Environment Tools
+
+Research what demo formats, narrative structures, and interaction patterns work best for civic infrastructure transparency tools in a hackathon setting. Built environment tools occupy a specific category in civic tech demos: they are inherently spatial (map-based), they depend on data quality the team did not produce, and their value is often about reducing friction rather than introducing a novel capability. Judges in this category are looking for clarity of user need, quality of the data layer, and plausibility of adoption — not engineering complexity.
+
+Investigate what the strongest demo archetypes look like for infrastructure transparency tools:
+- Archetype A — "The Confused Resident": demo opens with a real screenshot of Richmond's current DPW project pages or GeoHub, shows the friction and confusion, then demonstrates the tool as the "what it should feel like" contrast. This archetype proves the problem before showing the solution.
+- Archetype B — "The Address Moment": demo begins with typing a real Richmond address and watching the tool respond with nearby projects or zone status. The power of this archetype is the immediacy — judges see the experience in real time.
+- Archetype C — "The Before and After": side-by-side comparison of finding project information today (multiple steps, technical language, dead ends) versus finding it through the tool (single search, plain language, clear status). Works well for 90-second demos.
+- Archetype D — "The Service Event": for fleet operations, demo a snow event scenario — it just snowed, a resident wants to know if their street will be cleared before they have to move their car. The time pressure makes the value tangible.
+
+Investigate what evidence of real need is most compelling to judges in this category:
+- Showing a screenshot of the current painful experience (actual DPW project page with no plain-language description) is more convincing than explaining the problem abstractly
+- Quoting a real 311 category ("Infrastructure / Street Concerns") with volume data from Richmond's Open Data Portal shows the problem generates real civic demand
+- Showing a real Richmond address with real nearby projects (even if cached) demonstrates that the data layer works
+- Showing a resident testimonial or quote from public meeting minutes about infrastructure confusion adds human context without requiring user research the team doesn't have time to conduct
+
+Investigate what demo mistakes teams should avoid in this category:
+- Showing an empty map with no project data — this kills credibility immediately; always have a known-good demo address pre-loaded
+- Claiming live GPS integration when the data is mock — judges will ask, and the answer must be honest
+- Over-explaining the technical stack during the demo — judges care about the user experience, not the API calls
+- Spending more than 15 seconds on the problem setup before showing the tool — get to the demo quickly
+- Showing a broken or loading UI — always have a fallback screenshot or video if the live demo is unstable
+- Using placeholder text ("Project Name Here," "Lorem ipsum") anywhere in the demo — it destroys credibility even if the architecture is correct
+
+Investigate what makes a 60–90 second demo of an infrastructure tool memorable:
+- The demo must have a clear user, a clear problem moment, and a clear resolution — all within 90 seconds
+- The most memorable demos show one complete user journey, not three partial ones
+- A real Richmond address, a real project name, and a plain-language description make the demo feel grounded even if other data is cached
+- Judges remember the last thing they see — end on the clearest, most useful screen, not on a settings page or loading spinner
+- Stating the scope clearly ("this is a prototype using Richmond GeoHub data; here's what a real deployment would add") builds credibility rather than undermining it
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Recommended demo archetype for each problem statement, with a 90-second script outline and the single most important visual moment to include

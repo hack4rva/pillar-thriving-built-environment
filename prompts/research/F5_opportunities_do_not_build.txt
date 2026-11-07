@@ -1,0 +1,20 @@
+Opportunities F5 — What NOT to Build
+
+Research and reason about which solution directions are explicitly out of scope, too risky, too dependent on unavailable infrastructure, or likely to mislead residents or judges.
+
+Do not build or recommend:
+
+1. Real-time GPS vehicle tracking: The GPS infrastructure is explicitly incomplete as of March 2026. Any tool claiming to show vehicle locations in real time would be built on non-existent data. Research why this is harmful beyond just being inaccurate.
+
+2. Sustainability Design Standards enforcement or compliance tools: The working session explicitly noted this requires more internal City work. Research why this category fails in hackathon contexts specifically.
+
+3. DPW system integration tools: Tools that would require read or write access to DPW's internal project management, scheduling, or personnel systems. Research the authorization and security barriers.
+
+4. Predictive project completion tools: Any tool that claims to predict when a project will be done based on current data. Why is this dangerous without official source confirmation?
+
+5. Resident eligibility or service determination tools: Any tool that tells a resident whether they qualify for a service or program based on address or income. Why is this scope-creep in this problem space?
+
+Output:
+- For each "do not build" category: the specific risk it poses
+- How to redirect a team that proposes one of these
+- How to address each in demo if judges ask "why didn't you build X?"

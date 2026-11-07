@@ -1,0 +1,34 @@
+Demo Guidance I4 — Establishing Credibility for Built Environment Demos
+
+Research how hackathon teams building civic infrastructure transparency tools establish credibility with judges who may include City officials, DPW staff, community advocates, and technology evaluators. Credibility in this context has three dimensions: does the team understand the real problem, does the data layer use real Richmond sources, and does the tool work without making claims it cannot support? A credible demo does not require a perfect product — it requires evidence that the team understood the problem deeply and built toward something real.
+
+Investigate what evidence is most convincing for the transportation project visibility problem:
+- Showing a screenshot of Richmond's current DPW capital projects page or GeoHub layer with real data is more credible than describing the problem abstractly — it proves the team actually looked at the current state
+- Citing a real 311 request category (Richmond's Open Data Portal contains 311 records with category and volume data) with specific volume numbers for infrastructure-related requests shows quantitative grounding
+- Referencing actual project names and locations from Richmond GeoHub (e.g., specific road resurfacing or water main projects in identifiable neighborhoods) proves the team engaged with real data rather than building against invented scenarios
+- What specific Richmond GeoHub layers, ArcGIS REST endpoints, or Open Data Portal datasets should teams reference by name to signal data literacy to technically literate judges?
+
+Investigate what evidence is most convincing for the fleet operations problem:
+- Referencing the specific finding from the problem statement — that GPS fleet data infrastructure is incomplete — and explaining how the prototype is designed around that constraint rather than ignoring it demonstrates intellectual honesty
+- Showing real Richmond council district or service zone boundaries (available in GeoHub) as the geographic foundation for the status display proves the tool is built on real Richmond geography, not generic city data
+- Citing Richmond's snowfall history or street cleaning schedule (if available in public records) as the basis for the demo scenario makes the mock data feel grounded rather than invented
+- What are the specific ArcGIS or Open Data layer names that a team could cite to signal they understand Richmond's actual data landscape?
+
+Investigate what technical credibility signals matter most to judges in this category:
+- Using real Richmond addresses in the demo (not "123 Main Street") — judges from Richmond will recognize neighborhood names and know if addresses are plausible
+- Showing actual project descriptions from GeoHub alongside the plain-language versions — the contrast between the raw data and the readable version is the strongest demonstration of the tool's value
+- Demonstrating that the tool handles edge cases gracefully: what happens when there are no projects within 0.5 miles of the address? What happens when the zone status has not been updated?
+- Using Richmond's actual ArcGIS GeoJSON feature structure in the data layer rather than an invented schema — this signals that the team understands what real integration would require
+- What are the most common technical shortcuts that undermine credibility: using a different city's data, using obviously fake street names, showing a broken or empty map during the demo?
+
+Investigate what non-technical credibility signals matter to community-focused judges:
+- Naming specific Richmond neighborhoods that are underserved by current DPW communication infrastructure (Church Hill, Gilpin Court, Swansboro, Southside neighborhoods) signals awareness of equity dimensions
+- Referencing public meeting contexts where residents have expressed frustration with infrastructure communication — City Council public comment, neighborhood association minutes, Richmond Times-Dispatch coverage — without fabricating quotes
+- Framing the tool as a resident service rather than a technology product: "this helps a resident on East Broad know when the water main work will be done" rather than "this is an ArcGIS-powered project discovery platform"
+- What language and framing signals that a team understands Richmond's civic context versus a team that built a generic city infrastructure tool and pointed it at Richmond data?
+
+Output:
+- Facts (with URLs where applicable)
+- Inferences (clearly labeled)
+- Unknowns (what cannot be verified publicly)
+- Checklist of 10 credibility signals — 5 technical, 5 community-facing — that a team should incorporate into their demo and pitch before Sunday morning rehearsal

@@ -1,0 +1,20 @@
+Data Inventory D5 — Data Gaps and the D3=2 Challenge for Fleet Operations
+
+This prompt addresses the D3=2 (data readiness) scoring for the Fleet Operations problem statement. Research the implications and workarounds.
+
+Investigate:
+- What does a D3=2 score mean operationally for a hackathon team? What is the risk if teams ignore this?
+- What are the typical approaches teams use when building against unavailable or incomplete data?
+- What is the risk of building a prototype that becomes obsolete when real data arrives in a different format?
+- How should a team document their synthetic data schema to maximize compatibility with a future real data source?
+- Are there examples of civic tech projects that successfully used synthetic/mock data as a bridge to real data?
+
+Apply specifically to the Fleet Operations problem:
+- What is the minimum synthetic dataset a team needs to build a credible fleet status demo?
+- How should the demo communicate the data gap to judges without undermining the prototype's value?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Synthetic data strategy recommendation
+- Demo language for explaining the GPS gap to judges

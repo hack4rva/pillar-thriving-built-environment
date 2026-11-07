@@ -1,0 +1,24 @@
+User Research B4 — Stakeholder Map
+
+Map all stakeholders who have an interest in infrastructure project transparency and fleet operations visibility in Richmond. For each stakeholder:
+
+- Primary interest (what do they want to know or do?)
+- Current access to information (high/medium/low)
+- Potential benefit from a transparency tool
+- Potential concern or risk from a transparency tool
+
+Stakeholder categories to cover:
+- Richmond residents (various neighborhoods and demographics)
+- DPW operations staff (supervisors, drivers, planners)
+- DPW communications and public affairs
+- City Council members and constituent staff
+- Neighborhood associations and civic groups
+- Nonprofit partners (Groundwork RVA, James River Association, Partnership for Smarter Growth)
+- Local media and journalists
+- Business owners (affected by construction, parking, road closures)
+- Accessibility advocates (residents with mobility limitations)
+- GRTC transit riders (bus service affected by road conditions and construction)
+
+Output:
+- Stakeholder table with columns: stakeholder, primary interest, current access, potential benefit, potential concern
+- Key tensions or tradeoffs between stakeholder interests

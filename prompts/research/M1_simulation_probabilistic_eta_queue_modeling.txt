@@ -1,0 +1,41 @@
+Simulation Layer M1 — Probabilistic ETA and Queue Modeling for Service Dispatch
+
+Research how to build a realistic simulation layer for estimating service delivery times when real-time data is incomplete — using probabilistic models, queue theory, and dispatch prioritization logic.
+
+Focus areas:
+
+1. Probabilistic ETA Models
+   - How do delivery companies (Uber, DoorDash, Amazon) calculate ETAs under uncertainty?
+   - What statistical distributions best model service completion times? (Log-normal, Weibull, Gamma)
+   - How to build an ETA model from historical data: median completion time + adjustment factors (weather, priority, time of day, backlog size)
+   - Confidence intervals: how to communicate "estimated 2-4 hours" vs. "estimated 3 hours"
+   - Bayesian updating: how to refine ETA as new information arrives (crew dispatched, crew on-site, 50% complete)
+
+2. Queue Modeling for Municipal Services
+   - Applying M/M/c queueing models to service dispatch (jobs as arrivals, crews as servers)
+   - Priority queue modeling: how emergency/urgent jobs preempt standard jobs
+   - Multi-class queues: different service types competing for shared crews
+   - Batch arrivals: storm events that generate many simultaneous service requests
+   - Key parameters to estimate: arrival rate (λ), service rate (μ), number of servers (c), priority rules
+   - How to estimate queue parameters from 311 historical data
+
+3. Dispatch Prioritization Logic
+   - How do cities prioritize work orders? (severity, age, location, equity, political pressure)
+   - FIFO vs. priority queue vs. geographic clustering
+   - Research on fair dispatch: ensuring equitable response times across neighborhoods
+   - How to model the interaction between planned work (scheduled maintenance) and reactive work (emergency repairs)
+
+4. Building a Credible Simulation
+   - What are the minimum data inputs needed for a useful simulation? (historical completion times by category, current backlog, crew count, weather)
+   - How to generate synthetic but realistic work order streams
+   - Monte Carlo simulation for service timeline forecasting
+   - Agent-based modeling: simulating crews, vehicles, and jobs to generate realistic status updates
+   - How to validate a simulation against real-world outcomes
+
+Output:
+- Mathematical framework: key formulas for ETA estimation, queue modeling, and dispatch priority
+- Simulation architecture: inputs → model → outputs diagram
+- Parameter estimation guide: how to derive model parameters from typical municipal data
+- Example simulation output: timeline for 5 work orders showing probabilistic ETA updates
+- Comparison of approaches: simple historical averages vs. queue model vs. ML prediction vs. Monte Carlo
+- Recommended approach for a hackathon MVP (simplest credible simulation)

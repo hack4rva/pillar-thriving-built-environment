@@ -1,0 +1,19 @@
+Data Inventory D3 — Federal and State Infrastructure Grant Data
+
+Research the public grant documentation for Richmond transportation and infrastructure projects.
+
+- What federal grant programs fund Richmond DPW transportation projects (RAISE, TIGER, CMAQ, TAP, etc.)?
+- Where is this grant data publicly accessible (USASpending.gov, USDOT grant databases, VDOT project lists)?
+- What project-level information is typically available in federal grant records (project description, location, funding amount, timeline)?
+- Can federal grant data be used to supplement or validate GeoHub project data?
+- Are there known Richmond projects with public federal grant documentation?
+
+Examine also:
+- VDOT's project database for state-funded projects within Richmond city limits
+- Any Commonwealth Transportation Board records related to Richmond
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Which grant data sources are practically usable for a hackathon team
+- How grant data could be used to add project context (e.g., "This project is funded by a $2.1M federal RAISE grant")

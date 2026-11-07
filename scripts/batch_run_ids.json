@@ -1,0 +1,116 @@
+[
+  {
+    "name": "J1_transparency_academic_frameworks.txt",
+    "stem": "J1_transparency_academic_frameworks",
+    "run_id": "trun_3cad0ebea15c480e89c30c5a094412fd",
+    "status": "completed"
+  },
+  {
+    "name": "J2_information_asymmetry_government_services.txt",
+    "stem": "J2_information_asymmetry_government_services",
+    "run_id": "trun_3cad0ebea15c480eb67bf28a195cedff",
+    "status": "completed"
+  },
+  {
+    "name": "J3_private_sector_transparency_paradigms.txt",
+    "stem": "J3_private_sector_transparency_paradigms",
+    "run_id": "trun_3cad0ebea15c480e81b57b881eb6bde7",
+    "status": "completed"
+  },
+  {
+    "name": "K1_academic_research_utility_outage_tracking.txt",
+    "stem": "K1_academic_research_utility_outage_tracking",
+    "run_id": "trun_3cad0ebea15c480e971991164bf9673d",
+    "status": "completed"
+  },
+  {
+    "name": "K2_municipal_work_order_tracking.txt",
+    "stem": "K2_municipal_work_order_tracking",
+    "run_id": "trun_3cad0ebea15c480e88b88222ed8b4635",
+    "status": "completed"
+  },
+  {
+    "name": "K3_smart_city_gis_urban_sensing.txt",
+    "stem": "K3_smart_city_gis_urban_sensing",
+    "run_id": "trun_3cad0ebea15c480e9ec80a110f1159dc",
+    "status": "completed"
+  },
+  {
+    "name": "K4_predictive_models_service_restoration.txt",
+    "stem": "K4_predictive_models_service_restoration",
+    "run_id": "trun_3cad0ebea15c480eb6c93d9aef2506d4",
+    "status": "completed"
+  },
+  {
+    "name": "L1_data_model_work_orders_service_requests.txt",
+    "stem": "L1_data_model_work_orders_service_requests",
+    "run_id": "trun_3cad0ebea15c480eb03726c1d2935275",
+    "status": "completed"
+  },
+  {
+    "name": "L2_data_model_assets_infrastructure_fleet.txt",
+    "stem": "L2_data_model_assets_infrastructure_fleet",
+    "run_id": "trun_3cad0ebea15c480ebd05c560cdfd1710",
+    "status": "completed"
+  },
+  {
+    "name": "L3_data_model_workforce_events_historical.txt",
+    "stem": "L3_data_model_workforce_events_historical",
+    "run_id": "trun_3cad0ebea15c480ea339bda3aadb537c",
+    "status": "completed"
+  },
+  {
+    "name": "L4_data_model_external_context.txt",
+    "stem": "L4_data_model_external_context",
+    "run_id": "trun_3cad0ebea15c480eae9dfc2fe3eda8ca",
+    "status": "completed"
+  },
+  {
+    "name": "M1_simulation_probabilistic_eta_queue_modeling.txt",
+    "stem": "M1_simulation_probabilistic_eta_queue_modeling",
+    "run_id": "trun_3cad0ebea15c480eb233691951f5e773",
+    "status": "completed"
+  },
+  {
+    "name": "M2_simulation_route_optimization_outage_prediction.txt",
+    "stem": "M2_simulation_route_optimization_outage_prediction",
+    "run_id": "trun_3cad0ebea15c480eacaf46b480676583",
+    "status": "completed"
+  },
+  {
+    "name": "N1_data_sources_municipal_open_data_311.txt",
+    "stem": "N1_data_sources_municipal_open_data_311",
+    "run_id": "trun_3cad0ebea15c480e8b3495afaedfc155",
+    "status": "completed"
+  },
+  {
+    "name": "N2_data_sources_utility_weather_geospatial.txt",
+    "stem": "N2_data_sources_utility_weather_geospatial",
+    "run_id": "trun_3cad0ebea15c480e9fe492ddd1456b2b",
+    "status": "completed"
+  },
+  {
+    "name": "O1_architecture_gis_platforms_work_order_integration.txt",
+    "stem": "O1_architecture_gis_platforms_work_order_integration",
+    "run_id": "trun_3cad0ebea15c480eb727dab86c4b7e73",
+    "status": "completed"
+  },
+  {
+    "name": "O2_architecture_realtime_pipelines_digital_twins.txt",
+    "stem": "O2_architecture_realtime_pipelines_digital_twins",
+    "run_id": "trun_3cad0ebea15c480ebd1c054d2657f0d0",
+    "status": "completed"
+  },
+  {
+    "name": "P1_ux_consumer_grade_civic_tracking.txt",
+    "stem": "P1_ux_consumer_grade_civic_tracking",
+    "run_id": "trun_3cad0ebea15c480e9f6241f585edc691",
+    "status": "completed"
+  },
+  {
+    "name": "Q1_gaps_failures_innovation_opportunities.txt",
+    "stem": "Q1_gaps_failures_innovation_opportunities",
+    "run_id": "trun_3cad0ebea15c480e87430a7a70327c57",
+    "status": "completed"
+  }
+]

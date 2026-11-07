@@ -1,0 +1,16 @@
+Services Landscape C2 — Richmond GeoHub and ArcGIS Data Landscape
+
+Research what is actually available on Richmond GeoHub (richmond-geo-hub-cor.hub.arcgis.com) for DPW and transportation project data.
+
+- What layers are publicly available on Richmond GeoHub related to transportation, infrastructure, or public works?
+- What is the general data quality and update frequency of these layers?
+- What fields are typically included in transportation project layers (based on GeoHub or comparable city ArcGIS setups)?
+- How does the ArcGIS REST API work for public layers — what query patterns are available?
+- Are there known limitations to GeoHub public access (rate limits, authentication requirements, layer coverage gaps)?
+- How does Richmond GeoHub compare to peer cities' public GIS portals in terms of DPW data availability?
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Specific layer names or types to verify (labeled as Inference or Unknown)
+- REST API query pattern recommendations for a hackathon team

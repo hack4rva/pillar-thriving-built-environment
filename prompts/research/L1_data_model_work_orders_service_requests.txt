@@ -1,0 +1,50 @@
+Data Model L1 — Work Orders, Jobs, and Service Requests
+
+Define a comprehensive, implementation-ready data model for the work order / job / service request layer of a public service tracking system. This model should support multiple service domains (power, sanitation, road maintenance, sewer, snow removal, emergency response).
+
+Requirements:
+
+1. Work Order / Job Entity
+   - job_id (unique identifier)
+   - service_type (enum: power_restoration, pothole_repair, sewer_repair, road_maintenance, snow_removal, street_cleaning, trash_collection, tree_trimming, streetlight_repair, water_main_repair, emergency_response)
+   - priority_level (enum with definitions: emergency, urgent, high, standard, low)
+   - status (enum: reported, acknowledged, queued, dispatched, en_route, in_progress, on_hold, completed, verified, closed)
+   - status_history (array of timestamped status transitions)
+   - description (text)
+   - plain_language_summary (citizen-facing text)
+   - location (GIS point or polygon, address, neighborhood, council district)
+   - reported_by (source: 311, sensor, internal, citizen_app, proactive_inspection)
+   - assigned_crew_id (FK to crew)
+   - assigned_vehicle_id (FK to fleet)
+   - estimated_start_time
+   - estimated_duration
+   - estimated_completion_time
+   - actual_start_time
+   - actual_completion_time
+   - dependencies (array of job_ids this job depends on)
+   - related_jobs (array of job_ids for related work)
+   - created_at, updated_at
+
+2. Service Request Entity (citizen-facing input)
+   - request_id
+   - source_system (311, web, app, phone, email)
+   - category and subcategory
+   - description
+   - location
+   - photos/attachments
+   - linked_job_id (if matched to a work order)
+   - status (open, acknowledged, in_progress, resolved, closed)
+   - resolution_notes
+
+3. Relationships and Cardinality
+   - One service request can map to zero or one work orders
+   - One work order can have multiple service requests (deduplication)
+   - Work orders can have dependencies (e.g., water shutoff before pipe repair)
+   - Work orders can have parent-child relationships (project → sub-tasks)
+
+Output:
+- Complete entity-relationship diagram (textual/ASCII)
+- Field-by-field schema with types, constraints, and example values
+- Status state machine (valid transitions)
+- Example records for 3 different service types (power restoration, pothole repair, snow removal)
+- Mapping table: how this schema maps to Open311, Cityworks, SeeClickFix, and Salesforce 311 data models

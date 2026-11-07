@@ -1,0 +1,19 @@
+Red Flags — A Thriving and Sustainable Built Environment
+
+Research the following red flags that could undermine prototype credibility. For each, describe the risk, how it could manifest in a hackathon project, and how to mitigate it.
+
+1. Claiming incorrect project timelines: A tool that displays project end dates from GeoHub data that are outdated, estimated, or simply wrong. Residents make plans based on the date and are surprised when construction continues. How should timeline data be labeled and caveated?
+
+2. Overpromising GPS-based features: A team builds a fleet tracking tool and demo judges ask "is this connected to real DPW data?" and the team cannot answer clearly. What are the exact phrases teams should prepare to explain the mock/synthetic status of GPS data?
+
+3. Displaying project information for roads DPW doesn't manage: Richmond has state-maintained roads (VDOT) and City-maintained roads (DPW). A tool that shows all construction might incorrectly attribute VDOT projects to DPW or vice versa. How should this be scoped and disclosed?
+
+4. AI-generated plain-language descriptions that are factually wrong: A translation of a technical project description omits a key safety element or mischaracterizes the project scope. A resident acts on the plain-language version and is misled. How should AI-generated content be labeled and verified?
+
+5. Zone data that doesn't match actual service areas: Synthetic snow removal or street cleaning zone data that doesn't correspond to DPW's actual operational zones. A resident believes their street is in Zone 4 but it's actually Zone 7. How should synthetic/illustrative zone data be labeled?
+
+6. Privacy risk from aggregating construction and resident activity: Certain combinations of infrastructure data and resident location data could inadvertently expose patterns. Are there privacy risks in this problem space?
+
+7. Legal disclaimer gaps: A tool that is mistakenly interpreted as an official City communication. What disclaimers are required on any prototype?
+
+8. Demo failure due to live API dependency: GeoHub REST API is unavailable during the demo. Team has no fallback. How should teams prepare for API outages during the demo?

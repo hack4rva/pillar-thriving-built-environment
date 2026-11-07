@@ -1,0 +1,36 @@
+Existing Research K2 — Municipal Work Order Tracking Systems and Real-Time Visibility
+
+Research how municipal governments track and manage work orders for public services (street repair, trash pickup, pothole filling, street light repair, tree trimming, graffiti removal) — and how leading cities have made this visible to residents.
+
+Focus areas:
+
+1. Work Order Management Systems
+   - What are the dominant CMMS/work order platforms used by cities? (Cityworks, Cartegraph, Lucity, Infor, SAP, Maximo, custom)
+   - How do these systems structure work orders (creation → assignment → dispatch → in-progress → completed → closed)?
+   - What data fields are standard (job ID, service type, priority, status, location, assigned crew, estimated duration, actual duration)?
+   - How do 311 systems (SeeClickFix, PublicStuff, Salesforce 311) feed into work order systems?
+
+2. Cities with Public-Facing Work Order Visibility
+   - Which cities expose work order status to the public? (e.g., NYC 311 status tracker, Chicago service request tracker, Boston BOS:311)
+   - What level of detail is shown (just "open/closed" vs. full status pipeline)?
+   - How is location displayed (map pin, address, neighborhood)?
+   - What notification or follow-up mechanisms exist?
+
+3. Academic and Case Study Research
+   - Research on 311 system effectiveness and citizen satisfaction
+   - Studies on how work order visibility affects reporting rates and duplicate reports
+   - Analysis of response time patterns across service types and cities
+   - Research on equity in service delivery — do all neighborhoods get the same response times?
+
+4. Real-Time Fleet/Asset Tracking for Service Delivery
+   - How do cities track service vehicles (garbage trucks, street sweepers, snow plows) in relation to work orders?
+   - What is the state of AVL (Automatic Vehicle Location) adoption in municipal fleets?
+   - How is route completion data integrated with work order systems?
+   - Research on real-time dispatch optimization for municipal services
+
+Output:
+- Comparison table of work order platforms: vendor, cities using it, data model, public-facing capabilities
+- Comparison table of cities with public work order visibility: city, system, detail level, UX quality, notification support
+- Standard work order data model (composite from multiple systems)
+- Key academic findings on work order visibility and citizen satisfaction
+- Recommendations for minimum viable work order tracking for a civic prototype

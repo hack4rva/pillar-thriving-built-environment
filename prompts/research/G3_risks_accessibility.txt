@@ -1,0 +1,22 @@
+Risk G3 — Accessibility Risks in Infrastructure Visibility Tools
+
+Research the accessibility risks in map-based and SMS-based infrastructure visibility tools — particularly how they may exclude residents who need the information most.
+
+Investigate:
+- What percentage of Richmond residents lack reliable smartphone access or broadband at home?
+- How do map-based interfaces (Leaflet, Mapbox) perform for screen reader users?
+- What are the WCAG requirements for a public-facing civic tool displaying spatial information?
+- How do SMS-based notification systems exclude residents without mobile phones or those with prepaid plans?
+- Are there any documented cases where a civic infrastructure tool reached only highly educated or high-income residents, defeating its equity purpose?
+
+Recommend:
+- Minimum accessibility requirements for a weekend-built prototype
+- What to avoid (inaccessible map interactions, color-only status indicators, no keyboard navigation)
+- How to make an address lookup tool accessible without a full screen reader overhaul in 48 hours
+- Equity framing for the demo: how to acknowledge the gap between the tool's current accessibility and its full potential reach
+
+Output:
+- Facts (with source titles)
+- Inferences (clearly labeled)
+- Minimum accessibility checklist for this pillar's prototypes
+- Demo language for addressing accessibility questions from judges

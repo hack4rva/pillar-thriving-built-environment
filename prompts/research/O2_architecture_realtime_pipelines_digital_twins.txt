@@ -1,0 +1,48 @@
+System Architecture O2 — Real-Time Data Pipelines, Digital Twins, and Event-Driven Design
+
+Research advanced system architecture patterns for real-time public service visibility: streaming data pipelines, digital twin representations of city infrastructure, and event-driven architectures.
+
+Focus areas:
+
+1. Real-Time Data Pipeline Architecture
+   - How do cities and utilities ingest, process, and serve real-time operational data?
+   - Stream processing: Apache Kafka, Apache Flink, AWS Kinesis, Google Cloud Pub/Sub
+   - CEP (Complex Event Processing) for detecting patterns (e.g., outage cluster detection, service delay alerts)
+   - Lambda architecture (batch + stream) vs. Kappa architecture (stream-only) for municipal data
+   - How to handle late-arriving data (GPS telemetry gaps, delayed status updates)
+   - Data pipeline examples from smart city deployments
+
+2. Digital Twin Technology for City Infrastructure
+   - What is a "digital twin" in the context of urban infrastructure?
+   - Current state of digital twin platforms: Bentley iTwin, Autodesk Tandem, Microsoft Azure Digital Twins, Esri ArcGIS GeoBIM
+   - What data feeds a city-scale digital twin? (GIS, BIM, IoT sensors, work orders, fleet telemetry)
+   - Use cases: simulating infrastructure stress, predicting maintenance needs, visualizing service operations
+   - Case studies: Singapore Virtual Singapore, Helsinki 3D city model, Zurich digital twin
+   - How far away is this from practical deployment for a mid-sized US city?
+
+3. Event-Driven Architecture for Service Tracking
+   - Event sourcing pattern: storing service status as a sequence of events rather than current state
+   - Benefits for audit trails, timeline reconstruction, and undo/replay
+   - Event types: job_created, job_assigned, crew_dispatched, crew_arrived, work_started, work_completed, status_changed
+   - How event-driven architecture enables real-time push updates to citizen-facing apps
+   - WebSocket/SSE patterns for real-time browser updates
+   - Comparison: polling vs. push for service status updates
+
+4. Unified Data APIs
+   - API gateway patterns for aggregating data from multiple municipal systems
+   - GraphQL vs. REST for flexible data querying across service types
+   - CQRS (Command Query Responsibility Segregation) for separating operational writes from public reads
+   - How to version and maintain a public API as underlying systems change
+
+5. Scalability and Cost
+   - What does a real-time pipeline cost to operate for a city of 200,000-500,000 people?
+   - Serverless vs. container-based deployment for municipal data pipelines
+   - How to start simple (static files, polling) and incrementally add real-time capabilities
+
+Output:
+- Architecture tiers: Level 1 (static/polling), Level 2 (near-real-time), Level 3 (real-time streaming), Level 4 (digital twin)
+- Technology stack comparison for each level
+- Event schema catalog: 10 event types with JSON schema examples
+- Digital twin readiness assessment: what data must exist before a digital twin is feasible
+- Cost model: estimated monthly infrastructure cost for each architecture level
+- Recommended progression path from hackathon prototype to production system

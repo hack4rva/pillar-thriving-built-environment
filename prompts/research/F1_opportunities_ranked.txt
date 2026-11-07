@@ -1,0 +1,26 @@
+Opportunities F1 — Ranked Solution Opportunities
+
+Synthesize research across problem landscape, user, services, data, and prior art to produce a ranked list of solution opportunities for this pillar.
+
+Rank each opportunity across:
+- User clarity (1–5): Is there a clear, specific user with a specific pain point?
+- Data readiness (1–5): Is the necessary data publicly available now?
+- Weekend feasibility (1–5): Can a working prototype be built in 48 hours?
+- Impact potential (1–5): How many Richmond residents would benefit from this?
+- Demo credibility (1–5): How compelling is the demo to judges?
+
+Opportunities to rank:
+1. Address-based infrastructure project lookup
+2. Interactive project explorer map
+3. Plain-language project description translator
+4. Opt-in project notification system
+5. Schedule-based street service status tracker
+6. Supervisor fleet route dashboard (mock GPS)
+7. DPW communications staff lookup tool
+8. Crash/safety data overlay with transportation project data (blue sky)
+
+Output:
+- Ranked table with scores per dimension and total
+- Top recommendation with rationale
+- Second recommendation for teams with different skill profiles
+- Explicitly eliminated opportunities with reason

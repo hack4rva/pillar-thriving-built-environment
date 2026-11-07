@@ -1,0 +1,46 @@
+Simulation Layer M2 — Route Optimization and Outage Duration Prediction
+
+Research how route optimization for service vehicles and outage duration prediction can be modeled and simulated for a public service tracking system.
+
+Focus areas:
+
+1. Route Optimization for Municipal Fleet Operations
+   - How is the Vehicle Routing Problem (VRP) applied to snow plowing, street sweeping, and garbage collection?
+   - Arc routing (Chinese Postman Problem) for snow plowing: every road segment must be covered
+   - Capacitated VRP for garbage collection: vehicle capacity constrains route length
+   - Time-windowed routing for street cleaning: parking restrictions define service windows
+   - Multi-depot routing: when vehicles operate from multiple city yards
+   - Academic papers on municipal route optimization (Benjamin & Beasley, Eglese, Perrier et al.)
+   - Open-source tools: VROOM, OR-Tools, OSRM for route generation
+
+2. Outage Duration Prediction Models
+   - What features best predict outage duration? (Research synthesis from K1 and K4)
+   - Building a prediction model from historical outage data:
+     - Input features: weather severity index, asset type, asset age, number of customers affected, time of day, crew proximity, concurrent outage count
+     - Output: predicted duration (point estimate + confidence interval)
+   - Model types: gradient boosted trees (XGBoost/LightGBM), survival analysis (Cox proportional hazards), random forests
+   - How to handle censored data (ongoing outages) in training
+   - Transfer learning: can a model trained on one city's data work for another?
+
+3. Simulating Realistic Service Operations
+   - How to generate a synthetic but realistic day of operations for a city DPW:
+     - Morning: planned maintenance departures, scheduled routes begin
+     - Midday: reactive work orders arrive (potholes, complaints), dispatch adjustments
+     - Afternoon: route completion, overtime decisions
+     - Storm event: surge of outage reports, priority reclassification, mutual aid
+   - How weather events cascade through the service system (storm → outages → crew reallocation → delayed maintenance → backlog growth)
+   - Modeling crew fatigue, overtime limits, and shift changes
+
+4. Route Completion Tracking Without GPS
+   - When GPS is unavailable, how can route completion be estimated?
+   - Schedule-based estimation: "Route A typically takes 4 hours, started at 6am, so ~50% complete at 8am"
+   - Check-in based: crew reports completion of segments manually
+   - How to communicate estimated vs. confirmed completion to the public
+   - Research on the accuracy of schedule-based vs. GPS-based completion tracking
+
+Output:
+- Route optimization primer: key algorithms, complexity, and open-source implementations
+- Outage prediction model specification: features, model type, training data requirements, expected accuracy
+- Simulation scenario: detailed walkthrough of a simulated winter storm day for a city like Richmond
+- Route completion estimation methods: comparison table (GPS, schedule-based, check-in, hybrid)
+- Recommended simulation approach for a hackathon MVP
